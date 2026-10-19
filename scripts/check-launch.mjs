@@ -21,7 +21,7 @@ for (const p of articles) {
 }
 // Remove this gate only when the replacement implementation has been reviewed and tested.
 errors.push(
-  'Legacy resource access must be restored and verified; current detail pages are preview handoffs.',
+  'Lead-magnet landing pages require confirmed resource files, verified ActiveCampaign forms, consent/privacy copy, and tested delivery before launch.',
 );
 if (errors.length) {
   console.error(

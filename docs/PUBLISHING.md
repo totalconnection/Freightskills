@@ -24,7 +24,7 @@ Default is staging: robots metadata is noindex/nofollow on every page, the sitem
 
 SITE_LAUNCH_APPROVED=true enables production indexing and filters articles to only approved entries. Do not set it before the owner approves launch. STUDENT_PORTAL_URL is an optional verified external destination; when unset, the header shows YouTube rather than a fake login link. Program/portal code is not included here.
 
-Current resource detail pages link to the existing live resources only in preview. Production must restore the existing download/form behavior at each preserved URL before launch; never ship a self-link or the temporary access message. Contract templates and student-only resources were not moved or copied into the public site.
+Resource landing pages now replace the preview handoffs at the original five URLs. Forms remain disabled until resource-specific ActiveCampaign configuration and delivery are verified. See LEAD-MAGNET-PAGES.md. Private course materials and contract templates remain separate.
 
 ## Expanded library
 

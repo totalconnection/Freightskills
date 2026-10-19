@@ -32,20 +32,13 @@ export default function Resources() {
               <h2>{r.title}</h2>
               <p>{r.description}</p>
               <Link className="text-link" href={`/${r.slug}`}>
-                View resource details ↗
+                Get the free resource ↗
               </Link>
             </div>
           </article>
         ))}
       </section>
-      <div className="wrap resource-notice">
-        <h2>Looking for an existing download?</h2>
-        <p>
-          Existing resource pages remain available at their original addresses.
-          Student materials and contract templates belong to your separate
-          training access.
-        </p>
-      </div>
+
     </main>
   );
 }
