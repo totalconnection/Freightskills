@@ -1,0 +1,71 @@
+{
+  "slug": "how-freight-brokers-quote-rates",
+  "title": "How to quote freight without guessing.",
+  "topic": "quoting",
+  "category": "Quoting & rates",
+  "excerpt": "Use shipment history, carrier conversations, and market data together to build a better rate estimate.",
+  "videoId": "tOQ3IJOtOFI",
+  "sourceId": "Y062",
+  "sourceTitle": "3 Ways SMART Freight Broker’s Rate Their Shipments",
+  "takeaway": "A useful quote connects the shipment’s requirements with current evidence of what it will cost to cover. A historical number alone is not enough.",
+  "sections": [
+    {
+      "id": "two-perspectives",
+      "title": "Understand both sides of the rate.",
+      "paragraphs": [
+        "Luis opens this lesson with a distinction that matters in every negotiation: the carrier sees revenue, while the shipper sees an expense. The carrier needs the move to work for its operation. The customer needs a transportation service at a price it can accept. The broker must understand both perspectives.",
+        "Two habits undermine that work: guessing at a number and relying on history that no longer represents the lane. A price can look competitive and still be impossible to cover. Equally, an unsupported high price can lose an opportunity before you understand the market."
+      ]
+    },
+    {
+      "id": "history",
+      "title": "1. Read the trend in your shipment history.",
+      "paragraphs": [
+        "Your own completed moves are useful evidence, especially when the lane and service are comparable. But Luis cautions against taking a single shipment from last week and assuming the next one will cost the same. The point of keeping history is to understand change, not to avoid thinking about it.",
+        "Look across comparable moves. Is the cost rising or falling? Does the lane behave differently at different times of year? Is the timing of this request materially different from the shipment you are using as a reference? Those questions give the number context.",
+        "The lesson uses a Northeast-to-Midwest lane to explain this distinction. One historical rate gives you a point on the chart. Several comparable observations help you see a direction. The video’s dollar-per-mile examples belong to the recording period; they are not current rate guidance."
+      ]
+    },
+    {
+      "id": "carrier-feedback",
+      "title": "2. Talk to carriers about the actual opportunity.",
+      "paragraphs": [
+        "If you do not yet have a useful history, carrier conversations are especially important. Luis explains that his brokerage continued making those calls even on familiar lanes. The extra effort helps establish whether a proposed rate is realistic before the broker commits to the customer.",
+        "Discuss the shipment you are working on and ask what the carrier would need to move it. The distinction between a quote request and a confirmed load should be clear. This article does not recommend advertising unconfirmed freight as available; the video’s load-posting approach is flagged for owner review.",
+        "The calls can also improve your carrier network. In the lesson, Luis describes recording where carriers like to run and which destinations interest them. That information has a second use beyond today’s rate: it helps identify who to contact when a similar opportunity appears.",
+        "The commercial cost of skipping this work can be larger than the time saved. Luis describes the damage caused when a broker repeatedly quotes a number and then returns at the last minute saying the shipment cannot be covered. A defensible answer is more useful than a low number you cannot execute."
+      ]
+    },
+    {
+      "id": "market-tools",
+      "title": "3. Use a rate tool as supporting evidence.",
+      "paragraphs": [
+        "The third method is a market-rate tool. In the recorded demonstration, Luis examines an aggregated broker-to-carrier spot-rate view, looks at the range, and considers how the data changes over time. He distinguishes that view from shipper-to-carrier contract rates because the immediate task is a spot quote.",
+        "That distinction is the durable lesson. Before using a displayed number, understand what transaction it describes. A contract rate is not automatically interchangeable with a spot rate. A figure that includes fuel should not be treated as though it excludes fuel. The historical interface, subscription, and numerical examples are not presented here as current product specifications.",
+        "Luis describes using the middle-to-higher portion of the displayed range as a working basis rather than assuming the lowest observation is readily available. That is his approach in the example, not a guarantee that any particular percentile will cover your shipment."
+      ]
+    },
+    {
+      "id": "combine-evidence",
+      "title": "Bring the evidence together before committing.",
+      "paragraphs": [
+        "The three methods reinforce each other. History provides context, conversations test current carrier interest, and market data adds a broader reference. Where they disagree, investigate the difference rather than selecting the cheapest number.",
+        "A quote is also a statement about service. Confirm that the information used to estimate cost describes the move you are actually being asked to arrange. Then record the basis for the quote so you can explain and revisit it if the requirements change."
+      ]
+    }
+  ],
+  "sources": [],
+  "reviewNotes": [
+    "Review Y062 ghost-posting advice before publication. Draft explicitly distinguishes quote requests from confirmed loads.",
+    "Historical rates, tool pricing, subscription claims, affiliate offer, and partnership language are excluded. No current DAT feature claims are made."
+  ],
+  "approved": false,
+  "related": [
+    "carrier-qualification-process",
+    "after-you-get-a-freight-order",
+    "how-ltl-freight-moves"
+  ],
+  "cover": "How to quote freight without guessing.",
+  "theme": "dark",
+  "minutes": 5
+}

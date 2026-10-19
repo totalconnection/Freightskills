@@ -1,0 +1,271 @@
+{
+  "pages": {
+    "/": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com"
+      ]
+    },
+    "/learn": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/learn"
+      ]
+    },
+    "/blog": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog"
+      ]
+    },
+    "/about": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/about"
+      ]
+    },
+    "/community": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/community"
+      ]
+    },
+    "/resources": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/resources"
+      ]
+    },
+    "/blog/container-drayage-explained": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/container-drayage-explained"
+      ]
+    },
+    "/learn/prospecting": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/learn/prospecting"
+      ]
+    },
+    "/learn/quoting": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/learn/quoting"
+      ]
+    },
+    "/learn/carriers": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/learn/carriers"
+      ]
+    },
+    "/learn/operations": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/learn/operations"
+      ]
+    },
+    "/learn/ltl": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/learn/ltl"
+      ]
+    },
+    "/learn/drayage": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/learn/drayage"
+      ]
+    },
+    "/blog/research-before-the-sales-call": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/research-before-the-sales-call"
+      ]
+    },
+    "/blog/how-freight-brokers-quote-rates": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/how-freight-brokers-quote-rates"
+      ]
+    },
+    "/blog/carrier-qualification-process": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/carrier-qualification-process"
+      ]
+    },
+    "/blog/after-you-get-a-freight-order": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/after-you-get-a-freight-order"
+      ]
+    },
+    "/blog/how-ltl-freight-moves": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/how-ltl-freight-moves"
+      ]
+    },
+    "/blog/freight-expertise-in-the-age-of-ai": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-expertise-in-the-age-of-ai"
+      ]
+    },
+    "/blog/first-hire-freight-brokerage": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/first-hire-freight-brokerage"
+      ]
+    },
+    "/drayage-checklist": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/drayage-checklist"
+      ]
+    },
+    "/niche-resource": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/niche-resource"
+      ]
+    },
+    "/onboarding-guide": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/onboarding-guide"
+      ]
+    },
+    "/shipper-objections": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/shipper-objections"
+      ]
+    },
+    "/follow-up-guide": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/follow-up-guide"
+      ]
+    },
+    "/robots.txt": {
+      "status": 200,
+      "body": "User-Agent: *\nAllow: /\n\n"
+    },
+    "/sitemap.xml": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n</urlset>\n"
+    }
+  },
+  "assets": [
+    "/images/diagram-carriers.webp",
+    "/images/diagram-operations.webp",
+    "/images/diagram-prospecting.webp",
+    "/images/diagram-quoting.webp",
+    "/images/freight-terminal.webp",
+    "/images/luis-uribe.webp"
+  ],
+  "failures": []
+}

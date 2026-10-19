@@ -1,0 +1,84 @@
+{
+  "slug": "how-ltl-freight-moves",
+  "title": "How LTL freight moves—and why the details matter.",
+  "topic": "ltl",
+  "category": "LTL freight",
+  "excerpt": "Understand shared trailer space, terminal transfers, shipment information, and the service a broker can provide.",
+  "videoId": "rGpVE2JwJqA",
+  "sourceId": "Y038",
+  "sourceTitle": "LTL Freight Explained | What is it and how does it move?",
+  "takeaway": "LTL is a network service with multiple handoffs. Quote and manage it around the actual freight and service requirements, not just the number of pallets.",
+  "sections": [
+    {
+      "id": "shared-network",
+      "title": "Start with the network, not the pallet count.",
+      "paragraphs": [
+        "LTL means less-than-truckload. In this lesson, Luis explains the difference by following the freight: a pickup truck collects smaller shipments, brings them into a terminal network, and the freight moves onward toward its destination. The shipment may pass through multiple trucks and facilities.",
+        "That operating model is different from a straightforward dedicated truckload move in which one truck collects the freight and takes it to one destination. In LTL, the customer’s shipment shares the network with other customers’ freight. The handoffs affect both planning and expectations.",
+        "The original lesson uses an approximate pallet range to introduce the subject. This draft does not treat that range as a universal definition. Pallet count alone cannot establish which service is suitable; size, weight, handling, and carrier requirements matter. That clarification is flagged for owner review."
+      ]
+    },
+    {
+      "id": "handoffs",
+      "title": "Understand the pickup-to-delivery sequence.",
+      "paragraphs": [
+        "Luis describes a local pickup route collecting freight from several shippers, followed by consolidation at a hub, movement between hubs, and final delivery. The exact route depends on the carrier’s network. The useful principle is that a shipment can be handled more than once.",
+        "That explains why packaging and shipment identification deserve attention. It also explains why a broker cannot assume the same visibility or direct dispatch control as on a dedicated truck. Ask how the selected service handles the shipment rather than promising a process the network does not provide.",
+        "For the customer, the distinction should be clear before booking. A service chosen only because its initial quote is lower may not match a time-sensitive or handling-sensitive requirement."
+      ]
+    },
+    {
+      "id": "quote-inputs",
+      "title": "Collect the information that shapes the quote.",
+      "paragraphs": [
+        "The video connects LTL pricing with the route, weight, space, and freight classification. Luis contrasts light, bulky freight with heavy, compact freight to show why one simple measure does not tell the whole story.",
+        "Classification needs particular care. NMFTA’s current NMFC information describes classification in terms of transportation characteristics including density, handling, stowability, and liability. This draft therefore does not repeat the lesson’s simplified density-only explanation or its suggestion that LTL is universally priced per pallet.",
+        "Collect accurate commodity, packaging, dimensions, and weight information, then establish the applicable classification and service requirements. The goal is to describe the actual shipment consistently when requesting and comparing carrier quotes. A lower quote based on incomplete information is not a dependable comparison."
+      ]
+    },
+    {
+      "id": "pickup",
+      "title": "Respect the pickup operation.",
+      "paragraphs": [
+        "A local LTL driver may be handling several pickups in the same working day. Luis explains why a restrictive window, required appointment, or specially arranged loading crew can complicate the plan. Your facility’s needs must fit the booked service.",
+        "Confirm requirements in advance. Do not assume a routine pickup request includes a particular appointment commitment. If the customer needs a specific service, establish that with the carrier and communicate what has actually been arranged.",
+        "The practical value is in translating between the customer’s operation and the carrier’s network. Details that seem small on an email can have a large effect on whether the pickup can be completed as expected."
+      ]
+    },
+    {
+      "id": "partial",
+      "title": "Keep LTL and partial truckload distinct.",
+      "paragraphs": [
+        "Luis also discusses booking part of a truckload carrier’s trailer. He warns that such a carrier may be combining several loads and that its schedule can depend on the rest of that work. His preference in this lesson is the common-carrier network for the situations he describes.",
+        "Treat that as a service-selection discussion. Ask how the freight will move, what stops or transfers are involved, and what delivery commitment is actually offered. LTL and partial truckload should not be used as interchangeable labels for every shipment that occupies less than a trailer."
+      ]
+    },
+    {
+      "id": "broker-value",
+      "title": "Provide value beyond finding a rate.",
+      "paragraphs": [
+        "The lesson identifies classification support and claims coordination as ways a broker can help a shipper that already books directly with carriers. The useful service is preparation and follow-through: getting the shipment information right and helping manage a problem when it occurs.",
+        "This draft does not repeat promises that correct classification eliminates every surprise bill or that a broker can guarantee recovery on a claim. Those statements require correction before publication. Careful work can improve the process; the outcome still depends on the shipment, applicable terms, and facts."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "NMFTA: National Motor Freight Classification",
+      "url": "https://nmfta.org/standards/classification/nmfc/"
+    }
+  ],
+  "reviewNotes": [
+    "Owner review required: universal pallet-count cutoff, per-pallet pricing, density-only class explanation, claims recovery promises, and no-surprise-bill promises have been qualified.",
+    "Do not use the historical carrier list as a current provider recommendation."
+  ],
+  "approved": false,
+  "related": [
+    "how-freight-brokers-quote-rates",
+    "after-you-get-a-freight-order",
+    "carrier-qualification-process"
+  ],
+  "cover": "How LTL freight moves—and why the details matter.",
+  "theme": "dark",
+  "minutes": 5
+}

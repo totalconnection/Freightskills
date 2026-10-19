@@ -1,0 +1,80 @@
+{
+  "slug": "after-you-get-a-freight-order",
+  "title": "You got the order. Here’s what happens next.",
+  "topic": "operations",
+  "category": "Shipment management",
+  "excerpt": "Follow the shipment from customer confirmation through carrier booking, updates, and delivery paperwork.",
+  "videoId": "Z1J9JTnI06I",
+  "sourceId": "Y021",
+  "sourceTitle": "What to do as a Freight Broker after you get an order",
+  "takeaway": "Getting the order starts the operating work. Reconfirm the details, secure a qualified carrier, communicate throughout the move, and close the document trail.",
+  "sections": [
+    {
+      "id": "read-order",
+      "title": "Read the order against the quote.",
+      "paragraphs": [
+        "Luis frames this lesson around a familiar moment: a customer accepts the quote and tells you to move the load. The sales effort has worked. Now you need a reliable sequence for turning that commitment into a completed shipment.",
+        "Begin with the customer’s written confirmation. In the video, that confirmation takes the form of a purchase order describing the shipper, consignee, instructions, and agreed rate. Check that the written details match the shipment you quoted.",
+        "Luis walks through the comparison: shipper, consignee, commodity, weight, date, and price. A mismatch is not a detail to carry forward and hope will resolve itself. Clarify it with the customer before it turns into conflicting instructions for the carrier."
+      ]
+    },
+    {
+      "id": "confirm-facilities",
+      "title": "Confirm the details with the facilities.",
+      "paragraphs": [
+        "The next step is to verify the operating information with the shipper and consignee. Does the shipper have the expected freight? Is the consignee expecting it? What is required to pick up or deliver, and is an appointment needed?",
+        "The video gives a useful exception to watch for: the consignee may say it knows nothing about the shipment. That is a reason to return to the customer and reconcile the information. It is better to discover the mismatch before the truck arrives.",
+        "Luis separately flags blind shipments as a different procedure. This walkthrough assumes a straightforward move. Where information must be restricted, follow the agreed communication instructions rather than applying a general call sequence without checking."
+      ]
+    },
+    {
+      "id": "find-carrier",
+      "title": "Find a carrier that can perform the service.",
+      "paragraphs": [
+        "Once the requirements are clear, work through the carrier network and appropriate load-search channels. The commercial objective is to cover the shipment at a cost that fits the customer’s rate, but the carrier must also be suitable for the work.",
+        "The original video emphasizes the difference between the amount charged to the customer and the cost of the carrier. This draft adds an explicit qualification requirement to that discussion; that editorial change is flagged for Luis’s review. The lowest number alone is not a complete booking decision.",
+        "Check availability for the actual date and service. A carrier’s interest in a lane is not the same thing as a confirmed commitment to this shipment. Resolve that distinction before treating the load as covered."
+      ]
+    },
+    {
+      "id": "secure-booking",
+      "title": "Onboard, then confirm the booking.",
+      "paragraphs": [
+        "Luis separates finding a carrier from securing it. Complete the carrier onboarding process and document the individual move. The rate confirmation should communicate the agreed carrier rate, pickup and delivery details, commodity, weight, and instructions.",
+        "Use the verified information from the earlier steps. If the customer’s order changes, the carrier’s instructions need to stay aligned with it. Clear documents are useful only if they describe the same move that everyone has agreed to perform.",
+        "This public article links to the carrier-qualification lesson for the underlying process. Your program documents and contract templates remain in their existing system; the website does not replace those agreements."
+      ]
+    },
+    {
+      "id": "track-communicate",
+      "title": "Track, trace, and keep the customer informed.",
+      "paragraphs": [
+        "After booking, the work becomes execution and communication. Luis’s example is direct: if the carrier said arrival was twenty minutes away, check whether that is still true. If a delivery commitment changes, the customer needs to know.",
+        "Updates should describe what is known. A missed appointment or changed arrival estimate needs attention, not silence. The lesson repeatedly returns to honesty and transparency as central parts of the broker’s service.",
+        "Communication also closes the loop between the people involved. A revised plan is not fully coordinated until the affected parties know what changed and what happens next. Use the shipment record to keep the current instructions and status together."
+      ]
+    },
+    {
+      "id": "close-file",
+      "title": "Finish with delivery and documents.",
+      "paragraphs": [
+        "After delivery, collect the carrier’s delivery paperwork and reconcile it with the shipment record. Luis describes sending the proof of delivery with the customer invoice. That final handoff connects the physical move with the commercial record.",
+        "Do not let a successful delivery obscure unfinished paperwork or unresolved exceptions. The practical sequence is complete when the move and its documentation have been followed through, not merely when the truck leaves the destination."
+      ]
+    }
+  ],
+  "sources": [],
+  "reviewNotes": [
+    "Owner review: source says book as cheaply as possible; draft explicitly requires service fit and qualification alongside margin.",
+    "Historical promotional software references and program offers removed."
+  ],
+  "approved": false,
+  "related": [
+    "carrier-qualification-process",
+    "how-freight-brokers-quote-rates",
+    "container-drayage-explained"
+  ],
+  "cover": "You got the order. Here’s what happens next.",
+  "theme": "dark",
+  "minutes": 5
+}

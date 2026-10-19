@@ -1,0 +1,89 @@
+{
+  "slug": "container-drayage-explained",
+  "title": "Container drayage: understand the whole move.",
+  "topic": "drayage",
+  "category": "Container drayage",
+  "excerpt": "Follow the container from the terminal to the customer, and understand why access and equipment return belong in the plan.",
+  "videoId": "o6WTbGsyLqg",
+  "sourceId": "Y049",
+  "sourceTitle": "What is Container Drayage | Freight Broker Edition",
+  "takeaway": "Drayage is more than a pickup and delivery. Understand who controls the equipment, whether the carrier can access it, and how the equipment will be returned.",
+  "sections": [
+    {
+      "id": "what-drayage-is",
+      "title": "What is container drayage?",
+      "paragraphs": [
+        "Luis introduces drayage through the movement connecting a port and a customer. For an import, the container arrives by ocean, moves from the terminal to be unloaded, and the equipment must then be returned as instructed. For an export, the equipment moves to be loaded and returns for the onward shipment.",
+        "His point is to look beyond the road leg. A truckload broker may be comfortable with pickup and delivery, but a container move introduces equipment, access, paperwork, and timing relationships that must be understood together.",
+        "In the lesson’s import example, an ocean transportation provider arranges the overseas portion before the container reaches the port. The broker arranging drayage needs to understand where that responsibility hands off and what information is required for the inland move."
+      ]
+    },
+    {
+      "id": "find-opportunity",
+      "title": "Look for container needs in the supply chain.",
+      "paragraphs": [
+        "The video encourages brokers to understand how a customer’s products and materials enter or leave the country. Manufacturers and distributors may have container-related needs that are not apparent from the domestic truckload work a broker already sees.",
+        "Ask the customer about its operation. Does it import finished goods or inputs? Does it export? Who arranges those movements, and where does the domestic transportation responsibility begin? Those questions are more useful than assuming that every truckload customer also controls container freight.",
+        "The original video makes a broad claim that every truckload originates from an overseas container. This draft does not repeat it. That is a substantive correction for Luis to review, not merely a wording change. The durable teaching is to investigate the supply chain for relevant opportunities."
+      ]
+    },
+    {
+      "id": "carrier-fit",
+      "title": "Find a carrier with the right access.",
+      "paragraphs": [
+        "Not every carrier that can move a trailer can collect a container from the required terminal. Luis’s lesson emphasizes finding carriers familiar with the port and then asking about their actual access and operating arrangements. A directory listing is a starting point for research, not completed qualification.",
+        "Confirm the specific terminal and equipment provider involved in the shipment. Ask the carrier whether it can perform that move and verify the relevant requirements. General familiarity with a region is not enough to resolve access for a particular container.",
+        "The equipment matters as well. The container and chassis are not simply the motor carrier’s ordinary trailer. The agreements governing interchange and return create obligations that need to be understood before dispatch."
+      ]
+    },
+    {
+      "id": "identifiers",
+      "title": "Understand identifiers and interchange agreements.",
+      "paragraphs": [
+        "The lesson introduces SCAC and UIIA as important parts of the intermodal environment. NMFTA administers the Standard Carrier Alpha Code. It is an identifier, not a substitute for all other registrations, operating permissions, or terminal requirements.",
+        "IANA describes the UIIA as the standard industry contract covering equipment interchange between intermodal trucking companies and equipment providers. Participation and the requirements of the relevant provider need to be considered together. It is more precise to discuss equipment-provider arrangements than to treat UIIA as a simple license issued by a port.",
+        "This draft avoids repeating the historical SCAC price or the source’s description of NMFTA as a government agency. Both are recorded in the correction log. Verify current requirements with the relevant primary sources and the actual facility before relying on an old video procedure."
+      ]
+    },
+    {
+      "id": "plan-return",
+      "title": "Plan through equipment return.",
+      "paragraphs": [
+        "Luis emphasizes that borrowed equipment carries obligations. A container move is not fully understood if the only plan is to deliver the freight. Establish what happens after unloading or loading and how the equipment will move to the next required location.",
+        "Confirm the timing, appointments, paperwork, and responsible parties for the particular move. A change to one handoff may affect the next. The point is to make these dependencies visible before the truck is dispatched.",
+        "The original lesson also discusses driver credentials and facility-specific access. Those details need a current terminal-specific check; this article does not present a universal credential checklist or claim that one credential grants access everywhere."
+      ]
+    },
+    {
+      "id": "practical-start",
+      "title": "Start with a complete picture of the job.",
+      "paragraphs": [
+        "Before offering service, be able to explain the shipment’s sequence: where the container is, what must happen before pickup, who will move it, where it goes, and what happens to the equipment afterward. Identify any unanswered question and assign it to the party that can confirm it.",
+        "That is the practical foundation of the lesson. Drayage can be an additional service for a customer, but it deserves its own preparation. Knowing the lane is only part of knowing the move."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "IANA: UIIA and equipment interchange",
+      "url": "https://intermodal.org/uiia/"
+    },
+    {
+      "label": "NMFTA: Standard Carrier Alpha Code",
+      "url": "https://scac.nmfta.org/"
+    }
+  ],
+  "reviewNotes": [
+    "Owner approval required: remove universal overseas-origin claim; correct NMFTA government characterization and UIIA port-license simplification.",
+    "Do not repeat historical SCAC fee or broad no-license-needed claim. TWIC and terminal specifics remain verification items; TSA page retrieval was blocked."
+  ],
+  "approved": false,
+  "related": [
+    "carrier-qualification-process",
+    "after-you-get-a-freight-order",
+    "how-ltl-freight-moves"
+  ],
+  "cover": "Container drayage: understand the whole move.",
+  "theme": "dark",
+  "minutes": 5
+}

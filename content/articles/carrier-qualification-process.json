@@ -1,0 +1,83 @@
+{
+  "slug": "carrier-qualification-process",
+  "title": "A practical process for qualifying a carrier.",
+  "topic": "carriers",
+  "category": "Carrier qualification",
+  "excerpt": "Work through the interview, verification, insurance, agreement, and first-load review as separate decisions.",
+  "videoId": "fXItX_KCQDw",
+  "sourceId": "Y060",
+  "sourceTitle": "An Easy 5 Step Process to Set Up a Carrier | for Freight Broker’s",
+  "takeaway": "A good conversation is the start of qualification. Verify the facts, document the relationship, and assess how the carrier actually performs.",
+  "sections": [
+    {
+      "id": "interview",
+      "title": "1. Start with a focused conversation.",
+      "paragraphs": [
+        "The carrier represents your service when it arrives at the customer’s facility. Luis begins his qualification process with an interview because price alone tells you very little about that relationship. Ask what the carrier does well and whether that fits the freight you need moved.",
+        "The questions in the lesson include how many trucks the company has, how long it has been operating, what freight it prefers, and which regions it runs. Listen to how the carrier communicates as well as what it says. Professional communication matters, but a positive impression is not independent verification."
+      ]
+    },
+    {
+      "id": "verify",
+      "title": "2. Verify the information you were given.",
+      "paragraphs": [
+        "The second step is checking the carrier’s account against official information. Luis describes comparing the business name, location, phone number, and reported fleet information with the information gathered during the call. An unexplained discrepancy is a reason to investigate before proceeding.",
+        "The source video refers to the systems available at the time of recording. FMCSA’s current registration page describes its transition to Motus and links to official registration and USDOT-status resources. Start from FMCSA’s current resources rather than assuming an older screen recording is a current verification procedure.",
+        "Do not collapse identity, operating authority, and safety information into one yes-or-no impression. They answer different questions. Record what was checked and resolve material inconsistencies through independently verified channels before the carrier is entrusted with the shipment."
+      ]
+    },
+    {
+      "id": "insurance",
+      "title": "3. Review insurance for the work involved.",
+      "paragraphs": [
+        "Luis’s next step is obtaining insurance evidence directly from the carrier’s insurance representative rather than relying only on a document forwarded by the carrier. His emphasis is on verifying the relationship with the insurer and checking the coverage before moving freight.",
+        "The lesson also notes that being a certificate holder does not itself provide the same protection as insurance coverage. This draft retains that distinction and avoids treating a certificate as a promise that every loss will be paid. Coverage questions depend on the policy and the shipment and should be resolved with the insurance representative.",
+        "The video intentionally does not prescribe a single limit for every load. Keep that restraint. The commodity and work being arranged matter; an interview and a generic certificate are not a substitute for checking the relevant requirements."
+      ]
+    },
+    {
+      "id": "agreement",
+      "title": "4. Put expectations in writing.",
+      "paragraphs": [
+        "The carrier packet establishes the business relationship. Luis discusses expectations for rates, additional charges, the duration of the agreement, claims, and communication. These details should be settled before the carrier starts performing the work.",
+        "An agreement and a rate confirmation serve related but different purposes. The relationship needs documented terms; the individual move needs clear instructions and an agreed rate. This article does not replace or rewrite your existing contract templates. Use the approved documents that apply to your operation."
+      ]
+    },
+    {
+      "id": "first-load",
+      "title": "5. Evaluate the first completed move.",
+      "paragraphs": [
+        "The first shipment provides information that paperwork cannot. Luis recommends evaluating communication, pickup and delivery performance, and how the carrier’s pricing fits your work. Observe whether the carrier follows through on what was discussed.",
+        "That first load comes after qualification, not instead of it. A test shipment is still a customer’s shipment and requires the same care. The goal is to learn how a properly onboarded carrier executes the work, not to use freight as a substitute for verification.",
+        "Afterward, record what happened. Did the carrier communicate changes? Were commitments met? Is it suitable for regular work or only particular circumstances? Those observations make the carrier network more useful than a list of phone numbers."
+      ]
+    },
+    {
+      "id": "repeatable",
+      "title": "Keep the sequence repeatable.",
+      "paragraphs": [
+        "Luis’s five steps form a sequence: interview, verify, review insurance, document the relationship, and assess performance. Each step adds a different kind of evidence. Skipping one leaves a gap that a good rate cannot close.",
+        "The process should be repeated consistently and revisited when material information changes. A successful first move is evidence about that move, not a permanent guarantee about every future shipment."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "FMCSA registration and current system resources",
+      "url": "https://www.fmcsa.dot.gov/registration"
+    }
+  ],
+  "reviewNotes": [
+    "Owner review: replace historical SAFER/CSA descriptions with current FMCSA entry points; do not imply a single database verifies all authority and insurance.",
+    "Insurance wording is narrower than the video: a certificate is evidence, not a guarantee of coverage. Review with the owner before publication."
+  ],
+  "approved": false,
+  "related": [
+    "after-you-get-a-freight-order",
+    "container-drayage-explained",
+    "how-freight-brokers-quote-rates"
+  ],
+  "cover": "A practical process for qualifying a carrier.",
+  "theme": "dark",
+  "minutes": 5
+}
