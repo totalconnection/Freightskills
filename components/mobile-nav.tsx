@@ -27,6 +27,7 @@ export function MobileNav({ portalUrl }: { portalUrl: string }) {
           {[
             ['/learn', 'Learn'],
             ['/blog', 'Articles'],
+            ['/videos', 'Videos'],
             ['/resources', 'Resources'],
             ['/about', 'About'],
             ['/community', 'Community'],

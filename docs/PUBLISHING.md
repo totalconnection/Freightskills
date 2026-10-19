@@ -4,9 +4,9 @@ The authoritative source is the totalconnection/Freightskills GitHub repository.
 
 ## Edit an article
 
-Each launch article is a readable JSON file in content/articles. Edit its title, excerpt, topic, sections, sources, and related slugs. Keep original source video ID/title and source-register ID. Add new article imports to lib/posts.ts. Paragraphs are rendered as text, not executable HTML. A section has a stable id, a heading, paragraphs, and optional bullets. Reading time is calculated from the text. Search and topic lists use the same data.
+Each article is a readable JSON file in content/articles. Edit its title, excerpt, topic, sections, sources, and related slugs. Keep original source video ID/title and source-register ID. Add new article imports to content/article-index.ts. Map every source video in content/videos.json and include it in the article’s videos array. Paragraphs are rendered as text, not executable HTML. A section has a stable id, a heading, paragraphs, and optional bullets. Reading time is calculated from the text. Search and topic lists use the same data.
 
-All launch articles are `approved: false`. They are visible in the local preview, with an editorial draft label. They are excluded from a production build until explicitly approved. Review notes appear only in preview. Preserve the two older article paths; their older drafts also require review.
+All current articles are `approved: false`. They are visible in the local preview, with an editorial draft label. They are excluded from a production build until explicitly approved. Review notes appear only in preview. Preserve the two older article paths; their older drafts also require review.
 
 ## Editorial review
 
@@ -25,3 +25,7 @@ Default is staging: robots metadata is noindex/nofollow on every page, the sitem
 SITE_LAUNCH_APPROVED=true enables production indexing and filters articles to only approved entries. Do not set it before the owner approves launch. STUDENT_PORTAL_URL is an optional verified external destination; when unset, the header shows YouTube rather than a fake login link. Program/portal code is not included here.
 
 Current resource detail pages link to the existing live resources only in preview. Production must restore the existing download/form behavior at each preserved URL before launch; never ship a self-link or the temporary access message. Contract templates and student-only resources were not moved or copied into the public site.
+
+## Expanded library
+
+See LIBRARY-EXPANSION.md for the full intent/source map and LIBRARY-REVIEW.md for article-specific review notes. Run npm run check:content after editing; it checks complete video coverage and duplicate metadata as well as links.

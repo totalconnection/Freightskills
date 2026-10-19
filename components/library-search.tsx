@@ -3,14 +3,14 @@ import { useState } from 'react';
 import { Search, X } from 'lucide-react';
 import { ArticleCard } from './article-card';
 import { topics } from '@/lib/topics';
-import type { Post } from '@/lib/posts';
-export function LibrarySearch({ posts }: { posts: Post[] }) {
+import type { ArticleSummary } from '@/lib/posts';
+export function LibrarySearch({ posts }: { posts: ArticleSummary[] }) {
   const [q, setQ] = useState('');
   const [topic, setTopic] = useState('all');
   const results = posts.filter(
     (p) =>
       (topic === 'all' || p.topic === topic) &&
-      `${p.title} ${p.excerpt} ${p.category}`
+      `${p.title} ${p.excerpt} ${p.category} ${p.searchIntent}`
         .toLowerCase()
         .includes(q.toLowerCase().trim()),
   );

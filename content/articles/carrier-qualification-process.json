@@ -59,6 +59,14 @@
         "Luis’s five steps form a sequence: interview, verify, review insurance, document the relationship, and assess performance. Each step adds a different kind of evidence. Skipping one leaves a gap that a good rate cannot close.",
         "The process should be repeated consistently and revisited when material information changes. A successful first move is evidence about that move, not a permanent guarantee about every future shipment."
       ]
+    },
+    {
+      "id": "use-the-carrier-packet-to-define-the-relationship",
+      "title": "Use the carrier packet to define the relationship",
+      "paragraphs": [
+        "Qualification and the carrier agreement serve related but different purposes. Luis’s carrier-packet lesson adds the importance of documenting the relationship after checking whether the carrier is suitable.",
+        "Clarify payment terms, any agreed quick-pay deductions, the claims process and the contact information needed to operate the shipment. Exchange relevant business credentials through verified channels. Have counsel review solicitation restrictions and other contractual provisions instead of assuming a standard template suits every arrangement."
+      ]
     }
   ],
   "sources": [
@@ -69,15 +77,32 @@
   ],
   "reviewNotes": [
     "Owner review: replace historical SAFER/CSA descriptions with current FMCSA entry points; do not imply a single database verifies all authority and insurance.",
-    "Insurance wording is narrower than the video: a certificate is evidence, not a guarantee of coverage. Review with the owner before publication."
+    "Insurance wording is narrower than the video: a certificate is evidence, not a guarantee of coverage. Review with the owner before publication.",
+    "Added Y057 carrier-packet teaching. Contract provisions need legal review; no downloadable template or universal terms are implied."
   ],
   "approved": false,
   "related": [
-    "after-you-get-a-freight-order",
-    "container-drayage-explained",
-    "how-freight-brokers-quote-rates"
+    "prevent-freight-brokerage-fraud",
+    "post-loads-and-find-carriers",
+    "after-you-get-a-freight-order"
   ],
   "cover": "A practical process for qualifying a carrier.",
   "theme": "dark",
-  "minutes": 5
+  "minutes": 5,
+  "videos": [
+    {
+      "sourceId": "Y060",
+      "id": "fXItX_KCQDw",
+      "title": "An Easy 5 Step Process to Set Up a Carrier | for Freight Broker’s",
+      "url": "https://www.youtube.com/watch?v=fXItX_KCQDw"
+    },
+    {
+      "sourceId": "Y057",
+      "id": "adwCSUdK9sg",
+      "title": "How To Set Up a Carrier Packet as A Freight Broker [Easy to Follow Steps]",
+      "url": "https://www.youtube.com/watch?v=adwCSUdK9sg"
+    }
+  ],
+  "seoTitle": "A practical process for qualifying a carrier.",
+  "searchIntent": "A practical process for qualifying a carrier."
 }

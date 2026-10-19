@@ -79,11 +79,19 @@
   ],
   "approved": false,
   "related": [
-    "carrier-qualification-process",
-    "after-you-get-a-freight-order",
-    "how-ltl-freight-moves"
+    "carrier-qualification-process"
   ],
   "cover": "Container drayage: understand the whole move.",
   "theme": "dark",
-  "minutes": 5
+  "minutes": 5,
+  "videos": [
+    {
+      "sourceId": "Y049",
+      "id": "o6WTbGsyLqg",
+      "title": "What is Container Drayage | Freight Broker Edition",
+      "url": "https://www.youtube.com/watch?v=o6WTbGsyLqg"
+    }
+  ],
+  "seoTitle": "Container drayage: understand the whole move.",
+  "searchIntent": "Container drayage: understand the whole move."
 }

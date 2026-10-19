@@ -61,20 +61,45 @@
         "After delivery, collect the carrier’s delivery paperwork and reconcile it with the shipment record. Luis describes sending the proof of delivery with the customer invoice. That final handoff connects the physical move with the commercial record.",
         "Do not let a successful delivery obscure unfinished paperwork or unresolved exceptions. The practical sequence is complete when the move and its documentation have been followed through, not merely when the truck leaves the destination."
       ]
+    },
+    {
+      "id": "check-the-handoffs-before-dispatch",
+      "title": "Check the handoffs before dispatch",
+      "paragraphs": [
+        "Luis’s five-step lesson reinforces the handoffs: obtain written customer instructions, confirm facility requirements, interview the carrier, independently verify the business and complete the agreement and rate confirmation.",
+        "Check dates, locations, commodity, weight, piece count, equipment and any applicable freight class. Confirm pickup numbers, ready times and appointments. Keep the customer rate and carrier rate in their appropriate documents; do not assume a quote alone is a complete shipment tender."
+      ]
     }
   ],
   "sources": [],
   "reviewNotes": [
     "Owner review: source says book as cheaply as possible; draft explicitly requires service fit and qualification alongside margin.",
-    "Historical promotional software references and program offers removed."
+    "Historical promotional software references and program offers removed.",
+    "Combined Y053 with the existing operations lesson; freight-class language applies where relevant, not universally."
   ],
   "approved": false,
   "related": [
-    "carrier-qualification-process",
-    "how-freight-brokers-quote-rates",
-    "container-drayage-explained"
+    "freight-broker-daily-routine",
+    "broker-carrier-communication",
+    "how-freight-brokers-quote-rates"
   ],
   "cover": "You got the order. Here’s what happens next.",
   "theme": "dark",
-  "minutes": 5
+  "minutes": 5,
+  "videos": [
+    {
+      "sourceId": "Y021",
+      "id": "Z1J9JTnI06I",
+      "title": "What to do as a Freight Broker after you get an order",
+      "url": "https://www.youtube.com/watch?v=Z1J9JTnI06I"
+    },
+    {
+      "sourceId": "Y053",
+      "id": "QwgYRjEKa8g",
+      "title": "5 Steps to Take Before You Move ANY Load | Freight Broker Edition",
+      "url": "https://www.youtube.com/watch?v=QwgYRjEKa8g"
+    }
+  ],
+  "seoTitle": "You got the order. Here’s what happens next.",
+  "searchIntent": "You got the order. Here’s what happens next."
 }

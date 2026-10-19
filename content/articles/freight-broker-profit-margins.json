@@ -1,0 +1,91 @@
+{
+  "slug": "freight-broker-profit-margins",
+  "title": "Freight broker profit margins: what remains after the load.",
+  "seoTitle": "Freight broker profit margins: what remains after the load",
+  "topic": "quoting",
+  "category": "Quoting & rates",
+  "searchIntent": "How do freight broker margins differ from net business profit?",
+  "excerpt": "Distinguish shipment spread from business profit, then review expenses, pricing discipline, and repeatable operating processes.",
+  "takeaway": "The difference between customer revenue and carrier cost must support the rest of the business. Improve that economics without weakening the service.",
+  "sections": [
+    {
+      "id": "separate-shipment-spread-from-take-home-income",
+      "title": "Separate shipment spread from take-home income.",
+      "paragraphs": [
+        "Luis’s margin lesson explains that the amount left after paying the carrier is not automatically the owner’s earnings. The brokerage still has work and expenses to support: customer development, communication, administration, technology, staffing, and the handling of problems.",
+        "The carrier also operates a business with its own costs. Understanding that perspective makes a rate conversation more useful than assuming that every dollar retained by the other party is unnecessary. Both sides need a service arrangement they can perform."
+      ]
+    },
+    {
+      "id": "estimate-cost-before-promising-a-rate",
+      "title": "Estimate cost before promising a rate.",
+      "paragraphs": [
+        "The lesson returns to actual carrier requirements rather than an unsupported number offered to win the customer’s attention. Carrier position, preferred destination, truck availability, timing, and lane fit can affect the cost of the move.",
+        "Use recent evidence and confirm the service being requested. A historical number may not describe today’s opportunity. If the cost basis is wrong, a seemingly attractive spread can disappear before the shipment is even covered. Pricing discipline begins with understanding what you have committed to arrange."
+      ]
+    },
+    {
+      "id": "review-recurring-expenses-against-actual-use",
+      "title": "Review recurring expenses against actual use.",
+      "paragraphs": [
+        "In the profit-improvement lesson, Luis’s first lever is an expense audit. Write down the recurring subscriptions and other costs. Identify tools that overlap or no longer fit the stage of the business, then assess whether their contribution justifies keeping them.",
+        "The purpose is not to remove necessary work. Eliminating a verification step or essential support because it has a cost can create a larger exposure. Distinguish unnecessary duplication from the resources required to provide the agreed service responsibly."
+      ]
+    },
+    {
+      "id": "improve-negotiation-without-treating-service-as-expendable",
+      "title": "Improve negotiation without treating service as expendable.",
+      "paragraphs": [
+        "The second lever is pricing and negotiation. A small improvement repeated across many shipments can matter, but the improvement has to remain compatible with dependable execution. Pressuring the cost below a feasible level is not the same as making the process more efficient.",
+        "The source contains an arithmetic error in its illustration. At one hundred shipments, an improvement of twenty-five to fifty dollars per shipment totals twenty-five hundred to five thousand dollars, before other effects—not the larger amount stated in the recording. That correction is specifically flagged for Luis’s review."
+      ]
+    },
+    {
+      "id": "make-the-operating-process-repeatable",
+      "title": "Make the operating process repeatable.",
+      "paragraphs": [
+        "Luis’s third lever is systems. His quoting example has requests arriving in a consistent place, format, and information structure so the team can work from a repeatable process. Missing details and unclear handoffs create effort that does not improve the shipment.",
+        "The same thinking applies to bill auditing, delivery-document requests, missing carrier invoices, and collections. A written process makes it easier to see where work stops and to train another person. Start organizing the recurring tasks before volume makes the confusion harder to untangle."
+      ]
+    },
+    {
+      "id": "evaluate-your-own-economics-rather-than-a-universal-margin-target",
+      "title": "Evaluate your own economics rather than a universal margin target.",
+      "paragraphs": [
+        "The recording includes historical margin commentary and an inconsistent interest calculation. This article does not use them as current industry averages or financing guidance. A brokerage’s actual costs, service mix, payment timing, and responsibilities determine what its shipment spread must support.",
+        "Review the whole picture: accurate cost preparation, responsible negotiation, purposeful expenses, and work that can be repeated without constant rework. Those levers give you specific things to improve. A single percentage, detached from the operating reality, does not."
+      ]
+    }
+  ],
+  "videoId": "1QM4uzqx7Lc",
+  "sourceId": "Y019",
+  "sourceTitle": "Freight Broker Profit Margins | Everything You Need to Know",
+  "videos": [
+    {
+      "sourceId": "Y019",
+      "id": "1QM4uzqx7Lc",
+      "title": "Freight Broker Profit Margins | Everything You Need to Know",
+      "url": "https://www.youtube.com/watch?v=1QM4uzqx7Lc"
+    },
+    {
+      "sourceId": "Y015",
+      "id": "jRK2ccq4Veo",
+      "title": "How to Increase Your Profit Margin as a Freight Broker",
+      "url": "https://www.youtube.com/watch?v=jRK2ccq4Veo"
+    }
+  ],
+  "approved": false,
+  "related": [
+    "how-freight-brokers-quote-rates",
+    "evaluate-freight-rfqs",
+    "carrier-qualification-process"
+  ],
+  "reviewNotes": [
+    "Explicit correction: 100 × $25–$50 = $2,500–$5,000. Owner approval required.",
+    "Y019 interest example withheld: $10,000 at 8% annual simple interest is $800/year before other conditions; source day/month arithmetic is inconsistent. No current average-margin or failure-rate claims."
+  ],
+  "sources": [],
+  "cover": "Freight broker profit margins: what remains after the load.",
+  "theme": "dark",
+  "minutes": 1
+}

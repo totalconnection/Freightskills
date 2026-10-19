@@ -20,7 +20,8 @@ export function Video({ id, title }: { id: string; title: string }) {
           aria-label={`Play ${title}`}
         >
           <img
-            src="/images/freight-terminal.webp"
+            src={`https://i.ytimg.com/vi/${id}/hqdefault.jpg`}
+            loading="lazy"
             width="1440"
             height="810"
             alt=""

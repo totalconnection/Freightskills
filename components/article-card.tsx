@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
-import type { Post } from '@/lib/posts';
-import { readingMinutes } from '@/lib/posts';
-export function ArticleCard({ post }: { post: Post }) {
+import type { Post, ArticleSummary } from '@/lib/posts';
+import { readingMinutes, articleImage } from '@/lib/article-utils';
+export function ArticleCard({ post }: { post: Post | ArticleSummary }) {
   return (
     <article className="article-card">
       <Link
@@ -12,7 +12,7 @@ export function ArticleCard({ post }: { post: Post }) {
         aria-hidden="true"
       >
         <img
-          src={`/images/${['drayage', 'ltl'].includes(post.topic) ? 'freight-terminal' : 'diagram-' + post.topic}.webp`}
+          src={articleImage(post.topic)}
           alt=""
           width="720"
           height="405"
@@ -21,7 +21,10 @@ export function ArticleCard({ post }: { post: Post }) {
         <span className="image-tag">{post.category}</span>
       </Link>
       <div className="article-meta">
-        <span>LUIS URIBE · {readingMinutes(post)} MIN READ</span>
+        <span>
+          LUIS URIBE ·{' '}
+          {'sections' in post ? readingMinutes(post) : post.minutes} MIN READ
+        </span>
         <ArrowUpRight size={17} />
       </div>
       <h3>

@@ -60,6 +60,16 @@
         "https://freightskills.com/resources"
       ]
     },
+    "/videos": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/videos"
+      ]
+    },
     "/blog/container-drayage-explained": {
       "status": 200,
       "h1": 1,
@@ -130,6 +140,26 @@
         "https://freightskills.com/learn/drayage"
       ]
     },
+    "/learn/business": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/learn/business"
+      ]
+    },
+    "/learn/growth": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/learn/growth"
+      ]
+    },
     "/blog/research-before-the-sales-call": {
       "status": 200,
       "h1": 1,
@@ -180,6 +210,16 @@
         "https://freightskills.com/blog/how-ltl-freight-moves"
       ]
     },
+    "/blog/freight-broker-daily-routine": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-broker-daily-routine"
+      ]
+    },
     "/blog/freight-expertise-in-the-age-of-ai": {
       "status": 200,
       "h1": 1,
@@ -188,6 +228,296 @@
       ],
       "canonical": [
         "https://freightskills.com/blog/freight-expertise-in-the-age-of-ai"
+      ]
+    },
+    "/blog/broker-carrier-communication": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/broker-carrier-communication"
+      ]
+    },
+    "/blog/diversify-freight-broker-customers": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/diversify-freight-broker-customers"
+      ]
+    },
+    "/blog/co-brokering-and-dual-authority": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/co-brokering-and-dual-authority"
+      ]
+    },
+    "/blog/collect-overdue-freight-invoices": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/collect-overdue-freight-invoices"
+      ]
+    },
+    "/blog/freight-broker-cold-calling": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-broker-cold-calling"
+      ]
+    },
+    "/blog/freight-broker-follow-up": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-broker-follow-up"
+      ]
+    },
+    "/blog/freight-broker-niches": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-broker-niches"
+      ]
+    },
+    "/blog/freight-broker-profit-margins": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-broker-profit-margins"
+      ]
+    },
+    "/blog/freight-broker-sales-objections": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-broker-sales-objections"
+      ]
+    },
+    "/blog/freight-broker-surety-bond": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-broker-surety-bond"
+      ]
+    },
+    "/blog/freight-broker-vs-dispatcher": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-broker-vs-dispatcher"
+      ]
+    },
+    "/blog/freight-broker-vs-agent": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-broker-vs-agent"
+      ]
+    },
+    "/blog/prevent-freight-brokerage-fraud": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/prevent-freight-brokerage-fraud"
+      ]
+    },
+    "/blog/freight-brokerage-marketing": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-brokerage-marketing"
+      ]
+    },
+    "/blog/freight-factoring-for-brokers": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-factoring-for-brokers"
+      ]
+    },
+    "/blog/freight-broker-business-credit": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-broker-business-credit"
+      ]
+    },
+    "/blog/evaluate-freight-rfqs": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/evaluate-freight-rfqs"
+      ]
+    },
+    "/blog/sell-freight-service-beyond-price": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/sell-freight-service-beyond-price"
+      ]
+    },
+    "/blog/handle-freight-shipment-problems": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/handle-freight-shipment-problems"
+      ]
+    },
+    "/blog/post-loads-and-find-carriers": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/post-loads-and-find-carriers"
+      ]
+    },
+    "/blog/reach-shipper-decision-makers": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/reach-shipper-decision-makers"
+      ]
+    },
+    "/blog/differentiate-freight-brokerage": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/differentiate-freight-brokerage"
+      ]
+    },
+    "/blog/name-a-freight-brokerage": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/name-a-freight-brokerage"
+      ]
+    },
+    "/blog/find-shipper-leads": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/find-shipper-leads"
+      ]
+    },
+    "/blog/grow-freight-brokerage": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/grow-freight-brokerage"
+      ]
+    },
+    "/blog/learn-freight-brokerage-without-experience": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/learn-freight-brokerage-without-experience"
+      ]
+    },
+    "/blog/freight-broker-slow-market": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-broker-slow-market"
+      ]
+    },
+    "/blog/freight-broker-sales-process": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-broker-sales-process"
+      ]
+    },
+    "/blog/freight-broker-shipper-packet": {
+      "status": 200,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": [
+        "https://freightskills.com/blog/freight-broker-shipper-packet"
       ]
     },
     "/blog/first-hire-freight-brokerage": {

@@ -1,0 +1,90 @@
+{
+  "slug": "handle-freight-shipment-problems",
+  "title": "How freight brokers handle shipment problems and customer updates.",
+  "seoTitle": "How freight brokers handle shipment problems and customer updates",
+  "topic": "operations",
+  "category": "Shipment management",
+  "searchIntent": "How should a freight broker communicate delays and service failures?",
+  "excerpt": "Verify what happened, establish the next action, and communicate clearly when a shipment goes off plan.",
+  "takeaway": "Give the customer verified information and a clear next step. Do not confuse an unconfirmed explanation with a reliable update.",
+  "sections": [
+    {
+      "id": "confirm-the-problem-before-repeating-it",
+      "title": "Confirm the problem before repeating it.",
+      "paragraphs": [
+        "Luis’s communication lesson begins with verification. If dispatch reports a truck two hours late, understand where that estimate comes from and what is happening. Passing along an unchecked arrival time can create a second problem when the customer plans around information that is wrong.",
+        "Separate what is known from what is still being investigated. That makes the update more useful and prevents the conversation from becoming a chain of confident but unsupported statements. The objective is a reliable operating picture, not simply a fast explanation."
+      ]
+    },
+    {
+      "id": "identify-an-action-and-the-next-information-point",
+      "title": "Identify an action and the next information point.",
+      "paragraphs": [
+        "The source gives several practical examples. Missing freight calls for a dock search and a defined update. A breakdown prompts questions about the towing destination, repair diagnosis, parts, and when the carrier will know more. A delayed appointment may require revised receiving arrangements.",
+        "The next step does not have to be a complete solution. It should be something real that is happening or has been assigned. Give the customer a clear account of that work and the next expected update instead of inventing certainty about the final outcome."
+      ]
+    },
+    {
+      "id": "communicate-promptly-when-the-impact-matters",
+      "title": "Communicate promptly when the impact matters.",
+      "paragraphs": [
+        "Luis emphasizes bringing an action plan into the customer conversation. This adaptation also makes an important limit explicit: urgent impact should not be hidden while the broker waits for a perfect solution. Communicate verified facts and what is being done, then update as the investigation develops.",
+        "That clarification is flagged for review because part of the source suggests delaying the conversation while solving the problem. The useful principle is preparation, not silence. A customer may need to change its own staffing, receiving, or production plan before the full recovery plan is available."
+      ]
+    },
+    {
+      "id": "learn-from-the-delivery-location-case",
+      "title": "Learn from the delivery-location case.",
+      "paragraphs": [
+        "In the companion lesson, Luis describes delivery-location and signoff confusion that produced substantial cleanup costs. His company chose to contribute to resolving the matter despite believing that the carrier had followed instructions and obtained documentation.",
+        "The case is a business settlement account, not a legal finding about which party must pay in every similar situation. Its operating value is the question it raises: are location, authorization, documentation, and escalation responsibilities clear enough before a delivery goes wrong?"
+      ]
+    },
+    {
+      "id": "track-complex-projects-at-the-level-where-problems-occur",
+      "title": "Track complex projects at the level where problems occur.",
+      "paragraphs": [
+        "Luis also describes a sixty-six-flatbed heavy-haul project in which a piece’s reported weight was materially wrong. Different equipment, routing, and permits became necessary, and delays and poor updates increased project expense. The article does not turn that historical example into a permit or weight-limit instruction.",
+        "The practical lesson is to track the individual pieces and investigate stalled movement rather than treating the project as one undifferentiated shipment. Additional-charge approval, changed requirements, and responsibility for the next action need to be visible during the work, not reconstructed afterward."
+      ]
+    },
+    {
+      "id": "turn-the-incident-into-a-better-process",
+      "title": "Turn the incident into a better process.",
+      "paragraphs": [
+        "After the immediate problem, review which information or handoff failed. Was the shipment described inaccurately? Was a delay visible but not escalated? Did the parties disagree about who could approve a change? The answers should affect the next procedure.",
+        "Good communication is more than apologizing well. It connects accurate information, responsible action, and the customer’s need to plan. Use the event to make that connection clearer on future shipments rather than relying on the owner to remember the lesson the next time it happens."
+      ]
+    }
+  ],
+  "videoId": "GdWElbp6Xyw",
+  "sourceId": "Y030",
+  "sourceTitle": "How to Tell A Customer Theres a Problem",
+  "videos": [
+    {
+      "sourceId": "Y030",
+      "id": "GdWElbp6Xyw",
+      "title": "How to Tell A Customer Theres a Problem",
+      "url": "https://www.youtube.com/watch?v=GdWElbp6Xyw"
+    },
+    {
+      "sourceId": "Y043",
+      "id": "TvH1yUtNFmw",
+      "title": "Freight Broker Loses 50k! | How to Handle Problems As a Freight Broker",
+      "url": "https://www.youtube.com/watch?v=TvH1yUtNFmw"
+    }
+  ],
+  "approved": false,
+  "related": [
+    "after-you-get-a-freight-order",
+    "freight-broker-daily-routine",
+    "how-freight-brokers-quote-rates"
+  ],
+  "reviewNotes": [
+    "Owner review required: urgent notifications must not be delayed for a complete solution. Case narratives are attributed accounts, not liability rulings or verified financial case studies."
+  ],
+  "sources": [],
+  "cover": "How freight brokers handle shipment problems and customer updates.",
+  "theme": "dark",
+  "minutes": 1
+}

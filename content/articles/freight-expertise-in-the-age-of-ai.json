@@ -1,0 +1,84 @@
+{
+  "slug": "freight-expertise-in-the-age-of-ai",
+  "title": "AI for freight brokers: improve the work without losing the relationship.",
+  "seoTitle": "AI for freight brokers: improve the work without losing the relationship",
+  "topic": "growth",
+  "category": "Business growth",
+  "searchIntent": "How can freight brokers use AI and automation effectively?",
+  "excerpt": "Evaluate AI around existing freight workflows, team adoption, and clear responsibility for customer service.",
+  "takeaway": "Choose technology that improves work people actually do, and retain an accountable person when a shipment needs judgment.",
+  "sections": [
+    {
+      "id": "start-with-the-work-the-tool-should-improve",
+      "title": "Start with the work the tool should improve.",
+      "paragraphs": [
+        "Luis’s reboot discussion is enthusiastic about useful technology but skeptical of subscriptions that never become part of the operating process. Buying a tool is not the same as adopting a better way of working. A brokerage can spend more on software while leaving the underlying sales or service problem unchanged.",
+        "Identify the recurring job first. Is the team struggling to organize requests, respond consistently, or keep information visible? The proposed tool should have a clear role in that work. If its purpose cannot be explained without listing features, the business problem may still be unclear."
+      ]
+    },
+    {
+      "id": "build-around-the-habits-people-already-use",
+      "title": "Build around the habits people already use.",
+      "paragraphs": [
+        "The lesson gives an adoption example: a salesperson accustomed to texts, phone calls, and email may stop using an imposed application after a few weeks. The problem is not necessarily a lack of features. The new process may not fit how the person receives information or completes the job.",
+        "Study the existing handoffs before replacing them. A workflow crosses customers, brokers, dispatchers, and drivers, and those parties may use technology differently. The useful design allows information to move between them rather than assuming everyone will adopt the same application at the same time."
+      ]
+    },
+    {
+      "id": "keep-a-human-escalation-path",
+      "title": "Keep a human escalation path.",
+      "paragraphs": [
+        "Luis argues that automated tendering does not eliminate the need for someone to resolve an operating problem. The customer still needs to know who owns the next action when a shipment does not proceed as expected.",
+        "That responsibility should be clear when automation is introduced. A prepared response or organized record can support the person handling the shipment, but it should not create an appearance of progress when nobody has checked the facts. Identify who reviews an exception and who communicates the verified information."
+      ]
+    },
+    {
+      "id": "distinguish-experiments-from-proven-operating-systems",
+      "title": "Distinguish experiments from proven operating systems.",
+      "paragraphs": [
+        "In the video, Luis discusses testing voice agents, automated responses, chatbots, and outreach tools. Those are experiments described in the recording. They are not presented here as verified results, a current Freightskills service, or proof that a particular task can be handed over without supervision.",
+        "Evaluate a narrow application before expanding it. Determine whether the team actually uses it and whether the output reduces work without introducing confusion. An unused system cannot deliver the improvement that justified buying it."
+      ]
+    },
+    {
+      "id": "use-technology-alongside-genuine-contact",
+      "title": "Use technology alongside genuine contact.",
+      "paragraphs": [
+        "The source repeatedly returns to calls, visits, networking, trade events, and other direct conversations. Luis describes a newly hired representative visiting local businesses several days a week. The example explains his view that tools should support productive activity rather than become an excuse to postpone it.",
+        "He also distinguishes content aimed at shippers from public complaints directed at other brokers. If a professional profile is part of customer development, its content should help the intended reader understand your expertise and approach. Technology changes distribution; it does not remove the need for a useful message."
+      ]
+    },
+    {
+      "id": "measure-adoption-before-adding-another-subscription",
+      "title": "Measure adoption before adding another subscription.",
+      "paragraphs": [
+        "Ask whether the workflow is being followed and whether the responsible people can explain how it helps. Look for duplicated entry, unclear ownership, and steps that are abandoned when the day becomes busy. Those observations are more useful than assuming the most elaborate product is automatically the best fit.",
+        "The enduring lesson is practical: choose a tool for the team and the work, then evaluate its use. This article does not treat the video’s program announcements, market commentary, or experimental tools as current offers or established results."
+      ]
+    }
+  ],
+  "videoId": "M___YyW_TLg",
+  "sourceId": "Y001",
+  "sourceTitle": "Freight Skills Reboot Roadmap and what I think about the AI boom.",
+  "videos": [
+    {
+      "sourceId": "Y001",
+      "id": "M___YyW_TLg",
+      "title": "Freight Skills Reboot Roadmap and what I think about the AI boom.",
+      "url": "https://www.youtube.com/watch?v=M___YyW_TLg"
+    }
+  ],
+  "approved": false,
+  "related": [
+    "freight-brokerage-marketing",
+    "differentiate-freight-brokerage",
+    "freight-broker-profit-margins"
+  ],
+  "reviewNotes": [
+    "Preserves the existing URL. Historical program announcements, funding anecdotes, and employment-classification tangent omitted. Claims about market-wide adoption remain opinions, not measured facts."
+  ],
+  "sources": [],
+  "cover": "AI for freight brokers: improve the work without losing the relationship.",
+  "theme": "dark",
+  "minutes": 1
+}

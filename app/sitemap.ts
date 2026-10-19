@@ -9,6 +9,7 @@ export default function sitemap() {
     '/about',
     '/learn',
     '/blog',
+    '/videos',
     '/resources',
     '/community',
     ...topics.map((t) => `/learn/${t.slug}`),

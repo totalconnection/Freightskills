@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { posts, readingMinutes } from '@/lib/posts';
 import { metadata as meta, siteUrl, isProduction } from '@/lib/config';
 import { ArticleCard } from '@/components/article-card';
+import { articleImage } from '@/lib/article-utils';
 import { Video } from '@/components/video';
 import { Eyebrow } from '@/components/site';
 type Props = { params: Promise<{ slug: string }> };
@@ -14,7 +15,7 @@ export async function generateMetadata({ params }: Props) {
   const p = posts.find((p) => p.slug === slug);
   return p
     ? {
-        ...meta(p.title, p.excerpt, `/blog/${p.slug}`),
+        ...meta(p.seoTitle, p.excerpt, `/blog/${p.slug}`),
         robots: {
           index: isProduction && p.approved,
           follow: isProduction && p.approved,
@@ -35,8 +36,8 @@ export default async function Post({ params }: Props) {
     author: { '@type': 'Person', name: 'Luis Uribe', url: siteUrl + '/about' },
     publisher: { '@type': 'Organization', name: 'Freightskills', url: siteUrl },
     mainEntityOfPage: siteUrl + '/blog/' + p.slug,
-    image: siteUrl + '/images/freight-terminal.webp',
-    isBasedOn: 'https://www.youtube.com/watch?v=' + p.videoId,
+    image: siteUrl + articleImage(p.topic),
+    isBasedOn: p.videos.map((v) => v.url),
   };
   return (
     <main id="main">
@@ -56,7 +57,7 @@ export default async function Post({ params }: Props) {
         <div className="post-byline">
           <img src="/images/luis-uribe.webp" alt="" width="42" height="42" />
           <span>
-            Based on a lesson by <Link href="/about">Luis Uribe</Link>
+            Based on teaching by <Link href="/about">Luis Uribe</Link>
             <br />
             <small>{readingMinutes(p)} min read · Video + article</small>
           </span>
@@ -89,17 +90,25 @@ export default async function Post({ params }: Props) {
             </section>
           ))}
           <section id="source-video">
-            <h2>Watch the original lesson.</h2>
-            <Video id={p.videoId} title={p.sourceTitle} />
-            <p className="video-note">
-              <a href={`https://www.youtube.com/watch?v=${p.videoId}`}>
-                {p.sourceTitle} ↗
-              </a>
-              <br />
-              Freightskills · Luis Uribe. The video reflects its original
-              recording period; publication date has not been independently
-              verified.
-            </p>
+            <h2>
+              {p.videos.length > 1
+                ? 'Watch the original lessons.'
+                : 'Watch the original lesson.'}
+            </h2>
+            {p.videos.map((v) => (
+              <div key={v.id} className="source-video-item">
+                <Video id={v.id} title={v.title} />
+                <p className="video-note">
+                  <a href={v.url}>{v.title} ↗</a>
+                  <br />
+                  Freightskills · Luis Uribe. This lesson reflects its original
+                  recording period.
+                </p>
+              </div>
+            ))}
+            <Link className="text-link" href="/videos">
+              Explore all video lessons ↗
+            </Link>
           </section>
           {p.sources.length > 0 && (
             <section className="source-list">

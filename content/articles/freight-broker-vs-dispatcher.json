@@ -1,0 +1,89 @@
+{
+  "slug": "freight-broker-vs-dispatcher",
+  "title": "Freight broker vs. dispatcher: understand the role before the label",
+  "seoTitle": "Freight Broker vs. Dispatcher: Roles and Responsibilities",
+  "topic": "business",
+  "category": "Brokerage foundations",
+  "searchIntent": "What is the difference between a freight broker and dispatcher?",
+  "excerpt": "Compare brokerage work, internal dispatch and independent carrier dispatch, with attention to representation, responsibilities and current FMCSA guidance.",
+  "takeaway": "Identify who the business represents and what it actually does. Calling a service dispatch does not by itself determine its regulatory status.",
+  "sections": [
+    {
+      "id": "separate-internal-dispatch-from-an-independent-service",
+      "title": "Separate internal dispatch from an independent service",
+      "paragraphs": [
+        "The word dispatcher can describe different jobs. Someone coordinating shipments inside a brokerage is not necessarily operating the same business as an independent service retained by a motor carrier.",
+        "Luis’s lesson is a useful starting point for examining the work: finding opportunities, communicating with drivers, organizing paperwork and helping equipment stay productive. Define the role before comparing business models."
+      ]
+    },
+    {
+      "id": "ask-who-retains-and-directs-the-service",
+      "title": "Ask who retains and directs the service",
+      "paragraphs": [
+        "For an independent dispatch arrangement, identify the carrier relationship and the scope of authorization. Understand whose interests the service represents and who can make commitments.",
+        "Written agreements matter, but the actual conduct matters too. A business cannot settle every authority question simply by choosing a label for its website or invoice."
+      ]
+    },
+    {
+      "id": "trace-the-transportation-arrangement",
+      "title": "Trace the transportation arrangement",
+      "paragraphs": [
+        "Determine who communicates with the shipper or broker, who accepts the load, who selects the carrier and how the compensation works. These facts help explain the arrangement to the people reviewing it.",
+        "FMCSA’s final guidance addresses broker and bona fide agent definitions and their application to dispatch services. Consult that guidance and qualified advice for the planned activities rather than relying on one simplified test."
+      ]
+    },
+    {
+      "id": "recognize-the-practical-value-of-dispatch-work",
+      "title": "Recognize the practical value of dispatch work",
+      "paragraphs": [
+        "Luis discusses keeping trucks moving, finding useful lanes and backhauls, managing paperwork and supporting collections. Those tasks can be valuable when they fit the carrier’s operations and authorization.",
+        "A load that looks attractive in isolation may fit poorly with a driver’s availability or the next movement. Effective coordination requires understanding the truck’s actual situation, not merely forwarding a listing."
+      ]
+    },
+    {
+      "id": "define-boundaries-for-money-and-communication",
+      "title": "Define boundaries for money and communication",
+      "paragraphs": [
+        "Clarify who invoices, who receives payment and who handles a disagreement. Also identify the person responsible for status updates and shipment documents.",
+        "Payment flow is one relevant part of the arrangement, but it is not the only fact that can determine regulatory status. Avoid assuming that changing who receives a fee automatically resolves the question."
+      ]
+    },
+    {
+      "id": "choose-the-work-you-are-prepared-to-perform",
+      "title": "Choose the work you are prepared to perform",
+      "paragraphs": [
+        "If you are exploring this field, compare the daily responsibilities and the obligations behind each model. Then confirm the requirements for the business you actually plan to operate.",
+        "Use Luis’s lesson to form better questions, not as a substitute for reviewing a current agreement or authority requirement. Clear representation and responsibilities help both commercial partners and the operations team."
+      ]
+    }
+  ],
+  "videoId": "Ckw9Q4YHe9I",
+  "sourceId": "Y051",
+  "sourceTitle": "What is the Difference Between a Freight Broker vs. Freight Dispatcher",
+  "videos": [
+    {
+      "sourceId": "Y051",
+      "id": "Ckw9Q4YHe9I",
+      "title": "What is the Difference Between a Freight Broker vs. Freight Dispatcher",
+      "url": "https://www.youtube.com/watch?v=Ckw9Q4YHe9I"
+    }
+  ],
+  "approved": false,
+  "related": [
+    "co-brokering-and-dual-authority",
+    "collect-overdue-freight-invoices",
+    "freight-broker-sales-process"
+  ],
+  "reviewNotes": [
+    "Substantive correction: regulatory status is not determined solely by who pays the invoice. Current FMCSA guidance controls the framing; legal review is required for a specific arrangement."
+  ],
+  "sources": [
+    {
+      "label": "FMCSA: broker and bona fide agent definitions",
+      "url": "https://www.fmcsa.dot.gov/newsroom/fmcsa-issues-final-guidance-clarifying-broker-and-bona-fide-agents-definitions"
+    }
+  ],
+  "cover": "Freight broker vs. dispatcher: understand the role before the label",
+  "theme": "dark",
+  "minutes": 1
+}

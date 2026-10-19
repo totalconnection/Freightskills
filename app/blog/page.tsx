@@ -1,4 +1,5 @@
-import { posts } from '@/lib/posts';
+import Link from 'next/link';
+import { posts, summarizePost } from '@/lib/posts';
 import { LibrarySearch } from '@/components/library-search';
 import { Eyebrow } from '@/components/site';
 import { metadata as meta } from '@/lib/config';
@@ -21,9 +22,12 @@ export default function Blog() {
           Detailed lessons for the decisions you make in freight. Read, watch,
           and come back when you need them.
         </p>
+        <Link className="text-link" href="/videos">
+          Browse every source video ↗
+        </Link>
       </header>
       <section className="wrap library-section" aria-label="Article library">
-        <LibrarySearch posts={posts} />
+        <LibrarySearch posts={posts.map(summarizePost)} />
       </section>
     </main>
   );

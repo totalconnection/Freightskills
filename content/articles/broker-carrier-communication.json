@@ -1,0 +1,90 @@
+{
+  "slug": "broker-carrier-communication",
+  "title": "Broker–carrier communication: build a dependable working relationship",
+  "seoTitle": "Broker–Carrier Communication: A Practical Guide",
+  "topic": "operations",
+  "category": "Shipment management",
+  "searchIntent": "What should brokers and carriers communicate during a shipment?",
+  "excerpt": "Practical broker and carrier communication habits for pickup readiness, paperwork, status updates, delays, delivery and payment.",
+  "takeaway": "Reliability is reciprocal: give accurate instructions, report changes early and complete the paperwork needed to close the shipment.",
+  "sections": [
+    {
+      "id": "give-the-carrier-a-shipment-that-is-ready-to-execute",
+      "title": "Give the carrier a shipment that is ready to execute",
+      "paragraphs": [
+        "Luis asks brokers to confirm that freight is ready, the appointment is understood and the shipment details are accurate. Avoid booking a truck against assumptions that a facility can quickly disprove.",
+        "Communicate the weight, equipment needs, pickup requirements and relevant contact information. Send the agreed paperwork promptly so the carrier can check the assignment before the driver arrives."
+      ]
+    },
+    {
+      "id": "agree-on-useful-update-points",
+      "title": "Agree on useful update points",
+      "paragraphs": [
+        "Repeated status calls can interrupt work without improving visibility. Agree on the events that need reporting and the normal communication channel. Luis uses morning and afternoon updates as an example, not a universal schedule.",
+        "The appropriate cadence depends on the shipment. An exception requires communication when it becomes known, even if the next routine update is later. Everyone should know who to contact if the primary person is unavailable."
+      ]
+    },
+    {
+      "id": "report-delays-with-realistic-timing",
+      "title": "Report delays with realistic timing",
+      "paragraphs": [
+        "For carriers, the lesson is to report a problem early enough for the broker to act. An arrival estimate that sounds reassuring but is inaccurate can create additional disruption at the facility.",
+        "Luis contrasts saying a truck is twenty minutes away with a situation that will actually take two hours. That difference can affect staffing and overtime decisions. Give the best supported estimate and update it when the facts change."
+      ]
+    },
+    {
+      "id": "record-events-and-discuss-extra-charges",
+      "title": "Record events and discuss extra charges",
+      "paragraphs": [
+        "Arrival and departure times, appointment information and the reason for a delay help establish what occurred. Communicate a potential accessorial while there is still an opportunity to resolve the issue.",
+        "Documentation supports a discussion; it does not mean every requested charge is automatically payable. Review the agreement and obtain the appropriate authorization. Keep the shipper and carrier commitments aligned rather than promising a reimbursement you have not confirmed."
+      ]
+    },
+    {
+      "id": "finish-the-paperwork-safely-and-promptly",
+      "title": "Finish the paperwork safely and promptly",
+      "paragraphs": [
+        "Return the signed proof of delivery and other required documents through the agreed channel. Missing paperwork can hold up billing even after the physical shipment is complete.",
+        "Prompt does not mean asking a driver to handle documents or messages while driving. Build a safe process around the carrier’s operations. Brokers should then honor the agreed payment terms and communicate genuine billing issues clearly."
+      ]
+    },
+    {
+      "id": "treat-the-relationship-as-part-of-service-quality",
+      "title": "Treat the relationship as part of service quality",
+      "paragraphs": [
+        "Drivers and dispatchers are people working through real constraints. Respectful communication makes it easier to hear about problems before they become larger failures.",
+        "A dependable relationship is built through repeatable behavior: accurate information, accessible contacts, realistic updates, complete documents and payment under the agreement. That is more useful than calling every transaction a partnership while leaving the operational basics unclear."
+      ]
+    }
+  ],
+  "videoId": "P3kjwZWSsQI",
+  "sourceId": "Y031",
+  "sourceTitle": "5 Things Freight Brokers Can Do to Make Carriers Lives Easier",
+  "videos": [
+    {
+      "sourceId": "Y031",
+      "id": "P3kjwZWSsQI",
+      "title": "5 Things Freight Brokers Can Do to Make Carriers Lives Easier",
+      "url": "https://www.youtube.com/watch?v=P3kjwZWSsQI"
+    },
+    {
+      "sourceId": "Y023",
+      "id": "JBKTpbOcitM",
+      "title": "5 Ways Carriers Can Make Freight Broker's Job a Breeze",
+      "url": "https://www.youtube.com/watch?v=JBKTpbOcitM"
+    }
+  ],
+  "approved": false,
+  "related": [
+    "after-you-get-a-freight-order",
+    "freight-broker-daily-routine",
+    "how-freight-brokers-quote-rates"
+  ],
+  "reviewNotes": [
+    "Payment periods are contractual, not presented as a universal 14-day law. Accessorial reimbursement is not guaranteed."
+  ],
+  "sources": [],
+  "cover": "Broker–carrier communication: build a dependable working relationship",
+  "theme": "dark",
+  "minutes": 1
+}

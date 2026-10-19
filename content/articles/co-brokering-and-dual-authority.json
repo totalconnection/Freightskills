@@ -1,0 +1,95 @@
+{
+  "slug": "co-brokering-and-dual-authority",
+  "title": "Co-brokering and dual authority: make responsibilities clear",
+  "seoTitle": "Co-Brokering & Dual Authority: Roles and Responsibilities",
+  "topic": "business",
+  "category": "Brokerage foundations",
+  "searchIntent": "How do co-brokering arrangements differ from running a carrier and brokerage?",
+  "excerpt": "Understand the contracts, payment paths and operating responsibilities behind co-brokering and businesses that operate trucks and broker freight.",
+  "takeaway": "Trace who contracted with whom, who actually performs the transportation and who is responsible for payment before accepting the arrangement.",
+  "sections": [
+    {
+      "id": "draw-the-contractual-chain-before-discussing-labels",
+      "title": "Draw the contractual chain before discussing labels",
+      "paragraphs": [
+        "In a straightforward brokerage movement, the shipper engages the broker and the broker arranges transportation with a carrier. Adding another brokerage introduces another relationship that must be understood.",
+        "Luis discusses working with another broker for specialized service or capacity. The useful starting point is not whether the arrangement has a reassuring label. Identify which business tenders the load, selects the carrier, issues instructions, invoices and pays."
+      ]
+    },
+    {
+      "id": "put-the-division-of-work-in-writing",
+      "title": "Put the division of work in writing",
+      "paragraphs": [
+        "A co-broker agreement should address the specific relationship rather than leaving each side to assume the other is responsible. Discuss customer communication, carrier engagement, billing, payment and how problems will be handled.",
+        "Protection of customer and carrier relationships also needs explicit treatment. Have counsel review the actual arrangement and the applicable contracts. A signature alone does not establish that every planned activity is authorized or that every contractual risk has disappeared."
+      ]
+    },
+    {
+      "id": "check-that-the-documents-describe-the-same-movement",
+      "title": "Check that the documents describe the same movement",
+      "paragraphs": [
+        "Compare the tender, rate confirmation, bill of lading and invoice trail. Determine who accepted the shipment and who is actually performing the transportation. A mismatch deserves investigation before the load proceeds.",
+        "Clear paperwork helps operations as well as collections. When delivery is delayed or an invoice is disputed, the team should not have to guess which party can issue instructions or which agreement governs the work."
+      ]
+    },
+    {
+      "id": "separate-agreement-risk-from-credit-risk",
+      "title": "Separate agreement risk from credit risk",
+      "paragraphs": [
+        "An agreement does not make a counterparty able to pay. Luis’s broader lesson about knowing the other business applies even when the relationship has been documented.",
+        "Evaluate the payment path and credit exposure independently. Understand whether your payment depends on another party collecting first and what happens if there is a dispute. Do not treat a written arrangement as a guarantee of recovery."
+      ]
+    },
+    {
+      "id": "recognize-the-work-behind-operating-two-businesses",
+      "title": "Recognize the work behind operating two businesses",
+      "paragraphs": [
+        "A company operating trucks has driver, equipment and maintenance responsibilities that differ from brokerage operations. Adding brokerage capability does not remove those fleet obligations.",
+        "Luis’s dual-authority discussion is most useful as an operating-model question: who manages each function, how are commitments recorded and what resources does each activity require? Avoid assuming that one team or one policy automatically covers every activity."
+      ]
+    },
+    {
+      "id": "verify-the-legal-and-insurance-details-for-your-structure",
+      "title": "Verify the legal and insurance details for your structure",
+      "paragraphs": [
+        "FMCSA guidance distinguishes broker activities and bona fide agency relationships based on the work performed. Labels alone are not enough to resolve a particular arrangement.",
+        "Confirm authority, contract permissions and insurance with the appropriate professionals. This adaptation does not carry forward blanket claims that all retendering is illegal, that different ownership is always required or that insurance never responds."
+      ]
+    }
+  ],
+  "videoId": "Bv3BL7mhBRY",
+  "sourceId": "Y047",
+  "sourceTitle": "What is Co-Brokering vs. Double Brokering in Freight? | Is it illegal",
+  "videos": [
+    {
+      "sourceId": "Y047",
+      "id": "Bv3BL7mhBRY",
+      "title": "What is Co-Brokering vs. Double Brokering in Freight? | Is it illegal",
+      "url": "https://www.youtube.com/watch?v=Bv3BL7mhBRY"
+    },
+    {
+      "sourceId": "Y020",
+      "id": "y1X0qqyos0U",
+      "title": "The Truth About a Broker Carrier Dual Authority",
+      "url": "https://www.youtube.com/watch?v=y1X0qqyos0U"
+    }
+  ],
+  "approved": false,
+  "related": [
+    "collect-overdue-freight-invoices",
+    "freight-broker-surety-bond",
+    "freight-broker-sales-process"
+  ],
+  "reviewNotes": [
+    "Substantive legal correction: removed categorical statements about retendering, ownership structure and insurance. Final treatment requires review of the actual business arrangement."
+  ],
+  "sources": [
+    {
+      "label": "FMCSA: broker and bona fide agent definitions",
+      "url": "https://www.fmcsa.dot.gov/newsroom/fmcsa-issues-final-guidance-clarifying-broker-and-bona-fide-agents-definitions"
+    }
+  ],
+  "cover": "Co-brokering and dual authority: make responsibilities clear",
+  "theme": "dark",
+  "minutes": 1
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "collect-overdue-freight-invoices",
+  "title": "Collecting overdue freight invoices: start with the billing process.",
+  "seoTitle": "Collecting overdue freight invoices: start with the billing process",
+  "topic": "business",
+  "category": "Brokerage foundations",
+  "searchIntent": "What should a freight broker check when a shipper invoice is overdue?",
+  "excerpt": "Verify billing information, documents, and payment commitments before escalating an unpaid freight invoice.",
+  "takeaway": "Start with the facts of the account and a documented payment conversation. Legal collection remedies require separate review.",
+  "sections": [
+    {
+      "id": "begin-before-the-invoice-becomes-overdue",
+      "title": "Begin before the invoice becomes overdue.",
+      "paragraphs": [
+        "Luis’s collections lesson starts with the risk of extending credit. Understand the customer, assess the payment arrangement, and establish limits before relying on future collection to fund the business. A shipment can be completed successfully while its invoice still creates a financial problem.",
+        "The source recounts a customer bankruptcy that left an unpaid balance. This adaptation does not assign a precise loss amount because the transcript’s figures are not consistent. The operational point is that credit exposure deserves attention before the load is accepted."
+      ]
+    },
+    {
+      "id": "confirm-the-agreed-payment-arrangement",
+      "title": "Confirm the agreed payment arrangement.",
+      "paragraphs": [
+        "Where appropriate, agreed upfront payment or a deposit can change the exposure. The arrangement must be understood by the customer and reflected in the business process. Do not assume that a payment condition has been accepted merely because it is convenient for the broker.",
+        "For customers receiving terms, keep the billing destination, required supporting documents, and agreed timing accessible. If the team does not know how an invoice reaches accounts payable, it will be harder to distinguish an administrative delay from a disputed or unpaid obligation."
+      ]
+    },
+    {
+      "id": "contact-accounts-payable-before-assuming-intent",
+      "title": "Contact accounts payable before assuming intent.",
+      "paragraphs": [
+        "Luis recommends a direct billing conversation. Confirm that the invoice arrived at the right place and that the supporting proof of delivery or other required information was received. An invoice sent to an unattended address can remain unpaid without anyone having made a deliberate decision to refuse it.",
+        "Work through the outstanding items clearly. Identify the shipment and invoice, ask what is missing or disputed, and find out who can resolve it. The conversation should produce a specific action rather than another vague statement that someone will look into the account."
+      ]
+    },
+    {
+      "id": "document-the-response-and-the-next-step",
+      "title": "Document the response and the next step.",
+      "paragraphs": [
+        "If payment is being scheduled, ask for the identified timing and record the response. If a document is missing, send it through the correct channel and note that it was supplied. If the amount is disputed, preserve the explanation and relevant shipment communications.",
+        "The resulting chronology helps the brokerage maintain continuity. Another team member should be able to understand what was promised and when the next follow-up is due. Repeatedly reopening the same discussion without a record wastes effort and makes escalation harder to assess."
+      ]
+    },
+    {
+      "id": "separate-operational-follow-up-from-legal-remedies",
+      "title": "Separate operational follow-up from legal remedies.",
+      "paragraphs": [
+        "The source makes broad claims about liens, payment deadlines, cargo retention, and the liability of parties listed on shipping documents. Those claims have not been adopted as instructions in this article. Their applicability depends on the actual contracts, facts, and governing law and needs professional review.",
+        "Do not turn a general collections video into permission to hold freight, threaten unrelated parties, or declare a customer insolvent. The practical billing process can be improved without making those legal assumptions. The owner review notes identify the withheld statements explicitly."
+      ]
+    },
+    {
+      "id": "evaluate-formal-escalation-deliberately",
+      "title": "Evaluate formal escalation deliberately.",
+      "paragraphs": [
+        "If the account remains unresolved, organize the file before asking a qualified professional about the next step. Consider the amount, available evidence, cost of collection, likely recovery, and effect on the commercial relationship. Luis notes that outsourcing collection work can also reduce the time burden on the owner.",
+        "The decision should follow the facts of the account. Start with accurate billing and a clear conversation, preserve the record, and obtain appropriate advice on any remedy beyond ordinary follow-up. This article does not supply a threatening letter or guarantee that a particular collection action will succeed."
+      ]
+    }
+  ],
+  "videoId": "RFqJ-ZzDxWs",
+  "sourceId": "Y012",
+  "sourceTitle": "Effective Strategies for Freight Brokers: How to Collect Money from Shippers",
+  "videos": [
+    {
+      "sourceId": "Y012",
+      "id": "RFqJ-ZzDxWs",
+      "title": "Effective Strategies for Freight Brokers: How to Collect Money from Shippers",
+      "url": "https://www.youtube.com/watch?v=RFqJ-ZzDxWs"
+    }
+  ],
+  "approved": false,
+  "related": [
+    "co-brokering-and-dual-authority",
+    "freight-broker-surety-bond",
+    "freight-broker-sales-process"
+  ],
+  "reviewNotes": [
+    "LEGAL REVIEW REQUIRED: automatic broker lien transfer, universal 14-day rule, cargo retention, liability of every BOL party, and threats to disclose alleged insolvency are withheld. This is a substantive change requiring Luis review."
+  ],
+  "sources": [],
+  "cover": "Collecting overdue freight invoices: start with the billing process.",
+  "theme": "dark",
+  "minutes": 1
+}

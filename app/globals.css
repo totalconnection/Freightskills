@@ -2449,3 +2449,15 @@ p {
     font-size: 29px;
   }
 }
+
+/* Video archive: quiet, readable rows with source thumbnails. */
+.video-directory { border-top: 1px solid #dce3e6; }
+.video-directory-item { display:grid; grid-template-columns:200px 1fr; gap:32px; padding:28px 0; border-bottom:1px solid #dce3e6; align-items:center; }
+.video-directory-item h2 { font-size:clamp(1.2rem,2vw,1.65rem); line-height:1.25; margin:8px 0 14px; }
+.video-directory-item h2 a { color:inherit; text-decoration:none; }
+.video-directory-item .text-link { display:inline-flex; align-items:center; gap:6px; font-size:.9rem; }
+.lesson-thumbnail { position:relative; display:block; background:#102938; aspect-ratio:16/9; overflow:hidden; }
+.lesson-thumbnail img { width:100%; height:100%; object-fit:cover; }
+.lesson-thumbnail span { position:absolute; inset:0; display:grid; place-content:center; color:white; background:rgba(0,0,0,.18); }
+.source-video-item + .source-video-item { margin-top:32px; }
+@media(max-width:600px) { .video-directory-item { grid-template-columns:1fr; gap:16px; } .lesson-thumbnail { max-width:100%; } }

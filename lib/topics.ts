@@ -83,5 +83,33 @@ export const topics = [
       'Plan the move through equipment return.',
     ],
   },
+  {
+    slug: 'business',
+    title: 'Brokerage foundations',
+    short: 'Foundations',
+    label: 'Understand the business',
+    description:
+      'Understand brokerage roles, agreements, financial responsibility, credit, and the decisions behind starting a freight business.',
+    question: 'What should I understand before running a freight brokerage?',
+    steps: [
+      'Understand your role and responsibilities.',
+      'Review the agreements and financial requirements.',
+      'Build the knowledge needed to serve customers responsibly.',
+    ],
+  },
+  {
+    slug: 'growth',
+    title: 'Business growth',
+    short: 'Growth',
+    label: 'Build a stronger brokerage',
+    description:
+      'Develop customer relationships, operating routines, teams, and technology that support a more capable brokerage.',
+    question: 'How do I grow without losing control of the work?',
+    steps: [
+      'Identify the real constraint on your business.',
+      'Build repeatable processes and clear responsibilities.',
+      'Evaluate results before adding more complexity.',
+    ],
+  },
 ] as const;
 export type TopicSlug = (typeof topics)[number]['slug'];

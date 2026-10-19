@@ -1,0 +1,84 @@
+{
+  "slug": "evaluate-freight-rfqs",
+  "title": "How freight brokers evaluate and respond to shipper RFQs",
+  "seoTitle": "How Freight Brokers Evaluate and Respond to RFQs",
+  "topic": "quoting",
+  "category": "Quoting & rates",
+  "searchIntent": "How should a freight broker evaluate a shipper request for quotation?",
+  "excerpt": "Evaluate shipper freight RFQs by lane fit, capacity, shipment requirements and economics, then submit a clear response in the requested format.",
+  "takeaway": "Choose lanes you can support and price the real requirements. A volume forecast is not a guarantee of freight or profit.",
+  "sections": [
+    {
+      "id": "understand-what-the-shipper-is-requesting",
+      "title": "Understand what the shipper is requesting",
+      "paragraphs": [
+        "An RFQ organizes the shipper’s requested lanes, service conditions and pricing response. Before calculating a rate, determine what the submission is expected to cover and how the shipper wants it returned.",
+        "Luis uses an Arizona-to-New Jersey lane with 150 annual shipments as an illustrative example. A forecast helps frame an opportunity, but it should not be treated as a promise that every movement will be awarded or tendered."
+      ]
+    },
+    {
+      "id": "use-two-filters-execution-and-economics",
+      "title": "Use two filters: execution and economics",
+      "paragraphs": [
+        "First ask whether you can fulfill the service commitment. Then ask whether the opportunity supports the costs and work involved. Winning a lane that cannot be operated reliably is not a useful sales result.",
+        "Equipment, frequency, pickup and delivery conditions, lead time and seasonal changes can all affect the answer. Resolve missing requirements before assuming that a mileage calculation captures the shipment."
+      ]
+    },
+    {
+      "id": "prioritize-lanes-that-fit-your-capabilities",
+      "title": "Prioritize lanes that fit your capabilities",
+      "paragraphs": [
+        "Luis describes using a spreadsheet to organize lanes and focus attention. His historical preference for certain distances is a working choice from the lesson, not a universal rule for all brokerages.",
+        "Rank opportunities according to your actual network and knowledge. Carrier conversations can help test whether a lane is attractive and what constraints are likely to matter. Do not fabricate load postings to solicit prices for freight that is not available."
+      ]
+    },
+    {
+      "id": "build-rates-from-the-complete-scope",
+      "title": "Build rates from the complete scope",
+      "paragraphs": [
+        "Use appropriate rate information and carrier feedback while accounting for the conditions under which the rate will apply. Discuss fuel treatment, accessorials and changes that could affect the quote.",
+        "A contingency allowance and planned profit serve different purposes. Avoid assuming that one fixed cushion makes every lane safe. Also distinguish markup on cost from margin on revenue when evaluating your proposed rates."
+      ]
+    },
+    {
+      "id": "return-a-usable-submission",
+      "title": "Return a usable submission",
+      "paragraphs": [
+        "Follow the requested format and make qualifications clear. A buyer should be able to identify which lanes you quoted, the service assumptions and any limits without reconstructing your intent from scattered emails.",
+        "Keep a copy of the submitted version and the supporting assumptions. If the shipper comes back later with a different schedule or shipment profile, compare it with what was actually priced."
+      ]
+    },
+    {
+      "id": "keep-the-relationship-open-beyond-the-bid",
+      "title": "Keep the relationship open beyond the bid",
+      "paragraphs": [
+        "A formal award is not the only possible next step. Luis suggests asking about spot needs, exceptions or less frequent freight where you may still be useful.",
+        "That follow-up should reflect the same discipline as the RFQ: confirm the real movement, quote its actual requirements and make a commitment you can support. The objective is sustainable service rather than collecting awarded lanes that create avoidable operating problems."
+      ]
+    }
+  ],
+  "videoId": "yT3Q6VPHZDQ",
+  "sourceId": "Y045",
+  "sourceTitle": "How to Do An RFQ As a Freight Broker",
+  "videos": [
+    {
+      "sourceId": "Y045",
+      "id": "yT3Q6VPHZDQ",
+      "title": "How to Do An RFQ As a Freight Broker",
+      "url": "https://www.youtube.com/watch?v=yT3Q6VPHZDQ"
+    }
+  ],
+  "approved": false,
+  "related": [
+    "how-freight-brokers-quote-rates",
+    "freight-broker-profit-margins",
+    "carrier-qualification-process"
+  ],
+  "reviewNotes": [
+    "Review adaptation against the original lessons before publication. Historical promotions and unsupported guarantees are excluded."
+  ],
+  "sources": [],
+  "cover": "How freight brokers evaluate and respond to shipper RFQs",
+  "theme": "dark",
+  "minutes": 1
+}

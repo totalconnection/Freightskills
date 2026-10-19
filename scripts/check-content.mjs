@@ -25,3 +25,36 @@ for (const p of items) {
   );
 }
 console.log('Article sources, metadata, anchors, and related links validated.');
+const videos = JSON.parse(fs.readFileSync('content/videos.json', 'utf8'));
+const covered = new Map();
+for (const p of items) {
+  if (!p.searchIntent || !p.seoTitle || !p.videos?.length)
+    throw Error('Missing SEO intent or videos: ' + p.slug);
+  if (p.related.includes(p.slug))
+    throw Error('Self-related article: ' + p.slug);
+  for (const v of p.videos) {
+    if (covered.has(v.sourceId))
+      throw Error('Video mapped to competing articles: ' + v.sourceId);
+    const original = videos.find((x) => x.sourceId === v.sourceId);
+    if (
+      !original ||
+      original.id !== v.id ||
+      original.url !== v.url ||
+      original.articleSlug !== p.slug
+    )
+      throw Error('Video mapping mismatch: ' + v.sourceId);
+    covered.set(v.sourceId, p.slug);
+  }
+}
+for (const key of ['slug', 'seoTitle', 'excerpt', 'searchIntent']) {
+  if (new Set(items.map((p) => p[key])).size !== items.length)
+    throw Error('Duplicate ' + key);
+}
+if (
+  covered.size !== videos.length ||
+  new Set(videos.map((v) => v.id)).size !== videos.length
+)
+  throw Error('Video coverage incomplete or duplicated');
+console.log(
+  `${videos.length} unique source videos covered by ${items.length} distinct article URLs.`,
+);

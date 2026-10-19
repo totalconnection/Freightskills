@@ -1,0 +1,95 @@
+{
+  "slug": "prevent-freight-brokerage-fraud",
+  "title": "Freight brokerage fraud: verify identities before freight moves",
+  "seoTitle": "Freight Brokerage Fraud: Identity Checks Before Pickup",
+  "topic": "carriers",
+  "category": "Carrier qualification",
+  "searchIntent": "How can freight brokers reduce identity theft and cargo fraud risk?",
+  "excerpt": "Learn how stolen carrier, broker and shipper identities create freight fraud risk, and where independent checks belong in the shipment process.",
+  "takeaway": "A convincing packet is not enough. Verify the identity behind the documents and investigate mismatches before releasing freight.",
+  "sections": [
+    {
+      "id": "separate-three-identity-risks",
+      "title": "Separate three identity risks",
+      "paragraphs": [
+        "Luis distinguishes impersonation of carriers, brokers and shippers. Each can produce paperwork that appears credible while directing freight, money or sensitive information to someone other than the business you intended to engage.",
+        "In a carrier impersonation scenario, someone may accept a load under stolen credentials and ask for a fuel advance before pickup. In a broker impersonation scenario, a real carrier may receive an attractive offer from someone using another brokerage’s identity. A fake shipper can pressure a broker to begin moving freight before onboarding is complete."
+      ]
+    },
+    {
+      "id": "verify-through-an-independent-channel",
+      "title": "Verify through an independent channel",
+      "paragraphs": [
+        "Do not let a newly received email or packet supply every piece of evidence used to validate itself. Cross-check the business and contact details through official records and independently established contacts.",
+        "A phone conversation alone does not settle identity. The question is whether you reached a trustworthy contact for the business you intended to hire. Treat unexpected changes to contact details, payment instructions or pickup arrangements as reasons to pause and verify."
+      ]
+    },
+    {
+      "id": "connect-the-booked-carrier-to-the-pickup",
+      "title": "Connect the booked carrier to the pickup",
+      "paragraphs": [
+        "Luis recounts a historical container transload movement from Houston to Colorado involving multiple truckloads. The carrier relationship appeared familiar, but the freight had been retendered without the visibility he expected. Communication stopped and delivery was missed.",
+        "His operational lesson is to give the shipping facility the booked carrier’s identity and establish a process for flagging a mismatch. A different truck-door name is a discrepancy to investigate before release, not something to dismiss because a driver has the pickup number."
+      ]
+    },
+    {
+      "id": "protect-the-onboarding-process-under-pressure",
+      "title": "Protect the onboarding process under pressure",
+      "paragraphs": [
+        "Urgency is not a substitute for onboarding. Confirm the customer, carrier and shipment instructions before making commitments that depend on their authenticity. Keep sensitive documents within verified business channels.",
+        "Be especially careful when a new relationship immediately requires unusual advances or changes to normal handling. These are prompts for verification, not automatic proof of wrongdoing. Judge the transaction and evidence rather than a person’s accent, nationality or email provider."
+      ]
+    },
+    {
+      "id": "escalate-a-suspected-problem-through-documented-channels",
+      "title": "Escalate a suspected problem through documented channels",
+      "paragraphs": [
+        "Preserve the tender, correspondence, carrier information, pickup records and timeline. Contact the relevant verified businesses and appropriate authorities or reporting channels as the circumstances require.",
+        "The historical recovery story illustrates how difficult a loss of visibility can become. It is not a recommendation to confront individuals or attempt private cargo recovery. Make safety and a documented response part of the escalation process."
+      ]
+    },
+    {
+      "id": "build-checks-into-ordinary-operations",
+      "title": "Build checks into ordinary operations",
+      "paragraphs": [
+        "Fraud prevention works better when it is part of booking and pickup than when someone tries to reconstruct everything after delivery is missed. Assign responsibility for identity checks and for resolving facility discrepancies.",
+        "Pair those checks with carrier qualification and clear communication. A verified company still needs to be suitable for the shipment, and a suitable carrier still needs an authenticated booking."
+      ]
+    }
+  ],
+  "videoId": "-gcH03iCOcs",
+  "sourceId": "Y017",
+  "sourceTitle": "Top 3 Scams in the Freight Broker Industry - Stay Alert and Protect Your Business! ⚠️🚚",
+  "videos": [
+    {
+      "sourceId": "Y017",
+      "id": "-gcH03iCOcs",
+      "title": "Top 3 Scams in the Freight Broker Industry - Stay Alert and Protect Your Business! ⚠️🚚",
+      "url": "https://www.youtube.com/watch?v=-gcH03iCOcs"
+    },
+    {
+      "sourceId": "Y010",
+      "id": "v3FAeWFZ4lA",
+      "title": "Someone Double Brokered Our Loads",
+      "url": "https://www.youtube.com/watch?v=v3FAeWFZ4lA"
+    }
+  ],
+  "approved": false,
+  "related": [
+    "carrier-qualification-process",
+    "post-loads-and-find-carriers",
+    "after-you-get-a-freight-order"
+  ],
+  "reviewNotes": [
+    "Omitted nationality/accent-based suspicion and unsafe recovery tactics. Historical incident is attributed to Luis rather than independently verified. Verify the final prevention language against current FMCSA guidance before approval."
+  ],
+  "sources": [
+    {
+      "label": "FMCSA: fraud alerts",
+      "url": "https://www.fmcsa.dot.gov/registration/fraud-alerts"
+    }
+  ],
+  "cover": "Freight brokerage fraud: verify identities before freight moves",
+  "theme": "dark",
+  "minutes": 1
+}

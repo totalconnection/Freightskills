@@ -40,6 +40,7 @@ export function Header() {
         <nav className="desktop-nav" aria-label="Main navigation">
           <Link href="/learn">Learn</Link>
           <Link href="/blog">Articles</Link>
+          <Link href="/videos">Videos</Link>
           <Link href="/resources">Resources</Link>
           <Link href="/about">About</Link>
         </nav>
@@ -121,6 +122,7 @@ export function Footer() {
           <span className="eyebrow">THE LIBRARY</span>
           <Link href="/learn">Explore topics</Link>
           <Link href="/blog">All articles</Link>
+          <Link href="/videos">All videos</Link>
           <Link href="/resources">Resources</Link>
         </div>
         <div>

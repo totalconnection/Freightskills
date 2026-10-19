@@ -1,0 +1,95 @@
+{
+  "slug": "freight-factoring-for-brokers",
+  "title": "Freight factoring for brokers: compare cash flow, workload, and risk.",
+  "seoTitle": "Freight factoring for brokers: compare cash flow, workload, and risk",
+  "topic": "business",
+  "category": "Brokerage foundations",
+  "searchIntent": "Should a freight broker factor invoices or fund carrier payments directly?",
+  "excerpt": "Understand the funding gap, the work behind collections, and the contract questions that matter when evaluating freight factoring.",
+  "takeaway": "Compare the total operating arrangement, not just the advertised fee. Funding, administration, and credit-risk allocation are separate questions.",
+  "sections": [
+    {
+      "id": "understand-the-gap-between-paying-and-collecting",
+      "title": "Understand the gap between paying and collecting.",
+      "paragraphs": [
+        "Luis explains factoring through the timing problem a brokerage can face: carriers need payment while customer invoices remain outstanding. A profitable shipment on paper does not mean the cash needed for the next payment is already available.",
+        "His examples describe customers paying well after the brokerage wanted to pay carriers. Those timing figures are historical operating examples, not promised payment terms or current industry standards. The relevant question is how your actual obligations and collections fit together."
+      ]
+    },
+    {
+      "id": "know-what-the-transaction-changes",
+      "title": "Know what the transaction changes.",
+      "paragraphs": [
+        "Factoring involves selling receivables under an agreement in exchange for earlier funds. The source uses a simple illustration: a hundred-dollar invoice sold at a three-percent discount leaves ninety-seven dollars before any other contractual adjustments. This is an arithmetic example, not a current fee quote.",
+        "The agreement determines the real arrangement. Ask what is advanced, what may be reserved, when funds become available, what fees apply, and what documents are required. A headline percentage cannot explain the entire effect on the brokerage’s cash flow."
+      ]
+    },
+    {
+      "id": "do-not-treat-all-cash-as-spare-operating-capital",
+      "title": "Do not treat all cash as spare operating capital.",
+      "paragraphs": [
+        "The companion lesson addresses an owner with savings who assumes self-funding is obviously cheaper. Luis asks that owner to distinguish available cash from money already needed for carrier obligations, personal needs, and business reserves.",
+        "A delay or default can affect more than one invoice if the same cash is needed to keep paying other obligations. Look at how the business would function while a balance remains unpaid. That question belongs alongside the fee comparison."
+      ]
+    },
+    {
+      "id": "include-the-work-performed-behind-the-funding",
+      "title": "Include the work performed behind the funding.",
+      "paragraphs": [
+        "Luis’s own self-funded operation is described as using an accounting team, bank borrowing, and established processes. It is not simply a decision to leave cash in an account until someone requests payment. Billing, delivery-document collection, credit review, collections, and supervision all require work.",
+        "When comparing arrangements, determine who will perform those tasks and what support is actually included. Outsourcing a task can have value, but only if the agreement and service match the work you need. Avoid assigning value to a function merely because it appears in a sales description."
+      ]
+    },
+    {
+      "id": "read-the-risk-allocation-and-approval-limits",
+      "title": "Read the risk allocation and approval limits.",
+      "paragraphs": [
+        "The lessons distinguish recourse and non-recourse arrangements, but the source language sometimes overstates how much risk disappears. The safe comparison is the actual contract: which nonpayment events are covered, which disputes or exclusions remain, and what the broker may have to repay.",
+        "Luis also gives an example of a provider approving only part of the exposure proposed for a customer. An approval limit matters because work beyond it may not be treated the same way. Funding availability and credit-risk transfer should be evaluated separately rather than assumed from the product name."
+      ]
+    },
+    {
+      "id": "choose-an-arrangement-the-operation-can-sustain",
+      "title": "Choose an arrangement the operation can sustain.",
+      "paragraphs": [
+        "Compare the timing of funds, documentation burden, collection support, fees, credit limits, and treatment of disputes. Then compare that with the resources required to manage the same work internally. Neither having savings nor seeing a low advertised fee settles the decision by itself.",
+        "The lesson is to examine the whole process. This adaptation excludes historic affiliate offers and treats the source’s broad risk-elimination statements as review items. No provider, current fee, or financial outcome is being promised."
+      ]
+    }
+  ],
+  "videoId": "2JhVDNV3aOg",
+  "sourceId": "Y025",
+  "sourceTitle": "Freight Factoring for Freight Brokers | Manage Cash Flow like a Pro",
+  "videos": [
+    {
+      "sourceId": "Y025",
+      "id": "2JhVDNV3aOg",
+      "title": "Freight Factoring for Freight Brokers | Manage Cash Flow like a Pro",
+      "url": "https://www.youtube.com/watch?v=2JhVDNV3aOg"
+    },
+    {
+      "sourceId": "Y013",
+      "id": "CzVCpc4pUZY",
+      "title": "Factoring Invoices as a Freight Broker: Should You Do It Even If You Can Afford Not To?",
+      "url": "https://www.youtube.com/watch?v=CzVCpc4pUZY"
+    }
+  ],
+  "approved": false,
+  "related": [
+    "co-brokering-and-dual-authority",
+    "collect-overdue-freight-invoices",
+    "freight-broker-sales-process"
+  ],
+  "reviewNotes": [
+    "Owner review required: non-recourse factoring is not described as eliminating every risk. Historical percentages are examples only; inaccurate fee arithmetic and affiliate promotion removed."
+  ],
+  "sources": [
+    {
+      "label": "CFPB: definition of factoring as a receivables purchase transaction",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1002/2026-06-30/interp-104/"
+    }
+  ],
+  "cover": "Freight factoring for brokers: compare cash flow, workload, and risk.",
+  "theme": "dark",
+  "minutes": 1
+}

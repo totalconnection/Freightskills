@@ -1,0 +1,90 @@
+{
+  "slug": "post-loads-and-find-carriers",
+  "title": "How freight brokers post loads and search for available carriers",
+  "seoTitle": "How to Post Loads and Find Available Carriers",
+  "topic": "carriers",
+  "category": "Carrier qualification",
+  "searchIntent": "What should a broker include in a load posting and carrier search?",
+  "excerpt": "Create clearer load postings and evaluate carrier matches using dates, equipment, shipment requirements, availability and lane fit.",
+  "takeaway": "A load posting starts a conversation. Accurate details and a current carrier search help you find a truck that can actually perform the shipment.",
+  "sections": [
+    {
+      "id": "start-with-confirmed-shipment-information",
+      "title": "Start with confirmed shipment information",
+      "paragraphs": [
+        "Luis’s demonstrations use historical load-board screens. The durable lesson is to gather the load details before posting, not to reproduce an old sequence of buttons in today’s software.",
+        "Confirm pickup and delivery locations, dates, operating hours, equipment, weight and commodity. Clarify whether the movement requires a full truck or partial space and what loading or unloading services apply."
+      ]
+    },
+    {
+      "id": "make-the-requirements-easy-to-recognize",
+      "title": "Make the requirements easy to recognize",
+      "paragraphs": [
+        "Special requirements should not be discovered after a carrier accepts. Include relevant handling and equipment needs and provide an appropriate contact or reference for the load.",
+        "Liftgate service, driver assistance or other requirements can materially affect suitability and price. Obtain reliable dimensions and handling information rather than guessing usable space from a pallet count. Equipment capacity must be checked for the actual movement."
+      ]
+    },
+    {
+      "id": "post-only-freight-you-can-genuinely-offer",
+      "title": "Post only freight you can genuinely offer",
+      "paragraphs": [
+        "A posting should represent an actual opportunity and its real conditions. Keep the information current as availability, timing or requirements change.",
+        "Luis discusses a preference for inviting a carrier’s price rather than always posting a rate. Treat that as a negotiating approach, not a rule that applies to every platform or situation. A posted number also needs to be distinguished from the final agreed rate and scope."
+      ]
+    },
+    {
+      "id": "search-actively-instead-of-waiting-only-for-calls",
+      "title": "Search actively instead of waiting only for calls",
+      "paragraphs": [
+        "Review available trucks for date, equipment and location fit. Consider whether the information is recent enough to be useful and contact the carrier to confirm actual availability.",
+        "A nearby truck is not necessarily the best match. Deadhead, the driver’s schedule and preferred direction all affect whether the movement works. The load board provides leads; it does not complete the suitability check."
+      ]
+    },
+    {
+      "id": "understand-the-carrier-s-lane-fit",
+      "title": "Understand the carrier’s lane fit",
+      "paragraphs": [
+        "Luis uses the example of a Houston-to-New Jersey movement that may fit a carrier’s desired return direction. The broader point is to understand why the load is useful to that carrier.",
+        "Ask about timing and destination preferences without assuming that a home location proves availability. Confirm the shipment requirements, then complete qualification and identity verification before booking. A good geographic match does not replace those checks."
+      ]
+    },
+    {
+      "id": "close-the-loop-when-the-load-is-covered",
+      "title": "Close the loop when the load is covered",
+      "paragraphs": [
+        "Document the agreed shipment and rate, send the necessary confirmation and remove or update the posting when the opportunity is no longer available. Keeping obsolete freight visible creates unnecessary calls and confusion.",
+        "Use the same confirmed information throughout the posting, carrier conversation and shipment documents. Consistency reduces the chance that the truck arrives expecting a different load from the one the facility is prepared to release."
+      ]
+    }
+  ],
+  "videoId": "a98VGHcd148",
+  "sourceId": "Y055",
+  "sourceTitle": "Freight Broker Step By Step: How to Post a Load on DAT Loadboard",
+  "videos": [
+    {
+      "sourceId": "Y055",
+      "id": "a98VGHcd148",
+      "title": "Freight Broker Step By Step: How to Post a Load on DAT Loadboard",
+      "url": "https://www.youtube.com/watch?v=a98VGHcd148"
+    },
+    {
+      "sourceId": "Y042",
+      "id": "VPVa_xQmNM8",
+      "title": "How to Post a Load on DAT Power | DAT Express",
+      "url": "https://www.youtube.com/watch?v=VPVa_xQmNM8"
+    }
+  ],
+  "approved": false,
+  "related": [
+    "carrier-qualification-process",
+    "prevent-freight-brokerage-fraud",
+    "after-you-get-a-freight-order"
+  ],
+  "reviewNotes": [
+    "Historical DAT interface is not presented as current instructions. Omitted payload/GVW conflation, simplistic space calculations and unsupported securement guidance. No fictitious load postings are recommended."
+  ],
+  "sources": [],
+  "cover": "How freight brokers post loads and search for available carriers",
+  "theme": "dark",
+  "minutes": 1
+}

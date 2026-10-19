@@ -74,11 +74,19 @@
   ],
   "approved": false,
   "related": [
-    "how-freight-brokers-quote-rates",
-    "after-you-get-a-freight-order",
-    "carrier-qualification-process"
+    "how-freight-brokers-quote-rates"
   ],
   "cover": "How LTL freight moves—and why the details matter.",
   "theme": "dark",
-  "minutes": 5
+  "minutes": 5,
+  "videos": [
+    {
+      "sourceId": "Y038",
+      "id": "rGpVE2JwJqA",
+      "title": "LTL Freight Explained | What is it and how does it move?",
+      "url": "https://www.youtube.com/watch?v=rGpVE2JwJqA"
+    }
+  ],
+  "seoTitle": "How LTL freight moves—and why the details matter.",
+  "searchIntent": "How LTL freight moves—and why the details matter."
 }

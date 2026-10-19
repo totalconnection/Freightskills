@@ -1,11 +1,7 @@
-import prospecting from '@/content/articles/research-before-the-sales-call.json';
-import quoting from '@/content/articles/how-freight-brokers-quote-rates.json';
-import carriers from '@/content/articles/carrier-qualification-process.json';
-import operations from '@/content/articles/after-you-get-a-freight-order.json';
-import ltl from '@/content/articles/how-ltl-freight-moves.json';
-import drayage from '@/content/articles/container-drayage-explained.json';
-import { posts as legacy } from './legacy-posts';
+import { articleCatalog } from '@/content/article-index';
 import { isProduction } from './config';
+import { readingMinutes } from './article-utils';
+export { readingMinutes } from './article-utils';
 export type Section = {
   id: string;
   title: string;
@@ -13,6 +9,9 @@ export type Section = {
   bullets?: string[];
 };
 export type Post = {
+  seoTitle: string;
+  searchIntent: string;
+  videos: { sourceId: string; id: string; title: string; url: string }[];
   slug: string;
   title: string;
   category: string;
@@ -31,36 +30,21 @@ export type Post = {
   related: string[];
   reviewNotes?: string[];
 };
-const launch = [
-  prospecting,
-  quoting,
-  carriers,
-  operations,
-  ltl,
-  drayage,
-] as Post[];
-const archive: Post[] = legacy
-  .filter((p) => !launch.some((n) => n.slug === p.slug))
-  .map((p) => ({
-    ...p,
-    topic: 'operations',
-    approved: false,
-    sources: [],
-    related: ['after-you-get-a-freight-order'],
-  }));
-export const allPosts = [...launch, ...archive];
+
+export const allPosts = articleCatalog as Post[];
 export const posts = allPosts.filter((p) => !isProduction || p.approved);
-export function readingMinutes(p: Post) {
-  return Math.max(
-    1,
-    Math.ceil(
-      p.sections.reduce(
-        (sum, s) =>
-          sum +
-          s.paragraphs.join(' ').split(/\s+/).length +
-          (s.bullets || []).join(' ').split(/\s+/).length,
-        0,
-      ) / 220,
-    ),
-  );
+export type ArticleSummary = Pick<
+  Post,
+  'slug' | 'title' | 'topic' | 'category' | 'excerpt' | 'searchIntent'
+> & { minutes: number };
+export function summarizePost(p: Post): ArticleSummary {
+  return {
+    slug: p.slug,
+    title: p.title,
+    topic: p.topic,
+    category: p.category,
+    excerpt: p.excerpt,
+    searchIntent: p.searchIntent,
+    minutes: readingMinutes(p),
+  };
 }
