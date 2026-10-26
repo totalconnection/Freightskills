@@ -4,41 +4,37 @@ import { Eyebrow } from '@/components/site';
 import { metadata as meta } from '@/lib/config';
 export const metadata = meta(
   'Freight brokerage resources & guides',
-  'Find Freightskills resources for drayage, carrier onboarding, prospecting, shipper objections and follow-up.',
+  'Free PDF guides for drayage, carrier vetting, freight sales, customer research and niche prospecting.',
   '/resources',
 );
 export default function Resources() {
   return (
     <main id="main">
       <header className="page-hero wrap">
-        <Eyebrow>THE RESOURCE LIBRARY</Eyebrow>
-        <h1>
-          Keep the useful
-          <br />
-          <span>details close.</span>
-        </h1>
+        <Eyebrow>The resource library</Eyebrow>
+        <h1>Free guides for freight brokers.</h1>
         <p className="lead">
-          Explore guides for the conversations and decisions behind a shipment.
+          Checklists and guides to help you research shippers, prepare for
+          conversations and organize the details of a shipment.
         </p>
       </header>
       <section className="wrap resource-grid">
-        {resources.map((r, i) => (
+        {resources.map((r) => (
           <article className="resource-card" key={r.slug}>
+            <Link href={`/${r.slug}`} aria-label={`Explore the ${r.title}`}><img className="resource-card-cover" src={r.file.cover} alt={`${r.title} cover`} width="800" height="448" loading="lazy" /></Link>
             <div className="resource-number">
-              0{i + 1}
               <span>{r.category}</span>
             </div>
             <div className="resource-body">
               <h2>{r.title}</h2>
               <p>{r.description}</p>
               <Link className="text-link" href={`/${r.slug}`}>
-                Get the free resource ↗
+                Explore the guide ↗
               </Link>
             </div>
           </article>
         ))}
       </section>
-
     </main>
   );
 }

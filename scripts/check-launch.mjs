@@ -8,6 +8,15 @@ if (process.env.SITE_LAUNCH_APPROVED !== 'true')
   errors.push('Owner approval of finished production preview is required.');
 if (!process.env.STUDENT_PORTAL_URL?.startsWith('https://'))
   errors.push('Verified HTTPS student portal destination is missing.');
+const webinar = JSON.parse(fs.readFileSync('content/webinar.json', 'utf8'));
+if (!webinar.approved)
+  errors.push(
+    'Webinar title and learning points require review against the presentation.',
+  );
+if (!webinar.registration?.verified)
+  errors.push(
+    'Webinar registration requires a verified ActiveCampaign form, privacy/consent copy and tested webinar access.',
+  );
 for (const p of articles) {
   if (!p.approved) errors.push(`${p.slug}: article approval pending.`);
   if (

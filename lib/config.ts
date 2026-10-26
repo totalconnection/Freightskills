@@ -1,7 +1,10 @@
 // Indexing and editorial publication require separate, deliberate launch settings.
 export const isProduction = process.env.SITE_LAUNCH_APPROVED === 'true';
 export const siteUrl = 'https://freightskills.com';
-export const portalUrl = process.env.STUDENT_PORTAL_URL || '';
+export const freeTrainingUrl = '/webinar-register';
+export const portalUrl =
+  process.env.STUDENT_PORTAL_URL ||
+  'https://broker-training-production.up.railway.app/login';
 export function metadata(title: string, description: string, path: string) {
   return {
     title,

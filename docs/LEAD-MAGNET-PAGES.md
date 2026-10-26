@@ -1,33 +1,44 @@
 # Free-resource landing pages
 
-Five existing URLs now have dedicated conversion-focused landing pages:
+Updated October 25, 2026. The same three-step form now serves the five preserved URLs:
 
 - /drayage-checklist
 - /niche-resource
-- /onboarding-guide
 - /shipper-objections
+- /onboarding-guide
 - /follow-up-guide
 
-Scope: local preview. Preserve original URLs and the approved navy/white/green visual direction. The page removes the main browsing navigation, explains one specific resource, offers an email-first form (first name optional), includes use guidance and FAQs, and repeats the same CTA. Mobile gets a visible jump to the form. No testimonials, scarcity, download counts, earnings claims or conversion-rate promises have been invented. The niche resource's existing title is retained; no profitability guarantee is added. Blog hero images are unchanged.
+## Current behavior
 
-## Evidence and limits
+1. First name and last name, both required. Side by side where space allows.
+2. Email address, required and validated before continuing.
+3. Phone number, optional. Either leave it blank and finish or use “Skip phone number.”
 
-Titles, formats and benefits come from the preexisting resource catalog. Live resource URLs could not be fetched by the research tool. No final downloadable files or ActiveCampaign form configuration have been confidently matched to these five public magnets. Separate course materials found locally have not been repurposed as free downloads. The owner has been asked whether newer versions exist.
+Back preserves the entries while the form is open. Progress, labels, validation messages, keyboard submission, and focus changes are accessible. Phone numbers allow common international formatting. Narrow phones stack the name fields. Page CTAs jump to the focusable form.
 
-The resource overview panels are HTML descriptions, not screenshots of a verified downloadable file. Final copy should be checked against the confirmed resource versions before traffic is sent.
+This is an interactive design preview, with ActiveCampaign explicitly deferred by the owner. The final action shows “Preview complete” and states that nothing was submitted or emailed. All entered values are cleared at completion. No form action, network submission, cookies, local/session storage, email enrollment, download fulfillment, or SMS enrollment is implemented. Fields remain disabled until the client handler is attached, so the unhydrated/native form cannot accidentally submit personal details in the URL.
 
-## Connect delivery
+The shared implementation is `components/resource-form.tsx` with `components/resource-form.css`. The resource route keys the form by slug, so switching guides resets the previous form's state. No new library or integration was added.
 
-1. Confirm the final public resource files and the owner's intended delivery flow.
-2. Create a separate ActiveCampaign form and delivery automation for each resource. Configure the resource identifier/tag and any double-opt-in behavior there. Keep resource fulfillment separate from any optional marketing subscription unless the approved consent explicitly covers it.
-3. Copy the public form action and hidden fields from the actual ActiveCampaign embed into lib/resource-forms.ts. No API key belongs in browser code. The current adapter expects the native ActiveCampaign /proc.php form format on an activehosted.com subdomain, with firstname and email fields; inspect the actual embed before enabling. If another field or script is required, adapt the integration first.
-4. Add the approved privacy link and consent copy. Match the confirmation copy to the actual flow. Do not promise immediate delivery if confirmation is required.
-5. Test a real submission per resource: correct contact, resource tag, confirmation, correct email/file, repeat requests, invalid email, and mobile/accessibility behavior. Configure provider-side abuse protection. Mark the configuration verified only after that test.
-6. Record campaign attribution using supported provider fields once their exact identifiers are known; do not invent field names. Measure successful confirmed requests/delivery rather than treating button clicks as conversions.
-7. Replace the launch blocker only after evidence of complete delivery. Public site launch remains separately controlled.
+## Content and publication
 
-Until configured, inputs and submission are disabled, and a clear design-preview note says no information is collected. No fabricated success state or local storage of leads is used. The live site's existing delivery system has not been changed.
+The five live reference pages were inspected on October 25, 2026. They use legacy embedded LeadConnector forms. Those embeds were not reused. Existing titles, page copy, routes, canonical URLs, and the current charcoal/cream/orange design are retained. This change does not revise the underlying guides or invent missing downloads. Resource-file matching and content review are separate work before real delivery is enabled.
+
+Publish this update only to the existing owner-private Site. The public freightskills.com domain and its existing forms are not changed. Preview pages retain noindex/nofollow and the public-launch guard.
+
+## Connect delivery later
+
+- Confirm the correct final download for each of the five pages.
+- Add the approved email subscription/privacy wording. A phone number alone must not trigger SMS enrollment.
+- Inspect the actual ActiveCampaign form or API contract. The existing `lib/resource-forms.ts` registry is not connected to this preview component; populating it alone will not enable submission. Map first name, last name, email, optional phone, resource ID, and supported attribution fields deliberately. Keep credentials server-side.
+- Replace the preview completion with the actual verified outcome. Handle provider errors, duplicate/repeated requests, and retry behavior without losing entries or falsely claiming delivery.
+- Test contact creation, resource tags, consent handling, the correct email/file, and mobile submission before enabling real collection. Preserve the public-launch gate until delivery and the rest of the launch checklist are ready.
 
 ## Validation
 
-TypeScript and production build pass. The local HTTP crawl checked 60 routes and six local image assets with no failures, including all five lead-magnet paths. Staging noindex remains in place. Browser visual/interaction QA remains unavailable under the environment's browser-control policy; HTTP checks do not verify rendered layout. Email delivery is deliberately untested and disabled pending configuration.
+- TypeScript and whitespace checks passed.
+- All five routes completed the form in the browser with synthetic test details.
+- Checked missing names, invalid email, invalid optional phone, an international-format phone, blank-phone completion, explicit phone skipping, preserved Back values, cleared completion values, keyboard Enter, and focus handling.
+- Checked the 390px mobile form and all five layouts at 320px without horizontal overflow.
+- Existing canonical URLs and noindex/nofollow verified.
+- ActiveCampaign and email delivery are intentionally untested and unconnected.

@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { headers } from 'next/headers';
+import { notFound, redirect } from 'next/navigation';
 import { ArrowRight, Check, FileText } from 'lucide-react';
-import { resources } from '@/lib/resources';
+import { resources, resourceAliases } from '@/lib/resources';
 import { resourceLanding, type ResourceSlug } from '@/lib/resource-landing';
-import { getResourceForm } from '@/lib/resource-forms';
 import { ResourceForm } from '@/components/resource-form';
 import { Logo, Eyebrow } from '@/components/site';
 import { metadata as meta } from '@/lib/config';
@@ -18,10 +18,11 @@ export async function generateMetadata({ params }: Props) {
 }
 export default async function Resource({ params }: Props) {
   const { resource } = await params;
+  if (resourceAliases[resource]) redirect('/'+resourceAliases[resource]);
   const r = resources.find((r) => r.slug === resource);
   if (!r) notFound();
   const copy = resourceLanding[r.slug as ResourceSlug];
-  const settings = getResourceForm(r.slug as ResourceSlug);
+  const isUSVisitor = (await headers()).get('cf-ipcountry') === 'US';
   return (
     <main id="main" className="lead-landing">
       <header className="magnet-header wrap">
@@ -60,11 +61,7 @@ export default async function Resource({ params }: Props) {
               </div>
             </div>
           </div>
-          <ResourceForm
-            title={r.title}
-            action={copy.action}
-            settings={settings}
-          />
+          <ResourceForm key={r.slug} slug={r.slug} isUSVisitor={isUSVisitor} title={r.title} action={copy.action} />
         </div>
       </section>
       <section className="magnet-fit">
@@ -82,6 +79,7 @@ export default async function Resource({ params }: Props) {
         <div className="magnet-outline">
           <FileText size={26} aria-hidden="true" />
           <p className="eyebrow">WHAT YOU’LL GET</p>
+          <img className="resource-landing-cover" src={r.file.cover} alt={`${r.title} cover`} width="800" height="448" loading="lazy" />
           <h3>{r.title}</h3>
           <p>{r.format}</p>
           <ol>
@@ -125,9 +123,14 @@ export default async function Resource({ params }: Props) {
           <details>
             <summary>How do I receive it?</summary>
             <p>
-              {settings
-                ? 'Request the resource using the form on this page and follow the confirmation instructions.'
-                : 'Email delivery will be connected before this page launches. The form in this design preview does not collect or send information.'}
+              Complete the form and you’ll go straight to a thank-you page with your PDF download and an optional invitation to the free FreightSkills community.
+            </p>
+          </details>
+          <details>
+            <summary>Do I need to provide a phone number?</summary>
+            <p>
+              No. First name, last name and email are required. You can leave
+              the phone field empty or choose “Skip phone number.”
             </p>
           </details>
         </div>

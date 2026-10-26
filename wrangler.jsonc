@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "freightskills",
+  "main": "vinext/server/fetch-handler",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": { "SITE_LAUNCH_APPROVED": "true" },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "freightskills-leads",
+    "database_id": "350e9824-5ec2-4dc8-a728-45d5b6e5d342",
+    "migrations_dir": "drizzle"
+  }]
+}

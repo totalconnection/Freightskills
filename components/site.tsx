@@ -1,34 +1,17 @@
 import Link from 'next/link';
-import { ArrowUpRight, ArrowRight } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 import { MobileNav } from './mobile-nav';
-import { portalUrl } from '@/lib/config';
+import { portalUrl, freeTrainingUrl } from '@/lib/config';
 export const SKOOL_URL = 'https://www.skool.com/freightskills-community-5835';
 export function Logo() {
   return (
     <Link href="/" className="brand" aria-label="Freightskills home">
-      <svg
-        width="29"
-        height="37"
-        viewBox="0 0 82 105"
-        fill="none"
-        aria-hidden="true"
-      >
-        <path
-          d="M55 9 22 28v34l26 15 12-7"
-          stroke="currentColor"
-          strokeWidth="10"
-          strokeLinejoin="round"
-        />
-        <path
-          d="m28 95 32-19V43L35 29l-12 7"
-          stroke="currentColor"
-          strokeWidth="10"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span>
-        <b>Freight</b>skills<span className="brand-period">.</span>
-      </span>
+      <img
+        src="/brand/freightskills-logo.svg"
+        alt="Freightskills"
+        width="1024"
+        height="377"
+      />
     </Link>
   );
 }
@@ -38,11 +21,11 @@ export function Header() {
       <div className="wrap nav">
         <Logo />
         <nav className="desktop-nav" aria-label="Main navigation">
-          <Link href="/learn">Learn</Link>
-          <Link href="/blog">Articles</Link>
-          <Link href="/videos">Videos</Link>
-          <Link href="/resources">Resources</Link>
-          <Link href="/about">About</Link>
+          <Link href="/trainings">Trainings</Link>
+          <Link href="/learn">Lesson library</Link>
+          <Link href="/resources">Free resources</Link>
+          <Link href="/blog">Blog</Link>
+          <Link href="/about">About Luis</Link>
         </nav>
         {portalUrl ? (
           <a className="nav-utility" href={portalUrl}>
@@ -88,15 +71,11 @@ export function CommunityBand() {
     <section className="community-band">
       <div className="wrap band-inner">
         <div>
-          <Eyebrow>KEEP THE CONVERSATION GOING</Eyebrow>
-          <h2>
-            Good questions.
-            <br />
-            Better conversations.
-          </h2>
+          <Eyebrow>Freightskills on Skool</Eyebrow>
+          <h2>Have a freight question?</h2>
           <p>
-            Connect with other freight professionals in the Freightskills
-            community.
+            Bring it to the Freightskills community. Discuss the lessons and
+            connect with other freight professionals.
           </p>
         </div>
         <Link href="/community" className="button light">
@@ -113,35 +92,30 @@ export function Footer() {
         <div>
           <Logo />
           <p>
-            Practical freight knowledge.
-            <br />
-            For the work ahead.
+            Practical training to help freight businesses improve sales,
+            operations and the way they use modern tools.
           </p>
         </div>
         <div>
-          <span className="eyebrow">THE LIBRARY</span>
+          <span className="eyebrow">Learn with Freightskills</span>
+          <Link href="/trainings">Workshops & trainings</Link>
+          <Link href={freeTrainingUrl}>Free webinar</Link>
           <Link href="/learn">Explore topics</Link>
           <Link href="/blog">All articles</Link>
           <Link href="/videos">All videos</Link>
           <Link href="/resources">Resources</Link>
         </div>
         <div>
-          <span className="eyebrow">FREIGHTSKILLS</span>
+          <span className="eyebrow">Stay connected</span>
           <Link href="/about">About Luis</Link>
           <Link href="/community">Community</Link>
           <a href="https://www.youtube.com/@freightskills">YouTube ↗</a>
           {portalUrl && <a href={portalUrl}>Student login ↗</a>}
         </div>
-        <div className="footer-note">
-          Learn the skills.
-          <br />
-          Understand the freight.
-          <ArrowRight size={28} />
-        </div>
       </div>
       <div className="wrap footer-bottom">
         <span>© {new Date().getFullYear()} Freightskills.</span>
-        <span>Prospecting. Quoting. Carriers. Operations.</span>
+        <span>Freight business training</span>
       </div>
     </footer>
   );

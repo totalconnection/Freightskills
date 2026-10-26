@@ -12,23 +12,17 @@ export default function Learn() {
   return (
     <main id="main">
       <header className="page-hero wrap">
-        <Eyebrow>CHOOSE YOUR STARTING POINT</Eyebrow>
-        <h1>
-          Learn the work.
-          <br />
-          <span>Build the skill.</span>
-        </h1>
+        <Eyebrow>Free freight broker training</Eyebrow>
+        <h1>What do you want to learn?</h1>
         <p className="lead">
-          A clear way into the library, organized around the jobs you need to
-          get done.
+          Explore the lessons by topic, from finding your first shipper to
+          managing specialized freight.
         </p>
       </header>
       <section className="wrap topic-grid">
-        {topics.map((t, i) => (
+        {topics.map((t) => (
           <Link className="topic-card" href={`/learn/${t.slug}`} key={t.slug}>
-            <span className="micro">
-              0{i + 1} / {t.label.toUpperCase()}
-            </span>
+            <span className="micro">{t.label}</span>
             <h2>{t.title}</h2>
             <p>{t.description}</p>
             <span className="text-link">

@@ -1,0 +1,50 @@
+{
+  "title": "Build a Better Freight Business",
+  "description": "A practical approach to sales, operations and modern tools for companies that move freight.",
+  "approved": false,
+  "registration": null,
+  "learningPoints": [
+    {
+      "title": "Find and win the right customers",
+      "description": "Connect your positioning, prospecting and follow-up into a more consistent sales process."
+    },
+    {
+      "title": "Strengthen the way you operate",
+      "description": "Use clearer processes and responsibilities to support your team and the customers you serve."
+    },
+    {
+      "title": "Make modern tools useful",
+      "description": "Identify where technology and automation can help with the work your business already does."
+    },
+    {
+      "title": "Choose your next growth opportunity",
+      "description": "Consider additional services and freight modes in the context of your customers, capabilities and goals."
+    }
+  ],
+  "challenges": [
+    {
+      "title": "Unclear positioning",
+      "description": "You need a clearer way to explain who you serve and why a customer should choose your business."
+    },
+    {
+      "title": "Inconsistent prospecting",
+      "description": "Outreach and follow-up happen when you find the time, instead of following a repeatable process."
+    },
+    {
+      "title": "Too much manual work",
+      "description": "Repeated tasks and scattered information leave less time for customers and business development."
+    },
+    {
+      "title": "Limited service options",
+      "description": "You see opportunities in additional freight modes but need to understand what serving them requires."
+    },
+    {
+      "title": "Little visibility into performance",
+      "description": "You need a better way to see what is happening in sales and operations, and where to improve."
+    },
+    {
+      "title": "No clear next priority",
+      "description": "There are plenty of tools and ideas to consider. Choosing what deserves your attention is the hard part."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+/* Approved cover identity. Keep tokens aligned with shared/brand/freightskills. */
+:root { --navy:var(--brand-navy); --foreground:var(--brand-navy); --teal:var(--brand-teal); --primary:var(--brand-teal); --mint:var(--brand-mint); --cream:var(--brand-cream); --paper:var(--brand-cream); --background:var(--brand-cream); --muted:var(--brand-muted); --border:var(--brand-border); --accent:var(--brand-mint); }
+.brand,.footer-top .brand { width:205px; }
+.brand img { width:205px; height:auto; }
+.header { background:var(--brand-cream); }
+.button,.button.light,.community-band .button.light { background:var(--brand-teal); color:white; }
+.button:hover { background:var(--brand-teal-deep); }
+.home-intro .button,.community-band .button.light,.join-card .button,.magnet-final .button { background:var(--brand-mint); color:var(--brand-navy); }
+.home-intro .button:hover,.community-band .button.light:hover,.join-card .button:hover { background:#d0f0e5; }
+.instructor-portrait img { filter:grayscale(1); }
+.checkout-header img { width:200px; height:auto; }
+@media(max-width:1100px) { .nav { gap:20px; } .desktop-nav { gap:18px; } }
+@media(max-width:800px) { .brand,.brand img { width:190px; } }
+
+/* Resource delivery */
+.resource-card-cover { width:100%; aspect-ratio:16/9; object-fit:cover; display:block; }
+.resource-landing-cover { width:100%; height:auto; border-radius:12px; margin:30px 0 0; border:1px solid #d9e1df; }
+.resource-thanks { background:#f7f9f8; }
+.thanks-grid { display:grid; grid-template-columns:1fr 1fr; gap:56px; align-items:center; padding-top:70px; padding-bottom:70px; }
+.thanks-grid h1 { font-size:clamp(2.6rem,4.5vw,4.7rem); line-height:1.06; letter-spacing:-.045em; margin:20px 0; }
+.thanks-grid .eyebrow { display:flex; align-items:center; gap:8px; }
+.thanks-cover { width:100%; height:auto; border-radius:14px; box-shadow:0 20px 60px #112d4020; }
+.thanks-file { font-size:13px; color:#48605a; margin:16px 0 8px; }
+.thanks-help { font-size:13px; color:#536762; line-height:1.7; }
+.thanks-community { padding-top:52px; padding-bottom:56px; border-top:1px solid #cbd9d3; }
+.thanks-community > div { max-width:730px; }
+.thanks-community h2 { margin:14px 0 18px; }
+.thanks-community p { line-height:1.7; margin-bottom:24px; }
+.magnet-optin { display:flex; gap:10px; align-items:flex-start; line-height:1.6; font-size:13px; margin:12px 0 22px; }
+.magnet-optin input { margin-top:5px; }
+.magnet-form-error { color:#9b2727; font-size:14px; line-height:1.5; margin:12px 0; }
+.magnet-honeypot { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+@media(max-width:760px){.thanks-grid{grid-template-columns:1fr;gap:36px;padding-top:40px;padding-bottom:44px;}.thanks-grid h1{font-size:3rem;}.thanks-community{padding-top:36px;padding-bottom:36px;}}

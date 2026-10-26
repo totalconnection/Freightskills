@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
+import { freeTrainingUrl } from '@/lib/config';
 export function MobileNav({ portalUrl }: { portalUrl: string }) {
   const [open, setOpen] = useState(false);
   useEffect(() => {
@@ -25,11 +26,13 @@ export function MobileNav({ portalUrl }: { portalUrl: string }) {
       {open && (
         <nav id="mobile-links" aria-label="Mobile navigation">
           {[
-            ['/learn', 'Learn'],
-            ['/blog', 'Articles'],
+            ['/trainings', 'Trainings'],
+            [freeTrainingUrl, 'Free webinar'],
+            ['/learn', 'Lesson library'],
+            ['/blog', 'Blog'],
             ['/videos', 'Videos'],
-            ['/resources', 'Resources'],
-            ['/about', 'About'],
+            ['/resources', 'Free resources'],
+            ['/about', 'About Luis'],
             ['/community', 'Community'],
           ].map(([href, label]) => (
             <Link key={href} onClick={() => setOpen(false)} href={href}>

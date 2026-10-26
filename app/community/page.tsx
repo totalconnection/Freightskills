@@ -12,14 +12,8 @@ export default function Community() {
     <main id="main">
       <section className="page-hero wrap intro-split">
         <div>
-          <Eyebrow>THE FREE FREIGHTSKILLS COMMUNITY</Eyebrow>
-          <h1>
-            Your industry.
-            <br />
-            Your next chapter.
-            <br />
-            <span style={{ color: 'var(--teal)' }}>Your people.</span>
-          </h1>
+          <Eyebrow>Freightskills on Skool</Eyebrow>
+          <h1>Learn alongside other freight professionals.</h1>
           <p className="lead">
             A place to build freight knowledge, make sense of technology and
             learn alongside people doing the work.
@@ -37,7 +31,7 @@ export default function Community() {
           <div className="price">
             Free<span> to join</span>
           </div>
-          <h2>Start with a better conversation.</h2>
+          <h2>Join the Freightskills community.</h2>
           <ul className="check-list">
             {[
               'Freight and logistics discussions',
@@ -62,12 +56,8 @@ export default function Community() {
       <section className="section wrap">
         <div className="section-heading">
           <div>
-            <Eyebrow>MORE THAN ANOTHER FEED</Eyebrow>
-            <h2>
-              Make what you learn
-              <br />
-              part of how you work.
-            </h2>
+            <Eyebrow>What to discuss</Eyebrow>
+            <h2>Talk through the work.</h2>
           </div>
           <p>
             The community brings our videos, ideas and industry conversations
@@ -104,10 +94,8 @@ export default function Community() {
       </section>
       <section className="founder-section">
         <div className="wrap">
-          <Eyebrow>MAKE YOURSELF AT HOME</Eyebrow>
-          <h2 style={{ marginBottom: 42 }}>
-            Three small steps. A useful start.
-          </h2>
+          <Eyebrow>Getting started</Eyebrow>
+          <h2 style={{ marginBottom: 42 }}>How to join</h2>
           <div className="steps">
             {[
               {
@@ -134,16 +122,16 @@ export default function Community() {
       </section>
       <section className="section wrap">
         <div className="faq">
-          <Eyebrow>A FEW THINGS TO KNOW</Eyebrow>
-          <h2>Your questions, answered.</h2>
+          <Eyebrow>Before you join</Eyebrow>
+          <h2>Common questions</h2>
           <CommunityFAQ />
         </div>
       </section>
       <section className="community-band">
         <div className="wrap band-inner">
           <div>
-            <h2>Come learn what’s next.</h2>
-            <p>Start free. Bring your curiosity. Build from there.</p>
+            <h2>Join the conversation.</h2>
+            <p>Ask a question or share something you’ve learned in freight.</p>
           </div>
           <CTA external className="light">
             Join the free community

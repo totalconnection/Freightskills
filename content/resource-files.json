@@ -1,0 +1,47 @@
+{
+  "drayage-checklist": {
+    "href": "/downloads/drayage-checklist.pdf",
+    "filename": "FreightSkills-Drayage-Checklist.pdf",
+    "cover": "/images/resources/drayage-checklist.webp",
+    "pages": 9,
+    "bytes": 315198,
+    "sizeLabel": "308 KB",
+    "sha256": "7e9710fc64dd6184216066388f53d910e1b1b7a8419ec9e87b8ad475729ddb28"
+  },
+  "onboarding-guide": {
+    "href": "/downloads/onboarding-guide.pdf",
+    "filename": "FreightSkills-Carrier-Vetting-and-Onboarding-Guide.pdf",
+    "cover": "/images/resources/onboarding-guide.webp",
+    "pages": 23,
+    "bytes": 347912,
+    "sizeLabel": "340 KB",
+    "sha256": "2b3d88e57c9963fe24347c6a5f9a424b5bf27e6c7fe811208ca9401e483e1b72"
+  },
+  "sales-road-map": {
+    "href": "/downloads/sales-road-map.pdf",
+    "filename": "FreightSkills-Sales-Road-Map.pdf",
+    "cover": "/images/resources/sales-road-map.webp",
+    "pages": 5,
+    "bytes": 331073,
+    "sizeLabel": "323 KB",
+    "sha256": "e5271a5b5885af01aa0cd7526906b4120e9020c10c67fa12d2671d71615abb76"
+  },
+  "customer-research-guide": {
+    "href": "/downloads/customer-research-guide.pdf",
+    "filename": "FreightSkills-Customer-Research-Guide.pdf",
+    "cover": "/images/resources/customer-research-guide.webp",
+    "pages": 5,
+    "bytes": 321950,
+    "sizeLabel": "314 KB",
+    "sha256": "115fb093cc265265e6861a06446c7d95dace617417522dfb42a618af885abb82"
+  },
+  "niche-resource": {
+    "href": "/downloads/niche-resource.pdf",
+    "filename": "FreightSkills-Profitable-Niches-and-Sales-Navigator.pdf",
+    "cover": "/images/resources/niche-resource.webp",
+    "pages": 7,
+    "bytes": 294177,
+    "sizeLabel": "287 KB",
+    "sha256": "5618392ae6f395c94527e8dfc2d83e058c5552ee5921889cf2404362befda041"
+  }
+}

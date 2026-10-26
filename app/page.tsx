@@ -1,212 +1,201 @@
 import Link from 'next/link';
-import { ArrowRight, ArrowUpRight, Play } from 'lucide-react';
-import { Eyebrow, CommunityBand } from '@/components/site';
+import { ArrowRight } from 'lucide-react';
+import { CommunityBand } from '@/components/site';
 import { ArticleCard } from '@/components/article-card';
+import { Video } from '@/components/video';
 import { posts } from '@/lib/posts';
-import { topics } from '@/lib/topics';
-import { metadata as meta } from '@/lib/config';
+import { metadata as meta, freeTrainingUrl } from '@/lib/config';
+
 export const metadata = meta(
-  'Practical freight brokerage skills & lessons',
-  'Learn prospecting, quoting, carrier qualification, shipment management, LTL and drayage with practical lessons from Luis Uribe.',
+  'Freight business training & modern tools',
+  'Practical training for companies that move freight. Improve sales and operations, and learn to use AI and automation with Freightskills and Luis Uribe.',
   '/',
 );
+const startingPoints = [
+  {
+    title: 'Build a stronger sales process',
+    text: 'Find the right prospects, prepare better outreach and follow up consistently. Give your team a process they can put into practice.',
+    href: '/learn/prospecting',
+    link: 'Prospecting & sales lessons',
+  },
+  {
+    title: 'Improve daily operations',
+    text: 'Sharpen quoting, carrier selection and shipment management. Build the skills and routines that help your team take care of customers.',
+    href: '/learn/operations',
+    link: 'Freight operations lessons',
+  },
+  {
+    title: 'Put modern tools to work',
+    text: 'Learn where AI, automation and repeatable processes can reduce manual work and support the people running your business.',
+    href: '/learn/growth',
+    link: 'Technology & business growth',
+  },
+];
 export default function Home() {
+  const featuredLesson = posts.find(
+    (p) => p.slug === 'how-freight-brokers-quote-rates',
+  );
   return (
     <main id="main">
-      <section className="wrap home-hero">
-        <div className="hero-copy">
-          <Eyebrow>FREIGHT BROKERAGE. EXPLAINED.</Eyebrow>
-          <h1>
-            Learn the skills.
-            <br />
-            Understand
-            <br />
-            the <span>freight.</span>
-          </h1>
-          <p>
-            Practical freight brokerage lessons from Luis Uribe. From the first
-            shipper conversation to the last delivery detail.
-          </p>
-          <div className="hero-actions">
-            <Link href="/learn" className="button">
-              Explore free lessons <ArrowUpRight size={19} />
-            </Link>
-            <Link className="plain-link" href="/about">
-              Meet Luis <ArrowRight size={16} />
-            </Link>
-          </div>
-          <p className="hero-footnote">
-            Real topics. Detailed explanations. Ready when you are.
-          </p>
-        </div>
-        <div className="hero-media">
-          <div className="media-topline">
-            <span>THE WORK BEHIND THE MOVE</span>
-            <span>01 / FREIGHTSKILLS</span>
-          </div>
-          <img
-            src="/images/freight-terminal.webp"
-            alt="Illustration of organized container rows at an intermodal terminal"
-            width="1440"
-            height="810"
-            fetchPriority="high"
-          />
-          <Link
-            href="/blog/container-drayage-explained"
-            className="hero-feature"
-          >
-            <span className="round-play">
-              <Play size={21} fill="currentColor" />
-            </span>
-            <div>
-              <span className="micro">START WITH A LESSON</span>
-              <strong>Understand the whole move.</strong>
-              <span>Container drayage, explained</span>
-            </div>
-            <ArrowUpRight size={24} />
-          </Link>
-          <div className="media-caption">
-            A closer look at the decisions behind every shipment.
-          </div>
-        </div>
-      </section>
-      <section className="knowledge-section">
-        <div className="wrap">
-          <div className="section-heading">
-            <div>
-              <Eyebrow>BUILD YOUR KNOWLEDGE</Eyebrow>
-              <h2>
-                Better at the work.
-                <br />
-                One skill at a time.
-              </h2>
-            </div>
-            <p>
-              Start with the part of freight you want to understand. Go deeper
-              when you’re ready.
+      <section className="home-intro">
+        <div className="wrap intro-layout">
+          <div className="intro-copy">
+            <p className="section-label">
+              Practical training for companies that move freight
             </p>
-          </div>
-          <div className="learning-grid">
-            {[
-              {
-                t: topics[0],
-                n: '01',
-                title: 'Find shippers.',
-                sub: 'Prospecting & sales',
-              },
-              {
-                t: topics[1],
-                n: '02',
-                title: 'Price the load.',
-                sub: 'Quoting & rates',
-              },
-              {
-                t: topics[2],
-                n: '03',
-                title: 'Choose carriers.',
-                sub: 'Qualification & relationships',
-              },
-            ].map((x) => (
-              <Link
-                key={x.n}
-                href={`/learn/${x.t.slug}`}
-                className="learning-card"
-              >
-                <div className="learning-top">
-                  <span>
-                    {x.n} / {x.sub.toUpperCase()}
-                  </span>
-                  <ArrowUpRight size={22} />
-                </div>
-                <h3>{x.title}</h3>
-                <p>{x.t.description}</p>
-                <span className="learning-link">
-                  Explore the topic <ArrowRight size={17} />
-                </span>
+            <h1>Build a better freight business.</h1>
+            <p className="intro-description">
+              Practical training to help companies that move freight win more
+              business, run better operations and put modern tools—including AI
+              and automation—to work.
+            </p>
+            <div className="intro-actions">
+              <Link href={freeTrainingUrl} className="button">
+                Access the free training <ArrowRight size={18} />
               </Link>
-            ))}
+            </div>
+            <p className="intro-training-note">Free webinar with Luis Uribe</p>
           </div>
-          <div className="more-topics">
-            <span>KEEP EXPLORING</span>
-            {topics.slice(3).map((t) => (
-              <Link key={t.slug} href={`/learn/${t.slug}`}>
-                {t.title}
-                <ArrowUpRight size={15} />
-              </Link>
-            ))}
-          </div>
+          <figure className="instructor-portrait">
+            <img
+              src="/images/luis-uribe.webp"
+              alt="Luis Uribe, founder of Freightskills"
+              width="727"
+              height="777"
+              fetchPriority="high"
+            />
+            <figcaption>
+              <strong>Luis Uribe</strong>
+              <span>Founder & instructor, Freightskills</span>
+            </figcaption>
+          </figure>
         </div>
       </section>
-      <section className="section wrap">
-        <div className="section-heading">
-          <div>
-            <Eyebrow>FROM THE LIBRARY</Eyebrow>
-            <h2>
-              Less guesswork.
-              <br />
-              More understanding.
-            </h2>
-          </div>
-          <Link className="text-link" href="/blog">
-            Browse all articles <ArrowUpRight size={18} />
-          </Link>
+      <nav className="subject-bar" aria-label="Freight training topics">
+        <div className="wrap">
+          <span>Explore the lesson library</span>
+          <Link href="/learn/prospecting">Prospecting</Link>
+          <Link href="/learn/quoting">Quoting</Link>
+          <Link href="/learn/carriers">Carriers</Link>
+          <Link href="/learn/ltl">LTL</Link>
+          <Link href="/learn/drayage">Drayage</Link>
+          <Link href="/learn/growth">Business growth</Link>
         </div>
-        <div className="blog-list">
-          {posts.slice(0, 3).map((p) => (
-            <ArticleCard key={p.slug} post={p} />
+      </nav>
+      <section className="wrap home-section">
+        <div className="home-section-heading">
+          <p className="section-label">Freight expertise. Modern tools.</p>
+          <h2>Improve the way your business works.</h2>
+          <p>
+            Connect the skills behind moving freight with better processes and
+            practical uses of technology. Start with the part of your business
+            you want to improve.
+          </p>
+        </div>
+        <div className="starting-points">
+          {startingPoints.map((point) => (
+            <article key={point.href}>
+              <h3>{point.title}</h3>
+              <p>{point.text}</p>
+              <Link href={point.href} className="text-link">
+                {point.link}
+                <ArrowRight size={16} />
+              </Link>
+            </article>
           ))}
         </div>
       </section>
-      <section className="founder-section">
-        <div className="wrap founder-home">
-          <div className="founder-photo">
-            <img
-              src="/images/luis-uribe.webp"
-              alt="Luis Uribe, Freightskills instructor"
-              width="727"
-              height="777"
-              loading="lazy"
-            />
-            <span>LUIS URIBE / FREIGHTSKILLS</span>
+      {featuredLesson && (
+        <section className="lesson-feature">
+          <div className="wrap feature-layout">
+            <div className="feature-video">
+              <Video
+                id={featuredLesson.videoId}
+                title={featuredLesson.sourceTitle}
+              />
+            </div>
+            <div className="feature-copy">
+              <p className="section-label">Watch a lesson</p>
+              <h2>How do you know what to quote?</h2>
+              <p>
+                A rate needs a basis. In this lesson, Luis walks through ways to
+                research carrier costs and prepare a freight quote.
+              </p>
+              <p>
+                Watch the original video, then use the written guide to revisit
+                the details.
+              </p>
+              <Link href={`/blog/${featuredLesson.slug}`} className="text-link">
+                Read the quoting guide <ArrowRight size={17} />
+              </Link>
+              <Link href="/videos" className="secondary-text-link">
+                Browse all video lessons
+              </Link>
+            </div>
           </div>
-          <div>
-            <Eyebrow>THE PERSON BEHIND THE LESSONS</Eyebrow>
-            <h2>
-              Freight is in
-              <br />
-              the details.
-            </h2>
-            <p className="large-copy">
-              Understanding why a decision matters is what makes a lesson useful
-              on the next load.
-            </p>
-            <p>
-              Luis teaches the practical side of freight brokerage: researching
-              shippers, working with carriers, quoting shipments, and handling
-              the details that connect them.
-            </p>
-            <p>
-              The library brings those lessons together, with the original
-              videos and written explanations you can return to.
-            </p>
-            <Link className="text-link" href="/about">
-              More about Luis <ArrowUpRight size={18} />
+        </section>
+      )}
+      <section className="wrap home-section guide-feature">
+        <div className="feature-copy">
+          <p className="section-label">Free resources</p>
+          <h2>A little preparation goes a long way.</h2>
+          <p>
+            Use the Freightskills guides to organize shipment details and
+            prepare for conversations with shippers and carriers.
+          </p>
+          <ul className="guide-links">
+            <li>
+              <Link href="/drayage-checklist">
+                Drayage Checklist <ArrowRight size={17} />
+              </Link>
+            </li>
+            <li>
+              <Link href="/onboarding-guide">
+                Carrier Vetting & Onboarding Guide <ArrowRight size={17} />
+              </Link>
+            </li>
+            <li>
+              <Link href="/niche-resource">
+                Profitable Niches & Sales Navigator <ArrowRight size={17} />
+              </Link>
+            </li>
+          </ul>
+          <Link href="/resources" className="text-link">
+            Explore all resources <ArrowRight size={17} />
+          </Link>
+        </div>
+        <Link
+          className="guide-preview"
+          href="/drayage-checklist"
+          aria-label="Explore the Drayage Checklist"
+        >
+          <img
+            src="/images/drayage-guide-cover.png"
+            alt="Cover of Luis Uribe’s Drayage Checklist"
+            width="834"
+            height="1179"
+            loading="lazy"
+          />
+          <span>Drayage Checklist · Guide preview</span>
+        </Link>
+      </section>
+      <section className="home-articles">
+        <div className="wrap home-section">
+          <div className="section-heading">
+            <div>
+              <p className="section-label">From the blog</p>
+              <h2>Get into the details.</h2>
+            </div>
+            <Link href="/blog" className="text-link">
+              Browse all articles <ArrowRight size={17} />
             </Link>
           </div>
+          <div className="blog-list">
+            {posts.slice(0, 3).map((post) => (
+              <ArticleCard key={post.slug} post={post} />
+            ))}
+          </div>
         </div>
-      </section>
-      <section className="wrap resource-strip">
-        <div>
-          <Eyebrow>PUT THE DETAILS IN ORDER</Eyebrow>
-          <h2>Keep useful resources close.</h2>
-          <p>
-            Find the existing Freightskills guides for drayage, carrier
-            onboarding, and shipper conversations.
-          </p>
-        </div>
-        <Link className="button" href="/resources">
-          Explore resources <ArrowUpRight size={18} />
-        </Link>
       </section>
       <CommunityBand />
     </main>

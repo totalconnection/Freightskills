@@ -11,15 +11,12 @@ export default function About() {
     <main id="main">
       <section className="wrap page-hero about-hero">
         <div>
-          <Eyebrow>LUIS URIBE / FREIGHTSKILLS</Eyebrow>
-          <h1>
-            Learn the why.
-            <br />
-            <span>Then do the work.</span>
-          </h1>
+          <Eyebrow>Your instructor</Eyebrow>
+          <h1>Meet Luis Uribe.</h1>
           <p className="lead">
-            Freightskills brings practical freight brokerage knowledge into
-            clear, detailed lessons you can return to.
+            Luis Uribe teaches the practical side of freight brokerage: finding
+            shippers, quoting freight, working with carriers and managing
+            shipments.
           </p>
           <Link href="/learn" className="button">
             Explore the lessons ↗
@@ -32,18 +29,14 @@ export default function About() {
             width="727"
             height="777"
           />
-          <span>YOUR INSTRUCTOR / LUIS URIBE</span>
+          <span>Luis Uribe · Founder of Freightskills</span>
         </div>
       </section>
       <section className="founder-section">
         <div className="wrap founder-grid">
           <div>
-            <Eyebrow>THE APPROACH</Eyebrow>
-            <h2>
-              Start with the shipment.
-              <br />
-              Understand the decisions.
-            </h2>
+            <Eyebrow>What I teach</Eyebrow>
+            <h2>The details behind every shipment.</h2>
           </div>
           <div>
             <p className="large-copy">
@@ -65,7 +58,7 @@ export default function About() {
         </div>
       </section>
       <section className="section wrap">
-        <Eyebrow>WHAT YOU’LL FIND HERE</Eyebrow>
+        <Eyebrow>How to use the library</Eyebrow>
         <div className="pillars">
           {[
             {

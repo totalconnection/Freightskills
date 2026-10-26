@@ -15,12 +15,8 @@ export default function Videos() {
   return (
     <main id="main">
       <header className="page-hero wrap">
-        <Eyebrow>WATCH. UNDERSTAND. PUT IT TO WORK.</Eyebrow>
-        <h1>
-          The video
-          <br />
-          <span>library.</span>
-        </h1>
+        <Eyebrow>Luis Uribe on YouTube</Eyebrow>
+        <h1>Freight brokerage video lessons.</h1>
         <p className="lead">
           Practical freight lessons from Luis Uribe. Find the original video,
           then explore the detailed guide. Related lessons share a guide when

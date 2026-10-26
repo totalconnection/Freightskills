@@ -12,3 +12,10 @@ path,action,status
 /blog/research-before-the-sales-call,Preserve path,Local draft route; production traffic and status not measured
 /blog/freight-expertise-in-the-age-of-ai,Preserve path,Local draft route; production traffic and status not measured
 /blog/first-hire-freight-brokerage,Preserve path,Local draft route; production traffic and status not measured
+/webinar-registration,308 redirect to /webinar-register,Existing live registration page inspected; local redirect added; traffic not measured
+/webinar-register,New canonical registration path,Custom design preview; ActiveCampaign connection and webinar copy review pending
+/trainings,New workshop directory,Descriptive pages in the private relaunch preview; enrollment not connected
+/quote-mastery,Preserve path,Updated Quote Workshop description aligned with published portal content
+/drayage-mastery,Preserve path,Updated Drayage Workshop description aligned with published portal content
+/checkout,New cart route,Design preview only; no payment or customer-data submission
+/purchase-terms,New purchase terms,Defines lifetime access and minimum one-year guarantee

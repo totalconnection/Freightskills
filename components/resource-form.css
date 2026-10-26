@@ -1,0 +1,200 @@
+.magnet-multistep {
+  padding: 32px;
+  scroll-margin-top: 24px;
+}
+.magnet-form-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.magnet-form-heading .eyebrow {
+  margin: 0;
+}
+.magnet-form-icon {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  color: var(--teal);
+  background: #fff0e3;
+}
+.magnet-multistep h2 {
+  font-size: clamp(24px, 2.3vw, 30px);
+  margin: 20px 0 12px;
+}
+.magnet-multistep .magnet-form-intro {
+  margin: 0 0 26px;
+  font-size: 14px;
+}
+.magnet-form-progress {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 22px;
+}
+.magnet-form-progress li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 3px solid var(--border);
+  font-size: 12px;
+  line-height: 22px;
+  color: var(--muted);
+}
+.magnet-form-progress li[aria-current='step'],
+.magnet-form-progress li.is-complete {
+  border-color: var(--teal);
+  color: var(--navy);
+}
+.magnet-step-number {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 600;
+}
+[aria-current='step'] > .magnet-step-number,
+.is-complete > .magnet-step-number {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #fff;
+}
+.magnet-form-progress small {
+  display: block;
+  font-size: 10px;
+  line-height: 1.4;
+  color: var(--muted);
+}
+.magnet-step-status {
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin: 0 0 12px;
+}
+.magnet-form-fields {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+.magnet-step-title {
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.magnet-name-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.magnet-name-fields > div {
+  min-width: 0;
+}
+.magnet-multistep input:not([type='hidden']) {
+  font-size: 16px;
+  min-width: 0;
+}
+.magnet-multistep input[aria-invalid='true'] {
+  border-color: #a32d24;
+}
+.magnet-field-error {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #a32d24;
+  margin: 8px 0 0;
+}
+.magnet-phone-hint {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--muted);
+  margin: 12px 0 0;
+}
+.magnet-form-navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.magnet-form-navigation button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 0;
+  padding: 12px 0;
+  min-height: 44px;
+  color: var(--navy);
+  background: transparent;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.magnet-form-navigation .magnet-skip {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.magnet-form-navigation button:hover {
+  color: var(--teal);
+}
+.magnet-multistep :is(button, input):focus-visible {
+  outline: 3px solid #b65a27;
+  outline-offset: 3px;
+}
+.magnet-multistep .magnet-preview-note {
+  margin-top: 20px;
+  font-size: 11px;
+  color: var(--muted);
+}
+.magnet-preview-note strong {
+  color: var(--navy);
+}
+.magnet-preview-complete {
+  padding-top: 12px;
+}
+.magnet-complete-icon {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--paper);
+  color: var(--teal);
+  margin: 10px 0 22px;
+}
+.magnet-preview-complete h3 {
+  font-size: 24px;
+  margin: 0 0 12px;
+}
+.magnet-preview-complete p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+@media (max-width: 1000px) {
+  .magnet-multistep {
+    padding: 24px;
+  }
+  .magnet-form-progress {
+    gap: 8px;
+  }
+  .magnet-form-progress li {
+    gap: 6px;
+  }
+}
+@media (max-width: 360px) {
+  .magnet-name-fields {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .magnet-multistep {
+    padding: 20px;
+  }
+}

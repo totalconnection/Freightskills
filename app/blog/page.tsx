@@ -12,18 +12,15 @@ export default function Blog() {
   return (
     <main id="main">
       <header className="page-hero wrap">
-        <Eyebrow>THE FREIGHTSKILLS LIBRARY</Eyebrow>
-        <h1>
-          Find your next
-          <br />
-          <span>better answer.</span>
-        </h1>
+        <Eyebrow>The Freightskills blog</Eyebrow>
+        <h1>Freight brokerage articles.</h1>
         <p className="lead">
-          Detailed lessons for the decisions you make in freight. Read, watch,
-          and come back when you need them.
+          Learn how to find shippers, quote freight, qualify carriers and manage
+          shipments. Each article builds on an original video lesson from Luis
+          Uribe.
         </p>
         <Link className="text-link" href="/videos">
-          Browse every source video ↗
+          Browse the video lessons ↗
         </Link>
       </header>
       <section className="wrap library-section" aria-label="Article library">
