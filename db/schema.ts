@@ -11,4 +11,7 @@ export const resourceRequests=sqliteTable('resource_requests',{
  consentSource:text('consent_source').notNull().default('optional-checkbox'),
  disclosureVersion:text('disclosure_version').notNull().default('resource-request-v1'),
  createdAt:text('created_at').notNull(),
+ activecampaignSyncedAt:text('activecampaign_synced_at'),
+ activecampaignStartedAt:text('activecampaign_started_at'),
+ activecampaignError:text('activecampaign_error'),
 },table=>[index('resource_requests_email_idx').on(table.email)]);
