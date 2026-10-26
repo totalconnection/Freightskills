@@ -10,6 +10,7 @@ export default function sitemap() {
     '/about',
     '/privacy',
     '/terms',
+    '/disclosures',
     '/cookies',
     '/data-retention',
     '/purchase-terms',

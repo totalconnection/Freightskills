@@ -1,3 +1,4 @@
+import { MarketingDisclosure } from '@/components/marketing-disclosure';
 import {CookieSettingsButton} from '@/components/privacy-controls';
 import Link from 'next/link';
 import { headers } from 'next/headers';
@@ -154,7 +155,7 @@ export default async function Resource({ params }: Props) {
           <Link href="/about">About Luis</Link>
           <Link href="/resources">All resources</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link><CookieSettingsButton/>
         </nav>
-      </footer>
+      <MarketingDisclosure /></footer>
     </main>
   );
 }

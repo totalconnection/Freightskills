@@ -1,4 +1,6 @@
 'use client';
+import { MarketingDisclosure } from '@/components/marketing-disclosure';
+
 import { useEffect, useState } from 'react';
 import {
   ArrowLeft,
@@ -322,7 +324,7 @@ export default function CheckoutCart({
         <span>© {new Date().getFullYear()} Freight Skills</span>
         <a href="/purchase-terms">Workshop purchase terms</a>
         <a href="mailto:support@freightskills.com">Questions? Contact us</a>
-      </footer>
+      <MarketingDisclosure /></footer>
     </div>
   );
 }

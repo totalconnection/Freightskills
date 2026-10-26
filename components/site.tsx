@@ -1,3 +1,4 @@
+import { MarketingDisclosure } from '@/components/marketing-disclosure';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 import { CookieSettingsButton } from './privacy-controls';
@@ -114,6 +115,7 @@ export function Footer() {
           {portalUrl && <a href={portalUrl}>Student login ↗</a>}
         </div>
       </div>
+      <div className="wrap"><MarketingDisclosure /></div>
       <div className="wrap footer-bottom">
         <span>© {new Date().getFullYear()} Freightskills.</span>
         <nav className="legal-links" aria-label="Policies"><Link href="/privacy">Privacy policy</Link><Link href="/terms">Terms of use</Link><Link href="/cookies">Cookie policy</Link><Link href="/data-retention">Data retention</Link><CookieSettingsButton /></nav>

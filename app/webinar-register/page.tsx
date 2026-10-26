@@ -1,3 +1,4 @@
+import { MarketingDisclosure } from '@/components/marketing-disclosure';
 import Link from 'next/link';
 import { ArrowRight, Check } from 'lucide-react';
 import { Logo } from '@/components/site';
@@ -133,7 +134,7 @@ export default function WebinarRegister() {
         <Logo />
         <span>© {new Date().getFullYear()} Freightskills</span>
         <Link href="/">Visit the main website</Link>
-      </footer>
+      <MarketingDisclosure /></footer>
     </main>
   );
 }
