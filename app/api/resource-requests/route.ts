@@ -34,7 +34,7 @@ export async function POST(request:Request){
     await submitResourceSignup({resource:resource.slug as ResourceSlug,firstname,lastname,email,phone,marketingConsent:consent});
     await db.prepare('UPDATE resource_requests SET activecampaign_synced_at=?,activecampaign_started_at=NULL,activecampaign_error=NULL WHERE id=?').bind(new Date().toISOString(),id).run();
    }catch(error){
-    const reason=error instanceof Error && /^(upstream_http_\d{3}|upstream_invalid_json|upstream_rejected|form_not_configured)$/.test(error.message)?error.message:error instanceof Error?`${error.name}: ${error.message}`.replace(/https?:\/\/\S+|[^\s]+@[^\s]+/g,'[redacted]').slice(0,180):'delivery_failed';
+    const reason=error instanceof Error && /^(upstream_http_\d{3}|upstream_invalid_json|upstream_rejected|form_not_configured)$/.test(error.message)?error.message:'delivery_failed';
     // Keep the request for recovery and allow a retry with the same id.
     // Store no upstream response text: it can contain personal data.
     await db.prepare('UPDATE resource_requests SET activecampaign_started_at=NULL,activecampaign_error=? WHERE id=?').bind(reason,id).run();

@@ -13,6 +13,7 @@ for(const [resource,id] of Object.entries(mapping)){
  await submitResourceSignup({...base,resource},async(url,options)=>{
   assert.equal(url,'https://freightskills.activehosted.com/proc.php?jsonp=true');
   assert.equal(options.method,'POST');
+  assert.equal(options.redirect,'manual');
   assert.equal(options.body.get('f'),id);
   assert.equal(options.body.get('field[7]'),'no');
   assert.equal(options.body.get('field[8]'),resource);

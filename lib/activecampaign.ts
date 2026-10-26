@@ -22,12 +22,12 @@ export async function submitResourceSignup(signup: ResourceSignup, send: typeof 
  body.set('field[8]', signup.resource);
  const response = await send(`${form.action}?jsonp=true`, {
   method: 'POST', headers: { Accept: 'application/json' }, body,
-  signal: AbortSignal.timeout(12000), redirect: 'error',
+  signal: AbortSignal.timeout(12000), redirect: 'manual',
  });
  if (!response.ok) throw new Error(`upstream_http_${response.status}`);
  const result = await response.json().catch(()=>{throw new Error('upstream_invalid_json');}) as { action?: string; data?: { uniqueId?: string; id?: string; url?: string } };
  // Read the explicit acknowledgement; never execute ActiveCampaign's JS or
-// follow its redirect. Our own thank-you route is the only allowed destination.
+ // follow its redirect. Our own thank-you route is the only allowed destination.
  if (result.action === 'show_thank_you' && String(result.data?.uniqueId) === form.hiddenFields.f) return;
  if (result.action === 'redirect' && typeof result.data?.url === 'string') return;
  throw new Error('upstream_rejected');
