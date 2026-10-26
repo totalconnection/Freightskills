@@ -24,8 +24,8 @@ export async function submitResourceSignup(signup: ResourceSignup, send: typeof 
   method: 'POST', headers: { Accept: 'application/json' }, body,
   signal: AbortSignal.timeout(12000), redirect: 'error',
  });
- if (!response.ok) throw new Error('upstream_http_error');
- const result = await response.json() as { action?: string; data?: { uniqueId?: string; id?: string; url?: string } };
+ if (!response.ok) throw new Error(`upstream_http_${response.status}`);
+ const result = await response.json().catch(()=>{throw new Error('upstream_invalid_json');}) as { action?: string; data?: { uniqueId?: string; id?: string; url?: string } };
  // Read the explicit acknowledgement; never execute ActiveCampaign's JS or
 // follow its redirect. Our own thank-you route is the only allowed destination.
  if (result.action === 'show_thank_you' && String(result.data?.uniqueId) === form.hiddenFields.f) return;

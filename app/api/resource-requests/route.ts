@@ -33,10 +33,11 @@ export async function POST(request:Request){
    try{
     await submitResourceSignup({resource:resource.slug as ResourceSlug,firstname,lastname,email,phone,marketingConsent:consent});
     await db.prepare('UPDATE resource_requests SET activecampaign_synced_at=?,activecampaign_started_at=NULL,activecampaign_error=NULL WHERE id=?').bind(new Date().toISOString(),id).run();
-   }catch{
+   }catch(error){
+    const reason=error instanceof Error && /^(upstream_http_\d{3}|upstream_invalid_json|upstream_rejected|form_not_configured)$/.test(error.message)?error.message:'delivery_failed';
     // Keep the request for recovery and allow a retry with the same id.
     // Store no upstream response text: it can contain personal data.
-    await db.prepare('UPDATE resource_requests SET activecampaign_started_at=NULL,activecampaign_error=? WHERE id=?').bind('delivery_failed',id).run();
+    await db.prepare('UPDATE resource_requests SET activecampaign_started_at=NULL,activecampaign_error=? WHERE id=?').bind(reason,id).run();
     return Response.json({error:'Your request is saved, but the email connection is temporarily unavailable. Please try again in a moment.'},{status:503,headers});
    }
   }
