@@ -16,6 +16,7 @@ export default function sitemap() {
     '/purchase-terms',
     '/learn',
     '/trainings',
+    '/academy',
     '/quote-mastery',
     '/drayage-mastery',
     '/blog',

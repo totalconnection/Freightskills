@@ -179,6 +179,30 @@ export default function CheckoutCart({
                 </article>
               ))}
             </section>
+            {items.length > 0 && (
+              <aside className="checkout-academy-upgrade" aria-labelledby="academy-upgrade-title">
+                <p className="checkout-eyebrow">WANT THE COMPLETE PROGRAM?</p>
+                <h2 id="academy-upgrade-title">Upgrade to the full Freightskills Academy.</h2>
+                <p>
+                  Academy includes <strong>both the Quote Workshop and Drayage Workshop</strong>,
+                  plus the full Freightskills Academy learning path for freight agents and
+                  brokerage owners. Both workshops are included in the Academy price.
+                </p>
+                <p className="checkout-upgrade-extras">
+                  You also get one group call per month, full course updates and lifetime access*.
+                </p>
+                <p className="checkout-upgrade-price">
+                  <strong>$625 paid in full — save $75</strong> Or 2 payments of $350 ($700 total), with the second payment due 30 days later.
+                </p>
+                <a href="/academy#enrollment" className="button">
+                  Explore the Academy upgrade <ArrowRight size={17} />
+                </a>
+                <p className="checkout-upgrade-note">
+                  Review the Academy offer before choosing your program. This link does not change your workshop order.
+                  *Access for the lifetime of the Freightskills business, guaranteed for at least one year.
+                </p>
+              </aside>
+            )}
             <section className="checkout-section">
               <div className="checkout-section-title">
                 <span>02</span>

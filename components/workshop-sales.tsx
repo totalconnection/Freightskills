@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import QuotePractice from '@/components/quote-practice';
 import {
   ArrowRight,
   ArrowUpRight,
@@ -23,7 +24,7 @@ export function WorkshopIllustration({ kind }: { kind: Workshop['id'] }) {
   return (
     <div className={'training-tool-preview ' + (drayage ? 'is-drayage' : '')}>
       <div className="tool-preview-bar">
-        <span>FREIGHT SKILLS / WORKING TOOLS</span>
+        <span>FREIGHTSKILLS / WORKING TOOLS</span>
         {drayage ? <Container size={21} /> : <Calculator size={21} />}
       </div>
       <div className="tool-preview-body">
@@ -107,7 +108,7 @@ export default function WorkshopSales({ workshop: w }: { workshop: Workshop }) {
   )!;
   const cartUrl = '/checkout?product=' + product.id;
   const ctaLabel =
-    w.id === 'drayage' ? 'Learn Drayage Today' : 'Master Quoting Today';
+    w.id === 'drayage' ? 'View Drayage Workshop order' : 'View Quote Workshop order';
   const memberUrl = new URL('/workshops/' + w.id, portalUrl).toString();
   return (
     <main id="main" className={'training-page training-' + w.id}>
@@ -122,7 +123,7 @@ export default function WorkshopSales({ workshop: w }: { workshop: Workshop }) {
             <div className="training-pitch">
               <p className="eyebrow">{w.name} · with Luis Uribe</p>
               <h1>{w.headline}</h1>
-              <p className="training-lead">{w.description}</p>
+              <p className="training-lead">{w.description}</p><p className="sales-hook">{w.id==='quote'?'The request is in your inbox. Know what to check before you send a number.':'From terminal release to empty return, know which details belong in your plan.'}</p>
               <div className="training-actions">
                 <Link className="button" href={cartUrl}>
                   {ctaLabel} <ArrowRight size={18} />
@@ -134,12 +135,13 @@ export default function WorkshopSales({ workshop: w }: { workshop: Workshop }) {
                 <a className="text-link" href="#inside">
                   See what’s inside <ArrowRight size={16} />
                 </a>
+                <p className="sales-availability">Enrollment checkout is in preview. Payments are not open yet.</p>
                 <a className="training-member-link" href={memberUrl}>
                   Already enrolled? Open workshop <ArrowUpRight size={14} />
                 </a>
               </div>
             </div>
-            <WorkshopIllustration kind={w.id} />
+            <div className="program-hero-visual"><img className="program-hero-photo" src={'/images/programs/'+w.id+'-hero.webp'} alt={w.id==='quote'?'A freight planning workspace — illustrative image':'An American container terminal — illustrative image'} width="1536" height="864"/><div className="program-hero-card"><p className="eyebrow">LEARN IT. PUT IT TO WORK.</p><h2>{w.id==='quote'?'A clearer quote starts here.':'See the whole container move.'}</h2><p>{w.format}</p><ul>{w.tools.map(t=><li key={t.title}><Check size={16}/>{t.title}</li>)}</ul><span className="program-price">{money(product.unitAmount)} <small>one time · lifetime access*</small></span></div></div>
           </div>
           <div className="training-facts">
             <span>
@@ -157,6 +159,7 @@ export default function WorkshopSales({ workshop: w }: { workshop: Workshop }) {
           </div>
         </div>
       </section>
+      <nav className="sales-jump" aria-label="Workshop sections"><div className="wrap"><a href="#inside">Curriculum</a><a href="#practice">See it in practice</a><a href="#fit">Is this for me?</a><a href="#questions">FAQs</a><a href="#enrollment">Price & access</a></div></nav>
       <section className="training-section">
         <div className="wrap training-problem">
           <div>
@@ -182,13 +185,14 @@ export default function WorkshopSales({ workshop: w }: { workshop: Workshop }) {
           <div className="training-section-heading">
             <div>
               <p className="eyebrow">Inside the workshop</p>
-              <h2>The teaching, together in one place.</h2>
+              <h2>Know exactly what you’re getting.</h2>
             </div>
             <p>
-              Watch the recordings in your Freight Skills Portal. Pick up where
+              Watch the recordings in your Freightskills Portal. Pick up where
               you left off and put the process to work in the same hub.
             </p>
           </div>
+          <div className="workshop-lesson-insight"><h3>{w.id==='quote'?'Inside the 94-minute masterclass':'How the three recordings build your understanding'}</h3><p>{w.id==='quote'?'Follow the decisions behind a complete quote: what to collect, how to research the buy rate, how to speak with carriers, how to set the sell rate, and how to follow through.':'Begin with the container and intermodal foundation, work through the longer drayage masterclass, then deepen the operational workflow in Container drayage mastery.'}</p><ol>{w.steps.map(step=><li key={step.title}><strong>{step.title}</strong><span>{step.description}</span></li>)}</ol><p className="sales-caption">Topic guide to the existing recordings; these are not additional standalone video modules.</p></div>
           <div className="training-lessons">
             {w.lessons.map((lesson, i) => (
               <article className="training-lesson" key={lesson.title}>
@@ -228,6 +232,7 @@ export default function WorkshopSales({ workshop: w }: { workshop: Workshop }) {
           </ol>
         </div>
       </section>
+      <section id="practice" className="training-section sales-practice"><div className="wrap training-problem"><div><p className="eyebrow">Try the thinking behind the training</p><h2>{w.id === 'quote' ? 'A markup and a margin are different numbers.' : 'The delivery is only part of the move.'}</h2><p>{w.id === 'quote' ? 'A 15% markup on $1,000 produces a $1,150 sell rate. Your $150 expected profit is 13% of the sell rate. Change the numbers to see why the distinction matters.' : 'A customer asks for a container pickup and delivery. Before you price it, you still need the release status, terminal, last free day, unloading plan, chassis needs, and empty-return instructions.'}</p><p className="sales-caption">Illustrative learning example. Confirm actual costs and requirements for every shipment.</p></div>{w.id === 'quote' ? <QuotePractice /> : <div className="sales-case"><span className="eyebrow">ONE REQUEST → A COMPLETE MOVE BRIEF</span><h3>What’s missing from “Can you move this container?”</h3>{[['Before pickup','Confirm release, availability, appointment and last free day.'],['Before you quote','Confirm linehaul, fuel, chassis days and additional charges.'],['Before closeout','Confirm empty-return instructions and retain return evidence.']].map(([title,body])=><details key={title}><summary>{title}<ChevronDown size={18}/></summary><p>{body}</p></details>)}<p className="sales-caption">Open each step to see what to confirm.</p></div>}</div></section>
       <section className="training-section training-tools">
         <div className="wrap">
           <p className="eyebrow">Included working tools</p>
@@ -252,7 +257,7 @@ export default function WorkshopSales({ workshop: w }: { workshop: Workshop }) {
         </div>
       </section>
       <section className="training-section">
-        <div className="wrap training-fit">
+        <div id="fit" className="wrap training-fit">
           <div>
             <p className="eyebrow">Who it’s for</p>
             <h2>For the people who move freight.</h2>
@@ -268,7 +273,7 @@ export default function WorkshopSales({ workshop: w }: { workshop: Workshop }) {
           <aside className="training-instructor">
             <img
               src="/images/luis-uribe.webp"
-              alt="Luis Uribe, Freight Skills instructor"
+              alt="Luis Uribe, Freightskills instructor"
               width="727"
               height="777"
               loading="lazy"
@@ -277,7 +282,7 @@ export default function WorkshopSales({ workshop: w }: { workshop: Workshop }) {
               <p className="eyebrow">Your instructor</p>
               <h3>Luis Uribe</h3>
               <p>
-                Founder of Freight Skills. Practical freight education built
+                Founder of Freightskills. Practical freight education built
                 around the decisions brokers, agents, and operations teams make
                 in their daily work.
               </p>
@@ -288,7 +293,8 @@ export default function WorkshopSales({ workshop: w }: { workshop: Workshop }) {
           </aside>
         </div>
       </section>
-      <section className="training-section training-faq-section">
+      <section className="training-section workshop-value"><div className="wrap"><p className="eyebrow">What your one-time purchase includes</p><h2>The training explains the decision. The tools help you repeat it.</h2><div className="academy-value-list">{w.tools.map((tool,i)=><article key={tool.title}><span className="eyebrow">INCLUDED TOOL 0{i+1}</span><div><h3>{tool.title}</h3><p>{tool.description}</p></div><strong className="academy-value-label">Included in {money(product.unitAmount)}</strong></article>)}</div><div className="workshop-value-summary"><h3>{money(product.unitAmount)} for the recordings and the working tools.</h3><p>{w.id==='quote'?'Use the masterclass to understand the process, the calculator to make the pricing visible, and the outreach and quote tools to prepare your next conversation.':'Use the recordings to understand the move, the calculator to organize the charges, and the checklist to carry the plan through each handoff.'} Lifetime access* gives you time to revisit the material as the situations come up in your work.</p><p className="sales-caption">All listed tools are included in the workshop price. Live coaching is separate; Academy includes both workshops and one group call per month.</p><Link className="text-link" href="/academy">Compare the full Academy offer <ArrowRight size={18}/></Link></div></div></section>
+      <section id="questions" className="training-section training-faq-section">
         <div className="wrap training-faq-grid">
           <div>
             <p className="eyebrow">Before you start</p>
@@ -311,7 +317,7 @@ export default function WorkshopSales({ workshop: w }: { workshop: Workshop }) {
         <div className="wrap training-enrollment-grid">
           <div>
             <p className="eyebrow">{w.name}</p>
-            <h2>Your next step starts with a repeatable process.</h2>
+            <h2>Put a clearer process behind your next shipment.</h2>
             <p>
               Get the recorded training and practical tools together for{' '}
               {money(product.unitAmount)}. One payment. Learn at your pace, then
@@ -332,12 +338,13 @@ export default function WorkshopSales({ workshop: w }: { workshop: Workshop }) {
             </a>
           </div>
           <div className="training-related">
-            <span>ALSO EXPLORE</span>
+            <span>BUILD YOUR NEXT SKILL</span>
             <h3>{other.name}</h3>
             <p>{other.result}</p>
             <Link href={other.path}>
               See the workshop <ArrowRight size={18} />
             </Link>
+            <hr className="sales-divider"/><h3>Want the full learning path?</h3><p>Active Freightskills Academy access includes both workshops, alongside the broader brokerage curriculum.</p><Link href="/academy">Explore the Academy <ArrowRight size={18}/></Link>
           </div>
         </div>
       </section>

@@ -23,9 +23,9 @@ export const workshops: Workshop[] = [
     name: 'Quote Workshop',
     path: '/quote-mastery',
     category: 'Pricing & customer communication',
-    headline: 'Build a quote you can explain. And a process you can repeat.',
+    headline: 'Stop second-guessing the quote you send.',
     description:
-      'Learn how to turn a shipment request into a clear customer quote. Work through the decisions with Luis Uribe, then use the Freight Skills calculator to compare costs, set your markup, and keep track of your quotes.',
+      'Learn how to turn a shipment request into a clear customer quote. Work through the decisions with Luis Uribe, then use the Freightskills calculator to compare costs, set your markup, and keep track of your quotes.',
     result:
       'A repeatable path from shipment details to a customer-ready quote.',
     format: '94-minute recorded masterclass',
@@ -123,7 +123,7 @@ export const workshops: Workshop[] = [
     name: 'Drayage Workshop',
     path: '/drayage-mastery',
     category: 'Container freight & operations',
-    headline: 'Know the container move. Own the next step.',
+    headline: 'Know what happens before pickup. And after delivery.',
     description:
       'Build a practical understanding of container drayage, from the first request through delivery and empty return. Learn with Luis Uribe, compare the full cost of a move, and use a checklist to keep the handoffs clear.',
     result:

@@ -15,7 +15,7 @@ export async function trackResource(resource: string) {
 }
 
 export function safeAnalyticsPath(path:string){
- if(/^\/(?:$|about$|privacy$|terms$|cookies$|data-retention$|purchase-terms$|trainings$|resources$|community$|videos$|blog$|learn$|quote-mastery$|drayage-mastery$|webinar-register$|checkout$|(?:thank-you\/)?(?:drayage-checklist|sales-road-map|customer-research-guide|niche-resource|onboarding-guide)$)/.test(path))return path;
+ if(/^\/(?:$|about$|privacy$|terms$|cookies$|data-retention$|purchase-terms$|trainings$|academy$|resources$|community$|videos$|blog$|learn$|quote-mastery$|drayage-mastery$|webinar-register$|checkout$|(?:thank-you\/)?(?:drayage-checklist|sales-road-map|customer-research-guide|niche-resource|onboarding-guide)$)/.test(path))return path;
  if(/^\/(?:blog|learn)\/[a-z0-9-]+$/.test(path) && path.length<160)return path;
  return '/other';
 }

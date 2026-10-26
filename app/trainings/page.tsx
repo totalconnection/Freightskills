@@ -15,7 +15,7 @@ export default function Trainings() {
     <main id="main" className="training-page">
       <section className="training-directory-hero">
         <div className="wrap">
-          <p className="eyebrow">Freight Skills Trainings</p>
+          <p className="eyebrow">Freightskills Trainings</p>
           <h1>
             Learn a skill.
             <br />
@@ -31,6 +31,7 @@ export default function Trainings() {
           </a>
         </div>
       </section>
+      <section className="training-section academy-directory"><div className="wrap training-problem"><div><p className="eyebrow">THE CONNECTED LEARNING PATH</p><h2>Freightskills Academy</h2><p>Build your approach to finding customers, quoting freight, coordinating shipments and improving your book of business. Agent and owner paths, with both workshops included during active Academy access.</p></div><div><Link className="button" href="/academy">Explore the Academy <ArrowRight size={18}/></Link><p className="sales-caption">$625 paid in full — save $75 · Or 2 payments of $350 ($700 total) · Monthly group call · Full course updates</p></div></div></section>
       <section id="workshops" className="training-section">
         <div className="wrap training-directory">
           {workshops.map((w, i) => (
@@ -57,7 +58,7 @@ export default function Trainings() {
                   </li>
                   <li>
                     <Check size={17} />
-                    Self-paced learning in your Freight Skills Portal
+                    Self-paced learning in your Freightskills Portal
                   </li>
                 </ul>
                 <p className="training-purchase-note">
@@ -86,9 +87,9 @@ export default function Trainings() {
       </section>
       <section className="training-directory-note">
         <div className="wrap">
-          <h2>Already learning with Freight Skills?</h2>
+          <h2>Already learning with Freightskills?</h2>
           <p>
-            Active Freight Skills Academy access includes both workshops. Open
+            Active Freightskills Academy access includes both workshops. Open
             your portal to see the training and resources available to you.
           </p>
           <a className="text-link" href={memberHome}>
