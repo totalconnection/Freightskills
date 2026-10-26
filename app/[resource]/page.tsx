@@ -1,3 +1,4 @@
+import {CookieSettingsButton} from '@/components/privacy-controls';
 import Link from 'next/link';
 import { headers } from 'next/headers';
 import { notFound, redirect } from 'next/navigation';
@@ -151,7 +152,7 @@ export default async function Resource({ params }: Props) {
         <span>© {new Date().getFullYear()} Freightskills</span>
         <nav aria-label="Resource footer">
           <Link href="/about">About Luis</Link>
-          <Link href="/resources">All resources</Link>
+          <Link href="/resources">All resources</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link><CookieSettingsButton/>
         </nav>
       </footer>
     </main>
