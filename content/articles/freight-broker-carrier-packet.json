@@ -1,0 +1,69 @@
+{
+  "slug": "freight-broker-carrier-packet",
+  "title": "What belongs in a freight broker carrier packet?",
+  "topic": "carriers",
+  "category": "Carrier qualification",
+  "excerpt": "Build a carrier onboarding packet around clear agreements, usable business information and mutual expectations.",
+  "videoId": "adwCSUdK9sg",
+  "sourceId": "Y057",
+  "sourceTitle": "How To Set Up a Carrier Packet as A Freight Broker [Easy to Follow Steps]",
+  "takeaway": "A carrier packet should establish the working agreement, collect the information needed for verification and give the carrier clear details about your brokerage. The packet supports qualification; it does not replace it.",
+  "sections": [
+    {
+      "id": "what-is-a-freight-broker-carrier-packet",
+      "title": "What is a freight broker carrier packet?",
+      "paragraphs": [
+        "A carrier packet is the set of documents and information exchanged when a brokerage and carrier begin working together. Luis describes it as the rules of engagement: both parties should know what they are agreeing to before a shipment problem tests the relationship.",
+        "The packet usually combines a broker-carrier agreement with carrier profile information and the brokerage’s own details. Its value comes from accurate information and workable terms, not from the number of pages it contains."
+      ]
+    },
+    {
+      "id": "make-payment-and-claims-procedures-clear",
+      "title": "Make payment and claims procedures clear",
+      "paragraphs": [
+        "State what documents are required for billing, how payment timing is determined and any optional payment arrangements or fees. The carrier should not have to guess when the process starts or which inbox receives its invoice.",
+        "Address how shipment problems and claims are reported and handled. Have transportation counsel review the agreement for the actual business, including applicable legal requirements. A copied clause or a signed form does not automatically resolve every future dispute."
+      ]
+    },
+    {
+      "id": "address-relationship-protections-carefully",
+      "title": "Address relationship protections carefully",
+      "paragraphs": [
+        "Luis discusses protecting customer relationships introduced through the brokerage. Any nonsolicitation or confidentiality provision needs to describe the intended arrangement clearly and account for existing relationships where appropriate.",
+        "Do not assume every restriction is enforceable in every situation. Discuss scope and practical administration with counsel. A clear, reasonable agreement is more useful than language nobody on the operations team understands."
+      ]
+    },
+    {
+      "id": "collect-information-you-will-actually-verify",
+      "title": "Collect information you will actually verify",
+      "paragraphs": [
+        "Request the carrier’s legal identity, identifying numbers, business contacts, equipment and service information needed for your process. Use independently verified sources to check the important details. Reconcile discrepancies before giving the carrier freight.",
+        "Provide your brokerage’s verified information as well. Transparency is a two-way responsibility. Keep the completed records accessible and review changes over time; a carrier packet completed once is not permanent proof of current authority, insurance or suitability for a particular load."
+      ]
+    }
+  ],
+  "sources": [],
+  "reviewNotes": [],
+  "approved": true,
+  "related": [
+    "carrier-qualification-process",
+    "prevent-freight-brokerage-fraud",
+    "post-loads-and-find-carriers"
+  ],
+  "cover": "What belongs in a freight broker carrier packet?",
+  "theme": "dark",
+  "minutes": 5,
+  "videos": [
+    {
+      "sourceId": "Y057",
+      "id": "adwCSUdK9sg",
+      "title": "How To Set Up a Carrier Packet as A Freight Broker [Easy to Follow Steps]",
+      "url": "https://www.youtube.com/watch?v=adwCSUdK9sg"
+    }
+  ],
+  "seoTitle": "What belongs in a freight broker carrier packet?",
+  "searchIntent": "What is a freight broker carrier packet?",
+  "hero": "/images/articles/y057.webp",
+  "heroAlt": "Freight professional organizing carrier paperwork in an office, editorial illustration",
+  "publishedAt": "2026-10-26"
+}

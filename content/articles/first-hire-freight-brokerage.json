@@ -1,6 +1,6 @@
 {
   "slug": "first-hire-freight-brokerage",
-  "title": "Your first freight brokerage hire should solve the real bottleneck.",
+  "title": "Your first freight brokerage hire should solve the real bottleneck",
   "seoTitle": "Your first freight brokerage hire should solve the real bottleneck",
   "topic": "growth",
   "category": "Business growth",
@@ -68,17 +68,18 @@
       "url": "https://www.youtube.com/watch?v=6zmsztq_6xA"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "freight-expertise-in-the-age-of-ai",
     "freight-brokerage-marketing",
     "freight-broker-profit-margins"
   ],
-  "reviewNotes": [
-    "Preserves existing URL. Time-saving anecdote is attributed, not a performance guarantee. No employment-status or contractor advice added."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "Your first freight brokerage hire should solve the real bottleneck.",
+  "cover": "Your first freight brokerage hire should solve the real bottleneck",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y035.webp",
+  "heroAlt": "Two freight colleagues working together at a laptop, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

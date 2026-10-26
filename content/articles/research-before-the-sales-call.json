@@ -1,6 +1,6 @@
 {
   "slug": "research-before-the-sales-call",
-  "title": "Research the shipper before you make the call.",
+  "title": "Research the shipper before you make the call",
   "topic": "prospecting",
   "category": "Prospecting & sales",
   "excerpt": "Three questions that turn a generic sales call into an informed conversation about the customer’s freight.",
@@ -24,15 +24,6 @@
         "Start with what the company makes, sells, or distributes. Luis’s examples include pharmaceuticals, fruit, wood, chemicals, and bags. Those products point toward very different transportation conversations. The product is the beginning of your research, not the end.",
         "Ask how it is made and how it moves. Is it packaged or bulk? Liquid or dry? Does it suggest ordinary van freight, flatbed equipment, or an oversized move? The purpose is to understand the possible operating requirements before the customer asks whether you can help.",
         "Separate what you found from what you still need to confirm. A product page can establish what the company sells; it does not establish the weight of tomorrow’s order, the equipment needed for a particular shipment, or who controls the freight. Bring those unknowns into the conversation as questions rather than presenting them as facts."
-      ]
-    },
-    {
-      "id": "understand-its-role-in-the-supply-chain",
-      "title": "Understand its role in the supply chain.",
-      "paragraphs": [
-        "The companion research lesson adds a second dimension: what role does this company play between production and the final buyer? A manufacturer’s raw-material needs and plant locations suggest different questions from those of a distributor buying and reselling finished products.",
-        "For a manufacturer, Luis discusses where materials come from, where plants are located, and how finished products reach the next stage. For a distributor, ask who controls transportation when goods are purchased and when customers take delivery. Those arrangements may differ by direction or transaction.",
-        "Do not assign the company a mode simply because you recognize the product. The lesson mentions products ranging from cardboard boxes and steel pipe to excavators, bagged sugar, toys, and auto parts. Use that knowledge to ask about actual order sizes and handling needs. Confirm whether the movement calls for LTL, truckload, or another service rather than deciding in advance."
       ]
     },
     {
@@ -63,16 +54,14 @@
     }
   ],
   "sources": [],
-  "reviewNotes": [
-    "Y022 added to existing research article to avoid duplicate intent. Retail and wholesale roles are kept distinct; transcript equivalence is not retained."
-  ],
-  "approved": false,
+  "reviewNotes": [],
+  "approved": true,
   "related": [
     "diversify-freight-broker-customers",
     "freight-broker-cold-calling",
     "how-freight-brokers-quote-rates"
   ],
-  "cover": "Research the shipper before you make the call.",
+  "cover": "Research the shipper before you make the call",
   "theme": "dark",
   "minutes": 5,
   "videos": [
@@ -81,14 +70,11 @@
       "id": "8siXfQ4PUPQ",
       "title": "3 Questions You Must Answer Before Cold Calling a Customer",
       "url": "https://www.youtube.com/watch?v=8siXfQ4PUPQ"
-    },
-    {
-      "sourceId": "Y022",
-      "id": "L-3mzZVfiwM",
-      "title": "How to Research Your Customer as a Freight Broker",
-      "url": "https://www.youtube.com/watch?v=L-3mzZVfiwM"
     }
   ],
-  "seoTitle": "Research the shipper before you make the call.",
-  "searchIntent": "Research the shipper before you make the call."
+  "seoTitle": "Research the shipper before you make the call",
+  "searchIntent": "How should a freight broker prepare for a shipper sales call?",
+  "hero": "/images/articles/y036.webp",
+  "heroAlt": "Freight professional taking notes during a phone call, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

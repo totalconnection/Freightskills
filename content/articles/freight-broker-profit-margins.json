@@ -1,12 +1,12 @@
 {
   "slug": "freight-broker-profit-margins",
-  "title": "Freight broker profit margins: what remains after the load.",
-  "seoTitle": "Freight broker profit margins: what remains after the load",
+  "title": "Freight broker margins: gross profit vs. take-home income",
+  "seoTitle": "Freight broker margins: gross profit vs. take-home income",
   "topic": "quoting",
   "category": "Quoting & rates",
-  "searchIntent": "How do freight broker margins differ from net business profit?",
-  "excerpt": "Distinguish shipment spread from business profit, then review expenses, pricing discipline, and repeatable operating processes.",
-  "takeaway": "The difference between customer revenue and carrier cost must support the rest of the business. Improve that economics without weakening the service.",
+  "searchIntent": "What does a freight broker margin pay for?",
+  "excerpt": "Understand the shipment spread, the cost of operating a brokerage and why a margin percentage needs context.",
+  "takeaway": "The difference between the shipper charge and carrier cost is gross profit before the brokerage’s operating expenses. It supports the work of finding, arranging and administering freight; it is not all owner income.",
   "sections": [
     {
       "id": "separate-shipment-spread-from-take-home-income",
@@ -25,35 +25,27 @@
       ]
     },
     {
-      "id": "review-recurring-expenses-against-actual-use",
-      "title": "Review recurring expenses against actual use.",
+      "id": "calculate-margin-clearly",
+      "title": "Calculate the shipment margin clearly",
       "paragraphs": [
-        "In the profit-improvement lesson, Luis’s first lever is an expense audit. Write down the recurring subscriptions and other costs. Identify tools that overlap or no longer fit the stage of the business, then assess whether their contribution justifies keeping them.",
-        "The purpose is not to remove necessary work. Eliminating a verification step or essential support because it has a cost can create a larger exposure. Distinguish unnecessary duplication from the resources required to provide the agreed service responsibly."
+        "For a simple example, charging the customer $2,000 and paying the carrier $1,700 leaves $300 before other costs. That is a 15% gross margin on the $2,000 sale. Markup uses the cost as its denominator, so it is a different calculation.",
+        "The example is arithmetic, not a recommended rate. Financing, staff, systems and other costs affect how much remains. A percentage alone cannot tell you whether a particular shipment or brokerage is profitable."
       ]
     },
     {
-      "id": "improve-negotiation-without-treating-service-as-expendable",
-      "title": "Improve negotiation without treating service as expendable.",
+      "id": "understand-both-businesses",
+      "title": "Understand the work on both sides",
       "paragraphs": [
-        "The second lever is pricing and negotiation. A small improvement repeated across many shipments can matter, but the improvement has to remain compatible with dependable execution. Pressuring the cost below a feasible level is not the same as making the process more efficient.",
-        "The source contains an arithmetic error in its illustration. At one hundred shipments, an improvement of twenty-five to fifty dollars per shipment totals twenty-five hundred to five thousand dollars, before other effects—not the larger amount stated in the recording. That correction is specifically flagged for Luis’s review."
+        "Luis asks brokers and carriers to recognize that each operates a business with real costs. The carrier must understand what it needs to run the truck. The broker must understand the service it is promising and the cost of arranging it.",
+        "Use that understanding to negotiate a clear agreement. Quoting a customer without a credible carrier cost can put pressure on everyone later. Know the shipment and confirm the service before committing to the number."
       ]
     },
     {
-      "id": "make-the-operating-process-repeatable",
-      "title": "Make the operating process repeatable.",
+      "id": "use-your-own-economics",
+      "title": "Use your own economics instead of a universal target",
       "paragraphs": [
-        "Luis’s third lever is systems. His quoting example has requests arriving in a consistent place, format, and information structure so the team can work from a repeatable process. Missing details and unclear handoffs create effort that does not improve the shipment.",
-        "The same thinking applies to bill auditing, delivery-document requests, missing carrier invoices, and collections. A written process makes it easier to see where work stops and to train another person. Start organizing the recurring tasks before volume makes the confusion harder to untangle."
-      ]
-    },
-    {
-      "id": "evaluate-your-own-economics-rather-than-a-universal-margin-target",
-      "title": "Evaluate your own economics rather than a universal margin target.",
-      "paragraphs": [
-        "The recording includes historical margin commentary and an inconsistent interest calculation. This article does not use them as current industry averages or financing guidance. A brokerage’s actual costs, service mix, payment timing, and responsibilities determine what its shipment spread must support.",
-        "Review the whole picture: accurate cost preparation, responsible negotiation, purposeful expenses, and work that can be repeated without constant rework. Those levers give you specific things to improve. A single percentage, detached from the operating reality, does not."
+        "Costs, service mix, customer payment timing and operating responsibilities differ between brokerages. The margin commentary in the original recording is historical; it should not be treated as a current industry average.",
+        "Review actual shipment results and overhead together. Look for work that can be performed reliably at an acceptable return, and understand why a result changed before setting the next price. That is more useful than chasing a percentage detached from the operation."
       ]
     }
   ],
@@ -66,26 +58,20 @@
       "id": "1QM4uzqx7Lc",
       "title": "Freight Broker Profit Margins | Everything You Need to Know",
       "url": "https://www.youtube.com/watch?v=1QM4uzqx7Lc"
-    },
-    {
-      "sourceId": "Y015",
-      "id": "jRK2ccq4Veo",
-      "title": "How to Increase Your Profit Margin as a Freight Broker",
-      "url": "https://www.youtube.com/watch?v=jRK2ccq4Veo"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "how-freight-brokers-quote-rates",
     "evaluate-freight-rfqs",
     "carrier-qualification-process"
   ],
-  "reviewNotes": [
-    "Explicit correction: 100 × $25–$50 = $2,500–$5,000. Owner approval required.",
-    "Y019 interest example withheld: $10,000 at 8% annual simple interest is $800/year before other conditions; source day/month arithmetic is inconsistent. No current average-margin or failure-rate claims."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "Freight broker profit margins: what remains after the load.",
+  "cover": "Freight broker margins: gross profit vs. take-home income",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y019.webp",
+  "heroAlt": "Freight professional reviewing documents at a yard-side desk, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

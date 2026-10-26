@@ -66,25 +66,20 @@
       "id": "FsvmFVJ9f2s",
       "title": "Can You Become A Freight Broker With No Experience?",
       "url": "https://www.youtube.com/watch?v=FsvmFVJ9f2s"
-    },
-    {
-      "sourceId": "Y039",
-      "id": "3_udqcAJGCA",
-      "title": "Do you Need Training to Be a Freight Broker?",
-      "url": "https://www.youtube.com/watch?v=3_udqcAJGCA"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "co-brokering-and-dual-authority",
     "collect-overdue-freight-invoices",
     "freight-broker-sales-process"
   ],
-  "reviewNotes": [
-    "Historical program promotions and unsupported success or failure claims are excluded. No present program offer is implied."
-  ],
+  "reviewNotes": [],
   "sources": [],
   "cover": "How to learn freight brokerage without industry experience",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y048.webp",
+  "heroAlt": "Freight professional learning at a laptop with a notebook, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

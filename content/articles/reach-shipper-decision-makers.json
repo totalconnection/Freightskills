@@ -1,6 +1,6 @@
 {
   "slug": "reach-shipper-decision-makers",
-  "title": "How freight brokers reach the right shipper decision-maker.",
+  "title": "How freight brokers reach the right shipper decision-maker",
   "seoTitle": "How freight brokers reach the right shipper decision-maker",
   "topic": "prospecting",
   "category": "Prospecting & sales",
@@ -41,14 +41,6 @@
       ]
     },
     {
-      "id": "keep-a-senior-introduction-truthful-and-limited",
-      "title": "Keep a senior introduction truthful and limited.",
-      "paragraphs": [
-        "Luis uses his experience with a family manufacturing company to explain why different people may respond differently to incoming calls. An owner may be reachable when a routine vendor channel is heavily screened. That is an observation from the lesson, not a rule that all owners answer or welcome every solicitation.",
-        "If a senior person directs you to a colleague, represent that introduction accurately. Being told whom to call is not the same as being endorsed as an approved provider. The distinction protects the credibility of the next conversation."
-      ]
-    },
-    {
       "id": "check-whether-the-target-fits-your-business",
       "title": "Check whether the target fits your business.",
       "paragraphs": [
@@ -66,25 +58,20 @@
       "id": "930LO54kF1s",
       "title": "Freight Broker Sales Strategy: Get past the Gatekeeper and speak to the Decision Maker",
       "url": "https://www.youtube.com/watch?v=930LO54kF1s"
-    },
-    {
-      "sourceId": "Y046",
-      "id": "fCSq5ZybhS0",
-      "title": "Freight Broker Sales Secret | How to Reach the Decision Maker",
-      "url": "https://www.youtube.com/watch?v=fCSq5ZybhS0"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "research-before-the-sales-call",
     "diversify-freight-broker-customers",
     "how-freight-brokers-quote-rates"
   ],
-  "reviewNotes": [
-    "No source success-rate percentages or blanket claims about owners answering are retained. Senior introductions must not imply an endorsement that was not given."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "How freight brokers reach the right shipper decision-maker.",
+  "cover": "How freight brokers reach the right shipper decision-maker",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y016.webp",
+  "heroAlt": "Two logistics professionals talking at a warehouse entrance, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

@@ -1,12 +1,12 @@
 {
   "slug": "co-brokering-and-dual-authority",
-  "title": "Co-brokering and dual authority: make responsibilities clear",
-  "seoTitle": "Co-Brokering & Dual Authority: Roles and Responsibilities",
+  "title": "Co-brokering vs. double brokering: check the arrangement",
+  "seoTitle": "Co-brokering vs. double brokering: check the arrangement",
   "topic": "business",
   "category": "Brokerage foundations",
-  "searchIntent": "How do co-brokering arrangements differ from running a carrier and brokerage?",
-  "excerpt": "Understand the contracts, payment paths and operating responsibilities behind co-brokering and businesses that operate trucks and broker freight.",
-  "takeaway": "Trace who contracted with whom, who actually performs the transportation and who is responsible for payment before accepting the arrangement.",
+  "searchIntent": "How should a broker evaluate a co-brokering arrangement?",
+  "excerpt": "Trace the contracts, carrier selection, communication and payment responsibilities when another broker is involved.",
+  "takeaway": "Before accepting a co-brokered load, establish who engaged each party, what the contracts permit, who selects the carrier and who pays. A label alone does not resolve the arrangement.",
   "sections": [
     {
       "id": "draw-the-contractual-chain-before-discussing-labels",
@@ -41,19 +41,11 @@
       ]
     },
     {
-      "id": "recognize-the-work-behind-operating-two-businesses",
-      "title": "Recognize the work behind operating two businesses",
-      "paragraphs": [
-        "A company operating trucks has driver, equipment and maintenance responsibilities that differ from brokerage operations. Adding brokerage capability does not remove those fleet obligations.",
-        "Luis’s dual-authority discussion is most useful as an operating-model question: who manages each function, how are commitments recorded and what resources does each activity require? Avoid assuming that one team or one policy automatically covers every activity."
-      ]
-    },
-    {
       "id": "verify-the-legal-and-insurance-details-for-your-structure",
       "title": "Verify the legal and insurance details for your structure",
       "paragraphs": [
         "FMCSA guidance distinguishes broker activities and bona fide agency relationships based on the work performed. Labels alone are not enough to resolve a particular arrangement.",
-        "Confirm authority, contract permissions and insurance with the appropriate professionals. This adaptation does not carry forward blanket claims that all retendering is illegal, that different ownership is always required or that insurance never responds."
+        "Confirm authority, contract permissions and insurance with the appropriate professionals. The legal and insurance consequences depend on the actual activity, agreements and coverage."
       ]
     }
   ],
@@ -66,30 +58,25 @@
       "id": "Bv3BL7mhBRY",
       "title": "What is Co-Brokering vs. Double Brokering in Freight? | Is it illegal",
       "url": "https://www.youtube.com/watch?v=Bv3BL7mhBRY"
-    },
-    {
-      "sourceId": "Y020",
-      "id": "y1X0qqyos0U",
-      "title": "The Truth About a Broker Carrier Dual Authority",
-      "url": "https://www.youtube.com/watch?v=y1X0qqyos0U"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "collect-overdue-freight-invoices",
     "freight-broker-surety-bond",
     "freight-broker-sales-process"
   ],
-  "reviewNotes": [
-    "Substantive legal correction: removed categorical statements about retendering, ownership structure and insurance. Final treatment requires review of the actual business arrangement."
-  ],
+  "reviewNotes": [],
   "sources": [
     {
       "label": "FMCSA: broker and bona fide agent definitions",
       "url": "https://www.fmcsa.dot.gov/newsroom/fmcsa-issues-final-guidance-clarifying-broker-and-bona-fide-agents-definitions"
     }
   ],
-  "cover": "Co-brokering and dual authority: make responsibilities clear",
+  "cover": "Co-brokering vs. double brokering: check the arrangement",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y047.webp",
+  "heroAlt": "Two freight professionals discussing documents in a truck yard, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

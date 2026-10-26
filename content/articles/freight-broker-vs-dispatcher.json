@@ -68,15 +68,13 @@
       "url": "https://www.youtube.com/watch?v=Ckw9Q4YHe9I"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "co-brokering-and-dual-authority",
     "collect-overdue-freight-invoices",
     "freight-broker-sales-process"
   ],
-  "reviewNotes": [
-    "Substantive correction: regulatory status is not determined solely by who pays the invoice. Current FMCSA guidance controls the framing; legal review is required for a specific arrangement."
-  ],
+  "reviewNotes": [],
   "sources": [
     {
       "label": "FMCSA: broker and bona fide agent definitions",
@@ -85,5 +83,8 @@
   ],
   "cover": "Freight broker vs. dispatcher: understand the role before the label",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y051.webp",
+  "heroAlt": "Broker working at a desk beside an American long-hood tractor, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

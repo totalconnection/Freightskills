@@ -1,6 +1,6 @@
 {
   "slug": "freight-factoring-for-brokers",
-  "title": "Freight factoring for brokers: compare cash flow, workload, and risk.",
+  "title": "Freight factoring for brokers: compare cash flow, workload, and risk",
   "seoTitle": "Freight factoring for brokers: compare cash flow, workload, and risk",
   "topic": "business",
   "category": "Brokerage foundations",
@@ -25,26 +25,10 @@
       ]
     },
     {
-      "id": "do-not-treat-all-cash-as-spare-operating-capital",
-      "title": "Do not treat all cash as spare operating capital.",
-      "paragraphs": [
-        "The companion lesson addresses an owner with savings who assumes self-funding is obviously cheaper. Luis asks that owner to distinguish available cash from money already needed for carrier obligations, personal needs, and business reserves.",
-        "A delay or default can affect more than one invoice if the same cash is needed to keep paying other obligations. Look at how the business would function while a balance remains unpaid. That question belongs alongside the fee comparison."
-      ]
-    },
-    {
-      "id": "include-the-work-performed-behind-the-funding",
-      "title": "Include the work performed behind the funding.",
-      "paragraphs": [
-        "Luis’s own self-funded operation is described as using an accounting team, bank borrowing, and established processes. It is not simply a decision to leave cash in an account until someone requests payment. Billing, delivery-document collection, credit review, collections, and supervision all require work.",
-        "When comparing arrangements, determine who will perform those tasks and what support is actually included. Outsourcing a task can have value, but only if the agreement and service match the work you need. Avoid assigning value to a function merely because it appears in a sales description."
-      ]
-    },
-    {
       "id": "read-the-risk-allocation-and-approval-limits",
       "title": "Read the risk allocation and approval limits.",
       "paragraphs": [
-        "The lessons distinguish recourse and non-recourse arrangements, but the source language sometimes overstates how much risk disappears. The safe comparison is the actual contract: which nonpayment events are covered, which disputes or exclusions remain, and what the broker may have to repay.",
+        "Compare recourse and nonrecourse arrangements through the actual contract: which nonpayment events are covered, which disputes or exclusions remain, and what the broker may have to repay.",
         "Luis also gives an example of a provider approving only part of the exposure proposed for a customer. An approval limit matters because work beyond it may not be treated the same way. Funding availability and credit-risk transfer should be evaluated separately rather than assumed from the product name."
       ]
     },
@@ -53,7 +37,7 @@
       "title": "Choose an arrangement the operation can sustain.",
       "paragraphs": [
         "Compare the timing of funds, documentation burden, collection support, fees, credit limits, and treatment of disputes. Then compare that with the resources required to manage the same work internally. Neither having savings nor seeing a low advertised fee settles the decision by itself.",
-        "The lesson is to examine the whole process. This adaptation excludes historic affiliate offers and treats the source’s broad risk-elimination statements as review items. No provider, current fee, or financial outcome is being promised."
+        "Request a current written proposal, review its terms and model the effect on your own cash flow. No arrangement removes the need to manage the underlying customer and operating risks."
       ]
     }
   ],
@@ -66,30 +50,25 @@
       "id": "2JhVDNV3aOg",
       "title": "Freight Factoring for Freight Brokers | Manage Cash Flow like a Pro",
       "url": "https://www.youtube.com/watch?v=2JhVDNV3aOg"
-    },
-    {
-      "sourceId": "Y013",
-      "id": "CzVCpc4pUZY",
-      "title": "Factoring Invoices as a Freight Broker: Should You Do It Even If You Can Afford Not To?",
-      "url": "https://www.youtube.com/watch?v=CzVCpc4pUZY"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "co-brokering-and-dual-authority",
     "collect-overdue-freight-invoices",
     "freight-broker-sales-process"
   ],
-  "reviewNotes": [
-    "Owner review required: non-recourse factoring is not described as eliminating every risk. Historical percentages are examples only; inaccurate fee arithmetic and affiliate promotion removed."
-  ],
+  "reviewNotes": [],
   "sources": [
     {
       "label": "CFPB: definition of factoring as a receivables purchase transaction",
       "url": "https://www.consumerfinance.gov/rules-policy/regulations/1002/2026-06-30/interp-104/"
     }
   ],
-  "cover": "Freight factoring for brokers: compare cash flow, workload, and risk.",
+  "cover": "Freight factoring for brokers: compare cash flow, workload, and risk",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y025.webp",
+  "heroAlt": "Brokerage desk with maps and a view of American trucks, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

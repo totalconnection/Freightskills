@@ -1,0 +1,74 @@
+{
+  "slug": "dat-load-posting-checklist",
+  "title": "DAT load posting: the information carriers need",
+  "seoTitle": "DAT load posting: the information carriers need",
+  "topic": "carriers",
+  "category": "Carrier qualification",
+  "searchIntent": "What information belongs in a DAT load posting?",
+  "excerpt": "Use Luis’s historical DAT walkthrough to understand the shipment details behind a clear, useful load posting.",
+  "takeaway": "A useful load posting gives carriers accurate locations, dates, equipment, dimensions, weight, commodity and special requirements. Keep the posting current and verify the carrier separately before booking.",
+  "sections": [
+    {
+      "id": "what-information-belongs-in-a-dat-load-posting",
+      "title": "What information belongs in a DAT load posting?",
+      "paragraphs": [
+        "Luis’s screen demonstration uses an older version of DAT Power. The interface and product names may have changed, but the operating lesson still applies: a carrier should be able to understand the actual shipment from the information you provide.",
+        "Before posting, confirm the pickup and delivery locations, dates and available hours. Identify the required equipment and whether the shipment needs the full trailer or can move as a partial. Use verified details rather than filling gaps with assumptions."
+      ]
+    },
+    {
+      "id": "describe-the-freight-and-handling-requirements",
+      "title": "Describe the freight and handling requirements",
+      "paragraphs": [
+        "Include accurate weight, dimensions or space required, piece count and commodity information where the platform allows it. Equipment selection should match the shipment. A product description alone does not establish that a particular trailer is suitable.",
+        "State requirements such as loading assistance, securement or special handling clearly. Sensitive or specialized freight may need additional qualification beyond a general load-board posting. Resolve missing details with the customer before offering the work."
+      ]
+    },
+    {
+      "id": "make-it-easy-to-reach-the-right-person",
+      "title": "Make it easy to reach the right person",
+      "paragraphs": [
+        "Check the contact information and use a reference number your team can recognize. When several people are covering loads, a usable reference helps route calls and avoid confusion between similar lanes.",
+        "Luis also demonstrates looking at available truck posts and their age. A posted truck is a starting point for a conversation, not a promise of current availability. Confirm the carrier’s location, equipment and ability to meet the schedule."
+      ]
+    },
+    {
+      "id": "use-market-information-as-context-and-keep-posts-accurate",
+      "title": "Use market information as context and keep posts accurate",
+      "paragraphs": [
+        "Rate information can help frame a conversation, but it does not replace the specific requirements of the move or a current carrier quote. The example rates shown in the recording belong to that demonstration and should not be used as today’s pricing.",
+        "Post only genuine freight you are authorized to offer, and remove or update the posting when its status changes. For current button-by-button instructions, use DAT’s own product help. Carrier identity, authority, insurance and suitability still require verification after a response arrives."
+      ]
+    }
+  ],
+  "videoId": "VPVa_xQmNM8",
+  "sourceId": "Y042",
+  "sourceTitle": "How to Post a Load on DAT Power | DAT Express",
+  "videos": [
+    {
+      "sourceId": "Y042",
+      "id": "VPVa_xQmNM8",
+      "title": "How to Post a Load on DAT Power | DAT Express",
+      "url": "https://www.youtube.com/watch?v=VPVa_xQmNM8"
+    }
+  ],
+  "approved": true,
+  "related": [
+    "post-loads-and-find-carriers",
+    "carrier-qualification-process",
+    "prevent-freight-brokerage-fraud"
+  ],
+  "reviewNotes": [],
+  "sources": [
+    {
+      "label": "DAT: current product support",
+      "url": "https://www.dat.com/support"
+    }
+  ],
+  "cover": "DAT load posting: the information carriers need",
+  "theme": "dark",
+  "minutes": 1,
+  "hero": "/images/articles/y042.webp",
+  "heroAlt": "Load-planning screen at a freight brokerage desk, editorial illustration",
+  "publishedAt": "2026-10-26"
+}

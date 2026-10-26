@@ -3,7 +3,6 @@ import { notFound } from 'next/navigation';
 import { posts, readingMinutes } from '@/lib/posts';
 import { metadata as meta, siteUrl, isProduction } from '@/lib/config';
 import { ArticleCard } from '@/components/article-card';
-import { articleImage } from '@/lib/article-utils';
 import { Video } from '@/components/video';
 import { Eyebrow } from '@/components/site';
 type Props = { params: Promise<{ slug: string }> };
@@ -16,6 +15,8 @@ export async function generateMetadata({ params }: Props) {
   return p
     ? {
         ...meta(p.seoTitle, p.excerpt, `/blog/${p.slug}`),
+        openGraph: { ...meta(p.seoTitle, p.excerpt, `/blog/${p.slug}`).openGraph, type: 'article', publishedTime: p.publishedAt, images: [{ url: siteUrl + p.hero, width: 1344, height: 752, alt: p.heroAlt }] },
+        twitter: { card: 'summary_large_image', title: p.seoTitle, description: p.excerpt, images: [siteUrl + p.hero] },
         robots: {
           index: isProduction && p.approved,
           follow: isProduction && p.approved,
@@ -36,18 +37,31 @@ export default async function Post({ params }: Props) {
     author: { '@type': 'Person', name: 'Luis Uribe', url: siteUrl + '/about' },
     publisher: { '@type': 'Organization', name: 'Freightskills', url: siteUrl },
     mainEntityOfPage: siteUrl + '/blog/' + p.slug,
-    image: siteUrl + articleImage(p.topic),
+    image: siteUrl + p.hero,
+    datePublished: p.publishedAt,
+    dateModified: p.publishedAt,
     isBasedOn: p.videos.map((v) => v.url),
+  };
+  const breadcrumbs = {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Freightskills', item: siteUrl },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: siteUrl + '/blog' },
+      { '@type': 'ListItem', position: 3, name: p.title, item: siteUrl + '/blog/' + p.slug },
+    ],
   };
   return (
     <main id="main">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(schema).replace(/</g, '\\u003c'),
+          __html: JSON.stringify([schema, breadcrumbs]).replace(/</g, '\\u003c'),
         }}
       />
       <header className="wrap post-header">
+        <nav className="article-breadcrumbs" aria-label="Breadcrumb">
+          <Link href="/">Freightskills</Link><span aria-hidden="true"> / </span><Link href="/blog">Blog</Link>
+        </nav>
         <Link className="back-link" href={`/learn/${p.topic}`}>
           ← {p.category}
         </Link>
@@ -59,9 +73,13 @@ export default async function Post({ params }: Props) {
           <span>
             Based on teaching by <Link href="/about">Luis Uribe</Link>
             <br />
-            <small>{readingMinutes(p)} min read · Video + article</small>
+            <small>{readingMinutes(p)} min read · Video + article · Published <time dateTime={p.publishedAt}>October 26, 2026</time></small>
           </span>
         </div>
+        <figure className="post-hero">
+          <img src={p.hero} alt={p.heroAlt} width="1344" height="752" fetchPriority="high" />
+          <figcaption>Editorial illustration · Freightskills</figcaption>
+        </figure>
         {!p.approved && (
           <div className="review-banner">
             Editorial draft · Awaiting Luis’s review before publication
@@ -71,9 +89,31 @@ export default async function Post({ params }: Props) {
       <div className="wrap post-grid">
         <article className="post-body">
           <div className="takeaway">
-            <Eyebrow>THE PRACTICAL TAKEAWAY</Eyebrow>
+            <Eyebrow>THE SHORT ANSWER</Eyebrow>
+            <h2>{p.searchIntent}</h2>
             <p>{p.takeaway}</p>
           </div>
+          <section id="source-video">
+            <h2>
+              {p.videos.length > 1
+                ? 'Watch the original lessons.'
+                : 'Watch the original lesson.'}
+            </h2>
+            {p.videos.map((v) => (
+              <div key={v.id} className="source-video-item">
+                <Video id={v.id} title={v.title} embedded />
+                <p className="video-note">
+                  <a href={v.url}>{v.title} ↗</a>
+                  <br />
+                  Freightskills · Luis Uribe. This lesson reflects its original
+                  recording period.
+                </p>
+              </div>
+            ))}
+            <Link className="text-link" href="/videos">
+              Explore all video lessons ↗
+            </Link>
+          </section>
           {p.sections.map((s) => (
             <section key={s.id} id={s.id}>
               <h2>{s.title}</h2>
@@ -89,27 +129,6 @@ export default async function Post({ params }: Props) {
               )}
             </section>
           ))}
-          <section id="source-video">
-            <h2>
-              {p.videos.length > 1
-                ? 'Watch the original lessons.'
-                : 'Watch the original lesson.'}
-            </h2>
-            {p.videos.map((v) => (
-              <div key={v.id} className="source-video-item">
-                <Video id={v.id} title={v.title} />
-                <p className="video-note">
-                  <a href={v.url}>{v.title} ↗</a>
-                  <br />
-                  Freightskills · Luis Uribe. This lesson reflects its original
-                  recording period.
-                </p>
-              </div>
-            ))}
-            <Link className="text-link" href="/videos">
-              Explore all video lessons ↗
-            </Link>
-          </section>
           {p.sources.length > 0 && (
             <section className="source-list">
               <h2>Primary sources & further reading</h2>

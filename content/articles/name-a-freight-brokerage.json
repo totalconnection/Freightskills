@@ -68,15 +68,13 @@
       "url": "https://www.youtube.com/watch?v=zDlM4j-Kp3c"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "co-brokering-and-dual-authority",
     "collect-overdue-freight-invoices",
     "freight-broker-sales-process"
   ],
-  "reviewNotes": [
-    "Corrected the source’s copyright terminology to trademark and the official USPTO domain to uspto.gov. Domain availability is not legal clearance."
-  ],
+  "reviewNotes": [],
   "sources": [
     {
       "label": "USPTO: search our trademark database",
@@ -85,5 +83,8 @@
   ],
   "cover": "How to choose a clear, credible freight brokerage name",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y063.webp",
+  "heroAlt": "Freight business planning at an office laptop, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

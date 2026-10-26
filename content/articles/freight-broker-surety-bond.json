@@ -1,64 +1,43 @@
 {
   "slug": "freight-broker-surety-bond",
-  "title": "Freight broker surety bonds: BMC-84, BMC-85 and claims",
-  "seoTitle": "Freight Broker Bonds: BMC-84, BMC-85 & Claims",
+  "title": "BMC-84 surety bond: what freight brokers need to understand",
+  "seoTitle": "BMC-84 surety bond: what freight brokers need to understand",
   "topic": "business",
   "category": "Brokerage foundations",
-  "searchIntent": "What does a freight broker bond cover and how do claims work?",
-  "excerpt": "Understand freight broker financial security, the difference between a bond and trust, and the documentation to gather before pursuing a claim.",
-  "takeaway": "Financial security is not general business insurance or a promise that every disputed invoice will be paid. Understand the instrument and document the underlying obligation.",
+  "searchIntent": "What is a BMC-84 freight broker surety bond?",
+  "excerpt": "Understand the purpose of broker financial security, the difference between a bond and a trust, and the obligations that remain with the business.",
+  "takeaway": "A BMC-84 is a surety bond used to satisfy the broker financial-security requirement. It helps protect eligible claimants; it does not replace operating cash or erase the broker’s underlying obligations.",
   "sections": [
     {
-      "id": "distinguish-a-bond-from-a-trust-and-insurance",
-      "title": "Distinguish a bond from a trust and insurance",
+      "id": "what-is-a-bmc-84-freight-broker-surety-bond",
+      "title": "What is a BMC-84 freight broker surety bond?",
       "paragraphs": [
-        "Luis’s lessons explain why brokers need to understand financial security before a payment dispute occurs. FMCSA identifies BMC-84 surety bonds and BMC-85 trust fund agreements as ways to meet the applicable $75,000 financial-security requirement.",
-        "A surety arrangement is not the same as holding that amount as operating cash. Nor should a broker treat a bond as insurance that makes unpaid obligations disappear. Reimbursement obligations may apply under the surety agreement."
+        "FMCSA identifies a $75,000 BMC-84 surety bond or BMC-85 trust fund agreement as financial security for brokers. Luis’s lesson explains why this requirement matters to the working relationship between brokers and carriers.",
+        "The amount of the bond is not the annual price of obtaining it, and it is not money available for ordinary brokerage expenses. Obtain a current proposal and understand the agreement rather than relying on the historical premium examples in the video."
       ]
     },
     {
-      "id": "separate-the-shipment-dispute-from-the-claim-process",
-      "title": "Separate the shipment dispute from the claim process",
+      "id": "understand-who-the-security-is-intended-to-protect",
+      "title": "Understand who the security is intended to protect",
       "paragraphs": [
-        "Before escalating, establish what was agreed, what work was performed, what was billed and why payment remains outstanding. Luis describes a situation in which an invoice had been missed in a spam folder; direct contact can sometimes identify an administrative problem.",
-        "That does not mean every overdue balance is an innocent mistake. It means the collection record should show reasonable attempts to reach the correct billing contact and resolve missing documents or a stated dispute."
+        "Eligible unpaid claims can be presented to the financial-security provider for review. The provider evaluates the claim and the supporting facts; filing does not automatically establish that the full requested amount is owed.",
+        "For the brokerage, the important point is that a surety arrangement does not make an unpaid obligation disappear. Read the indemnity and reimbursement terms and understand what a claim or payment can require of the business."
       ]
     },
     {
-      "id": "identify-the-correct-business-and-provider",
-      "title": "Identify the correct business and provider",
+      "id": "compare-the-actual-terms-before-choosing-a-provider",
+      "title": "Compare the actual terms before choosing a provider",
       "paragraphs": [
-        "Confirm the legal business you contracted with and its relevant registration information. Use official records and independently verified contacts to identify the financial-security provider rather than relying solely on a name in an email.",
-        "Ask the provider for its current claim procedure and required documentation. Do not assume that a process shown in an older video still uses the same form, address or submission method."
+        "Ask about premium, collateral if required, renewal, cancellation and the responsibilities created by the agreement. Verify that the filing meets the applicable requirement and that your business information is accurate.",
+        "A lower advertised price does not explain the entire arrangement. Compare current written proposals and ask a qualified adviser about terms you do not understand. Keep the provider’s contact information and renewal responsibilities accessible."
       ]
     },
     {
-      "id": "assemble-evidence-of-the-obligation",
-      "title": "Assemble evidence of the obligation",
+      "id": "keep-up-with-current-financial-responsibility-requirements",
+      "title": "Keep up with current financial-responsibility requirements",
       "paragraphs": [
-        "Keep a clear chronology and the documents that support it. The purpose is to make the transaction understandable to someone who did not arrange the shipment."
-      ],
-      "bullets": [
-        "The agreement and rate confirmation, including relevant terms.",
-        "Shipment and delivery records, including the signed proof of delivery where applicable.",
-        "The invoice and evidence of submission.",
-        "Collection correspondence, responses and the explanation of any dispute."
-      ]
-    },
-    {
-      "id": "account-for-current-financial-responsibility-rules",
-      "title": "Account for current financial-responsibility rules",
-      "paragraphs": [
-        "FMCSA’s financial-responsibility changes effective January 16, 2026 include rules affecting eligible trust assets and action when available financial security falls below the required amount. Its current compliance guidance should be consulted instead of historical descriptions of the system.",
-        "A claim may involve disputed facts or competing obligations. Neither this article nor the existence of financial security guarantees a particular recovery. Seek appropriate advice when the amount or disagreement warrants it."
-      ]
-    },
-    {
-      "id": "use-prevention-alongside-escalation",
-      "title": "Use prevention alongside escalation",
-      "paragraphs": [
-        "Accurate billing contacts, complete paperwork, credit controls and consistent collection follow-up remain important even where financial security exists. Keep payment responsibilities clear before freight moves.",
-        "For brokers, read the surety or trust agreement and understand the obligations it creates. For claimants, preserve evidence and follow the provider’s current process. A unilateral edit to paperwork should not be assumed to bind another party."
+        "FMCSA’s changes effective January 16, 2026 address matters including eligible trust assets and action when available security falls below the required amount. Consult the agency’s current compliance guidance for the details that apply to your filing.",
+        "Financial security is one part of a functioning brokerage. Accurate billing, credit controls, payment follow-through and complete records still matter every day. Treat the bond as a requirement to understand and maintain, rather than a substitute for those operating habits."
       ]
     }
   ],
@@ -71,34 +50,29 @@
       "id": "UfDvLSjdYbE",
       "title": "Everything You Need To Know about the BMC-84 Surety Bond",
       "url": "https://www.youtube.com/watch?v=UfDvLSjdYbE"
-    },
-    {
-      "sourceId": "Y028",
-      "id": "l_eUsHj6sak",
-      "title": "How to File on a BMC 84 bond",
-      "url": "https://www.youtube.com/watch?v=l_eUsHj6sak"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "co-brokering-and-dual-authority",
     "collect-overdue-freight-invoices",
     "freight-broker-sales-process"
   ],
-  "reviewNotes": [
-    "Current FMCSA requirements replace historical bond-limit and premium claims. Removed any implication that unilateral redlines are automatically binding or that claims guarantee recovery."
-  ],
+  "reviewNotes": [],
   "sources": [
     {
-      "label": "FMCSA: financial responsibility rule and compliance",
-      "url": "https://www.fmcsa.dot.gov/registration/broker-and-freight-forwarder-financial-responsibility-rule-overview-and-compliance"
+      "label": "FMCSA: broker registration and financial security",
+      "url": "https://www.fmcsa.dot.gov/registration/broker-registration"
     },
     {
-      "label": "FMCSA: broker registration",
-      "url": "https://www.fmcsa.dot.gov/registration/broker-registration"
+      "label": "FMCSA: current financial responsibility rule FAQs",
+      "url": "https://www.fmcsa.dot.gov/registration/broker-and-freight-forwarder-financial-responsibility-rule-faqs"
     }
   ],
-  "cover": "Freight broker surety bonds: BMC-84, BMC-85 and claims",
+  "cover": "BMC-84 surety bond: what freight brokers need to understand",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y037.webp",
+  "heroAlt": "Two freight professionals reviewing agreement paperwork, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

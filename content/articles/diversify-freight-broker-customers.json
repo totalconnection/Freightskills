@@ -1,12 +1,12 @@
 {
   "slug": "diversify-freight-broker-customers",
-  "title": "Build a shipper book of business without relying on one account.",
-  "seoTitle": "Build a shipper book of business without relying on one account",
+  "title": "Freight shipper relationships vs. load lists",
+  "seoTitle": "Freight shipper relationships vs. load lists",
   "topic": "prospecting",
   "category": "Prospecting & sales",
-  "searchIntent": "How can freight brokers build relationships and reduce customer concentration?",
-  "excerpt": "Develop direct shipper relationships while keeping prospecting active, even when a large customer fills your day.",
-  "takeaway": "Reliable service can strengthen an account, but it cannot prevent every change in the customer’s business. Keep developing the rest of your book.",
+  "searchIntent": "What is the difference between getting loads and building a shipper relationship?",
+  "excerpt": "Build direct customer relationships through relevant conversations, dependable service and useful follow-through.",
+  "takeaway": "A load list gives you opportunities to bid. A working relationship gives you context, direct communication and a chance to become a trusted resource. Develop the relationship while serving the freight well.",
   "sections": [
     {
       "id": "distinguish-access-to-loads-from-a-customer-relationship",
@@ -25,27 +25,11 @@
       ]
     },
     {
-      "id": "understand-the-risk-that-good-service-cannot-remove",
-      "title": "Understand the risk that good service cannot remove.",
+      "id": "make-personal-service-specific",
+      "title": "Make personal service specific",
       "paragraphs": [
-        "In the concentration-risk lesson, Luis tells the story of an early family brokerage operating from a condo in Bayonne. A major customer generated so much work that prospecting received little attention. The customer was later acquired, its operation closed, and the brokerage’s contact lost the job.",
-        "The important feature of the account was not poor service by the broker. The change happened inside the customer’s business. Luis describes five to six months of work to rebuild. This is his account of the experience, not an independently verified financial case study or a prediction for another company."
-      ]
-    },
-    {
-      "id": "keep-smaller-relationships-developing",
-      "title": "Keep smaller relationships developing.",
-      "paragraphs": [
-        "Luis offers a coaching heuristic: for one large customer, work on building five smaller customers. The example recognizes that accounts with a few loads a month can still contribute to a broader base of relationships. The precise ratio is not a universal portfolio rule.",
-        "Customer count alone also does not describe concentration. A brokerage can have many customer records while one account still supplies most of the work. Look at the practical dependence: whose volume occupies the team, whose decisions affect cash flow, and which relationships would remain if one account changed."
-      ]
-    },
-    {
-      "id": "make-prospecting-possible-when-operations-are-busy",
-      "title": "Make prospecting possible when operations are busy.",
-      "paragraphs": [
-        "The story illustrates why continued sales work cannot depend entirely on the owner finding spare time. When the large account is active, it can consume the very capacity needed to build alternatives. The prospecting process has to remain visible while the existing freight is being served.",
-        "That does not mean neglecting the customer you have. It means planning the operating responsibilities and sales routine so that service and development can coexist. A growing account is a reason to improve that structure, not a reason to assume the next year will resemble the current week."
+        "Luis encourages smaller brokerages to compete through continuity and attention. Know the customer’s operation, remember the requirements and be available to help when something changes. Those are service behaviors a customer can experience.",
+        "Avoid claiming that every larger provider will neglect the account. Explain the process you actually deliver and keep the promise. A consistent contact and a useful update matter more than an unsupported comparison with a competitor."
       ]
     },
     {
@@ -66,26 +50,20 @@
       "id": "pnj_cISFyUg",
       "title": "Loads Vs. Relationships for Freight Brokers How to Grow Both!",
       "url": "https://www.youtube.com/watch?v=pnj_cISFyUg"
-    },
-    {
-      "sourceId": "Y044",
-      "id": "EmX1qU0nNwQ",
-      "title": "Freight Broker Almost Loses it All | Biggest Freight Broker Sales Mistake",
-      "url": "https://www.youtube.com/watch?v=EmX1qU0nNwQ"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "research-before-the-sales-call",
     "freight-broker-cold-calling",
     "how-freight-brokers-quote-rates"
   ],
-  "reviewNotes": [
-    "Account-loss narrative attributed to Luis. Concentration percentages and claims that a loss would not hurt are not adopted as universal guidance.",
-    "Negative competitor comparisons and guarantees that direct relationships always yield more profit are excluded."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "Build a shipper book of business without relying on one account.",
+  "cover": "Freight shipper relationships vs. load lists",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y007.webp",
+  "heroAlt": "Two freight professionals discussing a shipment beside a long-hood tractor, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

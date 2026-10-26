@@ -18,6 +18,9 @@ export type Post = {
   topic: string;
   excerpt: string;
   cover: string;
+  hero: string;
+  heroAlt: string;
+  publishedAt: string;
   theme: string;
   videoId: string;
   sourceTitle: string;
@@ -35,7 +38,7 @@ export const allPosts = articleCatalog as Post[];
 export const posts = allPosts.filter((p) => !isProduction || p.approved);
 export type ArticleSummary = Pick<
   Post,
-  'slug' | 'title' | 'topic' | 'category' | 'excerpt' | 'searchIntent'
+  'slug' | 'title' | 'topic' | 'category' | 'excerpt' | 'searchIntent' | 'hero' | 'heroAlt'
 > & { minutes: number };
 export function summarizePost(p: Post): ArticleSummary {
   return {
@@ -45,6 +48,8 @@ export function summarizePost(p: Post): ArticleSummary {
     category: p.category,
     excerpt: p.excerpt,
     searchIntent: p.searchIntent,
+    hero: p.hero,
+    heroAlt: p.heroAlt,
     minutes: readingMinutes(p),
   };
 }

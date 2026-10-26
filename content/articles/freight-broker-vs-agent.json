@@ -66,29 +66,15 @@
       "id": "pM376M3iuEQ",
       "title": "Freight Broker vs. Freight Agent | What is the difference and which should you choose?",
       "url": "https://www.youtube.com/watch?v=pM376M3iuEQ"
-    },
-    {
-      "sourceId": "Y008",
-      "id": "QH3C9EEFAJo",
-      "title": "The Truth about Fair Broker Agent Splits",
-      "url": "https://www.youtube.com/watch?v=QH3C9EEFAJo"
-    },
-    {
-      "sourceId": "Y029",
-      "id": "yLeAPX7d3Ko",
-      "title": "What to look for in a freight agent contract",
-      "url": "https://www.youtube.com/watch?v=yLeAPX7d3Ko"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "co-brokering-and-dual-authority",
     "collect-overdue-freight-invoices",
     "freight-broker-sales-process"
   ],
-  "reviewNotes": [
-    "Historical commission arrangements are examples, not current offers. Corrected the source’s inconsistent split arithmetic. Contract enforceability and worker classification need jurisdiction-specific review."
-  ],
+  "reviewNotes": [],
   "sources": [
     {
       "label": "FMCSA: broker registration",
@@ -97,5 +83,8 @@
   ],
   "cover": "Freight broker vs. freight agent: choosing your business model",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y052.webp",
+  "heroAlt": "Two freight professionals reviewing notes at a distribution yard, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

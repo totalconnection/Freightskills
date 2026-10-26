@@ -1,6 +1,6 @@
 {
   "slug": "freight-broker-follow-up",
-  "title": "Freight broker follow-up: build a useful contact rhythm.",
+  "title": "Freight broker follow-up: build a useful contact rhythm",
   "seoTitle": "Freight broker follow-up: build a useful contact rhythm",
   "topic": "prospecting",
   "category": "Prospecting & sales",
@@ -52,7 +52,7 @@
       "id": "measure-continuity-rather-than-a-magic-number-of-touches",
       "title": "Measure continuity rather than a magic number of touches.",
       "paragraphs": [
-        "The video mentions a commonly repeated number of contacts supposedly needed before a buyer acts, but Luis does not identify its source. This article does not use that number as evidence. There is no need for a universal touch count to explain why a clear, maintained follow-up process matters.",
+        "There is no universal number of follow-ups that makes a prospect ready to buy. Use the conversation, the prospect’s preferences and a useful reason to reconnect to guide your next contact.",
         "Instead, ask whether the conversation is becoming better informed. Are you learning who controls the freight? Is the timing clearer? Has the contact asked for information or a quote? Those observations help you distinguish a developing opportunity from repetitive outreach that is not producing new understanding."
       ]
     }
@@ -68,17 +68,18 @@
       "url": "https://www.youtube.com/watch?v=KTB1XPAlxFk"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "research-before-the-sales-call",
     "diversify-freight-broker-customers",
     "how-freight-brokers-quote-rates"
   ],
-  "reviewNotes": [
-    "Review the suggested cadence against owner preferences and other lessons warning against repeated unanswered pressure. Unsupported touch-count statistic omitted."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "Freight broker follow-up: build a useful contact rhythm.",
+  "cover": "Freight broker follow-up: build a useful contact rhythm",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y003.webp",
+  "heroAlt": "Calendar, phone and notebook on a freight broker’s desk, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

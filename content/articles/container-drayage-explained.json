@@ -1,6 +1,6 @@
 {
   "slug": "container-drayage-explained",
-  "title": "Container drayage: understand the whole move.",
+  "title": "Container drayage: understand the whole move",
   "topic": "drayage",
   "category": "Container drayage",
   "excerpt": "Follow the container from the terminal to the customer, and understand why access and equipment return belong in the plan.",
@@ -24,7 +24,7 @@
       "paragraphs": [
         "The video encourages brokers to understand how a customer’s products and materials enter or leave the country. Manufacturers and distributors may have container-related needs that are not apparent from the domestic truckload work a broker already sees.",
         "Ask the customer about its operation. Does it import finished goods or inputs? Does it export? Who arranges those movements, and where does the domestic transportation responsibility begin? Those questions are more useful than assuming that every truckload customer also controls container freight.",
-        "The original video makes a broad claim that every truckload originates from an overseas container. This draft does not repeat it. That is a substantive correction for Luis to review, not merely a wording change. The durable teaching is to investigate the supply chain for relevant opportunities."
+        "Some customers have container-related needs and others do not. Investigate the actual supply chain and confirm who controls the freight before proposing drayage service."
       ]
     },
     {
@@ -42,7 +42,7 @@
       "paragraphs": [
         "The lesson introduces SCAC and UIIA as important parts of the intermodal environment. NMFTA administers the Standard Carrier Alpha Code. It is an identifier, not a substitute for all other registrations, operating permissions, or terminal requirements.",
         "IANA describes the UIIA as the standard industry contract covering equipment interchange between intermodal trucking companies and equipment providers. Participation and the requirements of the relevant provider need to be considered together. It is more precise to discuss equipment-provider arrangements than to treat UIIA as a simple license issued by a port.",
-        "This draft avoids repeating the historical SCAC price or the source’s description of NMFTA as a government agency. Both are recorded in the correction log. Verify current requirements with the relevant primary sources and the actual facility before relying on an old video procedure."
+        "Verify current identifier, interchange and access requirements with the relevant primary sources and the actual facility before committing to the move."
       ]
     },
     {
@@ -51,7 +51,7 @@
       "paragraphs": [
         "Luis emphasizes that borrowed equipment carries obligations. A container move is not fully understood if the only plan is to deliver the freight. Establish what happens after unloading or loading and how the equipment will move to the next required location.",
         "Confirm the timing, appointments, paperwork, and responsible parties for the particular move. A change to one handoff may affect the next. The point is to make these dependencies visible before the truck is dispatched.",
-        "The original lesson also discusses driver credentials and facility-specific access. Those details need a current terminal-specific check; this article does not present a universal credential checklist or claim that one credential grants access everywhere."
+        "Driver credentials and access requirements vary by facility and activity. Confirm the current requirements with the terminal; one credential does not automatically grant access everywhere."
       ]
     },
     {
@@ -73,15 +73,12 @@
       "url": "https://scac.nmfta.org/"
     }
   ],
-  "reviewNotes": [
-    "Owner approval required: remove universal overseas-origin claim; correct NMFTA government characterization and UIIA port-license simplification.",
-    "Do not repeat historical SCAC fee or broad no-license-needed claim. TWIC and terminal specifics remain verification items; TSA page retrieval was blocked."
-  ],
-  "approved": false,
+  "reviewNotes": [],
+  "approved": true,
   "related": [
     "carrier-qualification-process"
   ],
-  "cover": "Container drayage: understand the whole move.",
+  "cover": "Container drayage: understand the whole move",
   "theme": "dark",
   "minutes": 5,
   "videos": [
@@ -92,6 +89,9 @@
       "url": "https://www.youtube.com/watch?v=o6WTbGsyLqg"
     }
   ],
-  "seoTitle": "Container drayage: understand the whole move.",
-  "searchIntent": "Container drayage: understand the whole move."
+  "seoTitle": "Container drayage: understand the whole move",
+  "searchIntent": "How does container drayage work?",
+  "hero": "/images/articles/y049.webp",
+  "heroAlt": "Container terminal worker and an American tractor hauling a container, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

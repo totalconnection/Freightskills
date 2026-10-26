@@ -66,31 +66,20 @@
       "id": "n-9GRQd10mo",
       "title": "Avoid the Pricing Trap: How Freight Brokers Can Maintain Competitive Rates",
       "url": "https://www.youtube.com/watch?v=n-9GRQd10mo"
-    },
-    {
-      "sourceId": "Y061",
-      "id": "xzVL4gH9QxA",
-      "title": "Are Freight Broker’s Too Expensive? The Answer May Surprise You",
-      "url": "https://www.youtube.com/watch?v=xzVL4gH9QxA"
-    },
-    {
-      "sourceId": "Y032",
-      "id": "QoMuzUA-kqg",
-      "title": "5 Myths about Freightbrokers",
-      "url": "https://www.youtube.com/watch?v=QoMuzUA-kqg"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "how-freight-brokers-quote-rates",
     "freight-broker-profit-margins",
     "carrier-qualification-process"
   ],
-  "reviewNotes": [
-    "Omitted unsupported failure statistics and absolute claims about price elasticity. Rate reductions are evaluated by economics and scope rather than prohibited categorically."
-  ],
+  "reviewNotes": [],
   "sources": [],
   "cover": "How freight brokers explain value when a shipper wants a lower rate",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y014.webp",
+  "heroAlt": "Freight professional reviewing a clipboard in a truck yard, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

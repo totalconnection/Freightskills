@@ -1,13 +1,14 @@
 'use client';
 import { useState } from 'react';
 import { Play } from 'lucide-react';
-export function Video({ id, title }: { id: string; title: string }) {
+export function Video({ id, title, embedded = false }: { id: string; title: string; embedded?: boolean }) {
   const [active, setActive] = useState(false);
   return (
     <div className="video-frame">
-      {active ? (
+      {active || embedded ? (
         <iframe
-          src={`https://www.youtube-nocookie.com/embed/${id}?autoplay=1`}
+          src={`https://www.youtube-nocookie.com/embed/${id}${active ? '?autoplay=1' : ''}`}
+          loading="lazy"
           title={title}
           allow="autoplay; encrypted-media; picture-in-picture"
           allowFullScreen

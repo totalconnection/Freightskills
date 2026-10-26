@@ -68,17 +68,18 @@
       "url": "https://www.youtube.com/watch?v=jfPrAAA_kTM"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "research-before-the-sales-call",
     "diversify-freight-broker-customers",
     "how-freight-brokers-quote-rates"
   ],
-  "reviewNotes": [
-    "Review adaptation against the original lessons before publication. Historical promotions and unsupported guarantees are excluded."
-  ],
+  "reviewNotes": [],
   "sources": [],
   "cover": "What to include in a freight broker shipper packet",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y058.webp",
+  "heroAlt": "Freight professional assembling documents at a desk, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

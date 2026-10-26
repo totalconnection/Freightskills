@@ -68,17 +68,18 @@
       "url": "https://www.youtube.com/watch?v=yT3Q6VPHZDQ"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "how-freight-brokers-quote-rates",
     "freight-broker-profit-margins",
     "carrier-qualification-process"
   ],
-  "reviewNotes": [
-    "Review adaptation against the original lessons before publication. Historical promotions and unsupported guarantees are excluded."
-  ],
+  "reviewNotes": [],
   "sources": [],
   "cover": "How freight brokers evaluate and respond to shipper RFQs",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y045.webp",
+  "heroAlt": "Freight broker reviewing records beside a laptop, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

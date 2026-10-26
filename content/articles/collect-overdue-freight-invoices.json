@@ -1,6 +1,6 @@
 {
   "slug": "collect-overdue-freight-invoices",
-  "title": "Collecting overdue freight invoices: start with the billing process.",
+  "title": "Collecting overdue freight invoices: start with the billing process",
   "seoTitle": "Collecting overdue freight invoices: start with the billing process",
   "topic": "business",
   "category": "Brokerage foundations",
@@ -13,7 +13,7 @@
       "title": "Begin before the invoice becomes overdue.",
       "paragraphs": [
         "Luis’s collections lesson starts with the risk of extending credit. Understand the customer, assess the payment arrangement, and establish limits before relying on future collection to fund the business. A shipment can be completed successfully while its invoice still creates a financial problem.",
-        "The source recounts a customer bankruptcy that left an unpaid balance. This adaptation does not assign a precise loss amount because the transcript’s figures are not consistent. The operational point is that credit exposure deserves attention before the load is accepted."
+        "Luis recounts a customer bankruptcy that left an unpaid balance. The operating lesson is that credit exposure deserves attention before the load is accepted, while the business can still choose its commitments."
       ]
     },
     {
@@ -44,8 +44,8 @@
       "id": "separate-operational-follow-up-from-legal-remedies",
       "title": "Separate operational follow-up from legal remedies.",
       "paragraphs": [
-        "The source makes broad claims about liens, payment deadlines, cargo retention, and the liability of parties listed on shipping documents. Those claims have not been adopted as instructions in this article. Their applicability depends on the actual contracts, facts, and governing law and needs professional review.",
-        "Do not turn a general collections video into permission to hold freight, threaten unrelated parties, or declare a customer insolvent. The practical billing process can be improved without making those legal assumptions. The owner review notes identify the withheld statements explicitly."
+        "Remedies involving liens, cargo retention or claims against other parties depend on the contracts, facts and governing law. Get qualified advice before taking those steps; do not assume a name on a shipping document establishes liability.",
+        "Improve the billing record and seek qualified advice on disputed remedies. A general collections process does not authorize holding freight, threatening unrelated parties or making unsupported claims about a customer’s solvency."
       ]
     },
     {
@@ -53,7 +53,7 @@
       "title": "Evaluate formal escalation deliberately.",
       "paragraphs": [
         "If the account remains unresolved, organize the file before asking a qualified professional about the next step. Consider the amount, available evidence, cost of collection, likely recovery, and effect on the commercial relationship. Luis notes that outsourcing collection work can also reduce the time burden on the owner.",
-        "The decision should follow the facts of the account. Start with accurate billing and a clear conversation, preserve the record, and obtain appropriate advice on any remedy beyond ordinary follow-up. This article does not supply a threatening letter or guarantee that a particular collection action will succeed."
+        "The decision should follow the facts of the account. Start with accurate billing and a clear conversation, preserve the record, and obtain appropriate advice on any remedy beyond ordinary follow-up. No collection action guarantees recovery."
       ]
     }
   ],
@@ -68,17 +68,18 @@
       "url": "https://www.youtube.com/watch?v=RFqJ-ZzDxWs"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "co-brokering-and-dual-authority",
     "freight-broker-surety-bond",
     "freight-broker-sales-process"
   ],
-  "reviewNotes": [
-    "LEGAL REVIEW REQUIRED: automatic broker lien transfer, universal 14-day rule, cargo retention, liability of every BOL party, and threats to disclose alleged insolvency are withheld. This is a substantive change requiring Luis review."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "Collecting overdue freight invoices: start with the billing process.",
+  "cover": "Collecting overdue freight invoices: start with the billing process",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y012.webp",
+  "heroAlt": "Two freight professionals reviewing documents at an outdoor desk, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

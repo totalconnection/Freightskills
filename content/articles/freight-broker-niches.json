@@ -1,6 +1,6 @@
 {
   "slug": "freight-broker-niches",
-  "title": "Freight broker niches: choose capabilities without boxing in your business.",
+  "title": "Freight broker niches: choose capabilities without boxing in your business",
   "seoTitle": "Freight broker niches: choose capabilities without boxing in your business",
   "topic": "prospecting",
   "category": "Prospecting & sales",
@@ -37,7 +37,7 @@
       "title": "Recognize what makes specialized work demanding.",
       "paragraphs": [
         "Luis also discusses hazardous materials and flatbed or oversized freight. His point is that more demanding coordination can create a meaningful service role for a knowledgeable broker. Documentation, suitable equipment, qualified providers, and shipment-specific requirements matter.",
-        "For larger or unusual loads, the lesson mentions routing, permits, escorts, engineering, and unloading considerations. These are issues to investigate with the relevant specialists and authorities, not a universal list of requirements for every flatbed shipment. This article intentionally does not turn an introductory video into a current regulatory checklist."
+        "For larger or unusual loads, the lesson mentions routing, permits, escorts, engineering, and unloading considerations. These are issues to investigate with the relevant specialists and authorities, not a universal list of requirements for every flatbed shipment."
       ]
     },
     {
@@ -68,17 +68,18 @@
       "url": "https://www.youtube.com/watch?v=9nA3N6VU0Nc"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "research-before-the-sales-call",
     "diversify-freight-broker-customers",
     "how-freight-brokers-quote-rates"
   ],
-  "reviewNotes": [
-    "Universal profitability and overseas-container claims excluded. Hazmat and oversize details are framed as investigation areas, not current legal requirements."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "Freight broker niches: choose capabilities without boxing in your business.",
+  "cover": "Freight broker niches: choose capabilities without boxing in your business",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y050.webp",
+  "heroAlt": "Freight professionals discussing a shipment beside a truck, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

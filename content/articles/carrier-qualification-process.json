@@ -1,6 +1,6 @@
 {
   "slug": "carrier-qualification-process",
-  "title": "A practical process for qualifying a carrier.",
+  "title": "A practical process for qualifying a carrier",
   "topic": "carriers",
   "category": "Carrier qualification",
   "excerpt": "Work through the interview, verification, insurance, agreement, and first-load review as separate decisions.",
@@ -31,7 +31,7 @@
       "title": "3. Review insurance for the work involved.",
       "paragraphs": [
         "Luis’s next step is obtaining insurance evidence directly from the carrier’s insurance representative rather than relying only on a document forwarded by the carrier. His emphasis is on verifying the relationship with the insurer and checking the coverage before moving freight.",
-        "The lesson also notes that being a certificate holder does not itself provide the same protection as insurance coverage. This draft retains that distinction and avoids treating a certificate as a promise that every loss will be paid. Coverage questions depend on the policy and the shipment and should be resolved with the insurance representative.",
+        "Being a certificate holder does not itself provide the same protection as insurance coverage. Resolve coverage questions with the insurance representative based on the policy and the actual shipment.",
         "The video intentionally does not prescribe a single limit for every load. Keep that restraint. The commodity and work being arranged matter; an interview and a generic certificate are not a substitute for checking the relevant requirements."
       ]
     },
@@ -40,7 +40,7 @@
       "title": "4. Put expectations in writing.",
       "paragraphs": [
         "The carrier packet establishes the business relationship. Luis discusses expectations for rates, additional charges, the duration of the agreement, claims, and communication. These details should be settled before the carrier starts performing the work.",
-        "An agreement and a rate confirmation serve related but different purposes. The relationship needs documented terms; the individual move needs clear instructions and an agreed rate. This article does not replace or rewrite your existing contract templates. Use the approved documents that apply to your operation."
+        "An agreement and a rate confirmation serve related but different purposes. The relationship needs documented terms; the individual move needs clear instructions and an agreed rate. Use the approved documents that apply to your operation."
       ]
     },
     {
@@ -59,14 +59,6 @@
         "Luis’s five steps form a sequence: interview, verify, review insurance, document the relationship, and assess performance. Each step adds a different kind of evidence. Skipping one leaves a gap that a good rate cannot close.",
         "The process should be repeated consistently and revisited when material information changes. A successful first move is evidence about that move, not a permanent guarantee about every future shipment."
       ]
-    },
-    {
-      "id": "use-the-carrier-packet-to-define-the-relationship",
-      "title": "Use the carrier packet to define the relationship",
-      "paragraphs": [
-        "Qualification and the carrier agreement serve related but different purposes. Luis’s carrier-packet lesson adds the importance of documenting the relationship after checking whether the carrier is suitable.",
-        "Clarify payment terms, any agreed quick-pay deductions, the claims process and the contact information needed to operate the shipment. Exchange relevant business credentials through verified channels. Have counsel review solicitation restrictions and other contractual provisions instead of assuming a standard template suits every arrangement."
-      ]
     }
   ],
   "sources": [
@@ -75,18 +67,14 @@
       "url": "https://www.fmcsa.dot.gov/registration"
     }
   ],
-  "reviewNotes": [
-    "Owner review: replace historical SAFER/CSA descriptions with current FMCSA entry points; do not imply a single database verifies all authority and insurance.",
-    "Insurance wording is narrower than the video: a certificate is evidence, not a guarantee of coverage. Review with the owner before publication.",
-    "Added Y057 carrier-packet teaching. Contract provisions need legal review; no downloadable template or universal terms are implied."
-  ],
-  "approved": false,
+  "reviewNotes": [],
+  "approved": true,
   "related": [
     "prevent-freight-brokerage-fraud",
     "post-loads-and-find-carriers",
     "after-you-get-a-freight-order"
   ],
-  "cover": "A practical process for qualifying a carrier.",
+  "cover": "A practical process for qualifying a carrier",
   "theme": "dark",
   "minutes": 5,
   "videos": [
@@ -95,14 +83,11 @@
       "id": "fXItX_KCQDw",
       "title": "An Easy 5 Step Process to Set Up a Carrier | for Freight Broker’s",
       "url": "https://www.youtube.com/watch?v=fXItX_KCQDw"
-    },
-    {
-      "sourceId": "Y057",
-      "id": "adwCSUdK9sg",
-      "title": "How To Set Up a Carrier Packet as A Freight Broker [Easy to Follow Steps]",
-      "url": "https://www.youtube.com/watch?v=adwCSUdK9sg"
     }
   ],
-  "seoTitle": "A practical process for qualifying a carrier.",
-  "searchIntent": "A practical process for qualifying a carrier."
+  "seoTitle": "A practical process for qualifying a carrier",
+  "searchIntent": "How do freight brokers qualify a carrier?",
+  "hero": "/images/articles/y060.webp",
+  "heroAlt": "Freight professional checking carrier documents in a truck yard, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

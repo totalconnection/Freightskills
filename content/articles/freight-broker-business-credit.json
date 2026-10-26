@@ -1,6 +1,6 @@
 {
   "slug": "freight-broker-business-credit",
-  "title": "How freight brokers build business credit through payment history.",
+  "title": "How freight brokers build business credit through payment history",
   "seoTitle": "How freight brokers build business credit through payment history",
   "topic": "business",
   "category": "Brokerage foundations",
@@ -52,7 +52,7 @@
       "id": "treat-history-as-evidence-not-a-promise",
       "title": "Treat history as evidence, not a promise.",
       "paragraphs": [
-        "The video discusses authority age, but age alone does not prove operating experience or payment quality. This article does not suggest that keeping an authority active for a certain number of months guarantees approval. Maintaining a business can also create ongoing costs and obligations.",
+        "The video discusses authority age, but age alone does not prove operating experience or payment quality. Keeping an authority active for a certain number of months does not guarantee approval. Maintaining a business can also create ongoing costs and obligations.",
         "Build a real payment record, confirm what is reported, and evaluate the requirements of the party making the decision. That approach is slower than a credit-hack promise, but it is aligned with the lesson’s central point: confidence develops from consistent business behavior over time."
       ]
     }
@@ -68,17 +68,18 @@
       "url": "https://www.youtube.com/watch?v=hR_wes0QiG8"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "co-brokering-and-dual-authority",
     "collect-overdue-freight-invoices",
     "freight-broker-sales-process"
   ],
-  "reviewNotes": [
-    "Supplier eligibility/reporting, authority-aging recommendations, and third-party reporting services are not endorsed as current. No score, timeline, or approval guarantee. Consumer credit rules are not extrapolated to all business reporting."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "How freight brokers build business credit through payment history.",
+  "cover": "How freight brokers build business credit through payment history",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y018.webp",
+  "heroAlt": "Brokerage desk with paperwork, laptop and American trucks behind it, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

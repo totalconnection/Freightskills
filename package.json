@@ -14,7 +14,8 @@
     "check:launch": "node scripts/check-launch.mjs",
     "check:content": "node scripts/check-content.mjs",
     "db:generate": "drizzle-kit generate",
-    "check:seo": "node scripts/check-seo.mjs"
+    "check:seo": "node scripts/check-seo.mjs",
+    "prebuild": "npm run check:content"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

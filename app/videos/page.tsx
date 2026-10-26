@@ -19,8 +19,8 @@ export default function Videos() {
         <h1>Freight brokerage video lessons.</h1>
         <p className="lead">
           Practical freight lessons from Luis Uribe. Find the original video,
-          then explore the detailed guide. Related lessons share a guide when
-          they answer the same question.
+          then explore its companion article. Every video has its own lesson
+          with practical steps and a direct link to the original recording.
         </p>
         <Link href="/blog" className="text-link">
           Browse the article library ↗

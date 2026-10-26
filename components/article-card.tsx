@@ -5,6 +5,9 @@ import { readingMinutes } from '@/lib/article-utils';
 export function ArticleCard({ post }: { post: Post | ArticleSummary }) {
   return (
     <article className="article-card editorial-card">
+      <Link href={`/blog/${post.slug}`} tabIndex={-1} aria-hidden="true">
+        <img className="article-card-image" src={post.hero} alt="" width="1344" height="752" loading="lazy" />
+      </Link>
       <p className="article-category">{post.category}</p>
       <h3>
         <Link href={`/blog/${post.slug}`}>{post.title.replace(/\.$/, '')}</Link>

@@ -66,23 +66,15 @@
       "id": "-gcH03iCOcs",
       "title": "Top 3 Scams in the Freight Broker Industry - Stay Alert and Protect Your Business! ⚠️🚚",
       "url": "https://www.youtube.com/watch?v=-gcH03iCOcs"
-    },
-    {
-      "sourceId": "Y010",
-      "id": "v3FAeWFZ4lA",
-      "title": "Someone Double Brokered Our Loads",
-      "url": "https://www.youtube.com/watch?v=v3FAeWFZ4lA"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "carrier-qualification-process",
     "post-loads-and-find-carriers",
     "after-you-get-a-freight-order"
   ],
-  "reviewNotes": [
-    "Omitted nationality/accent-based suspicion and unsafe recovery tactics. Historical incident is attributed to Luis rather than independently verified. Verify the final prevention language against current FMCSA guidance before approval."
-  ],
+  "reviewNotes": [],
   "sources": [
     {
       "label": "FMCSA: fraud alerts",
@@ -91,5 +83,8 @@
   ],
   "cover": "Freight brokerage fraud: verify identities before freight moves",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y017.webp",
+  "heroAlt": "Freight professional checking a laptop near parked tractors, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

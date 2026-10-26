@@ -1,6 +1,6 @@
 {
   "slug": "freight-broker-slow-market",
-  "title": "How to run a freight brokerage through a slow market.",
+  "title": "How to run a freight brokerage through a slow market",
   "seoTitle": "How to run a freight brokerage through a slow market",
   "topic": "growth",
   "category": "Business growth",
@@ -47,14 +47,6 @@
         "The dated update video adds a countercyclical sales theme: contact old customers, follow up, and seek appropriate quote or bid opportunities instead of coasting because business feels slow. The point is to keep learning about current customer needs.",
         "That work should remain specific. Ask about a changed operation, upcoming freight, or a relevant opportunity. A slower period does not make a generic message more valuable. Use available capacity to improve research and continuity with contacts who have already engaged."
       ]
-    },
-    {
-      "id": "keep-historical-commentary-in-its-period",
-      "title": "Keep historical commentary in its period.",
-      "paragraphs": [
-        "One source explicitly discusses what was coming in 2023. This article uses the operating lessons from that discussion without presenting its forecasts, promised tools, or program announcements as current facts or offers.",
-        "The enduring priorities are purposeful spending, reliable execution, and continued customer development. Review those priorities against the business you have now. A historical market story can suggest questions, but current decisions need current information from your customers and operation."
-      ]
     }
   ],
   "videoId": "7lwIZIfRc2k",
@@ -66,25 +58,20 @@
       "id": "7lwIZIfRc2k",
       "title": "Freight Broker's Guide to Survive and Thrive in a Recession",
       "url": "https://www.youtube.com/watch?v=7lwIZIfRc2k"
-    },
-    {
-      "sourceId": "Y005",
-      "id": "tGU3jDco47A",
-      "title": "Freightskills Update | What's Coming 2023 | What to Focus on In a Down Market",
-      "url": "https://www.youtube.com/watch?v=tGU3jDco47A"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "freight-expertise-in-the-age-of-ai",
     "freight-brokerage-marketing",
     "freight-broker-profit-margins"
   ],
-  "reviewNotes": [
-    "Historical recession forecasts and 2023 program/tool announcements excluded. Nuanced capability diversification replaces blanket “never niche down” language; owner review required."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "How to run a freight brokerage through a slow market.",
+  "cover": "How to run a freight brokerage through a slow market",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y033.webp",
+  "heroAlt": "Freight planning desk overlooking a loading area, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

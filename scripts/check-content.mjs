@@ -7,6 +7,12 @@ const items = paths.map((f) =>
 );
 const slugs = new Set(items.map((p) => p.slug));
 for (const p of items) {
+  if (p.videos.length !== 1 || p.videos[0].sourceId !== p.sourceId || p.videos[0].id !== p.videoId)
+    throw Error('Article must map to exactly one matching video: ' + p.slug);
+  if (!p.hero?.startsWith('/images/articles/') || !fs.existsSync('public' + p.hero) || !p.heroAlt)
+    throw Error('Missing hero image or description: ' + p.slug);
+  if (!p.publishedAt || !p.takeaway || !p.searchIntent.endsWith('?'))
+    throw Error('Missing publication date or answer structure: ' + p.slug);
   if (!p.title || !p.excerpt || !p.sourceId || !/^[-\w]{11}$/.test(p.videoId))
     throw Error('Missing source or metadata: ' + p.slug);
   if (new Set(p.sections.map((s) => s.id)).size !== p.sections.length)

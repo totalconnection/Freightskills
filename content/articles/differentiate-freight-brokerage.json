@@ -1,6 +1,6 @@
 {
   "slug": "differentiate-freight-brokerage",
-  "title": "How freight brokers stand out through service and execution.",
+  "title": "How freight brokers stand out through service and execution",
   "seoTitle": "How freight brokers stand out through service and execution",
   "topic": "growth",
   "category": "Business growth",
@@ -44,7 +44,7 @@
       "id": "explain-the-difference-without-attacking-other-brokers",
       "title": "Explain the difference without attacking other brokers.",
       "paragraphs": [
-        "The useful comparison is between the customer’s requirement and your demonstrated ability to meet it. Luis’s broader message is to make a service difference rather than relying only on the existence of competition as a reason to stop. This article does not repeat historical industry-size estimates as current market evidence.",
+        "The useful comparison is between the customer’s requirement and your demonstrated ability to meet it. Luis’s broader message is to make a service difference rather than relying only on the existence of competition as a reason to stop.",
         "Describe how you work and where that is relevant. A statement about your process is easier to support than a sweeping claim about what other providers do badly. It also gives the prospect something to ask about and evaluate."
       ]
     },
@@ -53,7 +53,7 @@
       "title": "Connect the positioning to daily work.",
       "paragraphs": [
         "A service position should be recognizable in the sales conversation, the quote, and the shipment. If those experiences contradict one another, the wording is not doing useful work. Review whether the proposed difference is backed by a capability, a clear responsibility, and a repeatable action.",
-        "Then improve the weak part. The lesson’s four themes—difference, implementation, persistence, and systems—are most useful together. They connect what you say to the work the customer actually receives."
+        "Then improve the weak part. The lesson’s four themes, difference, implementation, persistence, and systems, are most useful together. They connect what you say to the work the customer actually receives."
       ]
     }
   ],
@@ -68,17 +68,18 @@
       "url": "https://www.youtube.com/watch?v=32i_Mm-EE6o"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "freight-expertise-in-the-age-of-ai",
     "freight-brokerage-marketing",
     "freight-broker-profit-margins"
   ],
-  "reviewNotes": [
-    "Historical market-size and categorical saturation claims are omitted. No competitor criticism or unsupported success promises retained."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "How freight brokers stand out through service and execution.",
+  "cover": "How freight brokers stand out through service and execution",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y056.webp",
+  "heroAlt": "Freight professional reviewing documents and a laptop, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

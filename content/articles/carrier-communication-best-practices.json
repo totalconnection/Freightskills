@@ -1,0 +1,69 @@
+{
+  "slug": "carrier-communication-best-practices",
+  "title": "5 ways carriers can make broker communication easier",
+  "seoTitle": "5 ways carriers can make broker communication easier",
+  "topic": "operations",
+  "category": "Shipment management",
+  "searchIntent": "How can carriers improve communication with freight brokers?",
+  "excerpt": "Clear updates, timely documents, early delay notices and realistic commitments help carriers and brokers work together.",
+  "takeaway": "Agree on a communication path, return documents promptly, report delays early, send delivery records and keep commitments realistic. Both sides need accurate information to manage the shipment.",
+  "sections": [
+    {
+      "id": "how-can-carriers-improve-communication-with-freight-brokers",
+      "title": "How can carriers improve communication with freight brokers?",
+      "paragraphs": [
+        "Luis’s five suggestions begin with a simple point: the driver, dispatcher and broker need to know how important information will reach the right person. Choose a primary communication method and agree how urgent exceptions should be escalated.",
+        "If a phone conversation changes the plan, follow it with a written record. Use the load reference and the correct operations contact so an update does not disappear into an unrelated inbox. Drivers should communicate and handle paperwork only when it is safe to do so."
+      ]
+    },
+    {
+      "id": "return-paperwork-and-set-a-realistic-expectation",
+      "title": "Return paperwork and set a realistic expectation",
+      "paragraphs": [
+        "Complete the required onboarding and shipment documents promptly. If the driver cannot respond immediately, explain when the documents can be returned. Silence leaves the other side guessing whether the shipment is accepted or still unresolved.",
+        "The broker also has a responsibility to provide clear terms and a usable process. Confirm that both sides agree before dispatch, including the rate, equipment, schedule and any special requirements."
+      ]
+    },
+    {
+      "id": "report-delays-before-the-customer-has-to-discover-them",
+      "title": "Report delays before the customer has to discover them",
+      "paragraphs": [
+        "Tell the broker when a delay begins and what is known about the impact. Preserve arrival and departure times and any supporting documentation. Follow the agreed notice and approval process for detention or other accessorials.",
+        "A notice helps the team respond and document the issue. It does not by itself guarantee that a charge will be approved. Terms, facts and the applicable agreements still matter."
+      ]
+    },
+    {
+      "id": "send-delivery-records-and-give-honest-updates",
+      "title": "Send delivery records and give honest updates",
+      "paragraphs": [
+        "Send a clear, signed proof of delivery and the billing documents the agreement requires. Prompt paperwork helps the broker invoice accurately and resolve discrepancies while the shipment is still fresh. Payment obligations follow the applicable agreement and law; there is no universal 14-day rule for every broker-carrier transaction.",
+        "Finally, give realistic ETAs and report problems honestly. A truck two hours away is not twenty minutes away because that answer is easier to give. Early, accurate information gives everyone more options and helps preserve the working relationship."
+      ]
+    }
+  ],
+  "videoId": "JBKTpbOcitM",
+  "sourceId": "Y023",
+  "sourceTitle": "5 Ways Carriers Can Make Freight Broker's Job a Breeze",
+  "videos": [
+    {
+      "sourceId": "Y023",
+      "id": "JBKTpbOcitM",
+      "title": "5 Ways Carriers Can Make Freight Broker's Job a Breeze",
+      "url": "https://www.youtube.com/watch?v=JBKTpbOcitM"
+    }
+  ],
+  "approved": true,
+  "related": [
+    "broker-carrier-communication",
+    "after-you-get-a-freight-order",
+    "freight-broker-daily-routine"
+  ],
+  "reviewNotes": [],
+  "sources": [],
+  "cover": "5 ways carriers can make broker communication easier",
+  "theme": "dark",
+  "minutes": 1,
+  "hero": "/images/articles/y023.webp",
+  "heroAlt": "Carrier and logistics professional reviewing a tablet, editorial illustration",
+  "publishedAt": "2026-10-26"
+}

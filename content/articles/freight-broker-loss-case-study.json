@@ -1,0 +1,69 @@
+{
+  "slug": "freight-broker-loss-case-study",
+  "title": "What a costly shipment problem taught our brokerage",
+  "seoTitle": "What a costly shipment problem taught our brokerage",
+  "topic": "operations",
+  "category": "Shipment management",
+  "searchIntent": "What can brokers learn from an expensive shipment problem?",
+  "excerpt": "Luis shares two difficult incidents involving delivery instructions, heavy-haul details and the cost of delayed communication.",
+  "takeaway": "Verify critical shipment details and escalate changes early. When a costly problem occurs, separate the facts, contractual obligations and relationship decision, then change the process that allowed the problem to grow.",
+  "sections": [
+    {
+      "id": "what-can-brokers-learn-from-an-expensive-shipment-problem",
+      "title": "What can brokers learn from an expensive shipment problem?",
+      "paragraphs": [
+        "In this video, Luis describes two incidents that together cost his brokerage more than $50,000. He shares them because brokerage is not only the successful loads and sales wins. Larger responsibilities can bring problems that require judgment, money and difficult conversations.",
+        "These are historical accounts from his business, not typical loss estimates or independently adjudicated findings. The useful question is what each incident reveals about verification, communication and how the team responds when the original plan fails."
+      ]
+    },
+    {
+      "id": "a-delivery-record-may-not-resolve-every-dispute",
+      "title": "A delivery record may not resolve every dispute",
+      "paragraphs": [
+        "The first story involved product delivered and unloaded at a location that later said it should have gone elsewhere. Luis describes signed paperwork and a dispute over cleanup costs. The business ultimately chose to contribute toward resolving the customer’s problem.",
+        "That decision was specific to the relationship and circumstances. It does not establish who is legally responsible in another claim. Preserve delivery instructions, acknowledgments and records, and involve the appropriate insurer or adviser before making commitments about a disputed loss."
+      ]
+    },
+    {
+      "id": "heavy-haul-details-need-early-verification",
+      "title": "Heavy-haul details need early verification",
+      "paragraphs": [
+        "The second incident involved a large project and a piece whose weight had been understated. The change affected equipment, permitting and timing, with consequences for the receiving operation.",
+        "Before committing to specialized transportation, get reliable dimensions and weights and confirm the plan with qualified providers. If the information changes, reassess the equipment, route, permits and delivery arrangements. Treat that as a change to the plan, not a small administrative correction."
+      ]
+    },
+    {
+      "id": "escalate-the-exception-before-it-becomes-a-surprise",
+      "title": "Escalate the exception before it becomes a surprise",
+      "paragraphs": [
+        "Luis also identifies a communication failure: the delay was not brought into the customer conversation early enough. A problem that is difficult to solve becomes harder when the customer is still planning around an ETA that no longer works.",
+        "Build a clear escalation rule for material changes. Record the facts, communicate what is known, assign the next action and agree when the next update will arrive. After resolution, document what the team will do differently. The lesson is not to absorb every loss; it is to manage the facts and relationships deliberately."
+      ]
+    }
+  ],
+  "videoId": "TvH1yUtNFmw",
+  "sourceId": "Y043",
+  "sourceTitle": "Freight Broker Loses 50k! | How to Handle Problems As a Freight Broker",
+  "videos": [
+    {
+      "sourceId": "Y043",
+      "id": "TvH1yUtNFmw",
+      "title": "Freight Broker Loses 50k! | How to Handle Problems As a Freight Broker",
+      "url": "https://www.youtube.com/watch?v=TvH1yUtNFmw"
+    }
+  ],
+  "approved": true,
+  "related": [
+    "handle-freight-shipment-problems",
+    "after-you-get-a-freight-order",
+    "freight-broker-daily-routine"
+  ],
+  "reviewNotes": [],
+  "sources": [],
+  "cover": "What a costly shipment problem taught our brokerage",
+  "theme": "dark",
+  "minutes": 1,
+  "hero": "/images/articles/y043.webp",
+  "heroAlt": "Freight professional reviewing a shipment issue at a laptop, editorial illustration",
+  "publishedAt": "2026-10-26"
+}

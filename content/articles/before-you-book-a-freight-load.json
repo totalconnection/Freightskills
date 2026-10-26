@@ -1,0 +1,69 @@
+{
+  "slug": "before-you-book-a-freight-load",
+  "title": "5 checks before you book a freight load",
+  "topic": "operations",
+  "category": "Shipment management",
+  "excerpt": "Verify the customer order, facility requirements, carrier identity and written agreements before dispatch.",
+  "videoId": "QwgYRjEKa8g",
+  "sourceId": "Y053",
+  "sourceTitle": "5 Steps to Take Before You Move ANY Load | Freight Broker Edition",
+  "takeaway": "Check the customer’s written order, confirm facility details, speak with the proposed carrier, independently verify its information and reconcile the signed shipment documents before dispatch.",
+  "sections": [
+    {
+      "id": "what-should-a-broker-check-before-moving-a-load",
+      "title": "What should a broker check before moving a load?",
+      "paragraphs": [
+        "The first load from a new customer is exciting, but Luis warns against letting that excitement replace the verification process. The same basic checks belong on routine shipments too. Familiarity can make it easier to overlook a changed address, time or requirement.",
+        "Start with the written customer order. Compare it with the quote and the discussion that led to the tender. Confirm the rate, locations, dates, commodity, weight, dimensions and relevant handling requirements. Resolve differences before making a commitment to the carrier."
+      ]
+    },
+    {
+      "id": "confirm-what-the-facilities-require",
+      "title": "Confirm what the facilities require",
+      "paragraphs": [
+        "Check the pickup and delivery arrangements with the appropriate contacts. Verify appointments, reference numbers, operating hours and any restrictions that affect the move. Make sure the current order reflects changes the customer has made.",
+        "A shipment can look straightforward on a route map and still fail at the dock because of a missing appointment or unsuitable equipment. Put those details in the operating record where the person covering the load can use them."
+      ]
+    },
+    {
+      "id": "speak-with-the-carrier-and-verify-the-information",
+      "title": "Speak with the carrier and verify the information",
+      "paragraphs": [
+        "Discuss the actual shipment with the carrier: equipment, availability, location, schedule and experience with the type of work. Ask questions that reveal whether the proposed truck can perform the move.",
+        "Then independently check identity, current authority, insurance and the other information required by your qualification process. A confident phone conversation does not replace verification. SAFER is one source of information, but it is not a complete substitute for authority and insurance checks."
+      ]
+    },
+    {
+      "id": "reconcile-the-written-agreements",
+      "title": "Reconcile the written agreements",
+      "paragraphs": [
+        "Complete the broker-carrier agreement and shipment-specific rate confirmation through your approved process. Ensure the documents describe the same service the customer authorized, including the schedule and special requirements.",
+        "Luis’s sequence ends with checking the details in writing before dispatch. Give the team a clear way to pause when something does not match. A checklist reduces avoidable errors only when people resolve the discrepancy instead of marking the box and moving on."
+      ]
+    }
+  ],
+  "sources": [],
+  "reviewNotes": [],
+  "approved": true,
+  "related": [
+    "after-you-get-a-freight-order",
+    "freight-broker-daily-routine",
+    "broker-carrier-communication"
+  ],
+  "cover": "5 checks before you book a freight load",
+  "theme": "dark",
+  "minutes": 5,
+  "videos": [
+    {
+      "sourceId": "Y053",
+      "id": "QwgYRjEKa8g",
+      "title": "5 Steps to Take Before You Move ANY Load | Freight Broker Edition",
+      "url": "https://www.youtube.com/watch?v=QwgYRjEKa8g"
+    }
+  ],
+  "seoTitle": "5 checks before you book a freight load",
+  "searchIntent": "What should a broker check before moving a load?",
+  "hero": "/images/articles/y053.webp",
+  "heroAlt": "Logistics professional checking shipment papers beside a laptop, editorial illustration",
+  "publishedAt": "2026-10-26"
+}

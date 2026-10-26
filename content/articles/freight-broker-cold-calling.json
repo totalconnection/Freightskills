@@ -1,6 +1,6 @@
 {
   "slug": "freight-broker-cold-calling",
-  "title": "Freight broker cold calling: prepare, open clearly, and earn the next step.",
+  "title": "Freight broker cold calling: prepare, open clearly, and earn the next step",
   "seoTitle": "Freight broker cold calling: prepare, open clearly, and earn the next step",
   "topic": "prospecting",
   "category": "Prospecting & sales",
@@ -41,14 +41,6 @@
       ]
     },
     {
-      "id": "prepare-yourself-without-turning-preparation-into-avoidance",
-      "title": "Prepare yourself without turning preparation into avoidance.",
-      "paragraphs": [
-        "The motivation lesson treats the transition into calls as a deliberate routine. Luis discusses organizing the desk and list and using personally helpful activities such as music or journaling. The useful principle is to begin with attention on the work rather than carrying frustration from an unrelated interaction into the next call.",
-        "Confidence should sound like calm preparation, not invented experience. If a prospect asks about something you cannot yet support, recognize the gap. Overstating capability to keep the conversation alive creates a problem at the exact moment a customer is ready to rely on you."
-      ]
-    },
-    {
       "id": "review-the-quality-of-the-conversation",
       "title": "Review the quality of the conversation.",
       "paragraphs": [
@@ -66,25 +58,20 @@
       "id": "N8ocRMgUhds",
       "title": "How to Master Cold Calling as a Freight Broker | The Ultimate Cold Calling Guide",
       "url": "https://www.youtube.com/watch?v=N8ocRMgUhds"
-    },
-    {
-      "sourceId": "Y026",
-      "id": "R-QxtYxJDD4",
-      "title": "How to Motivate Yourself for Freight Broker Sales",
-      "url": "https://www.youtube.com/watch?v=R-QxtYxJDD4"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "research-before-the-sales-call",
     "diversify-freight-broker-customers",
     "how-freight-brokers-quote-rates"
   ],
-  "reviewNotes": [
-    "Unsupported communication percentages, guaranteed improvement rates, supplement anecdotes, and guaranteed sales outcomes are excluded."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "Freight broker cold calling: prepare, open clearly, and earn the next step.",
+  "cover": "Freight broker cold calling: prepare, open clearly, and earn the next step",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y040.webp",
+  "heroAlt": "Freight broker taking notes during a sales call, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

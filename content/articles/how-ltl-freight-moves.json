@@ -1,6 +1,6 @@
 {
   "slug": "how-ltl-freight-moves",
-  "title": "How LTL freight moves—and why the details matter.",
+  "title": "How LTL freight moves and why the details matter",
   "topic": "ltl",
   "category": "LTL freight",
   "excerpt": "Understand shared trailer space, terminal transfers, shipment information, and the service a broker can provide.",
@@ -15,7 +15,7 @@
       "paragraphs": [
         "LTL means less-than-truckload. In this lesson, Luis explains the difference by following the freight: a pickup truck collects smaller shipments, brings them into a terminal network, and the freight moves onward toward its destination. The shipment may pass through multiple trucks and facilities.",
         "That operating model is different from a straightforward dedicated truckload move in which one truck collects the freight and takes it to one destination. In LTL, the customer’s shipment shares the network with other customers’ freight. The handoffs affect both planning and expectations.",
-        "The original lesson uses an approximate pallet range to introduce the subject. This draft does not treat that range as a universal definition. Pallet count alone cannot establish which service is suitable; size, weight, handling, and carrier requirements matter. That clarification is flagged for owner review."
+        "Pallet count alone cannot establish which service is suitable. Size, weight, handling and carrier requirements matter. Confirm the actual shipment characteristics before deciding whether LTL is the right fit."
       ]
     },
     {
@@ -32,7 +32,7 @@
       "title": "Collect the information that shapes the quote.",
       "paragraphs": [
         "The video connects LTL pricing with the route, weight, space, and freight classification. Luis contrasts light, bulky freight with heavy, compact freight to show why one simple measure does not tell the whole story.",
-        "Classification needs particular care. NMFTA’s current NMFC information describes classification in terms of transportation characteristics including density, handling, stowability, and liability. This draft therefore does not repeat the lesson’s simplified density-only explanation or its suggestion that LTL is universally priced per pallet.",
+        "Classification needs particular care. NMFTA describes classification through density, handling, stowability and liability. Confirm the applicable NMFC item and class for the actual commodity; LTL is not universally priced per pallet.",
         "Collect accurate commodity, packaging, dimensions, and weight information, then establish the applicable classification and service requirements. The goal is to describe the actual shipment consistently when requesting and comparing carrier quotes. A lower quote based on incomplete information is not a dependable comparison."
       ]
     },
@@ -58,7 +58,7 @@
       "title": "Provide value beyond finding a rate.",
       "paragraphs": [
         "The lesson identifies classification support and claims coordination as ways a broker can help a shipper that already books directly with carriers. The useful service is preparation and follow-through: getting the shipment information right and helping manage a problem when it occurs.",
-        "This draft does not repeat promises that correct classification eliminates every surprise bill or that a broker can guarantee recovery on a claim. Those statements require correction before publication. Careful work can improve the process; the outcome still depends on the shipment, applicable terms, and facts."
+        "Accurate shipment information and careful classification reduce avoidable disputes. They do not guarantee that every adjustment or claim will be resolved in your favor. Review the shipment facts and applicable terms when an issue arises."
       ]
     }
   ],
@@ -68,15 +68,12 @@
       "url": "https://nmfta.org/standards/classification/nmfc/"
     }
   ],
-  "reviewNotes": [
-    "Owner review required: universal pallet-count cutoff, per-pallet pricing, density-only class explanation, claims recovery promises, and no-surprise-bill promises have been qualified.",
-    "Do not use the historical carrier list as a current provider recommendation."
-  ],
-  "approved": false,
+  "reviewNotes": [],
+  "approved": true,
   "related": [
     "how-freight-brokers-quote-rates"
   ],
-  "cover": "How LTL freight moves—and why the details matter.",
+  "cover": "How LTL freight moves and why the details matter",
   "theme": "dark",
   "minutes": 5,
   "videos": [
@@ -87,6 +84,9 @@
       "url": "https://www.youtube.com/watch?v=rGpVE2JwJqA"
     }
   ],
-  "seoTitle": "How LTL freight moves—and why the details matter.",
-  "searchIntent": "How LTL freight moves—and why the details matter."
+  "seoTitle": "How LTL freight moves and why the details matter",
+  "searchIntent": "How does LTL freight move?",
+  "hero": "/images/articles/y038.webp",
+  "heroAlt": "Warehouse loading area with pallets and an American tractor-trailer, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

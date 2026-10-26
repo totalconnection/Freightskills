@@ -1,7 +1,7 @@
 {
   "slug": "broker-carrier-communication",
-  "title": "Broker–carrier communication: build a dependable working relationship",
-  "seoTitle": "Broker–Carrier Communication: A Practical Guide",
+  "title": "Broker and carrier communication: build a dependable working relationship",
+  "seoTitle": "Broker and Carrier Communication: A Practical Guide",
   "topic": "operations",
   "category": "Shipment management",
   "searchIntent": "What should brokers and carriers communicate during a shipment?",
@@ -17,6 +17,14 @@
       ]
     },
     {
+      "id": "send-booking-paperwork-promptly",
+      "title": "Send booking paperwork promptly",
+      "paragraphs": [
+        "Once the terms are agreed, send the required paperwork promptly and confirm receipt. A carrier should not have to guess whether you are actually committing to the truck.",
+        "Resolve the setup and shipment documents through your approved process before dispatch. Clear timing helps the carrier plan its work and helps you keep the customer’s coverage commitment."
+      ]
+    },
+    {
       "id": "agree-on-useful-update-points",
       "title": "Agree on useful update points",
       "paragraphs": [
@@ -25,27 +33,11 @@
       ]
     },
     {
-      "id": "report-delays-with-realistic-timing",
-      "title": "Report delays with realistic timing",
+      "id": "make-payment-dependable",
+      "title": "Make the payment process dependable",
       "paragraphs": [
-        "For carriers, the lesson is to report a problem early enough for the broker to act. An arrival estimate that sounds reassuring but is inaccurate can create additional disruption at the facility.",
-        "Luis contrasts saying a truck is twenty minutes away with a situation that will actually take two hours. That difference can affect staffing and overtime decisions. Give the best supported estimate and update it when the facts change."
-      ]
-    },
-    {
-      "id": "record-events-and-discuss-extra-charges",
-      "title": "Record events and discuss extra charges",
-      "paragraphs": [
-        "Arrival and departure times, appointment information and the reason for a delay help establish what occurred. Communicate a potential accessorial while there is still an opportunity to resolve the issue.",
-        "Documentation supports a discussion; it does not mean every requested charge is automatically payable. Review the agreement and obtain the appropriate authorization. Keep the shipper and carrier commitments aligned rather than promising a reimbursement you have not confirmed."
-      ]
-    },
-    {
-      "id": "finish-the-paperwork-safely-and-promptly",
-      "title": "Finish the paperwork safely and promptly",
-      "paragraphs": [
-        "Return the signed proof of delivery and other required documents through the agreed channel. Missing paperwork can hold up billing even after the physical shipment is complete.",
-        "Prompt does not mean asking a driver to handle documents or messages while driving. Build a safe process around the carrier’s operations. Brokers should then honor the agreed payment terms and communicate genuine billing issues clearly."
+        "Tell the carrier what is required for billing and honor the agreed payment terms. Luis values prompt payment as part of building a reliable working relationship.",
+        "If documents are missing or an invoice needs clarification, communicate the specific issue. Do not let the carrier chase an unexplained silence. Build payment commitments around what the business can consistently deliver."
       ]
     },
     {
@@ -66,25 +58,20 @@
       "id": "P3kjwZWSsQI",
       "title": "5 Things Freight Brokers Can Do to Make Carriers Lives Easier",
       "url": "https://www.youtube.com/watch?v=P3kjwZWSsQI"
-    },
-    {
-      "sourceId": "Y023",
-      "id": "JBKTpbOcitM",
-      "title": "5 Ways Carriers Can Make Freight Broker's Job a Breeze",
-      "url": "https://www.youtube.com/watch?v=JBKTpbOcitM"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "after-you-get-a-freight-order",
     "freight-broker-daily-routine",
     "how-freight-brokers-quote-rates"
   ],
-  "reviewNotes": [
-    "Payment periods are contractual, not presented as a universal 14-day law. Accessorial reimbursement is not guaranteed."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "Broker–carrier communication: build a dependable working relationship",
+  "cover": "Broker and carrier communication: build a dependable working relationship",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y031.webp",
+  "heroAlt": "Two logistics professionals reviewing a shipment document, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

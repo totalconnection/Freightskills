@@ -1,6 +1,6 @@
 {
   "slug": "freight-brokerage-marketing",
-  "title": "Freight brokerage marketing: referrals, useful content, and paid traffic.",
+  "title": "Freight brokerage marketing: referrals, useful content, and paid traffic",
   "seoTitle": "Freight brokerage marketing: referrals, useful content, and paid traffic",
   "topic": "growth",
   "category": "Business growth",
@@ -68,17 +68,18 @@
       "url": "https://www.youtube.com/watch?v=4RAlGLRJxLI"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "freight-expertise-in-the-age-of-ai",
     "differentiate-freight-brokerage",
     "freight-broker-profit-margins"
   ],
-  "reviewNotes": [
-    "Historical ad-channel names are modernized without current feature or cost claims. Anecdotal campaign success is not presented as typical or measured."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "Freight brokerage marketing: referrals, useful content, and paid traffic.",
+  "cover": "Freight brokerage marketing: referrals, useful content, and paid traffic",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y065.webp",
+  "heroAlt": "American long-hood tractors at a distribution warehouse, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

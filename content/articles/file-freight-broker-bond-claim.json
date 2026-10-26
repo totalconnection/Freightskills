@@ -1,0 +1,78 @@
+{
+  "slug": "file-freight-broker-bond-claim",
+  "title": "How to prepare a freight broker bond claim",
+  "seoTitle": "How to prepare a freight broker bond claim",
+  "topic": "business",
+  "category": "Brokerage foundations",
+  "searchIntent": "How do you prepare a claim against a freight broker bond?",
+  "excerpt": "Organize the shipment agreement, delivery evidence, invoice and payment history before contacting a broker’s surety or trust provider.",
+  "takeaway": "Identify the broker’s financial security provider through FMCSA records, request its claim instructions and submit a clear, documented account of the unpaid shipment. A claim is reviewed; payment is not automatic.",
+  "sections": [
+    {
+      "id": "how-do-you-prepare-a-claim-against-a-freight-broker-bond",
+      "title": "How do you prepare a claim against a freight broker bond?",
+      "paragraphs": [
+        "Start by confirming the legal name and identifying number of the broker that hired you. Review the payment agreement and make sure the invoice and required delivery documents reached the correct billing contact. An unresolved billing question and a refusal to pay can require different next steps.",
+        "Luis’s lesson is about being organized before you escalate. Keep a record of the amount claimed, when it became due, the attempts to resolve it and the broker’s response. Do not rely on an angry phone call to explain the case."
+      ]
+    },
+    {
+      "id": "identify-the-correct-provider-and-filing-process",
+      "title": "Identify the correct provider and filing process",
+      "paragraphs": [
+        "Use FMCSA’s current registration and financial responsibility records to identify the bond or trust provider. Contact that provider through verified contact information and request its instructions, required documents and applicable deadlines.",
+        "The video shows an older website workflow. Follow the current official records rather than assuming the buttons or page layout will be identical. BMC-84 refers to a surety bond; BMC-85 refers to a trust agreement, so confirm which filing applies."
+      ]
+    },
+    {
+      "id": "build-a-clear-shipment-file",
+      "title": "Build a clear shipment file",
+      "paragraphs": [
+        "Collect the rate confirmation, broker-carrier agreement, bill of lading, signed delivery record, invoice and relevant communications. Include evidence supporting any disputed accessorial amount, along with the agreement or approval on which it rests.",
+        "Write a short chronology identifying the shipment, service performed, amount outstanding and attempts to obtain payment. Label the attachments so the reviewer can connect each fact to its supporting record. Retain copies of everything you submit."
+      ]
+    },
+    {
+      "id": "understand-what-happens-after-submission",
+      "title": "Understand what happens after submission",
+      "paragraphs": [
+        "The provider may ask the broker for its response and request more information from you. A submitted claim is not an automatic payout, and available security does not guarantee full recovery of every claim. Follow up through the provider’s stated process.",
+        "FMCSA’s financial responsibility rules changed effective January 16, 2026. Use the agency’s current guidance and the provider’s instructions for your situation. If the claim is disputed or deadlines are unclear, seek qualified advice rather than relying on a historical video as a complete legal procedure."
+      ]
+    }
+  ],
+  "videoId": "l_eUsHj6sak",
+  "sourceId": "Y028",
+  "sourceTitle": "How to File on a BMC 84 bond",
+  "videos": [
+    {
+      "sourceId": "Y028",
+      "id": "l_eUsHj6sak",
+      "title": "How to File on a BMC 84 bond",
+      "url": "https://www.youtube.com/watch?v=l_eUsHj6sak"
+    }
+  ],
+  "approved": true,
+  "related": [
+    "freight-broker-surety-bond",
+    "co-brokering-and-dual-authority",
+    "collect-overdue-freight-invoices"
+  ],
+  "reviewNotes": [],
+  "sources": [
+    {
+      "label": "FMCSA: broker registration and financial security",
+      "url": "https://www.fmcsa.dot.gov/registration/broker-registration"
+    },
+    {
+      "label": "FMCSA: current financial responsibility rule FAQs",
+      "url": "https://www.fmcsa.dot.gov/registration/broker-and-freight-forwarder-financial-responsibility-rule-faqs"
+    }
+  ],
+  "cover": "How to prepare a freight broker bond claim",
+  "theme": "dark",
+  "minutes": 1,
+  "hero": "/images/articles/y028.webp",
+  "heroAlt": "Freight professional organizing paperwork beside a laptop, editorial illustration",
+  "publishedAt": "2026-10-26"
+}

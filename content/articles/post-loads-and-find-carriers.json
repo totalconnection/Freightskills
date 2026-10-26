@@ -66,25 +66,20 @@
       "id": "a98VGHcd148",
       "title": "Freight Broker Step By Step: How to Post a Load on DAT Loadboard",
       "url": "https://www.youtube.com/watch?v=a98VGHcd148"
-    },
-    {
-      "sourceId": "Y042",
-      "id": "VPVa_xQmNM8",
-      "title": "How to Post a Load on DAT Power | DAT Express",
-      "url": "https://www.youtube.com/watch?v=VPVa_xQmNM8"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "carrier-qualification-process",
     "prevent-freight-brokerage-fraud",
     "after-you-get-a-freight-order"
   ],
-  "reviewNotes": [
-    "Historical DAT interface is not presented as current instructions. Omitted payload/GVW conflation, simplistic space calculations and unsupported securement guidance. No fictitious load postings are recommended."
-  ],
+  "reviewNotes": [],
   "sources": [],
   "cover": "How freight brokers post loads and search for available carriers",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y055.webp",
+  "heroAlt": "Load planning at a freight brokerage desk, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

@@ -1,6 +1,6 @@
 {
   "slug": "freight-expertise-in-the-age-of-ai",
-  "title": "AI for freight brokers: improve the work without losing the relationship.",
+  "title": "AI for freight brokers: improve the work without losing the relationship",
   "seoTitle": "AI for freight brokers: improve the work without losing the relationship",
   "topic": "growth",
   "category": "Business growth",
@@ -53,7 +53,7 @@
       "title": "Measure adoption before adding another subscription.",
       "paragraphs": [
         "Ask whether the workflow is being followed and whether the responsible people can explain how it helps. Look for duplicated entry, unclear ownership, and steps that are abandoned when the day becomes busy. Those observations are more useful than assuming the most elaborate product is automatically the best fit.",
-        "The enduring lesson is practical: choose a tool for the team and the work, then evaluate its use. This article does not treat the video’s program announcements, market commentary, or experimental tools as current offers or established results."
+        "The enduring lesson is practical: choose a tool for the team and the work, then evaluate its use. Use the current Freightskills training pages for available programs and support."
       ]
     }
   ],
@@ -68,17 +68,18 @@
       "url": "https://www.youtube.com/watch?v=M___YyW_TLg"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "freight-brokerage-marketing",
     "differentiate-freight-brokerage",
     "freight-broker-profit-margins"
   ],
-  "reviewNotes": [
-    "Preserves the existing URL. Historical program announcements, funding anecdotes, and employment-classification tangent omitted. Claims about market-wide adoption remain opinions, not measured facts."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "AI for freight brokers: improve the work without losing the relationship.",
+  "cover": "AI for freight brokers: improve the work without losing the relationship",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y001.webp",
+  "heroAlt": "Shipment planning desk with a laptop and an American semi at a warehouse, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

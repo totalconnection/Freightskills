@@ -1,6 +1,6 @@
 {
   "slug": "after-you-get-a-freight-order",
-  "title": "You got the order. Here’s what happens next.",
+  "title": "You got the order. Here’s what happens next",
   "topic": "operations",
   "category": "Shipment management",
   "excerpt": "Follow the shipment from customer confirmation through carrier booking, updates, and delivery paperwork.",
@@ -32,7 +32,7 @@
       "title": "Find a carrier that can perform the service.",
       "paragraphs": [
         "Once the requirements are clear, work through the carrier network and appropriate load-search channels. The commercial objective is to cover the shipment at a cost that fits the customer’s rate, but the carrier must also be suitable for the work.",
-        "The original video emphasizes the difference between the amount charged to the customer and the cost of the carrier. This draft adds an explicit qualification requirement to that discussion; that editorial change is flagged for Luis’s review. The lowest number alone is not a complete booking decision.",
+        "The customer charge and carrier cost matter, but the lowest number alone is not a complete booking decision. Confirm that the carrier meets your qualification requirements and can perform the actual shipment.",
         "Check availability for the actual date and service. A carrier’s interest in a lane is not the same thing as a confirmed commitment to this shipment. Resolve that distinction before treating the load as covered."
       ]
     },
@@ -61,29 +61,17 @@
         "After delivery, collect the carrier’s delivery paperwork and reconcile it with the shipment record. Luis describes sending the proof of delivery with the customer invoice. That final handoff connects the physical move with the commercial record.",
         "Do not let a successful delivery obscure unfinished paperwork or unresolved exceptions. The practical sequence is complete when the move and its documentation have been followed through, not merely when the truck leaves the destination."
       ]
-    },
-    {
-      "id": "check-the-handoffs-before-dispatch",
-      "title": "Check the handoffs before dispatch",
-      "paragraphs": [
-        "Luis’s five-step lesson reinforces the handoffs: obtain written customer instructions, confirm facility requirements, interview the carrier, independently verify the business and complete the agreement and rate confirmation.",
-        "Check dates, locations, commodity, weight, piece count, equipment and any applicable freight class. Confirm pickup numbers, ready times and appointments. Keep the customer rate and carrier rate in their appropriate documents; do not assume a quote alone is a complete shipment tender."
-      ]
     }
   ],
   "sources": [],
-  "reviewNotes": [
-    "Owner review: source says book as cheaply as possible; draft explicitly requires service fit and qualification alongside margin.",
-    "Historical promotional software references and program offers removed.",
-    "Combined Y053 with the existing operations lesson; freight-class language applies where relevant, not universally."
-  ],
-  "approved": false,
+  "reviewNotes": [],
+  "approved": true,
   "related": [
     "freight-broker-daily-routine",
     "broker-carrier-communication",
     "how-freight-brokers-quote-rates"
   ],
-  "cover": "You got the order. Here’s what happens next.",
+  "cover": "You got the order. Here’s what happens next",
   "theme": "dark",
   "minutes": 5,
   "videos": [
@@ -92,14 +80,11 @@
       "id": "Z1J9JTnI06I",
       "title": "What to do as a Freight Broker after you get an order",
       "url": "https://www.youtube.com/watch?v=Z1J9JTnI06I"
-    },
-    {
-      "sourceId": "Y053",
-      "id": "QwgYRjEKa8g",
-      "title": "5 Steps to Take Before You Move ANY Load | Freight Broker Edition",
-      "url": "https://www.youtube.com/watch?v=QwgYRjEKa8g"
     }
   ],
-  "seoTitle": "You got the order. Here’s what happens next.",
-  "searchIntent": "You got the order. Here’s what happens next."
+  "seoTitle": "You got the order. Here’s what happens next",
+  "searchIntent": "What should a freight broker do after receiving an order?",
+  "hero": "/images/articles/y021.webp",
+  "heroAlt": "Shipment planner checking documents beside a trailer, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

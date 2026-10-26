@@ -1,0 +1,69 @@
+{
+  "slug": "freight-customer-lifecycle",
+  "title": "The freight customer lifecycle: from prospect to trusted adviser",
+  "seoTitle": "The freight customer lifecycle: from prospect to trusted adviser",
+  "topic": "prospecting",
+  "category": "Prospecting & sales",
+  "searchIntent": "What are the stages of the freight customer lifecycle?",
+  "excerpt": "Understand the four stages of a freight customer relationship and choose a useful next step at each stage.",
+  "takeaway": "A freight customer relationship develops through research, introduction, transactions and deeper collaboration. Match the next action to the stage instead of expecting every first call to produce a load.",
+  "sections": [
+    {
+      "id": "what-are-the-stages-of-the-freight-customer-lifecycle",
+      "title": "What are the stages of the freight customer lifecycle?",
+      "paragraphs": [
+        "Luis describes four stages: the initial prospect, the introduction, the transactional relationship and development into a trusted adviser. These stages help explain why a promising contact can require patient work before becoming a regular customer.",
+        "They are a way to organize your effort, not a fixed timetable. Some relationships move quickly; others take much longer or never become a good fit. The useful question is what the customer knows and trusts you to do at the current stage."
+      ]
+    },
+    {
+      "id": "research-before-the-introduction",
+      "title": "Research before the introduction",
+      "paragraphs": [
+        "At the prospect stage, learn what the business ships and how it operates. You need enough understanding to ask relevant questions. If the person asks what their company does, you should not be learning the answer for the first time on that call.",
+        "During the introduction, aim to establish a real connection and a sensible next step. That could be an email with requested information or a future conversation with the right person. A first call does not need to end with a load to have moved the relationship forward."
+      ]
+    },
+    {
+      "id": "earn-trust-during-the-first-transactions",
+      "title": "Earn trust during the first transactions",
+      "paragraphs": [
+        "The first opportunity may be a difficult shipment, a backup request or a price comparison. Evaluate it carefully and be honest about what you can deliver. Winning the work is only the start of the test.",
+        "Keep communication clear and fulfill the commitment. If the opportunity is outside your capability or the economics do not work, address that before accepting it. A desire to prove yourself should not create promises the operations team cannot keep."
+      ]
+    },
+    {
+      "id": "develop-the-account-by-understanding-more-of-the-business",
+      "title": "Develop the account by understanding more of the business",
+      "paragraphs": [
+        "The development stage begins when the customer includes you earlier in its transportation decisions. You may be asked about a project, a different mode or a change in the supply chain. That is an opportunity to contribute knowledge rather than merely return another rate.",
+        "Keep learning about the account after the first successful load. Review service, ask what is changing and offer help that fits the customer’s needs. Luis’s goal is a relationship built through useful work over time, not a series of disconnected quote requests."
+      ]
+    }
+  ],
+  "videoId": "2eOOIQU4hU0",
+  "sourceId": "Y034",
+  "sourceTitle": "The Freightbroker Sales Cycle",
+  "videos": [
+    {
+      "sourceId": "Y034",
+      "id": "2eOOIQU4hU0",
+      "title": "The Freightbroker Sales Cycle",
+      "url": "https://www.youtube.com/watch?v=2eOOIQU4hU0"
+    }
+  ],
+  "approved": true,
+  "related": [
+    "freight-broker-sales-process",
+    "research-before-the-sales-call",
+    "diversify-freight-broker-customers"
+  ],
+  "reviewNotes": [],
+  "sources": [],
+  "cover": "The freight customer lifecycle: from prospect to trusted adviser",
+  "theme": "dark",
+  "minutes": 1,
+  "hero": "/images/articles/y034.webp",
+  "heroAlt": "Freight broker making a phone call at an office desk, editorial illustration",
+  "publishedAt": "2026-10-26"
+}

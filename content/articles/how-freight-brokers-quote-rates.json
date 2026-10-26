@@ -1,6 +1,6 @@
 {
   "slug": "how-freight-brokers-quote-rates",
-  "title": "How to quote freight without guessing.",
+  "title": "How to quote freight without guessing",
   "topic": "quoting",
   "category": "Quoting & rates",
   "excerpt": "Use shipment history, carrier conversations, and market data together to build a better rate estimate.",
@@ -31,7 +31,7 @@
       "title": "2. Talk to carriers about the actual opportunity.",
       "paragraphs": [
         "If you do not yet have a useful history, carrier conversations are especially important. Luis explains that his brokerage continued making those calls even on familiar lanes. The extra effort helps establish whether a proposed rate is realistic before the broker commits to the customer.",
-        "Discuss the shipment you are working on and ask what the carrier would need to move it. The distinction between a quote request and a confirmed load should be clear. This article does not recommend advertising unconfirmed freight as available; the video’s load-posting approach is flagged for owner review.",
+        "Discuss the shipment you are working on and ask what the carrier would need to move it. The distinction between a quote request and a confirmed load should be clear. Only advertise genuine freight you are authorized to offer. Keep a request for pricing clearly separate from a confirmed load.",
         "The calls can also improve your carrier network. In the lesson, Luis describes recording where carriers like to run and which destinations interest them. That information has a second use beyond today’s rate: it helps identify who to contact when a similar opportunity appears.",
         "The commercial cost of skipping this work can be larger than the time saved. Luis describes the damage caused when a broker repeatedly quotes a number and then returns at the last minute saying the shipment cannot be covered. A defensible answer is more useful than a low number you cannot execute."
       ]
@@ -52,29 +52,17 @@
         "The three methods reinforce each other. History provides context, conversations test current carrier interest, and market data adds a broader reference. Where they disagree, investigate the difference rather than selecting the cheapest number.",
         "A quote is also a statement about service. Confirm that the information used to estimate cost describes the move you are actually being asked to arrange. Then record the basis for the quote so you can explain and revisit it if the requirements change."
       ]
-    },
-    {
-      "id": "prepare-for-the-carrier-rate-conversation",
-      "title": "Prepare for the carrier rate conversation",
-      "paragraphs": [
-        "Before negotiating, be able to explain the dates, exact locations, commodity, count and weight with confidence. Luis encourages understanding the shipment well enough to answer the carrier’s practical questions.",
-        "Where appropriate, invite the carrier to state a price before anchoring the conversation. Reliable payment and clear paperwork can support credibility, but only describe terms your business actually honors. Do not fabricate lane experience or present a preferred payment period as a universal legal requirement."
-      ]
     }
   ],
   "sources": [],
-  "reviewNotes": [
-    "Review Y062 ghost-posting advice before publication. Draft explicitly distinguishes quote requests from confirmed loads.",
-    "Historical rates, tool pricing, subscription claims, affiliate offer, and partnership language are excluded. No current DAT feature claims are made.",
-    "Combined Y059 rate-negotiation lesson. Removed false-experience scripts and any universal 14-day payment-law implication."
-  ],
-  "approved": false,
+  "reviewNotes": [],
+  "approved": true,
   "related": [
     "freight-broker-profit-margins",
     "evaluate-freight-rfqs",
     "carrier-qualification-process"
   ],
-  "cover": "How to quote freight without guessing.",
+  "cover": "How to quote freight without guessing",
   "theme": "dark",
   "minutes": 5,
   "videos": [
@@ -83,14 +71,11 @@
       "id": "tOQ3IJOtOFI",
       "title": "3 Ways SMART Freight Broker’s Rate Their Shipments",
       "url": "https://www.youtube.com/watch?v=tOQ3IJOtOFI"
-    },
-    {
-      "sourceId": "Y059",
-      "id": "sI6UHyirOeY",
-      "title": "How I get the Best Freight Rates From Carriers | 3 Negotiation Tips",
-      "url": "https://www.youtube.com/watch?v=sI6UHyirOeY"
     }
   ],
-  "seoTitle": "How to quote freight without guessing.",
-  "searchIntent": "How to quote freight without guessing."
+  "seoTitle": "How to quote freight without guessing",
+  "searchIntent": "How do freight brokers calculate a shipment quote?",
+  "hero": "/images/articles/y062.webp",
+  "heroAlt": "Freight professional reviewing shipment details at an office desk, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

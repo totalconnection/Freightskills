@@ -1,6 +1,6 @@
 {
   "slug": "find-shipper-leads",
-  "title": "How to find shipper leads and build your own prospect list.",
+  "title": "How to find shipper leads and build your own prospect list",
   "seoTitle": "How to find shipper leads and build your own prospect list",
   "topic": "prospecting",
   "category": "Prospecting & sales",
@@ -39,22 +39,6 @@
         "Luis’s working list includes the person’s name and role, professional profile, company, website, phone number, product information, and notes. These fields support a conversation. A name and number without context still leave the caller needing to do the research.",
         "His demonstration finds conflicting phone numbers and checks the actual company website. That small detail illustrates the larger method: cross-check information instead of assuming a list provider or search result is current. Build the list in manageable research batches and qualify the entries as you go."
       ]
-    },
-    {
-      "id": "understand-the-limits-of-buying-a-shipper-list",
-      "title": "Understand the limits of buying a shipper list.",
-      "paragraphs": [
-        "The related lesson raises three concerns about purchased lists: several buyers may contact the same people, information can become stale, and relying on the list can prevent you from learning how to research. These are practical risks to evaluate, not proof that every list is fraudulent.",
-        "Even if you acquire contact data, the preparatory work remains. You still need to understand the company’s freight, identify decision responsibility, and establish a relevant reason to call. A larger file does not automatically create a better sales process."
-      ]
-    },
-    {
-      "id": "consider-appropriate-follow-up-with-facilities-you-have-served",
-      "title": "Consider appropriate follow-up with facilities you have served.",
-      "paragraphs": [
-        "Another lesson discusses pickup and delivery facilities where the brokerage has genuinely handled freight. When appropriate, accurately referencing that work can create a more informed introduction to the facility’s shipping or logistics team. Ask whether it controls other transportation needs rather than assuming that it does.",
-        "Use this approach only when it fits the customer relationship and confidentiality commitments. Do not invent a prior shipment or disclose another customer’s private information. The useful principle is that real operational familiarity can support a conversation; it is not permission to solicit every facility without considering the existing relationship."
-      ]
     }
   ],
   "videoId": "wdpWCRWvZcU",
@@ -66,32 +50,20 @@
       "id": "wdpWCRWvZcU",
       "title": "How to Find Shippers as A Freight Broker | Step By Step Over the Shoulder Look",
       "url": "https://www.youtube.com/watch?v=wdpWCRWvZcU"
-    },
-    {
-      "sourceId": "Y041",
-      "id": "Pqg_8kQx1Jo",
-      "title": "3 Reasons You Should Never Buy a Shipper's list",
-      "url": "https://www.youtube.com/watch?v=Pqg_8kQx1Jo"
-    },
-    {
-      "sourceId": "Y011",
-      "id": "4Ytkw_WsxWw",
-      "title": "The Easiest Sales Call a Freight Broker Can Make   High Converting Leads",
-      "url": "https://www.youtube.com/watch?v=4Ytkw_WsxWw"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "research-before-the-sales-call",
     "diversify-freight-broker-customers",
     "how-freight-brokers-quote-rates"
   ],
-  "reviewNotes": [
-    "Historical contact-tool interface and subscription details are not current instructions. Facility solicitation needs owner review against customer and confidentiality commitments.",
-    "Named industry-company examples are omitted from the published adaptation in keeping with the no-competitor-reference preference; product research method is retained."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "How to find shipper leads and build your own prospect list.",
+  "cover": "How to find shipper leads and build your own prospect list",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y054.webp",
+  "heroAlt": "Freight prospect research on an office computer, editorial illustration",
+  "publishedAt": "2026-10-26"
 }

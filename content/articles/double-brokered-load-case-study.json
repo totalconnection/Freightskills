@@ -1,0 +1,69 @@
+{
+  "slug": "double-brokered-load-case-study",
+  "title": "When a load is double brokered: lessons from a real incident",
+  "seoTitle": "When a load is double brokered: lessons from a real incident",
+  "topic": "carriers",
+  "category": "Carrier qualification",
+  "searchIntent": "What can a double-brokered load teach a brokerage?",
+  "excerpt": "Luis recounts an unauthorized retendering incident and the communication, identity and pickup checks it exposed.",
+  "takeaway": "When the carrier on paper and the party moving the freight do not match, stop relying on assumptions. Verify the transportation chain, protect the shipment and preserve records while coordinating an authorized response.",
+  "sections": [
+    {
+      "id": "what-can-a-double-brokered-load-teach-a-brokerage",
+      "title": "What can a double-brokered load teach a brokerage?",
+      "paragraphs": [
+        "In this recording, Luis describes a load accepted by one business and passed to another without his team’s knowledge. The shipment developed problems, and tracing who actually had the freight became much harder than making a routine tracking call.",
+        "The account is Luis’s recollection of an incident at his brokerage. The practical lesson is that completed loads can hide a weak process. In his telling, the problem shipment led the team to discover other loads had also been retendered."
+      ]
+    },
+    {
+      "id": "verify-who-actually-arrives-at-pickup",
+      "title": "Verify who actually arrives at pickup",
+      "paragraphs": [
+        "A company name on a rate confirmation is only one part of the shipment record. The pickup process should help confirm that the expected carrier, driver and equipment are the ones arriving. Resolve mismatches before loading when possible.",
+        "Arrange those checks with the shipper in advance. Staff at a busy dock need clear instructions about what information to check and whom to contact. An unexpected name or unexplained equipment change should trigger verification, rather than an assumption that dispatch must have approved it."
+      ]
+    },
+    {
+      "id": "keep-an-independent-contact-path",
+      "title": "Keep an independent contact path",
+      "paragraphs": [
+        "The story shows how difficult it becomes when every update passes through an intermediary whose role is unclear. Maintain verified contact details and a clear escalation path for the carrier actually entrusted with the shipment.",
+        "If communication changes unexpectedly, confirm the details through an independently verified business contact. Preserve emails, tender documents, pickup records and tracking information. A familiar email thread alone is not enough to resolve an identity mismatch."
+      ]
+    },
+    {
+      "id": "turn-the-incident-into-a-process-change",
+      "title": "Turn the incident into a process change",
+      "paragraphs": [
+        "Luis describes extraordinary efforts to locate and recover the freight. Those details are not a general recovery procedure. Coordinate suspected theft or unauthorized possession with the cargo owner, insurer, appropriate authorities and qualified professionals; do not improvise a physical recovery.",
+        "After the immediate issue, review how the carrier entered the system, what the dock verified and which warning signs were missed. Give the team a specific change to follow on the next load. An expensive lesson only improves the business when it changes the routine."
+      ]
+    }
+  ],
+  "videoId": "v3FAeWFZ4lA",
+  "sourceId": "Y010",
+  "sourceTitle": "Someone Double Brokered Our Loads",
+  "videos": [
+    {
+      "sourceId": "Y010",
+      "id": "v3FAeWFZ4lA",
+      "title": "Someone Double Brokered Our Loads",
+      "url": "https://www.youtube.com/watch?v=v3FAeWFZ4lA"
+    }
+  ],
+  "approved": true,
+  "related": [
+    "prevent-freight-brokerage-fraud",
+    "carrier-qualification-process",
+    "post-loads-and-find-carriers"
+  ],
+  "reviewNotes": [],
+  "sources": [],
+  "cover": "When a load is double brokered: lessons from a real incident",
+  "theme": "dark",
+  "minutes": 1,
+  "hero": "/images/articles/y010.webp",
+  "heroAlt": "Freight professional examining a phone and shipment papers, editorial illustration",
+  "publishedAt": "2026-10-26"
+}

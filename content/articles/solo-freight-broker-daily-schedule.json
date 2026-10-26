@@ -1,0 +1,69 @@
+{
+  "slug": "solo-freight-broker-daily-schedule",
+  "title": "A daily schedule for a one-person freight brokerage",
+  "seoTitle": "A daily schedule for a one-person freight brokerage",
+  "topic": "operations",
+  "category": "Shipment management",
+  "searchIntent": "How should a solo freight broker organize the day?",
+  "excerpt": "Organize active shipments, pending coverage, warm follow-ups, prospecting and administration when you are wearing every hat.",
+  "takeaway": "Start with active freight, work pending coverage, follow up with known prospects and then make new sales calls. Recheck shipments throughout the day and finish with administration and preparation for tomorrow.",
+  "sections": [
+    {
+      "id": "how-should-a-solo-freight-broker-organize-the-day",
+      "title": "How should a solo freight broker organize the day?",
+      "paragraphs": [
+        "Luis answers this question from the perspective of a broker handling operations, sales and administration alone. The work already promised to customers comes first. Begin by checking active pickups and deliveries, confirming status and identifying problems that need immediate attention.",
+        "This review gives you the operating picture for the day. It does not mean tracking is finished until tomorrow. Keep a way to receive and respond to shipment exceptions while you work on other tasks."
+      ]
+    },
+    {
+      "id": "work-pending-coverage-and-warm-follow-ups",
+      "title": "Work pending coverage and warm follow-ups",
+      "paragraphs": [
+        "Next, address loads that still need a carrier. Send appropriate requests, contact your network and manage genuine load postings. Coverage may continue in the background as responses arrive, but keep each unresolved commitment visible.",
+        "Then follow up with people you already know: prospects who asked for information, previous quote requests and contacts who invited you to reconnect. Use the notes from the earlier conversation so the follow-up has a reason beyond checking whether they remember you."
+      ]
+    },
+    {
+      "id": "give-new-prospecting-a-protected-place",
+      "title": "Give new prospecting a protected place",
+      "paragraphs": [
+        "Luis prefers reaching out after shipping managers have had time to handle their initial morning work. That is his operating preference, not a universal best calling hour. Adapt the timing to the customers, time zones and demands of your own freight.",
+        "Prepare the prospect list before the calling block begins. During the session, stay responsive to urgent shipment issues and schedule another status review. Protecting sales time should not leave an active customer unable to reach you."
+      ]
+    },
+    {
+      "id": "close-the-day-with-the-business-records-and-tomorrow-s-plan",
+      "title": "Close the day with the business records and tomorrow’s plan",
+      "paragraphs": [
+        "Review invoices, documents, receivables, payables and unanswered carrier questions. Follow up on missing information while it is still manageable. Move genuinely urgent financial or service issues earlier rather than waiting simply because administration is on the late-day list.",
+        "Prepare the next day’s priorities and prospect work before stopping. The purpose of this sequence is to reduce repeated decisions while you wear several hats. As volume grows, use the tasks that consistently crowd out other work to identify where support or a better process is needed."
+      ]
+    }
+  ],
+  "videoId": "GeO3kRXMebo",
+  "sourceId": "Y066",
+  "sourceTitle": "How To Schedule Your Day As a Freight Broker | The Best Daily Routine",
+  "videos": [
+    {
+      "sourceId": "Y066",
+      "id": "GeO3kRXMebo",
+      "title": "How To Schedule Your Day As a Freight Broker | The Best Daily Routine",
+      "url": "https://www.youtube.com/watch?v=GeO3kRXMebo"
+    }
+  ],
+  "approved": true,
+  "related": [
+    "freight-broker-daily-routine",
+    "after-you-get-a-freight-order",
+    "broker-carrier-communication"
+  ],
+  "reviewNotes": [],
+  "sources": [],
+  "cover": "A daily schedule for a one-person freight brokerage",
+  "theme": "dark",
+  "minutes": 1,
+  "hero": "/images/articles/y066.webp",
+  "heroAlt": "Freight professional planning the day in an office notebook, editorial illustration",
+  "publishedAt": "2026-10-26"
+}

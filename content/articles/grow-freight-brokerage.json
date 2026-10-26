@@ -1,6 +1,6 @@
 {
   "slug": "grow-freight-brokerage",
-  "title": "How to grow a freight brokerage beyond the owner.",
+  "title": "How to grow a freight brokerage beyond the owner",
   "seoTitle": "How to grow a freight brokerage beyond the owner",
   "topic": "growth",
   "category": "Business growth",
@@ -41,14 +41,6 @@
       ]
     },
     {
-      "id": "add-capability-and-people-in-a-deliberate-order",
-      "title": "Add capability and people in a deliberate order.",
-      "paragraphs": [
-        "The companion growth lesson starts with understanding additional requirements within existing customers. A company may have LTL, containers, flatbed, or other freight beyond the service you currently arrange. Discovering that need is the beginning of a capability assessment, not permission to accept unfamiliar work.",
-        "Then hire around the operating constraint and complementary strengths. Add agents or additional offices only when training, support, procedures, and compliance responsibilities are ready. Growth in locations or people creates management work as well as opportunities."
-      ]
-    },
-    {
       "id": "let-technology-support-the-structure",
       "title": "Let technology support the structure.",
       "paragraphs": [
@@ -66,25 +58,20 @@
       "id": "aqlnWo0dnzM",
       "title": "How to Grow and Manage a Large Freight Brokerage",
       "url": "https://www.youtube.com/watch?v=aqlnWo0dnzM"
-    },
-    {
-      "sourceId": "Y009",
-      "id": "j-8EGx-zrtY",
-      "title": "Elevate Your Freight Brokerage | How to Unlock Growth From Low 6 Figures and Beyond",
-      "url": "https://www.youtube.com/watch?v=j-8EGx-zrtY"
     }
   ],
-  "approved": false,
+  "approved": true,
   "related": [
     "freight-expertise-in-the-age-of-ai",
     "freight-brokerage-marketing",
     "freight-broker-profit-margins"
   ],
-  "reviewNotes": [
-    "Source “say yes to anything” language is narrowed to discovery and capability assessment. Owner review required. Historical staffing/revenue/software budgets are not current benchmarks."
-  ],
+  "reviewNotes": [],
   "sources": [],
-  "cover": "How to grow a freight brokerage beyond the owner.",
+  "cover": "How to grow a freight brokerage beyond the owner",
   "theme": "dark",
-  "minutes": 1
+  "minutes": 1,
+  "hero": "/images/articles/y006.webp",
+  "heroAlt": "Operations desk overlooking an American distribution yard, editorial illustration",
+  "publishedAt": "2026-10-26"
 }
