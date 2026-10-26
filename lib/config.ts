@@ -4,7 +4,7 @@ export const siteUrl = 'https://freightskills.com';
 export const freeTrainingUrl = '/webinar-register';
 export const portalUrl =
   process.env.STUDENT_PORTAL_URL ||
-  'https://broker-training-production.up.railway.app/login';
+  'https://members.freightskills.com/login';
 export function metadata(title: string, description: string, path: string) {
   return {
     title,
