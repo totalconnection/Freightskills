@@ -4,13 +4,19 @@ import { submitResourceSignup } from '@/lib/activecampaign';
 import type { ResourceSlug } from '@/lib/resource-landing';
 const headers={'Cache-Control':'no-store'};
 export async function POST(request:Request){
- if(request.headers.get('origin') && request.headers.get('origin')!==new URL(request.url).origin)
+ if(!request.headers.get('origin') || request.headers.get('origin')!==new URL(request.url).origin)
   return Response.json({error:'Please submit the form from this website.'},{status:403,headers});
  if(!request.headers.get('content-type')?.includes('application/json'))
   return Response.json({error:'Invalid form submission.'},{status:415,headers});
  let body;
- try{const raw=await request.text();if(raw.length>6000)return Response.json({error:'Form submission is too large.'},{status:413,headers});body=JSON.parse(raw);}catch{return Response.json({error:'Invalid form submission.'},{status:400,headers});}
+ try{const reader=request.body?.getReader();if(!reader)throw Error();let size=0;const chunks:Uint8Array[]=[];while(true){const {done,value}=await reader.read();if(done)break;size+=value.byteLength;if(size>6000){await reader.cancel();return Response.json({error:'Form submission is too large.'},{status:413,headers});}chunks.push(value);}const bytes=new Uint8Array(size);let offset=0;for(const chunk of chunks){bytes.set(chunk,offset);offset+=chunk.byteLength;}body=JSON.parse(new TextDecoder().decode(bytes));}catch{return Response.json({error:'Invalid form submission.'},{status:400,headers});}
  if(!body || typeof body!=='object')return Response.json({error:'Invalid form submission.'},{status:400,headers});
+ const bindings=env as unknown as {RESOURCE_RATE_LIMITER?:{limit:(input:{key:string})=>Promise<{success:boolean}>}};
+ const ip=request.headers.get('cf-connecting-ip');
+ if(ip){
+  if(!bindings.RESOURCE_RATE_LIMITER)return Response.json({error:'Please try again shortly.'},{status:503,headers});
+  try{const result=await bindings.RESOURCE_RATE_LIMITER.limit({key:ip});if(!result.success)return Response.json({error:'Too many requests. Please wait a minute and try again.'},{status:429,headers:{...headers,'Retry-After':'60'}});}catch{return Response.json({error:'Please try again shortly.'},{status:503,headers});}
+ }
  const country=request.headers.get('cf-ipcountry') || null;
  const get=(key:string)=>typeof body[key]==='string'?body[key].trim():'';
  const resource=resources.find(r=>r.slug===get('resource'));

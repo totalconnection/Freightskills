@@ -8,6 +8,11 @@ export default function sitemap() {
   return [
     '',
     '/about',
+    '/privacy',
+    '/terms',
+    '/cookies',
+    '/data-retention',
+    '/purchase-terms',
     '/learn',
     '/trainings',
     '/quote-mastery',

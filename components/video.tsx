@@ -1,11 +1,11 @@
 'use client';
 import { useState } from 'react';
 import { Play } from 'lucide-react';
-export function Video({ id, title, embedded = false }: { id: string; title: string; embedded?: boolean }) {
+export function Video({ id, title }: { id: string; title: string; embedded?: boolean }) {
   const [active, setActive] = useState(false);
   return (
     <div className="video-frame">
-      {active || embedded ? (
+      {active ? (
         <iframe
           src={`https://www.youtube-nocookie.com/embed/${id}${active ? '?autoplay=1' : ''}`}
           loading="lazy"
@@ -17,11 +17,12 @@ export function Video({ id, title, embedded = false }: { id: string; title: stri
       ) : (
         <button
           className="video-poster"
+          data-video-src={`https://www.youtube-nocookie.com/embed/${id}`}
           onClick={() => setActive(true)}
-          aria-label={`Play ${title}`}
+          aria-label={`Load YouTube video: ${title}`}
         >
           <img
-            src={`https://i.ytimg.com/vi/${id}/hqdefault.jpg`}
+            src="/images/freight-terminal.webp"
             loading="lazy"
             width="1440"
             height="810"
@@ -34,7 +35,7 @@ export function Video({ id, title, embedded = false }: { id: string; title: stri
           <span className="video-caption">
             <small>THE ORIGINAL LESSON / LUIS URIBE</small>
             <strong>{title}</strong>
-            <span>Watch the video ↗</span>
+            <span>Load YouTube video</span><span className="video-privacy-note">Loads YouTube, which receives device and visit information. Analytics permission is separate.</span>
           </span>
         </button>
       )}

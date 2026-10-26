@@ -1,5 +1,6 @@
 import { lifetimeDefinition, termsVersion } from '@/lib/commerce-catalog';
-export const metadata = { title: 'Workshop purchase terms | Freight Skills' };
+import {metadata as meta} from '@/lib/config';
+export const metadata = meta('Workshop purchase terms','Terms for Freightskills workshops.','/purchase-terms');
 export default function Page() {
   return (
     <main id="main" className="checkout-terms-page">

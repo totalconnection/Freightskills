@@ -61,7 +61,7 @@ export function VideoLibrary({ videos }: { videos: Lesson[] }) {
               aria-label={`Watch ${v.title} on YouTube`}
             >
               <img
-                src={`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`}
+                src="/images/freight-terminal.webp"
                 width="480"
                 height="360"
                 loading="lazy"

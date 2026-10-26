@@ -33,7 +33,8 @@ for (const path of paths) {
   assert.match(html, /<title>[^<]+<\/title>/, `${path}: no title`);
   const article = articles.find(p => path === `/blog/${p.slug}`);
   if (article) {
-    assert(html.includes(`https://www.youtube-nocookie.com/embed/${article.videoId}`), `${path}: missing server-rendered video`);
+    assert(html.includes(`https://www.youtube-nocookie.com/embed/${article.videoId}`), `${path}: missing click-to-load video URL`);
+    assert(html.includes('Load YouTube video'), `${path}: missing video activation control`);
     assert(html.includes(`href="${article.videos[0].url}"`), `${path}: missing YouTube link`);
     assert(html.includes(`src="${article.hero}"`), `${path}: missing hero`);
     const blocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].flatMap(m => JSON.parse(m[1]));

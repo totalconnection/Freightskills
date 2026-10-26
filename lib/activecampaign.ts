@@ -6,8 +6,8 @@ export type ResourceSignup = {
  phone: string; marketingConsent: boolean;
 };
 
-// Use the existing public forms so ActiveCampaign retains its double opt-in
-// and form-specific submission history. No API credential enters the browser.
+// Use the existing single-opt-in public forms and preserve form-specific
+// submission history. No API credential enters the browser.
 export async function submitResourceSignup(signup: ResourceSignup, send: typeof fetch = fetch) {
  const form = getResourceForm(signup.resource);
  if (!form) throw new Error('form_not_configured');

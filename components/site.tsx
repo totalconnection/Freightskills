@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
+import { CookieSettingsButton } from './privacy-controls';
 import { MobileNav } from './mobile-nav';
 import { portalUrl, freeTrainingUrl } from '@/lib/config';
 export const SKOOL_URL = 'https://www.skool.com/freightskills-community-5835';
@@ -115,7 +116,7 @@ export function Footer() {
       </div>
       <div className="wrap footer-bottom">
         <span>© {new Date().getFullYear()} Freightskills.</span>
-        <span>Freight business training</span>
+        <nav className="legal-links" aria-label="Policies"><Link href="/privacy">Privacy policy</Link><Link href="/terms">Terms of use</Link><Link href="/cookies">Cookie policy</Link><Link href="/data-retention">Data retention</Link><CookieSettingsButton /></nav>
       </div>
     </footer>
   );

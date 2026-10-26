@@ -32,9 +32,9 @@ export default function CheckoutCart({
     [previewReady, setPreviewReady] = useState(false);
   useEffect(() => {
     try {
-      const saved = JSON.parse(
-        localStorage.getItem('freightskills-cart') || '[]',
-      );
+      const entry = JSON.parse(localStorage.getItem('freightskills-cart') || 'null');
+      const saved = entry && Number.isFinite(entry.savedAt) && Date.now()-entry.savedAt<30*86400000 ? entry.items : [];
+      if (!entry?.savedAt) localStorage.removeItem('freightskills-cart');
       if (Array.isArray(saved))
         setSelected([
           ...new Set([
@@ -48,7 +48,9 @@ export default function CheckoutCart({
   useEffect(() => {
     if (hydrated)
       try {
-        localStorage.setItem('freightskills-cart', JSON.stringify(selected));
+        const current = JSON.parse(localStorage.getItem('freightskills-cart') || 'null');
+        const savedAt = current && JSON.stringify(current.items)===JSON.stringify(selected) ? current.savedAt : Date.now();
+        localStorage.setItem('freightskills-cart', JSON.stringify({items:selected,savedAt}));
       } catch {}
   }, [selected, hydrated]);
   const items = products.filter((p) => selected.includes(p.id)),

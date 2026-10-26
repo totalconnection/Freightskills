@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import {trackResource} from '@/lib/analytics';
 import {useEffect,useRef,useState,type FormEvent} from 'react';
 import {ArrowLeft,ArrowRight,Check,FileText} from 'lucide-react';
 import './resource-form.css';
@@ -34,6 +35,7 @@ export function ResourceForm({title,action,slug,isUSVisitor=false}:{title:string
    if(response.status===409)requestId.current=crypto.randomUUID();
    if(!response.ok)throw new Error(result.error||'We could not save your request. Please try again.');
    if(result.thankYouUrl!==`/thank-you/${slug}`)throw new Error('Please try again in a moment.');
+   await trackResource(slug);
    window.location.assign(result.thankYouUrl);
   }catch(error){setSubmitError(error instanceof Error?error.message:'We could not save your request. Please try again.');setSubmitting(false);}
  }
