@@ -59,8 +59,8 @@ export default function WebinarRegister() {
                 ))}
               </ul>
               <p className="webinar-audience">
-                For freight business owners, brokers and teams looking to
-                improve how they sell, operate and grow.
+                For aspiring and working freight brokers and agents who want to
+                sharpen their positioning and build stronger shipper relationships.
               </p>
             </div>
           </div>
@@ -122,7 +122,7 @@ export default function WebinarRegister() {
       <section className="webinar-final">
         <div className="wrap">
           <h2>Start with the free training.</h2>
-          <p>Take a closer look at how you sell, operate and grow.</p>
+          <p>Learn to compete on value, serve shippers and focus your next steps.</p>
           <a className="button" href="#webinar-registration">
             Go to registration <ArrowRight size={18} aria-hidden="true" />
           </a>

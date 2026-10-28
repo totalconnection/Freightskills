@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, Video } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { metadata as meta } from '@/lib/config';
 export const metadata = {
   ...meta(
@@ -23,14 +23,13 @@ export default function Page() {
         If it does not arrive within a few minutes, check your spam folder.
       </p>
       <div className="training-status">
-        <strong>The recording is being prepared.</strong>
+        <strong>Your training is ready to watch.</strong>
         <p>
-          You can open the training page now and save the link for later. The
-          video is not available yet.
+          Set aside about 53 minutes, or save the link and watch at your own pace.
         </p>
       </div>
       <Link className="button" href="/webinar-watch">
-        Open the training page <ArrowRight size={18} aria-hidden="true" />
+        Watch the free training <ArrowRight size={18} aria-hidden="true" />
       </Link>
       <p className="training-help">
         Entered the wrong email?{' '}

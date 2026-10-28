@@ -53,8 +53,8 @@ export function WebinarRegistrationForm() {
     >
       <h2 id="webinar-form-title">Register for the free training.</h2>
       <p className="webinar-form-intro">
-        The recording is being prepared. Register now to receive a confirmation
-        and a link to the training page.
+        Get immediate access to the 53-minute recording and receive the watch-page
+        link by email so you can return anytime.
       </p>
       <form
         onSubmit={submit}
@@ -105,7 +105,7 @@ export function WebinarRegistrationForm() {
       </form>
       <noscript>Please enable JavaScript to register.</noscript>
       <p className="webinar-registration-note" id="webinar-registration-note">
-        Free registration · No payment required · Video coming soon
+        Free registration · No payment required · Watch on demand
       </p>
     </aside>
   );

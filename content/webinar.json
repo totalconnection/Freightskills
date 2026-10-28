@@ -1,7 +1,7 @@
 {
-  "title": "Build a Better Freight Business",
-  "description": "A practical approach to sales, operations and modern tools for companies that move freight.",
-  "approved": false,
+  "title": "Build a Stronger Freight Brokerage",
+  "description": "A free, 53-minute training with Luis Uribe on positioning your brokerage, selling solutions to shippers and focusing on the activities that build lasting customer relationships.",
+  "approved": true,
   "registration": {
     "action": "https://freightskills.activehosted.com/proc.php",
     "hiddenFields": {
@@ -20,46 +20,35 @@
   },
   "learningPoints": [
     {
-      "title": "Find and win the right customers",
-      "description": "Connect your positioning, prospecting and follow-up into a more consistent sales process."
+      "title": "Position your brokerage around value",
+      "description": "Compare the discount and premium brokerage models, and learn how freight selection, margins and customer needs shape your business."
     },
     {
-      "title": "Strengthen the way you operate",
-      "description": "Use clearer processes and responsibilities to support your team and the customers you serve."
+      "title": "Sell a strategy, not just a truck",
+      "description": "Explore ways to help shippers through route planning, cost comparisons and transportation options that solve their real problems."
     },
     {
-      "title": "Make modern tools useful",
-      "description": "Identify where technology and automation can help with the work your business already does."
-    },
-    {
-      "title": "Choose your next growth opportunity",
-      "description": "Consider additional services and freight modes in the context of your customers, capabilities and goals."
+      "title": "Focus on the work that matters",
+      "description": "Prioritize building your shipper list, calling prospects, growing your carrier network and creating repeatable processes."
     }
   ],
   "challenges": [
     {
-      "title": "Unclear positioning",
-      "description": "You need a clearer way to explain who you serve and why a customer should choose your business."
+      "title": "Competing only on price",
+      "description": "You want customers to understand the value you bring beyond a cheaper rate."
     },
     {
-      "title": "Inconsistent prospecting",
-      "description": "Outreach and follow-up happen when you find the time, instead of following a repeatable process."
+      "title": "Sales calls that go nowhere",
+      "description": "You need a more useful conversation than asking whether a shipper has a load available."
     },
     {
-      "title": "Too much manual work",
-      "description": "Repeated tasks and scattered information leave less time for customers and business development."
-    },
-    {
-      "title": "Limited service options",
-      "description": "You see opportunities in additional freight modes but need to understand what serving them requires."
-    },
-    {
-      "title": "Little visibility into performance",
-      "description": "You need a better way to see what is happening in sales and operations, and where to improve."
-    },
-    {
-      "title": "No clear next priority",
-      "description": "There are plenty of tools and ideas to consider. Choosing what deserves your attention is the hard part."
+      "title": "Too many distractions",
+      "description": "You want to choose the activities that deserve your attention as you build your brokerage."
     }
-  ]
+  ],
+  "video": {
+    "id": "826552558",
+    "hash": "9d23dd28f5",
+    "recordedYear": 2023
+  }
 }
