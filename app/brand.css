@@ -91,3 +91,13 @@
 .training-recording-note { font-size:14px; color:#52646b; }
 .training-lesson { margin:24px 0; }
 @media (max-width:540px) { .training-play { gap:6px; padding:12px; } .training-play svg { width:26px; height:26px; } .training-play small { max-width:250px; font-size:10px; } }
+
+/* A focused viewing surface: one header and a responsive video. */
+body:has(.training-theater) { background:#f6f4ee; }
+.training-theater { min-height:100svh; }
+.training-theater-header { min-height:88px; max-width:1440px; margin:auto; padding:20px 32px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
+.training-theater-header .brand { width:180px; flex:none; }
+.training-theater-main { width:min(1200px,calc(100% - 64px),calc((100svh - 140px)*16/9)); margin:12px auto 32px; }
+.training-theater-main .training-recording { margin:0; }
+@media(max-width:600px) { .training-theater-header { min-height:76px; padding:18px 16px; gap:12px; } .training-theater-header .brand { width:140px; } .training-theater-header .button { padding:10px 14px; font-size:13px; } .training-theater-main { width:100%; margin:12px auto; } .training-theater-main .video-frame { border-radius:0; } }
+@media(max-height:500px) and (orientation:landscape) { .training-theater-header { min-height:58px; padding:8px 20px; } .training-theater-header .brand { width:130px; } .training-theater-main { width:min(calc(100% - 32px),calc((100svh - 82px)*16/9)); margin:4px auto; } }

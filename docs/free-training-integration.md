@@ -26,3 +26,7 @@ Commit 7c87341 deployed successfully in GitHub Actions run 40750632466. Vimeo 82
 Updated live campaign 16 / message 22 through the automation message HTML editor; Finish saved successfully. Verified HTML and regenerated plain text via the connector, rendered preview including sender and unsubscribe footer, and active automation/campaign status 1. No new email was sent during this update; prior end-to-end registration/send acceptance remains documented above. The generic campaign edit tool cannot edit automation emails; the message update tool changed preheader but ignored body, so use the actual automation message editor for body updates.
 
 Validation: build, TypeScript, training integration checks, and SEO checks (97 routes) passed. Live Vimeo playback verified in Chrome. Stable /webinar-watch URL allows replacing the recording without changing already-delivered email links. Source email HTML and readable copy are saved in content/free-training-email.html and .txt.
+
+## Focused watch page
+
+Owner requested a distraction-free viewing page. Shared navigation, footer, personal attribution, lesson summaries and sales content are removed on /webinar-watch. Optional analytics/privacy UI is not mounted on this route; Vimeo remains click-to-load with dnt=1. The header currently contains the approved logo; consultation booking destination is pending owner input. Video scales to available viewport height and width. The initial email links directly to Academy for current offer details because the watch-page promotion was removed.

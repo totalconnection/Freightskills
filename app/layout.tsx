@@ -8,6 +8,7 @@ import './checkout.css';
 import './brand.css';
 import { PrivacyControls } from '@/components/privacy-controls';
 import { Header, Footer } from '@/components/site';
+import { SiteFrame } from '@/components/site-frame';
 import { isProduction, siteUrl } from '@/lib/config';
 const geist = Geist({ subsets: ['latin'], variable: '--font-geist-sans' });
 export const metadata: Metadata = {
@@ -31,10 +32,9 @@ export default function Layout({
         <a className="skip-link" href="#main">
           Skip to content
         </a>
-        <Header />
-        {children}
-        <Footer />
-        <PrivacyControls />
+        <SiteFrame header={<Header />} footer={<Footer />} privacy={<PrivacyControls />}>
+          {children}
+        </SiteFrame>
       </body>
     </html>
   );
