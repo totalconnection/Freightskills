@@ -8,8 +8,8 @@ ActiveCampaign assets created October 28, 2026:
 - List 5: Freightskills Free Training. Separate from resource list 4 and its welcome/nurture automations.
 - Form 7: Freightskills | Free Training. Single opt-in, subscribes only to list 5, redirects to the site's confirmation page, does not overwrite blank fields.
 - Automation 13: Freightskills | Free Training confirmation. Trigger 26 is form 7, once per contact. No historical contacts enrolled.
-- Message 21 / campaign 15: one confirmation and training-page link email from Luis Uribe <luis@freightskills.com>. Source copy: `content/free-training-email.txt`.
-- Automation email attachment and activation are pending browser completion; do not claim delivery active until verified.
+- Live message 22 / campaign 16: one confirmation and training-page link email from Luis Uribe <luis@freightskills.com>. Message 21 / campaign 15 remain the original draft. Source copy: `content/free-training-email.txt`.
+- Automation 13 is active (status 1), send block 43 points to campaign 16, and trigger 26 runs once per contact for form 7.
 
 The server persists registrations in the existing `resource_requests` table with resource `free-training`, disclosure `free-training-v1`, consent source `training-link-request`, and marketing consent false. No additional database migration is needed. The form does not modify existing marketing-permission fields or enroll contacts in nurture. Empty first names are omitted from the upstream payload to preserve an existing name.
 
@@ -17,4 +17,4 @@ Same-origin validation, a 6 KB body limit, server-side field validation, honeypo
 
 Checks: `node scripts/check-training.mjs`, `node scripts/check-activecampaign.mjs`, `npx tsc --noEmit`, `SITE_LAUNCH_APPROVED=true npm run build`, `node scripts/check-seo.mjs http://127.0.0.1:4185`.
 
-Before marking complete: attach campaign 15 to automation 13, verify only the form 7 trigger and single send exist, activate, deploy the site, submit an owner test registration, verify the ActiveCampaign run and email, and verify the delivered link. No nurture sequence is part of this change. Replace temporary wording in registration/confirmation/watch/email together when the video is ready.
+Production verified October 28, 2026: commit e6ed1e8 deployed successfully in GitHub Actions run 40743720185. Owner test registration reached the confirmation page and its watch-page link worked. ActiveCampaign contact 1 joined only the new training list for this flow; automation run 18 completed and send log 16 reports successful=1 for message 22 / campaign 16. This verifies send acceptance, not inbox placement. Initial tests exposed an empty redirect because form submit was set to `redirect`; corrected in the ActiveCampaign builder to `open-url` and retried successfully. Repeated diagnostic submissions did not create a second automation run. No nurture sequence is part of this change. Replace temporary wording in registration/confirmation/watch/email together when the video is ready.
