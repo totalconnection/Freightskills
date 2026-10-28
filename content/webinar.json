@@ -2,7 +2,22 @@
   "title": "Build a Better Freight Business",
   "description": "A practical approach to sales, operations and modern tools for companies that move freight.",
   "approved": false,
-  "registration": null,
+  "registration": {
+    "action": "https://freightskills.activehosted.com/proc.php",
+    "hiddenFields": {
+      "u": "7",
+      "f": "7",
+      "s": "",
+      "c": "0",
+      "m": "0",
+      "act": "sub",
+      "v": "2",
+      "or": "74d40301-d807-4c05-babe-fe2396aa522f"
+    },
+    "privacyUrl": "https://freightskills.com/privacy",
+    "consentText": "By registering, you request a confirmation email with your training-page link.",
+    "verified": true
+  },
   "learningPoints": [
     {
       "title": "Find and win the right customers",

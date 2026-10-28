@@ -1,0 +1,19 @@
+Subject: Your Freightskills training registration is confirmed
+From: Luis Uribe <luis@freightskills.com>
+
+Hi there,
+
+Thanks for registering for my free Freightskills training.
+
+Here is your training page:
+https://freightskills.com/webinar-watch
+
+The recording is being prepared and is not available to watch yet. Save this link so you can return to the same page when it is ready.
+
+If you have any trouble, reply to this email.
+
+Luis Uribe
+Freightskills
+
+%SENDER-INFO%
+Unsubscribe: %UNSUBSCRIBELINK%

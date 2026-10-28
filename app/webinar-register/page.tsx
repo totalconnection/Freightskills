@@ -32,8 +32,7 @@ export default function WebinarRegister() {
       {!webinar.approved && (
         <div className="webinar-review-note">
           <div className="wrap">
-            Design preview · Working title and learning points, pending review
-            of the presentation.
+            Registration is open. The recording is being prepared and is not available yet.
           </div>
         </div>
       )}

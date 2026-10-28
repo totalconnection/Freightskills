@@ -69,3 +69,15 @@
 
 /* Academy option in the workshop checkout. */
 .checkout-academy-upgrade{margin:24px 0;padding:28px;background:#eaf2ee;border:1px solid var(--brand-teal);border-radius:8px;color:var(--brand-navy)}.checkout-academy-upgrade h2{font-size:26px;line-height:1.2;letter-spacing:-.03em;margin:12px 0 18px}.checkout-academy-upgrade p{font-size:14px;line-height:1.7;margin:14px 0}.checkout-academy-upgrade .checkout-eyebrow{font-size:10px;color:var(--brand-teal);margin:0}.checkout-academy-upgrade .checkout-upgrade-price{border-top:1px solid var(--brand-border);padding-top:18px;margin-top:20px}.checkout-upgrade-price strong{display:block;font-size:24px;margin-bottom:4px}.checkout-academy-upgrade .button{margin:6px 0;font-size:13px}.checkout-academy-upgrade .checkout-upgrade-note{font-size:11px;color:var(--brand-muted);margin-bottom:0}@media(max-width:700px){.checkout-academy-upgrade{padding:22px}.checkout-academy-upgrade h2{font-size:24px}.checkout-academy-upgrade .button{width:100%;justify-content:center;white-space:normal}}
+
+/* Free-training registration, confirmation and watch flow. */
+.training-flow{max-width:880px;padding-block:clamp(48px,8vw,96px)}
+.training-flow h1{font-size:clamp(2.2rem,5vw,3.7rem);line-height:1.12;letter-spacing:-.035em;margin:14px 0 24px;color:var(--brand-navy,#142b3a)}
+.training-flow>p{max-width:680px;line-height:1.7;font-size:1.1rem}
+.training-status{padding:24px;margin:28px 0;background:#f6f4ee;border:1px solid #d7dfdc;border-radius:16px}
+.training-status p{margin-bottom:0;line-height:1.6}
+.training-video-placeholder{min-height:330px;padding:clamp(24px,5vw,56px);margin:32px 0;border-radius:20px;background:#142b3a;color:#f6f4ee;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.training-video-placeholder svg{color:#b8e3d5}.training-video-placeholder h2{color:#f6f4ee;font-size:clamp(1.5rem,4vw,2rem);margin:20px 0 8px}.training-video-placeholder p{max-width:520px;line-height:1.6}
+.training-flow .training-help{font-size:.95rem;margin-top:28px}.training-help a{text-decoration:underline}
+.training-honeypot{position:absolute!important;left:-10000px!important;width:1px;height:1px;overflow:hidden}.training-error{color:#a02020;line-height:1.5}
+@media(max-width:600px){.training-flow .button{width:100%;justify-content:center}.training-video-placeholder{min-height:280px}}
