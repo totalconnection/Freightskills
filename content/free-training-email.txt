@@ -1,14 +1,23 @@
 Subject: Your Freightskills training registration is confirmed
 From: Luis Uribe <luis@freightskills.com>
+Preheader: Watch your free 53-minute training on positioning, shipper conversations and focused action.
 
 Hi there,
 
-Thanks for registering for my free Freightskills training.
+Thanks for registering for Build a Stronger Freight Brokerage. Your free training is ready to watch.
 
-Here is your training page:
-https://freightskills.com/webinar-watch
+In this 53-minute recording, I walk through three ideas:
 
-The recording is being prepared and is not available to watch yet. Save this link so you can return to the same page when it is ready.
+Position your brokerage around value: think beyond the lowest rate and understand how freight selection and margins shape your business.
+Sell a strategy, not just a truck: help shippers with route planning, cost comparisons and transportation options.
+Focus on the work that matters: build your shipper list, call prospects, grow your carrier network and create repeatable processes.
+Watch the free training: https://freightskills.com/webinar-watch
+
+Save this link so you can watch at your own pace: freightskills.com/webinar-watch
+
+As you watch, pick one idea you can apply to your next shipper conversation.
+
+This is the 2023 recording; market examples and program offers reflect that time. Current Academy details are linked on the watch page.
 
 If you have any trouble, reply to this email.
 
@@ -16,4 +25,4 @@ Luis Uribe
 Freightskills
 
 %SENDER-INFO%
-Unsubscribe: %UNSUBSCRIBELINK%
+Unsubscribe
