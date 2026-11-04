@@ -1,9 +1,9 @@
 export const workshopIds = ['quote-workshop', 'drayage-workshop'] as const;
 export type WorkshopId = (typeof workshopIds)[number];
-export const termsVersion = 'workshops-2026-10-25';
+export const termsVersion = 'courses-2026-11-04';
 export const lifetimeDefinition =
   'Lifetime access means access for the lifetime of the Freight Skills business, with access guaranteed for a minimum of one year from the date of purchase.';
-// Display-only catalog. Payment and fulfillment integrations are deferred.
+export const whopCheckout = {'quote-workshop':'https://whop.com/checkout/plan_AjQaVlfJtrWxH','drayage-workshop':'https://whop.com/checkout/plan_KGpqN9Ba6LxjJ',academy:'https://whop.com/checkout/plan_Fs9k7aUfs571I',academyTwoPay:'https://whop.com/checkout/plan_Sy2FHe4ecupsr'} as const;
 export const shopProducts = [
   {
     id: 'quote-workshop' as const,

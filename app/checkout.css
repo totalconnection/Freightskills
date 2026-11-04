@@ -664,3 +664,5 @@ body:has(.fs-checkout) > .footer {
 .checkout-empty > svg {
   margin: auto;
 }
+
+.checkout-pay + .checkout-pay { margin-top: 10px; }

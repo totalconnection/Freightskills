@@ -10,13 +10,13 @@ import {
   Check,
   Container,
   LockKeyhole,
-  Mail,
   Plus,
   ShieldCheck,
   Trash2,
 } from 'lucide-react';
 import {
   lifetimeDefinition,
+  whopCheckout,
   money,
   workshopIds,
   type WorkshopId,
@@ -30,8 +30,7 @@ export default function CheckoutCart({
   initialSelection: WorkshopId[];
 }) {
   const [selected, setSelected] = useState(initialSelection),
-    [hydrated, setHydrated] = useState(false),
-    [previewReady, setPreviewReady] = useState(false);
+    [hydrated, setHydrated] = useState(false);
   useEffect(() => {
     try {
       const entry = JSON.parse(localStorage.getItem('freightskills-cart') || 'null');
@@ -62,13 +61,6 @@ export default function CheckoutCart({
     setSelected((current) =>
       current.includes(id) ? current.filter((p) => p !== id) : [...current, id],
     );
-    setPreviewReady(false);
-  }
-  function submit(event: React.FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    if (!items.length || !hydrated) return;
-    // Design preview only: no customer details are stored or transmitted.
-    setPreviewReady(true);
   }
 
   return (
@@ -105,10 +97,9 @@ export default function CheckoutCart({
           </p>
         </div>
         <p className="checkout-notice">
-          <strong>Checkout preview.</strong> Payments are not connected yet. You
-          can explore the cart without placing an order.
+          <strong>Secure checkout with Whop.</strong> Complete each workshop purchase separately. Use the same email for checkout and your portal account.
         </p>
-        <form onSubmit={submit} className="checkout-grid">
+        <div className="checkout-grid">
           <div>
             <section className="checkout-section">
               <div className="checkout-section-title">
@@ -203,50 +194,7 @@ export default function CheckoutCart({
                 </p>
               </aside>
             )}
-            <section className="checkout-section">
-              <div className="checkout-section-title">
-                <span>02</span>
-                <h2>Where should we send your access?</h2>
-              </div>
-              <p className="checkout-help">
-                Already have a Freight Skills account? Use that account’s email.
-              </p>
-              <div className="checkout-fields">
-                <label>
-                  Full name
-                  <input
-                    name="name"
-                    autoComplete="name"
-                    placeholder="Your full name"
-                    required
-                    maxLength={100}
-                  />
-                </label>
-                <label>
-                  Email address
-                  <input
-                    name="email"
-                    type="email"
-                    autoComplete="email"
-                    placeholder="you@company.com"
-                    required
-                    maxLength={254}
-                  />
-                </label>
-              </div>
-              <p className="checkout-email-note">
-                <Mail size={15} />
-                Your receipt, portal access, and getting-started instructions go
-                here.
-              </p>
-              <label className="checkout-check">
-                <input type="checkbox" name="marketing" />
-                <span>
-                  Also send me Freight Skills tips and offers. Optional;
-                  unsubscribe anytime.
-                </span>
-              </label>
-            </section>
+            <section className="checkout-section"><div className="checkout-section-title"><span>02</span><h2>Your email connects your access</h2></div><p className="checkout-help">Whop collects your payment and email securely. If you already have a Freightskills account, use that email address. New members create an account and verify their checkout email.</p></section>
             <section className="checkout-after">
               <h2>What happens after payment?</h2>
               <ol>
@@ -254,7 +202,7 @@ export default function CheckoutCart({
                   <span>1</span>
                   <div>
                     <strong>Payment confirmed</strong>
-                    <p>Stripe securely processes your payment.</p>
+                    <p>Whop securely processes your payment.</p>
                   </div>
                 </li>
                 <li>
@@ -269,7 +217,7 @@ export default function CheckoutCart({
                   <div>
                     <strong>Check your inbox and start</strong>
                     <p>
-                      New members get a secure account-setup link. Returning
+                      New members get account setup and email verification instructions. Returning
                       members use their existing login.
                     </p>
                   </div>
@@ -312,37 +260,13 @@ export default function CheckoutCart({
                 Access through your Freight Skills Portal
               </li>
             </ul>
-            <label className="checkout-check checkout-terms">
-              <input type="checkbox" name="terms" required />
-              <span>
-                I agree to the{' '}
-                <a href="/purchase-terms" target="_blank" rel="noopener">
-                  workshop purchase terms
-                </a>
-                , including the definition of lifetime access*.
-              </span>
-            </label>
-            <button
-              className="checkout-pay"
-              disabled={!items.length || !hydrated}
-            >
-              Continue to secure payment
-              <ArrowRight size={18} />
-            </button>
-            {previewReady && (
-              <p className="checkout-preview-result" role="status">
-                Your cart is ready. Payment and access delivery will be
-                connected in the next phase. No information has been submitted
-                and no order has been placed.
-              </p>
-            )}
-            <p className="checkout-secure">
-              <ShieldCheck size={15} />
-              Secure payment via Stripe · coming soon
-            </p>
+            <p className="checkout-tax">Review the <a href="/purchase-terms">purchase terms</a>, including lifetime access, before completing checkout.</p>
+            {hydrated && items.map(p=><a key={p.id} className="checkout-pay" href={whopCheckout[p.id]}>Buy {p.name} · {money(p.unitAmount)} <ArrowRight size={18}/></a>)}
+            {items.length>1&&<p className="checkout-tax">Each button opens a separate Whop checkout. Both workshops will appear in the same portal account.</p>}
+            <p className="checkout-secure"><ShieldCheck size={15}/>Secure payment via Whop</p>
             <p className="checkout-lifetime">*{lifetimeDefinition}</p>
           </aside>
-        </form>
+        </div>
       </main>
       <footer className="checkout-footer">
         <span>© {new Date().getFullYear()} Freight Skills</span>
