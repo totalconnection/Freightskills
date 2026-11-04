@@ -78,7 +78,7 @@
   border-radius: 9px;
   overflow: hidden;
   background: #fff;
-  box-shadow: 0 16px 40px #242a3014;
+  box-shadow: 0 16px 40px #2b292614;
   border: 1px solid #d9dbdb;
   transform: rotate(1deg);
 }
@@ -88,7 +88,7 @@
   justify-content: space-between;
   gap: 15px;
   padding: 18px 22px;
-  background: #253d56;
+  background: #3c3a37;
   color: #fff;
   font-size: 9px;
   letter-spacing: 1.4px;
@@ -117,15 +117,15 @@
 }
 .preview-costs > div {
   padding: 18px;
-  background: #f4f5f6;
-  border: 1px solid #e5e6e7;
+  background: #f7f5f2;
+  border: 1px solid #e8e6e3;
   border-radius: 4px;
 }
 .preview-costs span,
 .preview-quote > span {
   display: block;
   font-size: 12px;
-  color: #697076;
+  color: #716f6c;
 }
 .preview-costs strong {
   display: block;
@@ -137,7 +137,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #eaf0f5;
+  background: #f1efec;
   padding: 18px;
   margin-top: 12px;
   border-radius: 4px;
@@ -176,7 +176,7 @@
   margin: 0 3px;
 }
 .is-drayage .tool-preview-bar {
-  background: #224f53;
+  background: #484643;
 }
 .is-drayage {
   transform: rotate(-1deg);
@@ -186,13 +186,13 @@
   align-items: center;
   gap: 9px;
   justify-content: space-between;
-  background: #eaf2ef;
-  border: 1px solid #dbe6e1;
+  background: #f2f0ed;
+  border: 1px solid #e5e3e0;
   border-radius: 4px;
   padding: 17px 12px;
   font-size: 11px;
   font-weight: 600;
-  color: #27534d;
+  color: #4b4946;
 }
 .preview-checks {
   list-style: none;
@@ -205,16 +205,16 @@
   gap: 10px;
   font-size: 13px;
   padding: 10px 0;
-  border-bottom: 1px solid #e4e9e6;
+  border-bottom: 1px solid #eae8e5;
 }
 .preview-checks svg {
-  color: #34695c;
+  color: #5f5d5a;
 }
 .is-drayage .preview-output {
   padding: 16px;
-  background: #f3f6f4;
+  background: #f7f5f2;
   border-radius: 4px;
-  color: #284d46;
+  color: #474542;
 }
 .training-problem {
   display: grid;
@@ -330,7 +330,7 @@
   font-size: 14px;
 }
 .training-tools {
-  background: #253d56;
+  background: #3c3a37;
   color: #fff;
 }
 .training-tools .eyebrow {
@@ -359,11 +359,11 @@
   margin-bottom: 16px;
 }
 .training-tool-grid p {
-  color: #d9e1e7;
+  color: #e2e0dd;
   font-size: 15px;
 }
 .training-drayage .training-tools {
-  background: #224f53;
+  background: #484643;
 }
 .training-fit {
   display: grid;
@@ -456,7 +456,7 @@
   margin-bottom: 24px;
 }
 .training-enrollment p {
-  color: #d2d5d7;
+  color: #d7d5d2;
   font-size: 16px;
   margin-bottom: 26px;
 }
@@ -815,7 +815,7 @@
   font-size: 13px !important;
   line-height: 1.7 !important;
   margin: 0 0 18px !important;
-  color: #5c686c !important;
+  color: #686663 !important;
   letter-spacing: 0 !important;
 }
 .training-purchase-note a {

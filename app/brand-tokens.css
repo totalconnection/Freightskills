@@ -1,10 +1,16 @@
-/* Canonical identity: shared/brand/freightskills/BRAND.md */
+/* Approved black and gold identity, November 4, 2026. */
 :root {
-  --brand-navy: #142b3a;
-  --brand-teal: #087f8c;
-  --brand-teal-deep: #076674;
-  --brand-mint: #b8e3d5;
-  --brand-cream: #f6f4ee;
-  --brand-muted: #52646b;
-  --brand-border: #d7dfdc;
+  --brand-black: #191919;
+  --brand-charcoal: #292725;
+  --brand-gold: #C6A66A;
+  --brand-gold-hover: #DCC393;
+  --brand-gold-ink: #806329;
+  --brand-ivory: #F7F4EE;
+  --brand-muted: #68635B;
+  --brand-border: #DDD5C7;
+  --brand-navy: var(--brand-black);
+  --brand-teal: var(--brand-gold-ink);
+  --brand-teal-deep: #6B5224;
+  --brand-mint: var(--brand-gold);
+  --brand-cream: var(--brand-ivory);
 }

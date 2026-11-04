@@ -4,44 +4,44 @@
     "filename": "FreightSkills-Drayage-Checklist.pdf",
     "cover": "/images/resources/drayage-checklist.webp",
     "pages": 9,
-    "bytes": 315198,
-    "sizeLabel": "308 KB",
-    "sha256": "7e9710fc64dd6184216066388f53d910e1b1b7a8419ec9e87b8ad475729ddb28"
+    "bytes": 382809,
+    "sizeLabel": "374 KB",
+    "sha256": "9e57267679dc7e60d483f099224f1908c7d1653c4289f6695de80cb4bd3e93bf"
   },
   "onboarding-guide": {
     "href": "/downloads/onboarding-guide.pdf",
     "filename": "FreightSkills-Carrier-Vetting-and-Onboarding-Guide.pdf",
     "cover": "/images/resources/onboarding-guide.webp",
     "pages": 23,
-    "bytes": 347912,
-    "sizeLabel": "340 KB",
-    "sha256": "2b3d88e57c9963fe24347c6a5f9a424b5bf27e6c7fe811208ca9401e483e1b72"
+    "bytes": 463131,
+    "sizeLabel": "452 KB",
+    "sha256": "2382c38805abccdb5154431fc0c15e87205c6f6889bfbbd811e0d3a327fc2aa2"
   },
   "sales-road-map": {
     "href": "/downloads/sales-road-map.pdf",
     "filename": "FreightSkills-Sales-Road-Map.pdf",
     "cover": "/images/resources/sales-road-map.webp",
     "pages": 5,
-    "bytes": 331073,
-    "sizeLabel": "323 KB",
-    "sha256": "e5271a5b5885af01aa0cd7526906b4120e9020c10c67fa12d2671d71615abb76"
+    "bytes": 373574,
+    "sizeLabel": "365 KB",
+    "sha256": "6c654dd6a5719b643d132619963f6818551aee713e85947783df4b62e563770f"
   },
   "customer-research-guide": {
     "href": "/downloads/customer-research-guide.pdf",
     "filename": "FreightSkills-Customer-Research-Guide.pdf",
     "cover": "/images/resources/customer-research-guide.webp",
     "pages": 5,
-    "bytes": 321950,
-    "sizeLabel": "314 KB",
-    "sha256": "115fb093cc265265e6861a06446c7d95dace617417522dfb42a618af885abb82"
+    "bytes": 363063,
+    "sizeLabel": "355 KB",
+    "sha256": "604964166af9dbb99a7403a0d995a023902fced251113ffb5fe36b449beaa712"
   },
   "niche-resource": {
     "href": "/downloads/niche-resource.pdf",
     "filename": "FreightSkills-Profitable-Niches-and-Sales-Navigator.pdf",
     "cover": "/images/resources/niche-resource.webp",
     "pages": 7,
-    "bytes": 294177,
-    "sizeLabel": "287 KB",
-    "sha256": "5618392ae6f395c94527e8dfc2d83e058c5552ee5921889cf2404362befda041"
+    "bytes": 352016,
+    "sizeLabel": "344 KB",
+    "sha256": "8b22db0f89017929d79bef5c1a6a8530fe22e99664f02f417af27f7278fdcbbb"
   }
 }

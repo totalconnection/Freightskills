@@ -140,7 +140,7 @@ h3 {
   text-wrap: balance;
 }
 .intro-description {
-  color: #d8dadc;
+  color: #dcdad7;
   font-size: 18px;
   line-height: 1.7;
   max-width: 510px;
@@ -159,7 +159,7 @@ h3 {
 }
 .intro-training-note {
   margin-top: 13px;
-  color: #d8dadc;
+  color: #dcdad7;
   font-size: 13px;
 }
 .instructor-portrait {
@@ -187,7 +187,7 @@ h3 {
   font-weight: 600;
 }
 .instructor-portrait figcaption span {
-  color: #d8dadc;
+  color: #dcdad7;
   font-size: 12px;
 }
 .subject-bar {
@@ -337,7 +337,7 @@ h3 {
   display: block;
   width: 235px;
   height: auto;
-  box-shadow: 10px 13px 25px #242a3022;
+  box-shadow: 10px 13px 25px #2b292622;
 }
 .guide-preview span {
   font-size: 12px;
@@ -403,7 +403,7 @@ h3 {
 }
 .community-band p {
   font-size: 16px;
-  color: #d8dadc;
+  color: #dcdad7;
   max-width: 600px;
 }
 .community-band .eyebrow {
@@ -639,7 +639,7 @@ h3 {
   .mobile-nav nav {
     top: 80px;
     padding: 12px 20px 22px;
-    box-shadow: 0 12px 20px #242a3014;
+    box-shadow: 0 12px 20px #2b292614;
   }
   .menu-toggle {
     min-width: 44px;

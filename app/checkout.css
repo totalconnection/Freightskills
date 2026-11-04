@@ -71,8 +71,8 @@ body:has(.fs-checkout) > .footer {
 .checkout-notice {
   font-size: 13px;
   line-height: 1.6;
-  background: #e8f3ef;
-  border: 1px solid #ecd6ba;
+  background: #f2f0ed;
+  border: 1px solid #C6A66A;
   padding: 14px 18px;
   border-radius: 6px;
   margin: 0 0 22px;
@@ -99,7 +99,7 @@ body:has(.fs-checkout) > .footer {
 }
 .checkout-section-title > span {
   color: #a16a45;
-  background: #e8f3ef;
+  background: #f2f0ed;
   border-radius: 4px;
   padding: 6px;
   font-size: 11px;
@@ -113,7 +113,7 @@ body:has(.fs-checkout) > .footer {
 }
 .checkout-section-title small {
   margin-left: auto;
-  color: #7b8184;
+  color: #82807d;
   font-size: 11px;
   white-space: nowrap;
 }
@@ -131,15 +131,15 @@ body:has(.fs-checkout) > .footer {
 .checkout-product-icon {
   width: 54px;
   height: 64px;
-  background: #eaf0f6;
+  background: #f1efec;
   border-radius: 5px;
-  color: #305070;
+  color: #4e4c49;
   display: grid;
   place-items: center;
 }
 .checkout-product-icon.drayage {
-  background: #e9f0ec;
-  color: #2b5c50;
+  background: #f0eeeb;
+  color: #53514e;
 }
 .checkout-product h3 {
   font-size: 18px;
@@ -150,7 +150,7 @@ body:has(.fs-checkout) > .footer {
 .checkout-product p {
   font-size: 12px;
   line-height: 1.6;
-  color: #747a7d;
+  color: #7b7976;
   margin: 0 0 12px;
 }
 .checkout-product ul {
@@ -165,12 +165,12 @@ body:has(.fs-checkout) > .footer {
   font-size: 11px;
   line-height: 1.55;
   margin-bottom: 7px;
-  color: #555f64;
+  color: #5f5d5a;
 }
 .checkout-product li svg {
   flex-shrink: 0;
   margin-top: 2px;
-  color: #536b5e;
+  color: #676562;
 }
 .checkout-price {
   font-size: 22px;
@@ -180,7 +180,7 @@ body:has(.fs-checkout) > .footer {
   display: block;
   font-size: 10px;
   font-weight: 400;
-  color: #7c8185;
+  color: #82807d;
   letter-spacing: 0;
   margin-top: 5px;
 }
@@ -283,7 +283,7 @@ body:has(.fs-checkout) > .footer {
   align-items: flex-start;
   font-size: 11px;
   line-height: 1.6;
-  color: #666f74;
+  color: #6f6d6a;
   font-weight: 400;
 }
 .checkout-check input {
@@ -302,10 +302,10 @@ body:has(.fs-checkout) > .footer {
   top: 25px;
   background: #fff;
   padding: 30px;
-  border: 1px solid #d9dcd8;
+  border: 1px solid #dddbd8;
   border-top: 4px solid #b67642;
   border-radius: 8px;
-  box-shadow: 0 10px 24px #262e3107;
+  box-shadow: 0 10px 24px #2f2d2a07;
 }
 .checkout-summary > .checkout-eyebrow {
   margin: 0 0 12px;
@@ -371,7 +371,7 @@ body:has(.fs-checkout) > .footer {
 }
 .checkout-benefits svg {
   flex-shrink: 0;
-  color: #51735d;
+  color: #6c6a67;
   margin-top: 1px;
 }
 .checkout-terms {
@@ -411,7 +411,7 @@ body:has(.fs-checkout) > .footer {
 }
 .checkout-lifetime {
   font-size: 10px;
-  color: #777e81;
+  color: #7f7d7a;
   line-height: 1.7;
   border-top: 1px solid var(--brand-border);
   padding-top: 18px;
@@ -441,10 +441,10 @@ body:has(.fs-checkout) > .footer {
   flex-shrink: 0;
   width: 27px;
   height: 27px;
-  border: 1px solid #d2d5ce;
+  border: 1px solid #d6d4d1;
   border-radius: 50%;
   font-size: 11px;
-  color: #718072;
+  color: #7e7c79;
 }
 .checkout-after strong {
   font-size: 12px;
@@ -452,7 +452,7 @@ body:has(.fs-checkout) > .footer {
 .checkout-after p {
   font-size: 12px;
   line-height: 1.6;
-  color: #81868a;
+  color: #878582;
   margin: 5px 0 0;
 }
 .checkout-footer {
@@ -501,7 +501,7 @@ body:has(.fs-checkout) > .footer {
 .checkout-terms-page p {
   font-size: 16px;
   line-height: 1.8;
-  color: #5d666c;
+  color: #676562;
 }
 .checkout-terms-page a {
   color: var(--brand-teal-deep);
@@ -518,7 +518,7 @@ body:has(.fs-checkout) > .footer {
 }
 .checkout-result p {
   line-height: 1.7;
-  color: #6d7479;
+  color: #757370;
 }
 .checkout-result > a {
   display: inline-flex;
@@ -531,7 +531,7 @@ body:has(.fs-checkout) > .footer {
 }
 .checkout-result svg {
   margin: 0 auto 22px;
-  color: #49745a;
+  color: #6b6966;
 }
 .fs-checkout :where(a, button, input):focus-visible {
   outline: 3px solid var(--brand-teal-deep);
@@ -654,9 +654,9 @@ body:has(.fs-checkout) > .footer {
 .checkout-preview-result {
   font-size: 12px;
   line-height: 1.65;
-  background: #eef4ef;
-  color: #365840;
-  border: 1px solid #cfddd0;
+  background: #f4f2ef;
+  color: #514f4c;
+  border: 1px solid #dbd9d6;
   padding: 14px;
   border-radius: 5px;
   margin-top: 16px;
