@@ -180,10 +180,10 @@ export default function CheckoutCart({
                   brokerage owners. Both workshops are included in the Academy price.
                 </p>
                 <p className="checkout-upgrade-extras">
-                  You also get one group call per month, full course updates and lifetime access*.
+                  You also get six months of twice-monthly live video Q&A with Luis Uribe, full course updates and lifetime course access*.
                 </p>
                 <p className="checkout-upgrade-price">
-                  <strong>$625 paid in full — save $75</strong> Or 2 payments of $350 ($700 total), with the second payment due 30 days later.
+                  <strong>$997 one-time</strong> Six months of live group Q&A included. No automatic membership renewal.
                 </p>
                 <a href="/academy#enrollment" className="button">
                   Explore the Academy upgrade <ArrowRight size={17} />

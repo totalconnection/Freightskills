@@ -16,7 +16,7 @@ export default function Page() {
       </p>
       <h2>Your purchase</h2>
       <p>
-        Workshop purchases are $149 each, paid once. Academy is $625 paid in full or two payments of $350 ($700 total), with the second payment due 30 days after enrollment. Applicable taxes are shown at Whop checkout. Academy includes both workshops, one group call per month, and course updates. Your purchase
+        Workshop purchases are $149 each, paid once. For new enrollments from November 9, 2026, Academy is $997 paid once. Applicable taxes are shown at Whop checkout. Academy includes both workshops, course updates, and six months of twice-monthly live group video Q&A with Luis Uribe, beginning at enrollment. The live Q&A period is separate from lifetime course access. Any ongoing-support membership after six months is optional, requires a separate purchase, and is not automatically charged. Existing purchases retain the pricing and support terms agreed at purchase. Your purchase
         does not include individual consulting, one-to-one coaching, custom AI
         implementation, or future products unless they are expressly included in
         your order.
