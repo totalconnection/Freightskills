@@ -183,7 +183,7 @@ export default function CheckoutCart({
                   You also get six months of twice-monthly live video Q&A with Luis Uribe, full course updates and lifetime course access*.
                 </p>
                 <p className="checkout-upgrade-price">
-                  <strong>$997 one-time</strong> Six months of live group Q&A included. No automatic membership renewal.
+                  <strong>$625 one-time</strong> Six months of live group Q&A included. No automatic membership renewal.
                 </p>
                 <a href="/academy#enrollment" className="button">
                   Explore the Academy upgrade <ArrowRight size={17} />

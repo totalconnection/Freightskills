@@ -31,7 +31,7 @@ export default function Trainings() {
           </a>
         </div>
       </section>
-      <section className="training-section academy-directory"><div className="wrap training-problem"><div><p className="eyebrow">THE CONNECTED LEARNING PATH</p><h2>Freightskills Academy</h2><p>Build your approach to finding customers, quoting freight, coordinating shipments and improving your book of business. Agent and owner paths, with both workshops included during active Academy access.</p></div><div><Link className="button" href="/academy">Explore the Academy <ArrowRight size={18}/></Link><p className="sales-caption">$997 one-time · Six months of twice-monthly live video Q&A · Full course updates</p></div></div></section>
+      <section className="training-section academy-directory"><div className="wrap training-problem"><div><p className="eyebrow">THE CONNECTED LEARNING PATH</p><h2>Freightskills Academy</h2><p>Build your approach to finding customers, quoting freight, coordinating shipments and improving your book of business. Agent and owner paths, with both workshops included during active Academy access.</p></div><div><Link className="button" href="/academy">Explore the Academy <ArrowRight size={18}/></Link><p className="sales-caption">$625 one-time · Six months of twice-monthly live video Q&A · Full course updates</p></div></div></section>
       <section id="workshops" className="training-section">
         <div className="wrap training-directory">
           {workshops.map((w, i) => (
