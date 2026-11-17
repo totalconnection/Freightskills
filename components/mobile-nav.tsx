@@ -39,7 +39,7 @@ export function MobileNav({ portalUrl }: { portalUrl: string }) {
               {label}
             </Link>
           ))}
-          {portalUrl && <a href={portalUrl}>Student login ↗</a>}
+          {portalUrl && <a href={portalUrl}>Student login</a>}
         </nav>
       )}
     </div>

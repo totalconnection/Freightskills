@@ -33,7 +33,7 @@ export function Video({ id, title }: { id: string; title: string; embedded?: boo
             <Play size={26} fill="currentColor" />
           </span>
           <span className="video-caption">
-            <small>THE ORIGINAL LESSON / LUIS URIBE</small>
+            <small>The original lesson with Luis Uribe</small>
             <strong>{title}</strong>
             <span>Load YouTube video</span><span className="video-privacy-note">Loads YouTube, which receives device and visit information. Analytics permission is separate.</span>
           </span>

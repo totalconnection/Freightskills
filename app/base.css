@@ -1,0 +1,19 @@
+/* Base rules for redesigned surfaces. Scoped to .hm so pages not yet redesigned keep their layout. */
+html, body { overflow-x: clip; }
+.hm, .hm *, .hm *::before, .hm *::after { box-sizing: border-box; }
+.hm { font-family: var(--font-body); font-size: var(--text-md); line-height: 1.55; -webkit-font-smoothing: antialiased; }
+:where(.hm) ::selection { background: color-mix(in oklab, var(--color-accent) 40%, transparent); color: var(--color-ink); }
+:where(.hm) :focus-visible { outline: 2px solid var(--color-focus); outline-offset: 3px; }
+:where(.hm) h1, :where(.hm) h2, :where(.hm) h3 { margin: 0; font-family: var(--font-display); font-weight: var(--display-weight); font-synthesis: none; letter-spacing: var(--tracking-display); line-height: 1.04; text-transform: uppercase; overflow-wrap: break-word; min-width: 0; text-wrap: balance; color: var(--color-ink); }
+:where(.hm) h1 { max-width: 14ch; font-size: var(--text-display); }
+:where(.hm) h2 { max-width: 22ch; font-size: var(--text-section); }
+:where(.hm) h3 { max-width: 30ch; font-size: var(--text-title); line-height: 1.1; }
+:where(.hm) p { margin: 0; color: inherit; text-wrap: pretty; }
+:where(.hm) strong { font-weight: 800; }
+:where(.hm) .hm-lead { font-size: var(--text-lead); line-height: 1.45; max-width: 52ch; color: var(--color-ink-2); }
+:where(.hm) img, :where(.hm) video { max-width: 100%; height: auto; display: block; }
+:where(.hm) ul, :where(.hm) ol { margin: 0; padding: 0; list-style: none; }
+:where(.hm) figure { margin: 0; }
+.hm-wrap { width: 100%; max-width: var(--container); margin-inline: auto; padding-inline: var(--gutter); }
+:where(.hm) .hm-num { font-variant-numeric: tabular-nums; }
+@media (prefers-reduced-motion: reduce) { .hm *:not(.keep-motion), .hm *:not(.keep-motion)::before, .hm *:not(.keep-motion)::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; } }
