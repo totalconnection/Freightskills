@@ -36,7 +36,7 @@ export default function Home() {
   const [leadPost, ...morePosts] = posts.slice(0, 3);
   return (
     <main id="main" className="hm hm-home">
-      <div className="hm-gold hm-announce">
+      <div className="hm-signal hm-announce">
         <p className="hm-wrap">
           <Link href={freeTrainingUrl}>
             <strong>Free webinar with Luis Uribe.</strong> Access the free
