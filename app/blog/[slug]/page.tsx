@@ -69,7 +69,7 @@ export default async function Post({ params }: Props) {
         <h1>{p.title}</h1>
         <p className="lead">{p.excerpt}</p>
         <div className="post-byline">
-          <img src="/images/luis-uribe.webp" alt="" width="42" height="42" />
+          <img src="/images/luis-uribe-teal.webp" alt="" width="42" height="42" />
           <span>
             Based on teaching by <Link href="/about">Luis Uribe</Link>
             <br />

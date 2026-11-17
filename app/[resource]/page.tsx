@@ -52,7 +52,7 @@ export default async function Resource({ params }: Props) {
             </ul>
             <div className="magnet-author">
               <img
-                src="/images/luis-uribe.webp"
+                src="/images/luis-uribe-teal.webp"
                 width="46"
                 height="46"
                 alt="Luis Uribe"

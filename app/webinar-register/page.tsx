@@ -93,7 +93,7 @@ export default function WebinarRegister() {
         <div className="wrap webinar-host-grid">
           <div className="webinar-host-photo">
             <img
-              src="/images/luis-uribe.webp"
+              src="/images/luis-uribe-teal.webp"
               alt="Luis Uribe, founder of Freightskills"
               width="727"
               height="777"

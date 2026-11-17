@@ -22,8 +22,8 @@ body:has(.webinar-landing) > .footer {
 .webinar-review-note {
   padding: 10px 0;
   background: #F6FAFB;
-  color: #695a4e;
-  border-block: 1px solid #ece5db;
+  color: #5B6569;
+  border-block: 1px solid #CCD6DA;
   font-size: 12px;
   text-align: center;
 }
@@ -96,7 +96,7 @@ body:has(.webinar-landing) > .footer {
   background: #fff;
 }
 .webinar-form-card input:disabled {
-  background: #fafaf8;
+  background: #F6FAFC;
   color: #747675;
   opacity: 1;
 }
@@ -117,7 +117,7 @@ body:has(.webinar-landing) > .footer {
 .webinar-submit:disabled {
   cursor: not-allowed;
   background: #39C3D0;
-  color: #4f3d30;
+  color: #3A4449;
 }
 .webinar-form-detail {
   font-size: 12px;

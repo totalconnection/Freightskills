@@ -17,7 +17,7 @@
   height: 40px;
   border-radius: 4px;
   color: var(--teal);
-  background: #fff0e3;
+  background: #E3F6F8;
 }
 .magnet-multistep h2 {
   font-size: clamp(24px, 2.3vw, 30px);
@@ -145,7 +145,7 @@
   color: var(--teal);
 }
 .magnet-multistep :is(button, input):focus-visible {
-  outline: 3px solid #b65a27;
+  outline: 3px solid #006A7D;
   outline-offset: 3px;
 }
 .magnet-multistep .magnet-preview-note {

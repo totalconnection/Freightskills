@@ -71,12 +71,12 @@ body:has(.fs-checkout) > .footer {
 .checkout-notice {
   font-size: 13px;
   line-height: 1.6;
-  background: #f2f0ed;
+  background: #EDF0F2;
   border: 1px solid #39C3D0;
   padding: 14px 18px;
   border-radius: 6px;
   margin: 0 0 22px;
-  color: #745128;
+  color: #006A7D;
 }
 .checkout-grid {
   display: grid;
@@ -98,8 +98,8 @@ body:has(.fs-checkout) > .footer {
   margin-bottom: 23px;
 }
 .checkout-section-title > span {
-  color: #a16a45;
-  background: #f2f0ed;
+  color: #006A7D;
+  background: #EDF0F2;
   border-radius: 4px;
   padding: 6px;
   font-size: 11px;
@@ -123,7 +123,7 @@ body:has(.fs-checkout) > .footer {
   gap: 16px;
   padding-bottom: 22px;
   margin-bottom: 22px;
-  border-bottom: 1px solid #eae8e2;
+  border-bottom: 1px solid #CCD6DA;
 }
 .checkout-product:last-child {
   margin-bottom: 0;
@@ -131,14 +131,14 @@ body:has(.fs-checkout) > .footer {
 .checkout-product-icon {
   width: 54px;
   height: 64px;
-  background: #f1efec;
+  background: #ECEFF1;
   border-radius: 5px;
   color: #4e4c49;
   display: grid;
   place-items: center;
 }
 .checkout-product-icon.drayage {
-  background: #f0eeeb;
+  background: #EBEEF0;
   color: #53514e;
 }
 .checkout-product h3 {
@@ -205,7 +205,7 @@ body:has(.fs-checkout) > .footer {
 }
 .checkout-add span {
   font-size: 10px;
-  color: #947456;
+  color: #006A7D;
 }
 .checkout-add h3 {
   font-size: 15px;
@@ -263,7 +263,7 @@ body:has(.fs-checkout) > .footer {
   min-width: 0;
 }
 .checkout-fields input:focus {
-  outline: 2px solid #b07649;
+  outline: 2px solid #006A7D;
   outline-offset: 2px;
 }
 .checkout-email-note {
@@ -303,7 +303,7 @@ body:has(.fs-checkout) > .footer {
   background: #fff;
   padding: 30px;
   border: 1px solid #dddbd8;
-  border-top: 4px solid #b67642;
+  border-top: 4px solid #39C3D0;
   border-radius: 8px;
   box-shadow: 0 10px 24px #2f2d2a07;
 }
@@ -654,7 +654,7 @@ body:has(.fs-checkout) > .footer {
 .checkout-preview-result {
   font-size: 12px;
   line-height: 1.65;
-  background: #f4f2ef;
+  background: #EFF2F4;
   color: #514f4c;
   border: 1px solid #dbd9d6;
   padding: 14px;

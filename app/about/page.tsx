@@ -24,7 +24,7 @@ export default function About() {
         </div>
         <div className="founder-photo">
           <img
-            src="/images/luis-uribe.webp"
+            src="/images/luis-uribe-teal.webp"
             alt="Luis Uribe"
             width="727"
             height="777"

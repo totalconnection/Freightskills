@@ -272,7 +272,7 @@ export default function WorkshopSales({ workshop: w }: { workshop: Workshop }) {
           </div>
           <aside className="training-instructor">
             <img
-              src="/images/luis-uribe.webp"
+              src="/images/luis-uribe-teal.webp"
               alt="Luis Uribe, Freightskills instructor"
               width="727"
               height="777"

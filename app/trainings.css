@@ -100,7 +100,7 @@
   display: block;
   font-size: 10px;
   letter-spacing: 1.1px;
-  color: #7b6e60;
+  color: #5B6569;
   font-weight: 650;
   margin-bottom: 13px;
 }
@@ -117,7 +117,7 @@
 }
 .preview-costs > div {
   padding: 18px;
-  background: #f7f5f2;
+  background: #F2F5F7;
   border: 1px solid #e8e6e3;
   border-radius: 4px;
 }
@@ -137,7 +137,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #f1efec;
+  background: #ECEFF1;
   padding: 18px;
   margin-top: 12px;
   border-radius: 4px;
@@ -186,7 +186,7 @@
   align-items: center;
   gap: 9px;
   justify-content: space-between;
-  background: #f2f0ed;
+  background: #EDF0F2;
   border: 1px solid #e5e3e0;
   border-radius: 4px;
   padding: 17px 12px;
@@ -205,14 +205,14 @@
   gap: 10px;
   font-size: 13px;
   padding: 10px 0;
-  border-bottom: 1px solid #eae8e5;
+  border-bottom: 1px solid #E5E8EA;
 }
 .preview-checks svg {
   color: #5f5d5a;
 }
 .is-drayage .preview-output {
   padding: 16px;
-  background: #f7f5f2;
+  background: #F2F5F7;
   border-radius: 4px;
   color: #474542;
 }
@@ -546,7 +546,7 @@
   display: block;
 }
 .training-preview-link:hover .training-tool-preview {
-  border-color: #b47b57;
+  border-color: #39C3D0;
 }
 .training-directory-note {
   background: var(--paper);
