@@ -1,5 +1,5 @@
 /* Hallmark · shape: Index-First · genre: editorial · theme: brand · redesign: full · job: attend, the free webinar in the announcement and the hero
- * paper: oklch(98.2% 0.004 220) · accent: oklch(75% 0.115 205) · display: League Spartan · body: Figtree · hero: Stage (/), Stage (/academy) · nav: slab · footer: mast · signature: Luis cut out on the black field against a teal brush, standing on the lesson topics
+ * paper: oklch(98.2% 0.004 220) · accent: oklch(75% 0.115 205) · display: League Spartan · body: Figtree · hero: Stage (/), Stage (/academy), Stage (/quote-mastery), Stage (/drayage-mastery) · nav: slab · footer: mast · signature: Luis cut out on the black field against a teal brush, standing on the lesson topics
  * axes: cool white and blue-black/heavy uppercase grotesk/teal blue · posture: committed, blue-black field with one teal band · contrast: pass · fold: pass · v2.0.0 */
 /* Hallmark · pre-emit critique: P4 H4 E4 S4 R3 V4 · weakest: R, the teal wanted to be everywhere; kept it to the announcement, the primary action, the brush and one closing band */
 /* Hallmark · reworded "put modern tools—including AI and automation—to work" to "put modern tools, including AI and automation, to work" · 19 names the dashes */
@@ -25,6 +25,11 @@
 /* Hallmark · reworded "Pick up where you left off." to "Already a member?" · 54 names the eyebrow; the old head opens the line beneath */
 /* Hallmark · reworded "Build your freight business with a process you can put to work." to "Freightskills Academy for freight agents & brokers: Build your freight business with a process you can put to work." · 54 names the eyebrow; it joins the head as its first line */
 /* Hallmark · waive 72 · the flagged boxes are closed details in the curriculum and the questions, whose hidden answers are measured below the summary · the Academy modules and the questions before you join pad their lessons and answers once opened */
+/* Hallmark · reworded "Luis Uribe" to "Your instructor, Luis Uribe" · 54 names the eyebrow on the workshop pages */
+/* Hallmark · reworded "The training explains the decision. The tools help you repeat it." to "What your one-time purchase includes" · 54 names the eyebrow; the old head is the line beneath */
+/* Hallmark · reworded "Stop second-guessing the quote you send." to "Quote Workshop with Luis Uribe: Stop second-guessing the quote you send." · 54 names the eyebrow; it joins the head as its first line */
+/* Hallmark · reworded "Know what happens before pickup. And after delivery." to "Drayage Workshop with Luis Uribe: Know what happens before pickup. And after delivery." · 54 names the eyebrow; it joins the head as its first line */
+/* Hallmark · answered F19 · the quote calculator and the container brief keep the weights of their own working markup */
 /* Hallmark · dismissed 23 · the Academy h1 first line is clipped teal text, not a filled surface */
 /* Hallmark · answered F16 · the scrollbar belongs to pages not yet redesigned */
 @import url("./tokens.css");
@@ -382,3 +387,83 @@ body:has(.lead-landing) > .hm-header, body:has(.lead-landing) > .hm-footer, body
   .hs-jump .hm-wrap { flex-wrap: nowrap; overflow-x: auto; }
 }
 @media (prefers-reduced-motion: reduce) { .hs summary svg, .hs-jump a { transition: none; } }
+
+/* ---------- Workshop sales pages (/quote-mastery, /drayage-mastery) ---------- */
+.hs-hook { font-weight: 600; padding-left: var(--space-md); border-left: 2px solid var(--color-accent); max-width: 50ch; }
+.hs-notes { display: grid; gap: var(--space-2xs); font-size: var(--text-sm); color: var(--color-ink-2); }
+.hs-notes a { text-decoration: underline; text-underline-offset: 0.2em; }
+.hs-notes a:hover { color: var(--color-accent); }
+.hs-hero-side { position: relative; }
+.hs-hero-media--wide { aspect-ratio: 4 / 3; }
+.hs-hero-card { position: absolute; left: var(--space-md); right: var(--space-md); bottom: var(--space-md); display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: var(--space-lg); row-gap: var(--space-md); align-items: start; padding: var(--space-lg); background: var(--color-night-2); color: var(--color-on-night); border: var(--rule-hair) solid var(--color-accent-rule); border-radius: var(--radius-card); }
+.hs-hero-card h2 { font-size: var(--text-xl); margin-bottom: var(--space-xs); }
+.hs-hero-card > div { display: grid; gap: var(--space-2xs); }
+.hs-hero-card ul { display: grid; gap: var(--space-xs); font-size: var(--text-sm); }
+.hs-hero-card li { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: var(--space-xs); align-items: start; }
+.hs-hero-card svg { margin-top: 0.15em; color: var(--color-accent); }
+.hs .hs-hero-price { grid-column: 1 / -1; padding-top: var(--space-md); border-top: var(--rule-hair) solid var(--color-rule); }
+.hs-hero-price strong { font: 800 var(--text-xl)/1 var(--font-display); color: var(--color-accent); }
+.hs-hero-price small { font-size: var(--text-sm); color: var(--color-ink-2); }
+.hs-facts--three ul { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.hs-workshop .hs-hero-grid { min-height: clamp(520px, calc(100dvh - 250px), 660px); }
+
+.hs-inside { background: var(--color-paper-2); }
+.hs-inside .hm-head--split > p, .hs-workflow .hm-head--split > p { color: var(--color-ink-2); max-width: 52ch; }
+.hs-lessons { display: grid; gap: var(--space-md); margin-bottom: var(--space-xl); counter-reset: lesson; }
+.hs-lessons li { counter-increment: lesson; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; column-gap: var(--space-lg); align-items: start; padding: var(--space-lg) var(--space-xl); background: var(--color-paper); border: var(--rule-hair) solid var(--color-rule); border-radius: var(--radius-card); }
+.hs-lessons li::before { content: counter(lesson, decimal-leading-zero); font: 800 var(--text-display-s)/1 var(--font-display); color: var(--color-accent-deep); font-variant-numeric: tabular-nums; }
+.hs-lessons li > div { display: grid; gap: var(--space-xs); }
+.hs-lessons p { color: var(--color-ink-2); max-width: 70ch; }
+.hs-lesson-time { font-weight: 600; white-space: nowrap; color: var(--color-accent-deep); }
+.hs-insight { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); column-gap: var(--space-2xl); row-gap: var(--space-lg); padding-top: var(--space-xl); border-top: var(--rule-hair) solid var(--color-rule); }
+.hs-insight > div { display: grid; gap: var(--space-md); align-content: start; }
+.hs-insight > div > p:not(.hs-caption) { color: var(--color-ink-2); max-width: 52ch; }
+.hs-insight ol { counter-reset: topic; display: grid; gap: var(--space-md); }
+.hs-insight ol li { counter-increment: topic; display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: var(--space-sm); }
+.hs-insight ol li::before { content: counter(topic) "."; grid-row: span 2; font-weight: 800; color: var(--color-accent-deep); font-variant-numeric: tabular-nums; }
+.hs-insight ol span { grid-column: 2; color: var(--color-ink-2); }
+.hs-workflow .hm-head--split { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: var(--space-2xl); row-gap: var(--space-lg); align-items: end; }
+.hs-workflow h2 + .hm-lead { margin-top: var(--space-md); }
+.hs-steps--detail { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.hs-steps--detail li { font-size: var(--text-md); }
+.hs-steps--detail h3 { font-size: var(--text-lg); }
+.hs-steps--detail p { color: var(--color-ink-2); line-height: 1.5; }
+
+/* The practice widgets keep their own markup; give them the page's surface. */
+.hs .sales-case { background: var(--color-paper); border: var(--rule-hair) solid var(--color-rule); border-radius: var(--radius-card); padding: var(--space-xl); }
+.hs .sales-case h3 { margin: 0 0 var(--space-lg); }
+.hs .sales-case .eyebrow { margin: 0 0 var(--space-md); font-size: var(--text-sm); font-weight: 600; letter-spacing: 0; text-transform: none; color: var(--color-accent-deep); }
+.hs .sales-case details { border-bottom: var(--rule-hair) solid var(--color-rule); }
+.hs .sales-case details p { padding-bottom: var(--space-md); color: var(--color-ink-2); }
+.hs .sales-case .sales-caption { margin-top: var(--space-md); font-size: var(--text-sm); color: var(--color-muted); }
+
+.hs-tools .hm-lead { margin-top: var(--space-md); }
+.hs-tool-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap-columns); }
+.hs-tool-grid article { display: grid; gap: var(--space-md); align-content: start; min-height: 240px; padding: var(--space-xl) var(--space-lg); background: var(--color-night-2); border: var(--rule-hair) solid var(--color-rule); border-top: 3px solid var(--color-accent); border-radius: var(--radius-card); }
+.hs-tool-grid h3 { font-size: var(--text-xl); }
+.hs-tool-grid p { color: var(--color-ink-2); }
+.hs-checks--plain { padding-left: 0; border-left: 0; }
+.hs-checks--plain h2 { margin-bottom: var(--space-xl); }
+.hs-teacher { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); column-gap: var(--space-lg); align-items: center; padding: var(--space-xl); border-radius: var(--radius-card); border-top: 3px solid var(--color-accent); }
+.hs-teacher > div { display: grid; gap: var(--space-md); justify-items: start; }
+.hs-teacher p { color: var(--color-ink-2); }
+.hs-offer--single { grid-template-columns: minmax(0, 1fr); }
+.hs-offer--single > div:first-child { justify-items: start; }
+.hs-offer--single h3 { max-width: 30ch; }
+.hs-faq--paper { background: var(--color-paper); }
+.hs-faq--paper .hs-faqs details { background: var(--color-paper-2); }
+.hs-member .sales-divider { width: 100%; margin: var(--space-sm) 0; border: 0; border-top: var(--rule-hair) solid var(--color-accent-rule); }
+@media (max-width: 60rem) {
+  .hs-insight, .hs-tool-grid, .hs-workflow .hm-head--split { grid-template-columns: minmax(0, 1fr); }
+  .hs-tool-grid article { min-height: 0; }
+  .hs-workshop .hs-hero-grid { min-height: 0; }
+}
+@media (max-width: 40rem) {
+  .hs-hero-card, .hs-teacher { grid-template-columns: minmax(0, 1fr); }
+  .hs-hero-card { position: static; margin-top: var(--space-md); }
+  .hs-hero-media--wide { aspect-ratio: 16 / 9; }
+  .hs-teacher img { width: min(100%, 240px); }
+  .hs-lessons li { grid-template-columns: auto minmax(0, 1fr); padding: var(--space-lg); }
+  .hs-lesson-time { grid-column: 2; }
+  .hs-facts--three ul { grid-template-columns: minmax(0, 1fr); }
+}

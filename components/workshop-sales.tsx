@@ -1,14 +1,11 @@
 import Link from 'next/link';
 import QuotePractice from '@/components/quote-practice';
 import {
-  ArrowRight,
-  ArrowUpRight,
   BookOpen,
   Calculator,
   Check,
   ChevronDown,
   Container,
-  Play,
   Wrench,
 } from 'lucide-react';
 import { portalUrl } from '@/lib/config';
@@ -110,145 +107,176 @@ export default function WorkshopSales({ workshop: w }: { workshop: Workshop }) {
   const ctaLabel =
     w.id === 'drayage' ? 'View Drayage Workshop order' : 'View Quote Workshop order';
   const memberUrl = new URL('/workshops/' + w.id, portalUrl).toString();
+  const quote = w.id === 'quote';
   return (
-    <main id="main" className={'training-page training-' + w.id}>
-      <section className="training-hero">
-        <div className="wrap">
-          <nav className="training-breadcrumb" aria-label="Breadcrumb">
+    <main id="main" className={'hm hs hs-workshop hs-' + w.id}>
+      <section className="hm-night hs-hero">
+        <div className="hm-wrap">
+          <nav className="hs-breadcrumb" aria-label="Breadcrumb">
             <Link href="/trainings">Trainings</Link>
             <span>/</span>
             <span>{w.name}</span>
           </nav>
-          <div className="training-hero-grid">
-            <div className="training-pitch">
-              <p className="eyebrow">{w.name} · with Luis Uribe</p>
-              <h1>{w.headline}</h1>
-              <p className="training-lead">{w.description}</p><p className="sales-hook">{w.id==='quote'?'The request is in your inbox. Know what to check before you send a number.':'From terminal release to empty return, know which details belong in your plan.'}</p>
-              <div className="training-actions">
-                <Link className="button" href={cartUrl}>
-                  {ctaLabel} <ArrowRight size={18} />
-                </Link>
-                <p className="training-purchase-note">
-                  {money(product.unitAmount)} one-time purchase · Lifetime
-                  access* <Link href="/purchase-terms">View terms</Link>
+          <div className="hs-hero-grid">
+            <div className="hs-hero-copy">
+              <h1>
+                <span className="hs-hero-for">{w.name} with Luis Uribe:</span>{' '}
+                {w.headline}
+              </h1>
+              <p className="hm-lead">{w.description}</p>
+              <p className="hs-hook">{quote ? 'The request is in your inbox. Know what to check before you send a number.' : 'From terminal release to empty return, know which details belong in your plan.'}</p>
+              <div className="hm-actions">
+                <Link className="hm-btn" href={cartUrl}>{ctaLabel}</Link>
+                <a className="hm-link" href="#inside">See what’s inside</a>
+              </div>
+              <div className="hs-notes">
+                <p>
+                  {money(product.unitAmount)} one-time purchase, lifetime access*{' '}
+                  <Link href="/purchase-terms">View terms</Link>
                 </p>
-                <a className="text-link" href="#inside">
-                  See what’s inside <ArrowRight size={16} />
-                </a>
-                <p className="sales-availability">Enrollment checkout is in preview. Payments are not open yet.</p>
-                <a className="training-member-link" href={memberUrl}>
-                  Already enrolled? Open workshop <ArrowUpRight size={14} />
-                </a>
+                <p>Enrollment checkout is in preview. Payments are not open yet.</p>
+                <p><a href={memberUrl}>Already enrolled? Open workshop</a></p>
               </div>
             </div>
-            <div className="program-hero-visual"><img className="program-hero-photo" src={'/images/programs/'+w.id+'-hero.webp'} alt={w.id==='quote'?'A freight planning workspace — illustrative image':'An American container terminal — illustrative image'} width="1536" height="864"/><div className="program-hero-card"><p className="eyebrow">LEARN IT. PUT IT TO WORK.</p><h2>{w.id==='quote'?'A clearer quote starts here.':'See the whole container move.'}</h2><p>{w.format}</p><ul>{w.tools.map(t=><li key={t.title}><Check size={16}/>{t.title}</li>)}</ul><span className="program-price">{money(product.unitAmount)} <small>one time · lifetime access*</small></span></div></div>
-          </div>
-          <div className="training-facts">
-            <span>
-              <Play size={16} />
-              {w.format}
-            </span>
-            <span>
-              <Calculator size={16} />
-              Calculator & saved quotes
-            </span>
-            <span>
-              <BookOpen size={16} />
-              Learn at your own pace
-            </span>
+            <div className="hs-hero-side">
+              <figure className="hs-hero-media hs-hero-media--wide">
+                <img src={'/images/programs/' + w.id + '-hero.webp'} alt={quote ? 'A freight planning workspace, an illustrative image' : 'An American container terminal, an illustrative image'} width="1536" height="864" fetchPriority="high" />
+              </figure>
+              <div className="hs-hero-card">
+                <div>
+                  <h2>{quote ? 'A clearer quote starts here.' : 'See the whole container move.'}</h2>
+                  <p>{w.format}</p>
+                  <p className="hs-caption">Learn it. Put it to work.</p>
+                </div>
+                <ul>
+                  {w.tools.map((t) => (
+                    <li key={t.title}><Check size={16} aria-hidden="true" />{t.title}</li>
+                  ))}
+                </ul>
+                <p className="hs-hero-price"><strong className="hm-num">{money(product.unitAmount)}</strong> <small>one time, lifetime access*</small></p>
+              </div>
+            </div>
           </div>
         </div>
+        <div className="hs-facts hs-facts--three">
+          <ul className="hm-wrap">
+            <li>{w.format}</li>
+            <li>Calculator & saved quotes</li>
+            <li>Learn at your own pace</li>
+          </ul>
+        </div>
       </section>
-      <nav className="sales-jump" aria-label="Workshop sections"><div className="wrap"><a href="#inside">Curriculum</a><a href="#practice">See it in practice</a><a href="#fit">Is this for me?</a><a href="#questions">FAQs</a><a href="#enrollment">Price & access</a></div></nav>
-      <section className="training-section">
-        <div className="wrap training-problem">
-          <div>
-            <p className="eyebrow">Build the skill. Use it on the job.</p>
+      <nav className="sales-jump hs-jump" aria-label="Workshop sections">
+        <div className="hm-wrap">
+          <a href="#inside">Curriculum</a>
+          <a href="#practice">See it in practice</a>
+          <a href="#fit">Is this for me?</a>
+          <a href="#questions">FAQs</a>
+          <a href="#enrollment">Price & access</a>
+        </div>
+      </nav>
+      <section className="hm-section hs-why">
+        <div className="hm-wrap hs-split">
+          <div className="hs-prose">
             <h2>{w.problemTitle}</h2>
             <p>{w.problem}</p>
+            <p className="hs-caption">Build the skill. Use it on the job.</p>
           </div>
-          <div className="training-outcomes">
+          <div className="hs-checks">
             <h3>What you’ll be able to practice</h3>
             <ul>
               {w.outcomes.map((item) => (
-                <li key={item}>
-                  <Check size={18} />
-                  <span>{item}</span>
-                </li>
+                <li key={item}><Check size={20} aria-hidden="true" /><span>{item}</span></li>
               ))}
             </ul>
           </div>
         </div>
       </section>
-      <section id="inside" className="training-section training-curriculum">
-        <div className="wrap">
-          <div className="training-section-heading">
+      <section id="inside" className="hm-section hs-inside">
+        <div className="hm-wrap">
+          <div className="hm-head hm-head--split">
             <div>
-              <p className="eyebrow">Inside the workshop</p>
               <h2>Know exactly what you’re getting.</h2>
+              <p className="hm-lead">Inside the workshop.</p>
             </div>
-            <p>
-              Watch the recordings in your Freightskills Portal. Pick up where
-              you left off and put the process to work in the same hub.
-            </p>
+            <p>Watch the recordings in your Freightskills Portal. Pick up where you left off and put the process to work in the same hub.</p>
           </div>
-          <div className="workshop-lesson-insight"><h3>{w.id==='quote'?'Inside the 94-minute masterclass':'How the three recordings build your understanding'}</h3><p>{w.id==='quote'?'Follow the decisions behind a complete quote: what to collect, how to research the buy rate, how to speak with carriers, how to set the sell rate, and how to follow through.':'Begin with the container and intermodal foundation, work through the longer drayage masterclass, then deepen the operational workflow in Container drayage mastery.'}</p><ol>{w.steps.map(step=><li key={step.title}><strong>{step.title}</strong><span>{step.description}</span></li>)}</ol><p className="sales-caption">Topic guide to the existing recordings; these are not additional standalone video modules.</p></div>
-          <div className="training-lessons">
-            {w.lessons.map((lesson, i) => (
-              <article className="training-lesson" key={lesson.title}>
-                <span className="training-lesson-number">0{i + 1}</span>
+          <ol className="hs-lessons">
+            {w.lessons.map((lesson) => (
+              <li key={lesson.title}>
                 <div>
                   <h3>{lesson.title}</h3>
                   <p>{lesson.description}</p>
                 </div>
-                <span className="training-duration">
-                  <Play size={14} />
-                  {lesson.duration}
-                </span>
-              </article>
+                <span className="hs-lesson-time hm-num">{lesson.duration}</span>
+              </li>
             ))}
+          </ol>
+          <div className="hs-insight">
+            <div>
+              <h3>{quote ? 'Inside the 94-minute masterclass' : 'How the three recordings build your understanding'}</h3>
+              <p>{quote ? 'Follow the decisions behind a complete quote: what to collect, how to research the buy rate, how to speak with carriers, how to set the sell rate, and how to follow through.' : 'Begin with the container and intermodal foundation, work through the longer drayage masterclass, then deepen the operational workflow in Container drayage mastery.'}</p>
+              <p className="hs-caption">Topic guide to the existing recordings; these are not additional standalone video modules.</p>
+            </div>
+            <ol>
+              {w.steps.map((step) => (
+                <li key={step.title}><strong>{step.title}</strong><span>{step.description}</span></li>
+              ))}
+            </ol>
           </div>
         </div>
       </section>
-      <section className="training-section">
-        <div className="wrap">
-          <div className="training-section-heading">
+      <section className="hs-path hs-workflow">
+        <div className="hm-wrap hs-path-grid">
+          <div className="hm-head--split">
             <div>
-              <p className="eyebrow">From learning to doing</p>
               <h2>A workflow you can return to.</h2>
+              <p className="hm-lead">From learning to doing.</p>
             </div>
             <p>{w.result}</p>
           </div>
-          <ol className="training-workflow">
-            {w.steps.map((step, i) => (
+          <ol className="hs-steps hs-steps--detail">
+            {w.steps.map((step) => (
               <li key={step.title}>
-                <span>0{i + 1}</span>
-                <div>
-                  <h3>{step.title}</h3>
-                  <p>{step.description}</p>
-                </div>
+                <h3>{step.title}</h3>
+                <p>{step.description}</p>
               </li>
             ))}
           </ol>
         </div>
       </section>
-      <section id="practice" className="training-section sales-practice"><div className="wrap training-problem"><div><p className="eyebrow">Try the thinking behind the training</p><h2>{w.id === 'quote' ? 'A markup and a margin are different numbers.' : 'The delivery is only part of the move.'}</h2><p>{w.id === 'quote' ? 'A 15% markup on $1,000 produces a $1,150 sell rate. Your $150 expected profit is 13% of the sell rate. Change the numbers to see why the distinction matters.' : 'A customer asks for a container pickup and delivery. Before you price it, you still need the release status, terminal, last free day, unloading plan, chassis needs, and empty-return instructions.'}</p><p className="sales-caption">Illustrative learning example. Confirm actual costs and requirements for every shipment.</p></div>{w.id === 'quote' ? <QuotePractice /> : <div className="sales-case"><span className="eyebrow">ONE REQUEST → A COMPLETE MOVE BRIEF</span><h3>What’s missing from “Can you move this container?”</h3>{[['Before pickup','Confirm release, availability, appointment and last free day.'],['Before you quote','Confirm linehaul, fuel, chassis days and additional charges.'],['Before closeout','Confirm empty-return instructions and retain return evidence.']].map(([title,body])=><details key={title}><summary>{title}<ChevronDown size={18}/></summary><p>{body}</p></details>)}<p className="sales-caption">Open each step to see what to confirm.</p></div>}</div></section>
-      <section className="training-section training-tools">
-        <div className="wrap">
-          <p className="eyebrow">Included working tools</p>
-          <h2>Keep the lesson beside the work.</h2>
-          <div className="training-tool-grid">
-            {w.tools.map((tool, i) => (
+      <section id="practice" className="hm-section hs-support hs-practice">
+        <div className="hm-wrap hs-split">
+          <div className="hs-prose">
+            <h2>{quote ? 'A markup and a margin are different numbers.' : 'The delivery is only part of the move.'}</h2>
+            <p>{quote ? 'A 15% markup on $1,000 produces a $1,150 sell rate. Your $150 expected profit is 13% of the sell rate. Change the numbers to see why the distinction matters.' : 'A customer asks for a container pickup and delivery. Before you price it, you still need the release status, terminal, last free day, unloading plan, chassis needs, and empty-return instructions.'}</p>
+            <p className="hs-caption">Illustrative learning example. Confirm actual costs and requirements for every shipment.</p>
+          </div>
+          {quote ? (
+            <QuotePractice />
+          ) : (
+            <div className="sales-case">
+              <h3>What’s missing from “Can you move this container?”</h3>
+              {[['Before pickup', 'Confirm release, availability, appointment and last free day.'], ['Before you quote', 'Confirm linehaul, fuel, chassis days and additional charges.'], ['Before closeout', 'Confirm empty-return instructions and retain return evidence.']].map(([title, text]) => (
+                <details key={title}>
+                  <summary>{title}<ChevronDown size={18} aria-hidden="true" /></summary>
+                  <p>{text}</p>
+                </details>
+              ))}
+              <p className="sales-caption">Open each step to see what to confirm.</p>
+            </div>
+          )}
+        </div>
+      </section>
+      <section className="hm-night hm-band hs-tools">
+        <div className="hm-wrap">
+          <div className="hm-head">
+            <h2>Keep the lesson beside the work.</h2>
+            <p className="hm-lead">Included working tools.</p>
+          </div>
+          <div className="hs-tool-grid">
+            {w.tools.map((tool) => (
               <article key={tool.title}>
-                <span className="training-tool-icon">
-                  {i === 0 ? (
-                    <Calculator />
-                  ) : i === 1 ? (
-                    <BookOpen />
-                  ) : (
-                    <Wrench />
-                  )}
-                </span>
                 <h3>{tool.title}</h3>
                 <p>{tool.description}</p>
               </article>
@@ -256,96 +284,93 @@ export default function WorkshopSales({ workshop: w }: { workshop: Workshop }) {
           </div>
         </div>
       </section>
-      <section className="training-section">
-        <div id="fit" className="wrap training-fit">
-          <div>
-            <p className="eyebrow">Who it’s for</p>
+      <section className="hm-section hs-fit">
+        <div id="fit" className="hm-wrap hs-split">
+          <div className="hs-checks hs-checks--plain">
             <h2>For the people who move freight.</h2>
             <ul>
               {w.audience.map((item) => (
-                <li key={item}>
-                  <Check size={18} />
-                  <span>{item}</span>
-                </li>
+                <li key={item}><Check size={20} aria-hidden="true" /><span>{item}</span></li>
               ))}
             </ul>
           </div>
-          <aside className="training-instructor">
-            <img
-              src="/images/luis-uribe-teal.webp"
-              alt="Luis Uribe, Freightskills instructor"
-              width="727"
-              height="777"
-              loading="lazy"
-            />
+          <aside className="hm-night hs-teacher">
+            <img src="/images/luis-uribe-teal.webp" alt="Luis Uribe, Freightskills instructor" width="727" height="777" loading="lazy" />
             <div>
-              <p className="eyebrow">Your instructor</p>
-              <h3>Luis Uribe</h3>
-              <p>
-                Founder of Freightskills. Practical freight education built
-                around the decisions brokers, agents, and operations teams make
-                in their daily work.
-              </p>
-              <Link href="/about" className="text-link">
-                Meet Luis <ArrowUpRight size={16} />
-              </Link>
+              <h3>Your instructor, Luis Uribe</h3>
+              <p>Founder of Freightskills. Practical freight education built around the decisions brokers, agents, and operations teams make in their daily work.</p>
+              <Link href="/about" className="hm-link">Meet Luis</Link>
             </div>
           </aside>
         </div>
       </section>
-      <section className="training-section workshop-value"><div className="wrap"><p className="eyebrow">What your one-time purchase includes</p><h2>The training explains the decision. The tools help you repeat it.</h2><div className="academy-value-list">{w.tools.map((tool,i)=><article key={tool.title}><span className="eyebrow">INCLUDED TOOL 0{i+1}</span><div><h3>{tool.title}</h3><p>{tool.description}</p></div><strong className="academy-value-label">Included in {money(product.unitAmount)}</strong></article>)}</div><div className="workshop-value-summary"><h3>{money(product.unitAmount)} for the recordings and the working tools.</h3><p>{w.id==='quote'?'Use the masterclass to understand the process, the calculator to make the pricing visible, and the outreach and quote tools to prepare your next conversation.':'Use the recordings to understand the move, the calculator to organize the charges, and the checklist to carry the plan through each handoff.'} Lifetime access* gives you time to revisit the material as the situations come up in your work.</p><p className="sales-caption">All listed tools are included in the workshop price. Live coaching is separate; Academy includes both workshops and one group call per month.</p><Link className="text-link" href="/academy">Compare the full Academy offer <ArrowRight size={18}/></Link></div></div></section>
-      <section id="questions" className="training-section training-faq-section">
-        <div className="wrap training-faq-grid">
-          <div>
-            <p className="eyebrow">Before you start</p>
-            <h2>A few useful details.</h2>
+      <section className="hm-section hs-value">
+        <div className="hm-wrap">
+          <div className="hm-head">
+            <h2>What your one-time purchase includes</h2>
+            <p className="hm-lead">The training explains the decision. The tools help you repeat it.</p>
           </div>
-          <div className="training-faqs">
+          <ul className="hs-value-list">
+            {w.tools.map((tool, i) => (
+              <li key={tool.title}>
+                <h3>{tool.title}</h3>
+                <p>{tool.description}</p>
+                <p className="hs-value-label"><strong>Included in {money(product.unitAmount)}</strong><span>Included tool 0{i + 1}</span></p>
+              </li>
+            ))}
+          </ul>
+          <div className="hm-night hs-offer hs-offer--single">
+            <div>
+              <h3>{money(product.unitAmount)} for the recordings and the working tools.</h3>
+              <p>{quote ? 'Use the masterclass to understand the process, the calculator to make the pricing visible, and the outreach and quote tools to prepare your next conversation.' : 'Use the recordings to understand the move, the calculator to organize the charges, and the checklist to carry the plan through each handoff.'} Lifetime access* gives you time to revisit the material as the situations come up in your work.</p>
+              <p className="hs-caption">All listed tools are included in the workshop price. Live coaching is separate; Academy includes both workshops and one group call per month.</p>
+              <Link className="hm-link" href="/academy">Compare the full Academy offer</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="questions" className="hm-section hs-faq hs-faq--paper">
+        <div className="hm-wrap hs-faq-inner">
+          <h2>A few useful details.</h2>
+          <div className="hs-faqs">
             {w.faqs.map((faq) => (
               <details key={faq.question}>
-                <summary>
-                  {faq.question}
-                  <ChevronDown size={19} />
-                </summary>
+                <summary>{faq.question}<ChevronDown size={19} aria-hidden="true" /></summary>
                 <p>{faq.answer}</p>
               </details>
             ))}
           </div>
         </div>
       </section>
-      <section id="enrollment" className="training-enrollment">
-        <div className="wrap training-enrollment-grid">
-          <div>
-            <p className="eyebrow">{w.name}</p>
+      <section id="enrollment" className="hm-night hm-band hs-enroll">
+        <div className="hm-wrap hs-enroll-grid">
+          <div className="hs-enroll-main">
             <h2>Put a clearer process behind your next shipment.</h2>
-            <p>
+            <p className="hm-lead">
               Get the recorded training and practical tools together for{' '}
               {money(product.unitAmount)}. One payment. Learn at your pace, then
               put the process to work.
             </p>
-            <Link className="button" href={cartUrl}>
-              {ctaLabel} <ArrowRight size={18} />
-            </Link>
-            <p className="training-access-note">
-              Lifetime access* to your purchased workshop.
-            </p>
-            <p className="training-lifetime-note">
+            <div className="hm-actions">
+              <Link className="hm-btn" href={cartUrl}>{ctaLabel}</Link>
+            </div>
+            <p className="hs-caption">Lifetime access* to your purchased workshop.</p>
+            <p className="hs-caption">
               *{lifetimeDefinition}{' '}
               <Link href="/purchase-terms">Read the purchase terms.</Link>
             </p>
-            <a className="training-free-link" href={memberUrl}>
-              Already enrolled? Open my workshop <ArrowUpRight size={16} />
-            </a>
+            <a className="hm-link" href={memberUrl}>Already enrolled? Open my workshop</a>
           </div>
-          <div className="training-related">
-            <span>BUILD YOUR NEXT SKILL</span>
+          <aside className="hs-member">
             <h3>{other.name}</h3>
             <p>{other.result}</p>
-            <Link href={other.path}>
-              See the workshop <ArrowRight size={18} />
-            </Link>
-            <hr className="sales-divider"/><h3>Want the full learning path?</h3><p>Active Freightskills Academy access includes both workshops, alongside the broader brokerage curriculum.</p><Link href="/academy">Explore the Academy <ArrowRight size={18}/></Link>
-          </div>
+            <p className="hs-caption">Build your next skill.</p>
+            <Link className="hm-link" href={other.path}>See the workshop</Link>
+            <hr className="sales-divider" />
+            <h3>Want the full learning path?</h3>
+            <p>Active Freightskills Academy access includes both workshops, alongside the broader brokerage curriculum.</p>
+            <Link className="hm-link" href="/academy">Explore the Academy</Link>
+          </aside>
         </div>
       </section>
     </main>
