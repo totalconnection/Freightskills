@@ -1,5 +1,5 @@
 /* Hallmark · shape: Index-First · genre: editorial · theme: brand · redesign: full · job: attend, the free webinar in the announcement and the hero
- * paper: oklch(98.6% 0.004 85) · accent: oklch(80% 0.125 86) · display: League Spartan · body: Figtree · hero: Stage (/) · nav: slab · footer: mast · signature: Luis cut out on the black field against a gold brush, standing on the lesson topics
+ * paper: oklch(97.4% 0.008 86) · accent: oklch(78% 0.115 86) · display: League Spartan · body: Figtree · hero: Stage (/) · nav: slab · footer: mast · signature: Luis cut out on the black field against a gold brush, standing on the lesson topics
  * axes: ivory and black/heavy uppercase grotesk/muted gold · posture: committed, black field with one gold band · contrast: pass · fold: pass · v2.0.0 */
 /* Hallmark · pre-emit critique: P4 H4 E4 S4 R3 V4 · weakest: R, the gold wanted to be everywhere; kept it to the announcement, the primary action, the brush and one closing band */
 /* Hallmark · reworded "put modern tools—including AI and automation—to work" to "put modern tools, including AI and automation, to work" · 19 names the dashes */
@@ -16,19 +16,20 @@
 /* Hallmark · answered F15 · the guide cover takes a wider gutter beside its disc, and post thumbnails a tighter one */
 /* Hallmark · waive 59 · the lesson topics strip is the foot of the hero, parted from it by a rule and a step of black · the topics are where the hero lands, not a new section */
 /* Hallmark · answered F20 · the blog is a lead article spanning two rows beside two smaller ones, not a wrapped row */
+/* Hallmark · waive 2b · one gold ramp from two tokens, hue 86 to 92 · the owner asked for a rich black and gold, so two heads on black take the foil */
 /* Hallmark · answered F16 · the scrollbar belongs to pages not yet redesigned */
 @import url("./tokens.css");
 @import url("./base.css");
 
 /* Controls */
-.hm-btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-xs); min-height: 52px; padding: 0 var(--space-xl); border: 1px solid var(--color-signal); border-radius: var(--radius-pill); background: var(--color-signal); color: var(--color-signal-ink); font: 800 var(--text-md)/1 var(--font-body); letter-spacing: 0.03em; text-transform: uppercase; white-space: nowrap; cursor: pointer; transition: background-color var(--dur-short) var(--ease-out), border-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out), transform var(--dur-micro) var(--ease-out); }
+.hm-btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-xs); min-height: 52px; padding: 0 var(--space-xl); border: 1px solid var(--color-accent-3); border-radius: var(--radius-pill); background: var(--color-signal) var(--gold-foil); box-shadow: var(--shadow-gold); color: var(--color-signal-ink); font: 800 var(--text-md)/1 var(--font-body); letter-spacing: 0.03em; text-transform: uppercase; white-space: nowrap; cursor: pointer; transition: background-color var(--dur-short) var(--ease-out), border-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out), transform var(--dur-micro) var(--ease-out); }
 .hm-btn:hover { background: var(--color-signal-2); border-color: var(--color-signal-2); }
 .hm-btn:active { transform: translateY(1px); }
 .hm-btn:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 3px; }
 .hm-btn[aria-disabled="true"] { opacity: 0.55; cursor: not-allowed; transform: none; }
-.hm-btn--line { background: transparent; color: var(--color-ink); border-color: var(--color-accent-deep); }
+.hm-btn--line { background: transparent; box-shadow: none; color: var(--color-ink); border-color: var(--color-accent-deep); }
 .hm-btn--line:hover { background: var(--color-signal); border-color: var(--color-signal); color: var(--color-signal-ink); }
-.hm-btn--ink { background: var(--color-night); border-color: var(--color-night); color: var(--color-on-night); }
+.hm-btn--ink { box-shadow: var(--shadow-card); background: var(--color-night); border-color: var(--color-night); color: var(--color-on-night); }
 .hm-btn--ink:hover { background: var(--color-night-3); border-color: var(--color-night-3); }
 .hm-link { display: inline-block; font-weight: 600; text-decoration: underline; text-decoration-color: var(--color-accent-deep); text-decoration-thickness: 2px; text-underline-offset: 0.4em; transition: text-decoration-color var(--dur-short) var(--ease-out); }
 .hm .hm-link { text-decoration: underline; text-decoration-color: var(--color-accent-deep); }
@@ -36,7 +37,7 @@
 .hm-actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-lg); }
 
 /* Nav: a black slab */
-.hm-header { position: sticky; top: 0; z-index: var(--z-sticky-nav); border-bottom: var(--rule-hair) solid var(--color-rule); }
+.hm-header { position: sticky; top: 0; z-index: var(--z-sticky-nav); border-bottom: var(--rule-hair) solid var(--color-gold-rule); }
 .hm-nav { display: flex; align-items: center; gap: var(--space-xl); min-height: var(--nav-height); }
 .hm-logo { flex-shrink: 0; }
 .hm-logo img { width: auto; height: 36px; }
@@ -61,22 +62,24 @@
 
 /* Hero: Stage */
 .hm-home { background: var(--color-paper); color: var(--color-ink); }
-.hm-hero { background: var(--color-night); }
+.hm-hero { background-image: var(--grain), linear-gradient(180deg, var(--color-night-2), var(--color-night) 70%); }
+.hm-hero-grid { position: relative; isolation: isolate; }
+.hm-hero-grid::after { content: ""; position: absolute; z-index: -1; right: 0; top: 50%; width: min(46%, 620px); aspect-ratio: 86 / 112; background: url("/brand/freightskills-mark.svg") center / contain no-repeat; opacity: 0.09; transform: translate(8%, -50%); }
 .hm-hero-grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); grid-template-rows: minmax(0, 1fr); column-gap: var(--space-2xl); align-items: center; height: clamp(500px, calc(100dvh - 248px), 700px); }
 .hm-hero-copy { display: grid; gap: var(--space-lg); justify-items: start; padding-block: var(--space-xl); }
 .hm-hero-copy .hm-lead { max-width: 46ch; }
 .hm-hero-copy .hm-actions { margin-top: var(--space-xs); }
 .hm-hero-portrait { position: relative; align-self: stretch; min-height: 0; display: flex; align-items: flex-end; justify-content: flex-end; }
 .hm-hero-portrait img { width: auto; max-width: none; height: 97%; }
-.hm-hero-portrait figcaption { position: absolute; left: 0; bottom: var(--space-lg); display: grid; padding: var(--space-sm) var(--space-md); background: var(--color-night); border: var(--rule-hair) solid var(--color-rule); border-radius: var(--radius-card); }
+.hm-hero-portrait figcaption { position: absolute; left: 0; bottom: var(--space-lg); display: grid; padding: var(--space-sm) var(--space-md); background: var(--color-night); border: var(--rule-hair) solid var(--color-gold-rule); border-radius: var(--radius-card); color: var(--color-on-night); }
 .hm-hero-portrait figcaption strong { font-weight: 800; }
 .hm-hero-portrait figcaption span { font-size: var(--text-sm); color: var(--color-ink-2); }
 
 /* Lesson topics: the foot of the hero */
-.hm-topics { background: var(--color-night-2); border-top: var(--rule-hair) solid var(--color-rule); }
+.hm-topics { background: var(--color-night-2); border-top: var(--rule-hair) solid var(--color-gold-rule); border-bottom: var(--rule-hair) solid var(--color-gold-rule); }
 .hm-topics-row { display: grid; grid-template-columns: minmax(0, 1.25fr) repeat(6, minmax(0, 1fr)); align-items: stretch; }
 .hm-topics-row > span { align-self: center; max-width: 16ch; font-size: var(--text-sm); line-height: 1.35; color: var(--color-ink-2); }
-.hm-topics-row > a { display: flex; align-items: center; min-height: 96px; padding: var(--space-md); border-left: var(--rule-hair) solid var(--color-accent-deep); white-space: nowrap; font: 800 clamp(0.875rem, 1.15vw, 1.0625rem)/1.05 var(--font-display); text-transform: uppercase; color: var(--color-ink); transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out); }
+.hm-topics-row > a { display: flex; align-items: center; min-height: 96px; padding: var(--space-md); border-left: var(--rule-hair) solid var(--color-gold-rule); white-space: nowrap; font: 800 clamp(0.875rem, 1.15vw, 1.0625rem)/1.05 var(--font-display); text-transform: uppercase; color: var(--color-ink); transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out); }
 .hm-topics-row > a:hover { background: var(--color-night-3); color: var(--color-signal); }
 
 /* Sections */
@@ -95,29 +98,29 @@
 .hm-rows .hm-link { justify-self: end; text-align: right; }
 
 /* The lesson: a black band */
-.hm-lesson { background: var(--color-night); }
+.hm-lesson h2, .hm-guides h2 { background-image: linear-gradient(100deg, var(--color-accent), var(--color-accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .hm-lesson-grid { display: grid; grid-template-columns: minmax(0, 8fr) minmax(0, 4fr); column-gap: var(--space-2xl); row-gap: var(--space-xl); align-items: center; }
-.hm-lesson-video .video-frame { border-radius: var(--radius-card); overflow: hidden; outline: var(--rule-hair) solid var(--color-rule); }
+.hm-lesson-video .video-frame { border-radius: var(--radius-card); overflow: hidden; outline: var(--rule-hair) solid var(--color-gold-rule); box-shadow: var(--shadow-card); }
 .hm-lesson-video .video-shade { display: none; }
 .hm-lesson-video .video-caption { inset: auto 0 0 0; padding: var(--space-3xl) var(--space-lg) var(--space-lg); background: linear-gradient(0deg, var(--color-night), transparent); color: var(--color-on-night); }
 .hm-lesson-video .video-caption small, .hm-lesson-video .video-caption > span { font-size: var(--text-xs); letter-spacing: 0; }
 .hm-lesson-copy { display: grid; gap: var(--space-lg); justify-items: start; }
-.hm-lesson-copy p { color: var(--color-ink-2); max-width: 44ch; }
+.hm-lesson-copy p { color: var(--color-ink-2); max-width: 46ch; }
 .hm-lesson-copy .hm-actions { margin-top: var(--space-xs); }
 
 /* Free resources */
-.hm-guides { background: var(--color-paper-2); }
+.hm-guides { background-color: var(--color-night-2); border-top: var(--rule-hair) solid var(--color-gold-rule); }
 .hm-guides-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); column-gap: var(--space-3xl); row-gap: var(--space-2xl); align-items: center; }
 .hm-guide-cover { position: relative; display: grid; justify-items: center; gap: var(--space-lg); padding-block: var(--space-xl); isolation: isolate; }
-.hm-guide-cover::before { content: ""; position: absolute; z-index: -1; top: 50%; left: 50%; width: min(88%, 480px); aspect-ratio: 1; border-radius: 50%; background: var(--color-accent); transform: translate(-50%, -56%); }
+.hm-guide-cover::before { content: ""; position: absolute; z-index: -1; top: 50%; left: 50%; width: min(88%, 480px); aspect-ratio: 1; border-radius: 50%; background: var(--gold-foil); transform: translate(-50%, -56%); }
 .hm-guide-cover img { width: 58%; border-radius: var(--radius-card); box-shadow: var(--shadow-card); transform: rotate(-3deg); }
 .hm-guide-cover:hover span { text-decoration: underline; text-underline-offset: 0.3em; }
 .hm-guide-cover span { font-size: var(--text-sm); font-weight: 600; }
 .hm-guides-copy { display: grid; gap: var(--space-lg); justify-items: start; }
-.hm-guide-list { width: 100%; margin-top: var(--space-md); border-bottom: var(--rule-hair) solid var(--color-ink); }
-.hm-guide-list li { border-top: var(--rule-hair) solid var(--color-ink); }
+.hm-guide-list { width: 100%; margin-top: var(--space-md); border-bottom: var(--rule-hair) solid var(--color-gold-rule); }
+.hm-guide-list li { border-top: var(--rule-hair) solid var(--color-gold-rule); }
 .hm-guide-list a { display: block; padding-block: var(--space-lg); font: 800 var(--text-title)/1.1 var(--font-display); text-transform: uppercase; transition: color var(--dur-short) var(--ease-out); }
-.hm-guide-list a:hover { color: var(--color-accent-deep); }
+.hm-guide-list a:hover { color: var(--color-accent); }
 
 /* From the blog: a lead and two */
 .hm-blog { padding-bottom: var(--section-gap-l); }

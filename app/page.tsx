@@ -142,7 +142,7 @@ export default function Home() {
           </div>
         </section>
       )}
-      <section className="hm-section hm-guides">
+      <section className="hm-night hm-section hm-guides">
         <div className="hm-wrap hm-guides-grid">
           <Link
             className="hm-guide-cover"
