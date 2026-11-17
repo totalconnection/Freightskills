@@ -1,4 +1,4 @@
-/* Freightskills design tokens. Brand values come from brand-tokens.css (approved November 4, 2026). */
+/* Freightskills design tokens. Brand values come from brand-tokens.css (teal-blue identity, approved November 17, 2026). */
 @font-face { font-family: "League Spartan"; src: url("/fonts/league-spartan-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
 @font-face { font-family: "Figtree"; src: url("/fonts/figtree-latin-wght-normal.woff2") format("woff2"); font-weight: 300 900; font-style: normal; font-display: swap; }
 :root {
@@ -9,18 +9,18 @@
   --color-error: oklch(52% 0.19 27); --color-success: oklch(50% 0.12 150);
   --container: 1440px; --gutter: 64px; --gap-columns: 32px; --section-gap-s: 120px; --section-gap: 144px; --section-gap-l: 176px;
   --z-base: 1; --z-raised: 10; --z-dropdown: 100; --z-sticky: 200; --z-sticky-nav: 300; --z-modal: 400; --z-toast: 500; --z-tooltip: 600;
-  --color-paper: oklch(97.4% 0.008 86); --color-paper-2: oklch(94.4% 0.012 86); --color-paper-3: oklch(91.4% 0.016 85);
-  --color-ink: var(--brand-black); --color-ink-2: oklch(36% 0.008 75); --color-muted: var(--brand-muted);
-  --color-rule: oklch(86% 0.016 85);
-  --color-accent: oklch(78% 0.115 86); --color-accent-2: oklch(90% 0.08 92); --color-accent-3: oklch(66% 0.115 80); --color-gold-rule: oklch(78% 0.115 86 / 0.42); --color-signal: var(--color-accent); --color-signal-2: var(--color-accent-2); --color-signal-ink: var(--brand-black); --color-accent-deep: var(--brand-gold-ink); --color-accent-ink: var(--brand-black); --color-focus: var(--brand-gold-ink);
-  --color-night: oklch(15.5% 0.004 85); --color-night-2: oklch(20% 0.006 80); --color-night-3: oklch(26% 0.008 80); --color-night-rule: oklch(33% 0.012 82);
-  --color-on-night: oklch(97.4% 0.008 86); --color-on-night-2: oklch(82% 0.012 86);
+  --color-paper: oklch(98.2% 0.004 220); --color-paper-2: oklch(95.4% 0.008 220); --color-paper-3: oklch(92.4% 0.012 220);
+  --color-ink: var(--brand-black); --color-ink-2: oklch(36% 0.012 230); --color-muted: var(--brand-muted);
+  --color-rule: oklch(87% 0.012 220);
+  --color-accent: oklch(75% 0.115 205); --color-accent-2: oklch(88% 0.075 200); --color-accent-3: oklch(60% 0.105 212); --color-accent-rule: oklch(75% 0.115 205 / 0.42); --color-signal: var(--color-accent); --color-signal-2: var(--color-accent-2); --color-signal-ink: var(--brand-black); --color-accent-deep: var(--brand-gold-ink); --color-accent-ink: var(--brand-black); --color-focus: var(--brand-gold-ink);
+  --color-night: oklch(15.5% 0.012 235); --color-night-2: oklch(20% 0.016 235); --color-night-3: oklch(26% 0.02 235); --color-night-rule: oklch(33% 0.02 230);
+  --color-on-night: oklch(98.2% 0.004 220); --color-on-night-2: oklch(83% 0.012 220);
   --font-display: "League Spartan", "Arial Black", ui-sans-serif, system-ui, sans-serif; --font-body: "Figtree", ui-sans-serif, system-ui, sans-serif; --font-outlier: var(--font-body);
   --font-geist-sans: "Figtree";
-  --radius-card: 6px; --radius-pill: 999px; --rule-hair: 1px; --shadow-card: 0 24px 48px oklch(8% 0.01 80 / 0.5);
-  --shadow-gold: inset 0 1px 0 oklch(97% 0.05 92 / 0.75), inset 0 -1px 0 oklch(50% 0.1 78 / 0.6), 0 10px 22px oklch(8% 0.01 80 / 0.4);
-  --gold-foil: linear-gradient(100deg, var(--color-accent-3), var(--color-accent-2) 48%, var(--color-accent-3));
-  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 0.92 0 0 0 0 0.75 0 0 0 0.055 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --radius-card: 6px; --radius-pill: 999px; --rule-hair: 1px; --shadow-card: 0 24px 48px oklch(8% 0.01 235 / 0.5);
+  --shadow-foil: inset 0 1px 0 oklch(96% 0.04 200 / 0.75), inset 0 -1px 0 oklch(45% 0.09 215 / 0.6), 0 10px 22px oklch(8% 0.01 235 / 0.4);
+  --foil: linear-gradient(100deg, var(--color-accent-3), var(--color-accent-2) 48%, var(--color-accent-3));
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.8 0 0 0 0 0.95 0 0 0 0 1 0 0 0 0.055 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   --tracking-display: 0em; --display-weight: 800;
   --nav-height: 76px;
 }
@@ -30,8 +30,8 @@
 }
 /* A dark surface swaps the whole ink family in one block. */
 .hm-night { background-image: var(--grain); --color-paper: var(--color-night); --color-paper-2: var(--color-night-2); --color-paper-3: var(--color-night-3); --color-ink: var(--color-on-night); --color-ink-2: var(--color-on-night-2); --color-muted: var(--color-on-night-2); --color-rule: var(--color-night-rule); --color-focus: var(--brand-gold-hover); --color-accent-deep: var(--color-accent); background-color: var(--color-paper); color: var(--color-ink); }
-.hm-gold { background-image: var(--gold-foil); --color-paper: var(--color-accent); --color-ink: var(--brand-black); --color-ink-2: var(--brand-black); --color-muted: var(--brand-black); --color-rule: oklch(45% 0.09 80 / 0.55); --color-focus: var(--brand-black); background-color: var(--color-paper); color: var(--color-ink); }
+.hm-field { background-image: var(--foil); --color-paper: var(--color-accent); --color-ink: var(--brand-black); --color-ink-2: var(--brand-black); --color-muted: var(--brand-black); --color-rule: oklch(42% 0.08 215 / 0.55); --color-focus: var(--brand-black); background-color: var(--color-paper); color: var(--color-ink); }
 @media (max-width: 60rem) { :root { --gutter: 24px; --section-gap-s: 80px; --section-gap: 96px; --section-gap-l: 120px; --nav-height: 68px; } }
 @media (max-width: 40rem) { :root { --gutter: 16px; --section-gap-s: 56px; --section-gap: 72px; --section-gap-l: 96px; --gap-columns: 16px; } }
 /* The announcement strip and primary actions take the signal colour. */
-.hm-signal { --color-ink: var(--color-signal-ink); --color-focus: var(--color-signal-ink); background: var(--color-signal) var(--gold-foil); color: var(--color-signal-ink); }
+.hm-signal { --color-ink: var(--color-signal-ink); --color-focus: var(--color-signal-ink); background: var(--color-signal) var(--foil); color: var(--color-signal-ink); }

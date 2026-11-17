@@ -7,26 +7,26 @@
   --color-primary: var(--primary);
   --color-primary-foreground: #fff;
   --color-border: var(--border);
-  --color-ring: #806329;
+  --color-ring: #006A7D;
   --font-sans: var(--font-geist-sans);
 }
 :root {
-  --background: #f7f4ee;
+  --background: #F6FAFB;
   --foreground: #191919;
-  --primary: #806329;
-  --border: #ddd5c7;
+  --primary: #006A7D;
+  --border: #CCD6DA;
   --navy: #191919;
-  --teal: #806329;
-  --mint: #c6a66a;
-  --cream: #f7f4ee;
-  --muted: #68635b;
+  --teal: #006A7D;
+  --mint: #39C3D0;
+  --cream: #F6FAFB;
+  --muted: #5B6569;
   --radius: 0.5rem;
   color-scheme: light;
 }
 .dark {
   --background: #191919;
-  --foreground: #f7f4ee;
-  --primary: #c6a66a;
+  --foreground: #F6FAFB;
+  --primary: #39C3D0;
   --border: #555350;
 }
 * {
@@ -164,7 +164,7 @@ p {
   color: var(--navy);
 }
 .button.light:hover {
-  background: #C6A66A;
+  background: #39C3D0;
 }
 .mobile-nav {
   display: none;

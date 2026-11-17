@@ -21,7 +21,7 @@ body:has(.webinar-landing) > .footer {
 }
 .webinar-review-note {
   padding: 10px 0;
-  background: #F7F4EE;
+  background: #F6FAFB;
   color: #695a4e;
   border-block: 1px solid #ece5db;
   font-size: 12px;
@@ -105,7 +105,7 @@ body:has(.webinar-landing) > .footer {
   opacity: 1;
 }
 .webinar-form-card input:focus-visible {
-  outline: 3px solid #806329;
+  outline: 3px solid #006A7D;
   outline-offset: 3px;
 }
 .webinar-submit {
@@ -116,7 +116,7 @@ body:has(.webinar-landing) > .footer {
 }
 .webinar-submit:disabled {
   cursor: not-allowed;
-  background: #C6A66A;
+  background: #39C3D0;
   color: #4f3d30;
 }
 .webinar-form-detail {
@@ -261,7 +261,7 @@ body:has(.webinar-landing) > .footer {
   margin-top: 17px;
 }
 .webinar-final a:focus-visible {
-  outline-color: #C6A66A;
+  outline-color: #39C3D0;
 }
 .webinar-footer {
   min-height: 120px;

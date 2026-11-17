@@ -1,16 +1,17 @@
-/* Approved black and gold identity, November 4, 2026. */
+/* Teal-blue identity, approved November 17, 2026 (replaces the November 4 black and gold).
+   The --brand-gold* names are kept so existing styles keep working; they now hold the teal values. */
 :root {
   --brand-black: #191919;
-  --brand-charcoal: #292725;
-  --brand-gold: #C6A66A;
-  --brand-gold-hover: #DCC393;
-  --brand-gold-ink: #806329;
-  --brand-ivory: #F7F4EE;
-  --brand-muted: #68635B;
-  --brand-border: #DDD5C7;
+  --brand-charcoal: #0F171C;
+  --brand-gold: #39C3D0;
+  --brand-gold-hover: #9BE7EB;
+  --brand-gold-ink: #006A7D;
+  --brand-ivory: #F6FAFB;
+  --brand-muted: #5B6569;
+  --brand-border: #CCD6DA;
   --brand-navy: var(--brand-black);
   --brand-teal: var(--brand-gold-ink);
-  --brand-teal-deep: #6B5224;
+  --brand-teal-deep: #005768;
   --brand-mint: var(--brand-gold);
   --brand-cream: var(--brand-ivory);
 }

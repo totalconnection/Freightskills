@@ -61,7 +61,7 @@ export default function Home() {
           </div>
           <figure className="hm-hero-portrait">
             <img
-              src="/images/luis-uribe-gold.webp"
+              src="/images/luis-uribe-teal.webp"
               alt="Luis Uribe, founder of Freightskills"
               width="730"
               height="777"
@@ -244,7 +244,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="hm-gold hm-band hm-community">
+      <section className="hm-field hm-band hm-community">
         <div className="hm-wrap hm-community-grid">
           <div>
             <h2>Have a freight question?</h2>
